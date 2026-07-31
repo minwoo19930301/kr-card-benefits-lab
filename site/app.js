@@ -62,13 +62,21 @@ async function load() {
 
   const collected = new Set(state.cards.map((c) => c.issuer));
   const notCollected = issuersDoc.issuers.filter((i) => !collected.has(i.key));
-  text(
-    el('meta-line'),
-    `데이터 기준일 ${state.generatedAt} · 수록 카드사 ${collected.size}곳 · 미수록 카드사 ${notCollected.length}곳` +
-      (notCollected.length
-        ? ` (${notCollected.map((i) => i.name).join(', ')} — 공식 기계판독 피드가 없어 수록하지 않았습니다)`
-        : ''),
-  );
+  // 미수록 사유는 카드사마다 다르다. robots 차단과 '피드 없음'을 뭉개지 않는다.
+  const blocked = notCollected.filter((i) => i.status === 'blocked_by_robots');
+  const noFeed = notCollected.filter((i) => i.status !== 'blocked_by_robots');
+  const parts = [
+    `데이터 기준일 ${state.generatedAt}`,
+    `수록 카드사 ${collected.size}곳`,
+    `미수록 ${notCollected.length}곳`,
+  ];
+  if (blocked.length) {
+    parts.push(`${blocked.map((i) => i.name).join(', ')} — robots.txt 가 자동 수집을 차단해 수집하지 않음`);
+  }
+  if (noFeed.length) {
+    parts.push(`${noFeed.map((i) => i.name).join(', ')} — 값을 신뢰할 수 있게 읽을 방법을 아직 못 찾음`);
+  }
+  text(el('meta-line'), parts.join(' · '));
 }
 
 function buildIssuerSelect() {
