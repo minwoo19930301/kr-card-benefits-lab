@@ -186,6 +186,18 @@ export function extractMaxRatePct(text) {
   return values.length ? Math.max(...values) : null;
 }
 
+/**
+ * '월 1만 M포인트 한도' 처럼 포인트 단위로만 표기된 월 한도를 읽는다.
+ * 원화가 아니므로 monthly_cap_krw 에 넣지 않는다. 환산 가정은 계산 레이어에서 명시적으로 다룬다.
+ */
+export function extractMonthlyCapPoints(text) {
+  const m = /월\s*(\d[\d,]*)\s*(만)?\s*(?:M|엠)?\s*(?:포인트|점|마일)/.exec(String(text));
+  if (!m) return null;
+  const base = Number(m[1].replace(/,/g, ''));
+  if (!Number.isFinite(base) || base <= 0) return null;
+  return m[2] ? base * 10000 : base;
+}
+
 /** '결제 건당 최대 할인 대상 금액 5만원' 형태의 건당 한도. */
 export function extractPerTxnCap(text) {
   const m = /건당[^※]{0,40}?([\d,]+\s*만?\s*원)/.exec(String(text));
@@ -454,8 +466,8 @@ export function parseCardPage(html, { issuerKey, pageUrl, retrievedAt }) {
 
 /** '30만원 이상 ~ 70만원 미만' 같은 구간 표기에서 하한 금액을 뽑는다. */
 export function parseTierThreshold(text) {
-  const m = /(\d[\d,]*\s*만?\s*원)\s*이상/.exec(String(text));
-  return m ? parseKrw(m[1]) : null;
+  const m = /(\d[\d,]*\s*만?\s*[\d,]*\s*천?\s*원)\s*이상/.exec(String(text));
+  return m ? parseKrwLoose(m[1]) : null;
 }
 
 /**
@@ -472,14 +484,18 @@ export function parseTierCapRows(html) {
     );
     if (rows.length < 2) continue;
     const header = rows[0];
-    const iTier = header.findIndex((c) => /이용실적/.test(c));
-    const iCap = header.findIndex((c) => /한도/.test(c));
+    // 카드사별 표기 차이: 우리카드는 '이용실적', 신한카드는 '이용금액'
+    // 단, '월 이용금액 한도' 는 할인 금액 상한이 아니라 '할인 대상 이용금액' 상한이다.
+    // 이를 할인 한도로 읽으면 요율만큼(최대 20배) 과대추정되므로 양쪽에서 배제한다.
+    const isEligibleSpendCap = (c) => /이용금액\s*한도|이용금액한도|제공\s*횟수/.test(c);
+    const iTier = header.findIndex((c) => /이용실적|이용금액/.test(c) && !isEligibleSpendCap(c));
+    const iCap = header.findIndex((c) => /한도/.test(c) && !isEligibleSpendCap(c));
     if (iTier === -1 || iCap === -1) continue;
 
     const out = [];
     for (const row of rows.slice(1)) {
       const tier = parseTierThreshold(row[iTier] ?? '');
-      const cap = parseKrw(row[iCap] ?? '');
+      const cap = parseKrwLoose(row[iCap] ?? '');
       if (tier === null || cap === null) continue;
       if (cap >= tier) continue; // 실적 금액을 한도로 읽은 경우
       out.push({ tier, cap });

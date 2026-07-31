@@ -793,7 +793,8 @@
         {
           "category": "shopping",
           "title": "롯데백화점, 롯데아울렛, 롯데몰, 롯데백화점몰(온라인) 10% M포인트 적립 (월 4만 M포인트 한도)",
-          "rate_pct": 10
+          "rate_pct": 10,
+          "monthly_cap_points": 40000
         },
         {
           "category": "shopping",
@@ -846,7 +847,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -1089,6 +1090,7 @@
           "title": "온라인몰, 배달 앱, 편의점, 대중교통 5% M포인트 적립 (월 1만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 10000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -1135,7 +1137,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -1169,6 +1171,7 @@
           "title": "온라인몰, 드럭스토어, 커피전문점, 대중교통 5% M포인트 적립 (월 1만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 10000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -1215,7 +1218,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -1249,6 +1252,7 @@
           "title": "온라인몰, 백화점, 대형마트, 교육 5% M포인트 적립 (월 1만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 10000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -1295,7 +1299,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -1725,6 +1729,7 @@
           "title": "교육, 병원, 여행, 골프 5% M포인트 적립 (월 1만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 10000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -1759,7 +1764,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -1976,7 +1981,8 @@
         {
           "category": "shopping",
           "title": "온라인 쇼핑몰, 일반음식점, 해외 가맹점 5% M포인트 적립 (월 1만 M포인트 한도)",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "monthly_cap_points": 10000
         },
         {
           "category": "point",
@@ -2004,7 +2010,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -2155,7 +2161,8 @@
         {
           "category": "shopping",
           "title": "온라인 쇼핑몰, 일반음식점, 해외 가맹점 10% M포인트 적립 (월 2만 M포인트 한도)",
-          "rate_pct": 10
+          "rate_pct": 10,
+          "monthly_cap_points": 20000
         },
         {
           "category": "point",
@@ -2191,7 +2198,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -2225,6 +2232,7 @@
           "title": "사업성 경비 영역 5% M포인트 적립 (월 2만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 20000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -2265,7 +2273,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -2299,6 +2307,7 @@
           "title": "사업성 경비 영역 5% M포인트 적립 (월 2만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 20000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -2339,7 +2348,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -2373,6 +2382,7 @@
           "title": "사업성 경비 영역 5% M포인트 적립 (월 2만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 20000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -2413,7 +2423,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -2447,6 +2457,7 @@
           "title": "일상 소비 영역, 사업성 경비 영역 5% M포인트 적립 (월 3만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 30000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -2500,7 +2511,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -2534,6 +2545,7 @@
           "title": "온라인몰, 다이닝, 웰니스, 테크, 이동 경비 영역 10% M포인트 적립 (대상 영역별 월 1만 M포인트 한도)",
           "rate_pct": 10,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 10000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -2587,7 +2599,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -3416,7 +3428,8 @@
           "category": "food",
           "title": "온라인몰, 일반음식점, 해외 가맹점 5% M포인트 적립 (월 1만 M포인트 한도)",
           "rate_pct": 5,
-          "summary": "전월 이용금액 100만원 미만 시 M포인트 적립 제외"
+          "summary": "전월 이용금액 100만원 미만 시 M포인트 적립 제외",
+          "monthly_cap_points": 10000
         },
         {
           "category": "point",
@@ -3440,7 +3453,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -3583,6 +3596,7 @@
           "title": "사업성 경비 영역 5% M포인트 적립 (월 3만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 50만원 이상 시",
+          "monthly_cap_points": 30000,
           "requires_prev_month_spend_krw": 500000
         },
         {
@@ -3612,7 +3626,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -3645,6 +3659,7 @@
           "title": "사업성 경비 영역, 여행·골프·호텔 영역 5% M포인트 적립 (영역별 월 3만 M포인트 한도)",
           "rate_pct": 5,
           "summary": "전월 이용 금액 50만원 이상 시",
+          "monthly_cap_points": 30000,
           "requires_prev_month_spend_krw": 500000
         },
         {
@@ -3691,7 +3706,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -3724,6 +3739,7 @@
           "title": "사업성 경비 영역 10% M포인트 적립 (대상점 통합 월 4만 M포인트 한도)",
           "rate_pct": 10,
           "summary": "전월 이용 금액 50만원 이상 시",
+          "monthly_cap_points": 40000,
           "requires_prev_month_spend_krw": 500000
         },
         {
@@ -3748,7 +3764,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -4659,7 +4675,8 @@
         {
           "category": "travel",
           "title": "여행, 해외 영역 5 % M포인트 적립 (월 5만 M포인트 한도)",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "monthly_cap_points": 50000
         },
         {
           "category": "point",
@@ -4700,7 +4717,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -4734,6 +4751,7 @@
           "title": "온라인몰, 다이닝, 웰니스, 테크 영역 10% M포인트 적립 (대상 영역별 월 1만 M포인트 한도)",
           "rate_pct": 10,
           "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 10000,
           "requires_prev_month_spend_krw": 1000000
         },
         {
@@ -4780,7 +4798,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -4812,7 +4830,8 @@
         {
           "category": "shopping",
           "title": "프리미엄쇼핑 영역 5 % M포인트 적립 (월 5만 M포인트 한도)",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "monthly_cap_points": 50000
         },
         {
           "category": "point",
@@ -4853,7 +4872,7 @@
           "summary": "제휴 포인트 교환처 및 연회비 결제, H-Coin 전환 등"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -5342,13 +5361,17 @@
           "category": "fuel",
           "title": "전기차 충전 캐시백",
           "summary": "전기차 충전요금 30%~50% 캐시백",
-          "rate_pct": 50
+          "rate_pct": 50,
+          "monthly_cap_krw": 15000,
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "shopping",
           "title": "생활 캐시백",
           "summary": "디지털 구독 20% 캐시백 / 이동통신 5% 캐시백 / 편의점 5% 캐시백 / 커피전문점·베이커리 5% 캐시백",
-          "rate_pct": 20
+          "rate_pct": 20,
+          "monthly_cap_krw": 5000,
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "point",
@@ -5361,7 +5384,7 @@
           "summary": "공통 유의사항 안내 / 전월 이용금액 산정기준"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -5409,10 +5432,12 @@
         {
           "category": "other",
           "title": "서비스 유의사항",
-          "summary": "통합할인한도 / 할인서비스 적용 기준 / 지난달 이용금액 기준"
+          "summary": "통합할인한도 / 할인서비스 적용 기준 / 지난달 이용금액 기준",
+          "monthly_cap_krw": 7000,
+          "requires_prev_month_spend_krw": 300000
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -5421,7 +5446,11 @@
         "retrieved_at": "2026-07-31",
         "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
       },
-      "annual_fee_krw": 7000
+      "annual_fee_krw": 7000,
+      "prev_month_spend_tiers_krw": [
+        300000,
+        600000
+      ]
     },
     {
       "id": "shinhan-merieoteu-bonboi-deo-beseuteu-sinhankadeu",
@@ -5499,7 +5528,9 @@
           "category": "transit",
           "title": "Life 서비스",
           "summary": "대중교통(시내버스, 지하철) 20% 캐시백 / 광역교통(고속버스, 철도) 10% 캐시백 / 카카오T 10% 캐시백 / 편의점 20% 캐시백 / 커피 5% 캐시백 / 이동통신요금(SKT/KT/LG U+/알뜰폰) 자동납부 시 5% 캐시백 / 도서 5% 캐시백 / 스포츠/레저업종 5% 캐시백 / 배달의 민족 5% 캐시백 / OTT 10% 캐시백 / 무신사/29CM 10% 캐시백",
-          "rate_pct": 20
+          "rate_pct": 20,
+          "monthly_cap_krw": 5000,
+          "requires_prev_month_spend_krw": 100000
         },
         {
           "category": "overseas",
@@ -5534,7 +5565,11 @@
       },
       "prev_month_spend_tiers_krw": [
         100000,
-        300000
+        200000,
+        300000,
+        500000,
+        700000,
+        1000000
       ]
     },
     {
@@ -6535,19 +6570,25 @@
           "category": "medical",
           "title": "동물병원",
           "summary": "전국 동물병원 30% 결제일 할인",
-          "rate_pct": 30
+          "rate_pct": 30,
+          "monthly_cap_krw": 7000,
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "other",
           "title": "펫 전용몰",
           "summary": "펫 전용몰 30% 결제일 할인",
-          "rate_pct": 30
+          "rate_pct": 30,
+          "monthly_cap_krw": 7000,
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "shopping",
           "title": "생활쇼핑",
           "summary": "일반 쇼핑몰 10% 결제일 할인",
-          "rate_pct": 10
+          "rate_pct": 10,
+          "monthly_cap_krw": 7000,
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "other",
@@ -6577,7 +6618,7 @@
           "summary": "할인서비스 적용 기준 / 전월 이용금액 산정기준"
         }
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "review_status": "machine_extracted",
       "updated_at": "2026-07-31",
       "source": {
@@ -6589,7 +6630,9 @@
       "annual_fee_krw": 200000,
       "prev_month_spend_tiers_krw": [
         300000,
-        400000
+        400000,
+        800000,
+        1200000
       ]
     },
     {

@@ -190,6 +190,9 @@ function cardRow(card) {
     const numbers = [];
     if (Number.isFinite(b.rate_pct)) numbers.push(`최대 ${b.rate_pct}%`);
     if (Number.isFinite(b.monthly_cap_krw)) numbers.push(`월 한도 ${formatKrw(b.monthly_cap_krw)}`);
+    else if (Number.isFinite(b.monthly_cap_points)) {
+      numbers.push(`월 한도 ${b.monthly_cap_points.toLocaleString('ko-KR')}P`);
+    }
     if (Number.isFinite(b.per_txn_eligible_spend_cap_krw)) numbers.push(`건당 ${formatKrw(b.per_txn_eligible_spend_cap_krw)}`);
     if (numbers.length) li.append(create('span', 'nums', numbers.join(' · ')));
     list.append(li);
@@ -266,7 +269,7 @@ function openDetail(card) {
   const table = create('table', 'benefit-table');
   const thead = create('thead');
   const hr = create('tr');
-  for (const h of ['분야', '혜택', '최대 요율', '월 한도', '건당 한도', '필요 전월실적']) {
+  for (const h of ['분야', '혜택', '최대 요율', '월 한도', '건당 대상금액 한도', '필요 전월실적']) {
     hr.append(create('th', null, h));
   }
   thead.append(hr);
@@ -280,7 +283,17 @@ function openDetail(card) {
     if (b.summary) td.append(create('div', 'bsummary', b.summary));
     tr.append(td);
     tr.append(create('td', 'num', Number.isFinite(b.rate_pct) ? `${b.rate_pct}%` : '미확인'));
-    tr.append(create('td', 'num', Number.isFinite(b.monthly_cap_krw) ? formatKrw(b.monthly_cap_krw) : '미확인'));
+    tr.append(
+      create(
+        'td',
+        'num',
+        Number.isFinite(b.monthly_cap_krw)
+          ? formatKrw(b.monthly_cap_krw)
+          : Number.isFinite(b.monthly_cap_points)
+            ? `${b.monthly_cap_points.toLocaleString('ko-KR')}P`
+            : '미확인',
+      ),
+    );
     tr.append(create('td', 'num', Number.isFinite(b.per_txn_eligible_spend_cap_krw) ? formatKrw(b.per_txn_eligible_spend_cap_krw) : '미확인'));
     tr.append(
       create(

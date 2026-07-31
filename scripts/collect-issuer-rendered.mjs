@@ -19,7 +19,8 @@
  *   node scripts/collect-issuer-rendered.mjs --issuer hyundai --limit 2 --dry-run
  */
 
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdtemp, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { existsSync } from 'node:fs';
@@ -32,6 +33,8 @@ import {
   parseKrw,
   parseKrwLoose,
   parseTierThreshold,
+  parseTierCapRows,
+  extractMonthlyCapPoints,
   extractMaxRatePct,
   extractSpendTiers,
   detectNoSpendCondition,
@@ -65,24 +68,42 @@ function findChrome() {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/** 헤드리스 Chrome 으로 페이지를 렌더링해 최종 DOM 을 가져온다. */
-async function renderPage(chrome, url, { budgetMs = 15000 } = {}) {
-  const { stdout } = await execFileAsync(
-    chrome,
-    [
-      '--headless',
-      '--disable-gpu',
-      '--no-first-run',
-      '--no-default-browser-check',
-      '--disable-extensions',
-      `--virtual-time-budget=${budgetMs}`,
-      '--window-size=1400,3000',
-      '--dump-dom',
-      url,
-    ],
-    { maxBuffer: 64 * 1024 * 1024, timeout: budgetMs + 25000 },
-  );
-  return stdout;
+/**
+ * 헤드리스 Chrome 으로 페이지를 렌더링해 최종 DOM 을 가져온다.
+ *
+ * 기본 프로필을 쓰면 다른 Chrome 인스턴스와 충돌해 실행이 실패한다.
+ * 호출마다 임시 프로필 디렉터리를 만들어 격리하고, 일시적 실패는 한 번 재시도한다.
+ */
+async function renderPage(chrome, url, { budgetMs = 15000, retries = 1 } = {}) {
+  let lastError;
+  for (let attempt = 0; attempt <= retries; attempt += 1) {
+    const profile = await mkdtemp(path.join(tmpdir(), 'krcbl-chrome-'));
+    try {
+      const { stdout } = await execFileAsync(
+        chrome,
+        [
+          '--headless',
+          '--disable-gpu',
+          '--no-first-run',
+          '--no-default-browser-check',
+          '--disable-extensions',
+          `--user-data-dir=${profile}`,
+          `--virtual-time-budget=${budgetMs}`,
+          '--window-size=1400,3000',
+          '--dump-dom',
+          url,
+        ],
+        { maxBuffer: 64 * 1024 * 1024, timeout: budgetMs + 30000 },
+      );
+      return stdout;
+    } catch (err) {
+      lastError = err;
+      if (attempt < retries) await sleep(3000);
+    } finally {
+      await rm(profile, { recursive: true, force: true }).catch(() => {});
+    }
+  }
+  throw lastError;
 }
 
 /**
@@ -181,6 +202,11 @@ export function parseHyundaiDetail(html, { pageUrl, retrievedAt, cardType = 'cre
       const cap = parseKrw(capMatch[1]);
       if (cap !== null) benefit.monthly_cap_krw = cap;
     }
+    // '월 1만 M포인트 한도' 는 원화가 아니라 포인트 단위 한도다.
+    if (!Number.isFinite(benefit.monthly_cap_krw)) {
+      const pts = extractMonthlyCapPoints(headline);
+      if (pts !== null) benefit.monthly_cap_points = pts;
+    }
     // '누적 이용 금액' / '전년도 이용 금액' 은 전월 실적이 아니다. 전월 조건만 인정한다.
     if (/전월/.test(condition)) {
       const req = parseTierThreshold(condition);
@@ -199,7 +225,7 @@ export function parseHyundaiDetail(html, { pageUrl, retrievedAt, cardType = 'cre
     benefits.length > 0,
     tiers.length > 0 || noSpendCondition,
     benefits.some((b) => Number.isFinite(b.rate_pct)),
-    benefits.some((b) => Number.isFinite(b.monthly_cap_krw)),
+    benefits.some((b) => Number.isFinite(b.monthly_cap_krw) || Number.isFinite(b.monthly_cap_points)),
   ];
   const score = signals.filter(Boolean).length;
 
@@ -285,6 +311,10 @@ export function parseShinhanDetail(html, { pageUrl, retrievedAt, cardType = 'cre
       const cap = parseKrwLoose(capMatch[1]);
       if (cap !== null) benefit.monthly_cap_krw = cap;
     }
+    if (!Number.isFinite(benefit.monthly_cap_krw)) {
+      const pts = extractMonthlyCapPoints(`${title} ${summary}`);
+      if (pts !== null) benefit.monthly_cap_points = pts;
+    }
     if (/전월/.test(summary)) {
       const req = parseTierThreshold(summary);
       if (req !== null) benefit.requires_prev_month_spend_krw = req;
@@ -293,14 +323,34 @@ export function parseShinhanDetail(html, { pageUrl, retrievedAt, cardType = 'cre
   }
   if (!benefits.length) return { card: null, warnings: [...warnings, '혜택 목록 없음 — 건너뜀'] };
 
-  const tiers = extractSpendTiers(pageText);
+  // 혜택별 상세는 클릭으로 열리는 시트에 있지만 DOM 에는 이미 들어 있다.
+  // 각 슬라이드의 <h3> 제목으로 위 혜택 목록과 짝지어 '전월 이용금액 / 할인한도' 표를 읽는다.
+  const detailTiers = new Set();
+  for (const slide of bodyHtml.split(/<div class="swiper-slide">/).slice(1)) {
+    const heading = stripTags(/<h3[^>]*>([\s\S]*?)<\/h3>/i.exec(slide)?.[1] ?? '');
+    if (!heading) continue;
+    const rows = parseTierCapRows(slide);
+    if (!rows.length) continue;
+    for (const r of rows) detailTiers.add(r.tier);
+    const target = benefits.find((b) => b.title === heading);
+    if (!target) continue;
+    const lowest = rows[0];
+    if (!Number.isFinite(target.monthly_cap_krw)) target.monthly_cap_krw = lowest.cap;
+    if (!Number.isFinite(target.requires_prev_month_spend_krw)) {
+      target.requires_prev_month_spend_krw = lowest.tier;
+    }
+  }
+
+  const tiers = [...new Set([...extractSpendTiers(pageText), ...detailTiers])]
+    .filter((t) => t > 0)
+    .sort((a, b) => a - b);
   const noSpendCondition = !tiers.length && detectNoSpendCondition(pageText);
   const signals = [
     annualFee !== null,
     benefits.length > 0,
     tiers.length > 0 || noSpendCondition,
     benefits.some((b) => Number.isFinite(b.rate_pct)),
-    benefits.some((b) => Number.isFinite(b.monthly_cap_krw)),
+    benefits.some((b) => Number.isFinite(b.monthly_cap_krw) || Number.isFinite(b.monthly_cap_points)),
   ];
   const score = signals.filter(Boolean).length;
 

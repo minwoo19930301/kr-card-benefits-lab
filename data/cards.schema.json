@@ -104,6 +104,11 @@
         "summary": { "type": "string", "maxLength": 600 },
         "rate_pct": { "type": "number", "minimum": 0, "maximum": 100 },
         "monthly_cap_krw": { "type": "integer", "minimum": 0 },
+        "monthly_cap_points": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "월 적립 한도가 포인트 단위로만 표기된 경우(예: '월 1만 M포인트 한도'). 원화 환산은 저장하지 않는다. 피킹률 계산에서 1포인트=1원 가정을 쓰며, 그 가정은 UI 와 docs/methodology.md 에 명시한다."
+        },
         "per_txn_eligible_spend_cap_krw": {
           "type": "integer",
           "minimum": 0,

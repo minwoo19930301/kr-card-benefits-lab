@@ -16,12 +16,23 @@ export const PICKING_STATUS = {
 };
 
 /**
+ * 포인트 단위 한도를 원화로 볼 때 쓰는 환산율.
+ * 국내 카드 포인트는 통상 1포인트를 1원처럼 쓰지만 실제 가치는 사용처·교환 방식에 따라 다르다.
+ * 이 값은 가정이며 데이터에 저장하지 않는다. 결과의 basis / usesPointAssumption 로 알린다.
+ */
+export const POINT_TO_KRW_ASSUMPTION = 1;
+
+/**
  * @param {object} card
  * @param {{tierKrw?: number|null}} [options] 특정 실적 구간으로 계산하고 싶을 때 지정
  */
 export function computePickingRate(card, options = {}) {
   const benefits = Array.isArray(card?.benefits) ? card.benefits : [];
-  const capped = benefits.filter((b) => Number.isFinite(b.monthly_cap_krw));
+  const wonCapped = benefits.filter((b) => Number.isFinite(b.monthly_cap_krw));
+  const pointCapped = benefits.filter(
+    (b) => !Number.isFinite(b.monthly_cap_krw) && Number.isFinite(b.monthly_cap_points),
+  );
+  const capped = [...wonCapped, ...pointCapped];
   const uncapped = benefits.length - capped.length;
 
   // 카드 전체 통합 월 한도가 확인되면 그것이 상한이다.
@@ -29,7 +40,9 @@ export function computePickingRate(card, options = {}) {
   const integrated = Number.isFinite(card?.integrated_monthly_cap_krw)
     ? card.integrated_monthly_cap_krw
     : null;
-  const summed = capped.reduce((sum, b) => sum + b.monthly_cap_krw, 0);
+  const summedWon = wonCapped.reduce((sum, b) => sum + b.monthly_cap_krw, 0);
+  const summedPoints = pointCapped.reduce((sum, b) => sum + b.monthly_cap_points, 0);
+  const summed = summedWon + summedPoints * POINT_TO_KRW_ASSUMPTION;
   const estimatedKrw = integrated ?? summed;
 
   const tiers = Array.isArray(card?.prev_month_spend_tiers_krw)
@@ -37,13 +50,21 @@ export function computePickingRate(card, options = {}) {
     : [];
   const tierKrw = options.tierKrw ?? (tiers.length ? Math.min(...tiers) : null);
 
+  const usesPointAssumption = integrated === null && pointCapped.length > 0;
   const base = {
     estimatedKrw,
     tierKrw,
     cappedCount: capped.length,
+    pointCappedCount: pointCapped.length,
     uncappedCount: uncapped,
     benefitCount: benefits.length,
-    basis: integrated !== null ? 'integrated_cap' : 'summed_benefit_caps',
+    usesPointAssumption,
+    basis:
+      integrated !== null
+        ? 'integrated_cap'
+        : usesPointAssumption
+          ? 'summed_caps_with_points'
+          : 'summed_benefit_caps',
   };
 
   if (!tierKrw) {
@@ -73,6 +94,12 @@ export function pickingCaveat(result) {
   }
   if (result.basis === 'integrated_cap') {
     return '카드 전체 통합 월 한도를 모두 채웠다고 가정한 상한값입니다.';
+  }
+  if (result.usesPointAssumption) {
+    const pointNote = `혜택 ${result.pointCappedCount}건은 한도가 포인트 단위로만 표기되어 1포인트를 1원으로 환산했습니다. 포인트의 실제 가치는 사용처에 따라 다릅니다.`;
+    return result.uncappedCount > 0
+      ? `${pointNote} 또 ${result.uncappedCount}건은 한도가 확인되지 않아 0원으로 계산했습니다.`
+      : pointNote;
   }
   if (result.uncappedCount > 0) {
     return `혜택 ${result.benefitCount}건 중 ${result.uncappedCount}건은 월 한도가 확인되지 않아 0원으로 계산했습니다. 실제 상한은 이보다 높을 수 있습니다.`;
