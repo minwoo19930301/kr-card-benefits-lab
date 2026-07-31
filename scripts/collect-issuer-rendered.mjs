@@ -30,6 +30,7 @@ import {
   stripTags,
   decodeEntities,
   parseKrw,
+  parseKrwLoose,
   parseTierThreshold,
   extractMaxRatePct,
   extractSpendTiers,
@@ -141,7 +142,7 @@ export function parseHyundaiAnnualFee(text) {
  *   .item_tit p            요율·내용 (1.5% M포인트 적립)
  *   .item_cont .sub_txt p  조건 (전월 이용 금액 50만원 이상 시)
  */
-export function parseHyundaiDetail(html, { pageUrl, retrievedAt }) {
+export function parseHyundaiDetail(html, { pageUrl, retrievedAt, cardType = 'credit' }) {
   const warnings = [];
   const titleMatch = /<title>([\s\S]*?)<\/title>/i.exec(html);
   const rawTitle = titleMatch ? stripTags(decodeEntities(titleMatch[1])) : '';
@@ -156,16 +157,17 @@ export function parseHyundaiDetail(html, { pageUrl, retrievedAt }) {
   const annualFee = parseHyundaiAnnualFee(stripTags(bodyHtml));
   if (annualFee === null) warnings.push('연회비 파싱 불가 — 필드 생략');
 
-  // 혜택 블록
+  // 혜택 블록. 레이아웃 변형이 여러 개라 item_cont/img_area 존재를 전제하지 않는다.
+  // item_tit 를 구분자로 나누고, 뒤따르는 일정 범위에서 대상·요율·조건을 찾는다.
   const benefits = [];
-  const itemRe =
-    /<div class="item_tit">([\s\S]*?)<\/div>[\s\S]{0,200}?<div class="item_cont">([\s\S]*?)<div class="img_area/gi;
-  for (const m of bodyHtml.matchAll(itemRe)) {
-    const titleBlock = m[1];
-    const scope = stripTags(/<em[^>]*>([\s\S]*?)<\/em>/i.exec(titleBlock)?.[1] ?? '');
-    const headline = stripTags(/<p[^>]*>([\s\S]*?)<\/p>/i.exec(titleBlock)?.[1] ?? '');
-    const condition = stripTags(/<div class="sub_txt">([\s\S]*?)<\/div>/i.exec(m[2])?.[1] ?? '');
+  for (const raw of bodyHtml.split(/<div class="item_tit">/).slice(1)) {
+    const region = raw.slice(0, 1500);
+    const scope = stripTags(/<em[^>]*>([\s\S]*?)<\/em>/i.exec(region)?.[1] ?? '');
+    const headline = stripTags(/<p[^>]*>([\s\S]*?)<\/p>/i.exec(region)?.[1] ?? '');
     if (!scope && !headline) continue;
+    const condition = stripTags(
+      /<div class="sub_txt">[\s\S]{0,200}?<p[^>]*>([\s\S]*?)<\/p>/i.exec(region)?.[1] ?? '',
+    );
 
     const title = [scope, headline].filter(Boolean).join(' ').trim();
     const benefit = { category: inferCategory(title), title: title.slice(0, 200) };
@@ -184,7 +186,6 @@ export function parseHyundaiDetail(html, { pageUrl, retrievedAt }) {
       const req = parseTierThreshold(condition);
       if (req !== null) benefit.requires_prev_month_spend_krw = req;
     }
-
     benefits.push(benefit);
   }
   if (!benefits.length) return { card: null, warnings: [...warnings, '혜택 블록 없음 — 건너뜀'] };
@@ -207,9 +208,9 @@ export function parseHyundaiDetail(html, { pageUrl, retrievedAt }) {
     issuer: 'hyundai',
     name,
     product_url: pageUrl,
-    // 현대카드 상세 페이지는 신용/체크를 본문에서 단정하기 어렵다.
-    // 체크카드 전용 경로(/cpc/ch/)에서 온 경우만 check 로 본다.
-    card_type: /\/cpc\/ch\//.test(pageUrl) ? 'check' : 'credit',
+    // 어느 카탈로그(신용/체크)에서 발견했는지를 기본값으로 쓰고,
+    // 상품명에 '체크' 가 있으면 그쪽을 신뢰한다.
+    card_type: /체크/.test(name) ? 'check' : cardType,
     benefits,
     confidence: score >= 5 ? 'high' : score >= 3 ? 'medium' : 'low',
     review_status: 'machine_extracted',
@@ -228,20 +229,158 @@ export function parseHyundaiDetail(html, { pageUrl, retrievedAt }) {
   return { card, warnings };
 }
 
+// --------------------------------------------------------------- 신한카드
+
+/**
+ * 신한카드 상세 페이지 구조
+ *   <title>                           신한카드 Mr.Life | 카드 | 신한카드
+ *   '연회비' 뒤 텍스트                브랜드별 연회비 (예: Visa 1만8천원 (기본) S& 1만5천원 (기본))
+ *   ul.benefit-list > li              혜택 항목
+ *     p.item--text-title              혜택 이름
+ *     ul.item--text-desc > li         한 줄 요약 / 유의사항
+ */
+export function parseShinhanDetail(html, { pageUrl, retrievedAt, cardType = 'credit' }) {
+  const warnings = [];
+  const titleMatch = /<title>([\s\S]*?)<\/title>/i.exec(html);
+  const name = titleMatch ? stripTags(decodeEntities(titleMatch[1])).split('|')[0].trim() : '';
+  if (!name || /^신한카드$/.test(name)) {
+    return { card: null, warnings: ['카드명을 확인할 수 없음 — 건너뜀'] };
+  }
+
+  const bodyHtml = html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, '');
+  const pageText = stripTags(bodyHtml);
+
+  // 연회비: '연회비' 이후 200자 안의 금액 표기 중 최저값.
+  // '연회비 100% 캐시백' 같은 이벤트 문구가 뒤따르므로 범위를 좁게 잡는다.
+  let annualFee = null;
+  const feeRegion = /연회비\s*([\s\S]{0,200}?)(?:신규|이벤트|주요\s*혜택|유의사항)/.exec(pageText);
+  if (feeRegion) {
+    const amounts = [];
+    for (const m of feeRegion[1].matchAll(/[\d,]+\s*만?\s*[\d,]*\s*천?\s*원/g)) {
+      const v = parseKrwLoose(m[0]);
+      if (v !== null && v > 0) amounts.push(v);
+    }
+    if (amounts.length) annualFee = Math.min(...amounts);
+    else if (/연회비\s*(없음|면제)/.test(pageText)) annualFee = 0;
+  }
+  if (annualFee === null) warnings.push('연회비 파싱 불가 — 필드 생략');
+
+  const benefits = [];
+  // 항목 자체가 <li> 이고 내부에도 <ul>/<li> 가 중첩되어 닫는 태그로 경계를 잡을 수 없다.
+  // 항목 구분자로 나눈 뒤, 텍스트 영역이 끝나는 item--image 앞까지만 본다.
+  const chunks = bodyHtml.split(/<li class="benefit-list__item">/).slice(1);
+  for (const raw of chunks) {
+    const item = raw.split('item--image')[0];
+    const title = stripTags(/<p class="item--text-title">([\s\S]*?)<\/p>/i.exec(item)?.[1] ?? '');
+    if (!title) continue;
+    const descs = [...item.matchAll(/<li>([\s\S]*?)<\/li>/gi)].map((d) => stripTags(d[1])).filter(Boolean);
+    const summary = descs.join(' / ').slice(0, 600);
+
+    const benefit = { category: inferCategory(`${title} ${summary}`), title: title.slice(0, 200) };
+    if (summary) benefit.summary = summary;
+    const rate = extractMaxRatePct(`${title} ${summary}`);
+    if (rate !== null) benefit.rate_pct = rate;
+    const capMatch = /월\s*(?:최대\s*)?([\d,]+\s*만?\s*[\d,]*\s*천?\s*원)\s*(?:한도|까지)/.exec(summary);
+    if (capMatch) {
+      const cap = parseKrwLoose(capMatch[1]);
+      if (cap !== null) benefit.monthly_cap_krw = cap;
+    }
+    if (/전월/.test(summary)) {
+      const req = parseTierThreshold(summary);
+      if (req !== null) benefit.requires_prev_month_spend_krw = req;
+    }
+    benefits.push(benefit);
+  }
+  if (!benefits.length) return { card: null, warnings: [...warnings, '혜택 목록 없음 — 건너뜀'] };
+
+  const tiers = extractSpendTiers(pageText);
+  const noSpendCondition = !tiers.length && detectNoSpendCondition(pageText);
+  const signals = [
+    annualFee !== null,
+    benefits.length > 0,
+    tiers.length > 0 || noSpendCondition,
+    benefits.some((b) => Number.isFinite(b.rate_pct)),
+    benefits.some((b) => Number.isFinite(b.monthly_cap_krw)),
+  ];
+  const score = signals.filter(Boolean).length;
+
+  const card = {
+    id: `shinhan-${makeSlug(name.replace(/^신한카드\s*/, ''), pageUrl)}`,
+    issuer: 'shinhan',
+    name,
+    product_url: pageUrl,
+    card_type: /체크/.test(name) ? 'check' : cardType,
+    benefits,
+    confidence: score >= 5 ? 'high' : score >= 3 ? 'medium' : 'low',
+    review_status: 'machine_extracted',
+    updated_at: retrievedAt,
+    source: {
+      kind: 'issuer_official_page',
+      url: pageUrl,
+      retrieved_at: retrievedAt,
+      note: '카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)',
+    },
+  };
+  if (annualFee !== null) card.annual_fee_krw = annualFee;
+  if (tiers.length) card.prev_month_spend_tiers_krw = tiers;
+  else if (noSpendCondition) card.no_prev_month_spend_condition = true;
+
+  return { card, warnings };
+}
+
+const SHINHAN_LIST_PAGES = [
+  { path: 'credit/CONFM70002/CONFM70002R01', cardType: 'credit' },
+  { path: 'check/CONFM70015/CONFM70015R01', cardType: 'check' },
+  { path: 'premium/CONFM70004/CONFM70004R01', cardType: 'credit' },
+  { path: 'premium/CONFM70004/CONFM70004R02', cardType: 'credit' },
+  { path: 'premium/CONFM70004/CONFM70004R03', cardType: 'credit' },
+  { path: 'premium/CONFM70004/CONFM70004R04', cardType: 'credit' },
+];
+
 const ISSUER_HANDLERS = {
   hyundai: {
-    listUrls: ['https://www.hyundaicard.com/cpc/cr/CPCCR0101_01.hc'],
+    // 공식 카탈로그 페이지. 카드 이미지 파일명(card_{코드}_*.png)에 상품 코드가 들어 있다.
+    listUrls: [
+      { url: 'https://www.hyundaicard.com/cpc/ma/CPCMA0101_01.hc', cardType: 'credit' },
+      { url: 'https://www.hyundaicard.com/cpc/cr/CPCCR0621_11.hc?cardflag=C', cardType: 'check' },
+    ],
     robotsPath: '/cpc/',
-    discover(listHtml) {
-      const codes = new Set(
-        [...listHtml.matchAll(/cardWcd=([A-Z0-9]+)/g)].map((m) => m[1]),
-      );
-      return [...codes]
-        .sort()
-        .map((c) => `https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=${c}`);
+    listBudgetMs: 22000,
+    discover(listHtml, cardType) {
+      const codes = new Set([
+        ...[...listHtml.matchAll(/card_([A-Z0-9]+)_[a-z]*\.png/g)].map((m) => m[1]),
+        ...[...listHtml.matchAll(/cardWcd=([A-Z0-9]+)/g)].map((m) => m[1]),
+      ]);
+      return [...codes].sort().map((code) => ({
+        url: `https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=${code}`,
+        cardType,
+      }));
     },
     parse: parseHyundaiDetail,
     detailBudgetMs: 16000,
+  },
+
+  shinhan: {
+    // 공식 카드 목록 페이지. 상세는 정적 .html 이지만 연회비가 클라이언트 템플릿이라 렌더링이 필요하다.
+    listUrls: SHINHAN_LIST_PAGES.map(({ path, cardType }) => ({
+      url: `https://www.shinhancard.com/pconts/html/card/${path}.html`,
+      cardType,
+    })),
+    robotsPath: '/pconts/html/card/',
+    listBudgetMs: 18000,
+    discover(listHtml, cardType) {
+      const paths = new Set(
+        [...listHtml.matchAll(/\/pconts\/html\/card\/apply\/(?:credit|check|premium)\/\d+_\d+\.html/g)].map(
+          (m) => m[0],
+        ),
+      );
+      return [...paths].sort().map((p) => ({
+        url: `https://www.shinhancard.com${p}`,
+        cardType: p.includes('/check/') ? 'check' : cardType,
+      }));
+    },
+    parse: parseShinhanDetail,
+    detailBudgetMs: 15000,
   },
 };
 
@@ -273,30 +412,34 @@ async function main() {
   const chrome = findChrome();
   console.log(`Chrome: ${chrome}`);
 
-  const origin = new URL(handler.listUrls[0]).origin;
+  const origin = new URL(handler.listUrls[0].url).origin;
   console.log(`[1/4] robots.txt 확인: ${origin}/robots.txt`);
   const robots = await fetchRobots(chrome, origin);
   const verdict = robotsVerdict(robots, handler.robotsPath);
   console.log(`      ${handler.robotsPath} → ${verdict.allowed ? 'ALLOWED' : 'BLOCKED'} (${verdict.reason})`);
   if (!verdict.allowed) throw new Error('robots.txt 가 대상 경로를 차단한다. 중단.');
 
-  console.log('[2/4] 상품 목록에서 상세 URL 수집');
-  const urls = new Set();
-  for (const listUrl of handler.listUrls) {
-    const html = await renderPage(chrome, listUrl, { budgetMs: 14000 });
-    for (const u of handler.discover(html)) urls.add(u);
+  console.log('[2/4] 공식 카탈로그에서 상세 URL 수집');
+  const byUrl = new Map();
+  for (const entry of handler.listUrls) {
+    const html = await renderPage(chrome, entry.url, { budgetMs: handler.listBudgetMs ?? 16000 });
+    const found = handler.discover(html, entry.cardType);
+    for (const t of found) if (!byUrl.has(t.url)) byUrl.set(t.url, t);
+    console.log(`      ${entry.cardType}: ${found.length}건 (${entry.url})`);
     await sleep(args.delay);
   }
-  const targets = [...urls].slice(0, args.limit === Infinity ? urls.size : args.limit);
-  console.log(`      상세 URL ${targets.length}건`);
+  const all = [...byUrl.values()];
+  const targets = all.slice(0, args.limit === Infinity ? all.length : args.limit);
+  console.log(`      상세 URL ${targets.length}건 (중복 제거 후 ${all.length}건)`);
 
   const retrievedAt = new Date().toISOString().slice(0, 10);
   const cards = [];
   console.log(`[3/4] 상세 페이지 렌더링 (간격 ${args.delay}ms)`);
-  for (const [i, url] of targets.entries()) {
+  for (const [i, target] of targets.entries()) {
+    const { url, cardType } = target;
     try {
       const html = await renderPage(chrome, url, { budgetMs: handler.detailBudgetMs });
-      const { card, warnings } = handler.parse(html, { pageUrl: url, retrievedAt });
+      const { card, warnings } = handler.parse(html, { pageUrl: url, retrievedAt, cardType });
       if (card) {
         cards.push(card);
         console.log(`      ${i + 1}/${targets.length} ok   ${card.name}`);

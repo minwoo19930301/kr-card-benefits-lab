@@ -23,6 +23,11 @@
   기계판독 상품 페이지 (schema.org `CreditCard` JSON-LD)
 - **현대카드** — 공식 상품 상세 페이지. 일반 HTTP 요청이 차단되므로 설치된 Chrome 을 헤드리스로
   렌더링해 읽는다. UA 위장·스텔스 플러그인·쿠키 재사용·CAPTCHA 우회는 쓰지 않는다.
+- **신한카드** — 공식 상품 상세 페이지. `robots.txt` 가 `/pconts/html/card/` 를 명시 허용한다.
+
+수집하지 않는 곳도 명시한다. 예를 들어 **삼성카드는 `robots.txt` 가 `User-agent: *` 에 대해
+`Disallow: /` 로 전면 차단**하므로 수집하지 않는다. 지정 봇 이름으로 UA 를 위장하면 접근할 수
+있지만 그렇게 하지 않는다.
 
 나머지 카드사는 상세 값을 신뢰할 수 있게 읽을 방법이 아직 없어 **미수록**으로 두었다.
 차단을 우회하지 않는다.
@@ -80,6 +85,7 @@ npm run serve                     # 로컬에서 대시보드 확인
 
 node scripts/collect-issuer-feed.mjs --issuer woori              # 기계판독 피드
 node scripts/collect-issuer-rendered.mjs --issuer hyundai        # 렌더링 필요 (Chrome)
+node scripts/collect-issuer-rendered.mjs --issuer shinhan        # 렌더링 필요 (Chrome)
 node scripts/collect-issuer-rendered.mjs --issuer hyundai --limit 2 --dry-run
 ```
 

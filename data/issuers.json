@@ -26,8 +26,18 @@
         "www.shinhancard.com"
       ],
       "machine_readable_feed": null,
-      "status": "not_collected",
-      "status_reason": "robots.txt 는 /pconts/html/card/ 를 허용하지만 기계판독 상품 피드가 없고 상품 상세가 스크립트 렌더링이다. 수록하려면 공식 URL 을 명시한 수동 PR 이 필요하다."
+      "rendered_source": {
+        "list_urls": [
+          "https://www.shinhancard.com/pconts/html/card/credit/CONFM70002/CONFM70002R01.html",
+          "https://www.shinhancard.com/pconts/html/card/check/CONFM70015/CONFM70015R01.html",
+          "https://www.shinhancard.com/pconts/html/card/premium/CONFM70004/CONFM70004R01.html"
+        ],
+        "detail_url_pattern": "https://www.shinhancard.com/pconts/html/card/apply/{credit|check|premium}/{id}_{ver}.html",
+        "robots_status": "explicitly_allowed",
+        "robots_evidence": "robots.txt 의 User-agent: * 그룹에 'Allow: /pconts/html/card/' 명시. 전체 차단 규칙 없음",
+        "method": "상세는 정적 HTML 이지만 연회비가 클라이언트 템플릿이라 Chrome 렌더링 후 추출.",
+        "coverage_note": "공식 목록 페이지가 노출하는 카드만 수집한다."
+      }
     },
     {
       "key": "samsung",
@@ -37,8 +47,8 @@
         "www.samsungcard.com"
       ],
       "machine_readable_feed": null,
-      "status": "not_collected",
-      "status_reason": "sitemap.xml 에 상품 상세가 없고 robots.txt 가 지정 봇에 한해 일부 경로만 허용한다."
+      "status": "blocked_by_robots",
+      "status_reason": "robots.txt 마지막에 'User-agent: * / Disallow: /' 가 있다. Allow 목록은 Yeti·googlebot·GPTbot·ClaudeBot 등 지정 봇에만 적용된다. 우리는 그중 어느 것도 아니므로 전면 차단 대상이다. UA 를 그 봇으로 위장하지 않는다. 수집 금지."
     },
     {
       "key": "hyundai",
@@ -54,7 +64,7 @@
         "robots_status": "no_matching_rule_default_allow",
         "robots_evidence": "https://www.hyundaicard.com/robots.txt 에 /cpc/ 를 막는 규칙이 없다",
         "method": "설치된 Chrome 을 헤드리스로 렌더링해 최종 DOM 에서 추출. UA 위장·스텔스 플러그인·쿠키 재사용·CAPTCHA 우회 없음.",
-        "coverage_note": "공식 목록 페이지가 노출하는 카드만 수집한다. 전체 카탈로그는 UI 상호작용이 필요해 미수록분이 있다."
+        "coverage_note": "공식 카탈로그(신용 92 + 체크 15)에서 발견한 98건 전부 수집."
       }
     },
     {

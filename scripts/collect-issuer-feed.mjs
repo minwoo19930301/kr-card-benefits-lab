@@ -128,6 +128,21 @@ export function parseKrw(text) {
   return null;
 }
 
+/**
+ * parseKrw 가 받지 못하는 한글 단위 조합까지 읽는다. 예: '1만8천원', '8천원'.
+ * 신한카드가 연회비를 이 형식으로 표기한다.
+ * parseKrw 를 먼저 시도하므로 기존 동작은 그대로다.
+ */
+export function parseKrwLoose(text) {
+  const exact = parseKrw(text);
+  if (exact !== null) return exact;
+  if (typeof text !== 'string') return null;
+  const t = text.replace(/\s/g, '');
+  const m = /^(?:(\d+)만)?(?:(\d+)천)?원$/.exec(t);
+  if (!m || (!m[1] && !m[2])) return null;
+  return Number(m[1] ?? 0) * 10000 + Number(m[2] ?? 0) * 1000;
+}
+
 export function parsePercent(text) {
   if (typeof text !== 'string') return null;
   const m = /^(\d{1,2}(?:\.\d)?)%$/.exec(text.trim());

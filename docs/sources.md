@@ -81,12 +81,28 @@
 또 `누적 이용 금액 100만원 이상` 을 전월 실적으로 기록하던 오류가 있었다. 지금은 조건 문구에
 `전월` 이 있을 때만 `requires_prev_month_spend_krw` 를 채운다.
 
+### 신한카드 — 공식 상품 상세 페이지 (브라우저 렌더링)
+
+| 항목 | 내용 |
+| --- | --- |
+| 목록 | `/pconts/html/card/{credit,check,premium}/CONFM.../....html` |
+| 상세 | `/pconts/html/card/apply/{credit,check,premium}/{id}_{ver}.html` |
+| robots 근거 | `User-agent: *` 그룹에 `Allow: /pconts/html/card/` 명시. 전체 차단 규칙 없음 |
+| 형식 | 정적 HTML. 혜택은 서버 렌더링, 연회비는 클라이언트 템플릿 |
+| 방법 | 혜택만 필요하면 일반 HTTP 로도 되지만, 연회비까지 얻기 위해 Chrome 렌더링 |
+
+연회비 표기가 `Visa 1만8천원 (기본) S& 1만5천원 (기본)` 처럼 한글 단위 조합이라
+전용 파서(`parseKrwLoose`)를 두었다. 브랜드가 여러 개면 최저값을 취한다.
+
+혜택 항목은 `<li class="benefit-list__item">` 안에 다시 `<ul><li>` 가 중첩된다.
+닫는 태그로 경계를 잡으면 첫 항목만 읽히므로 구분자로 나눈 뒤 텍스트 영역 끝에서 자른다.
+
 ## 검토했지만 사용하지 않는 소스
 
 | 카드사 | 확인 결과 | 판단 |
 | --- | --- | --- |
 | 신한카드 | `robots.txt` 는 `/pconts/html/card/` 허용. `sitemap.xml` 은 404. 상품 상세가 스크립트 렌더링. | 미수록 |
-| 삼성카드 | 목록에서 상세 URL 44건을 얻을 수 있으나, 혜택 상세가 탭·아코디언 클릭으로 열려 렌더링만으로는 값이 비어 있다. 브라우저 자동화 드라이버가 필요하다. | 미수록 |
+| 삼성카드 | **robots.txt 가 전면 차단한다.** 파일 마지막에 `User-agent: *` / `Disallow: /` 가 있고, Allow 목록은 Yeti·googlebot·GPTbot·ClaudeBot 등 지정 봇에만 적용된다. 접근하려면 그 봇으로 UA 를 위장해야 하므로 하지 않는다. | **수집 금지** |
 | KB국민카드 | `sitemap.xml` 미제공. `/CRD/` 허용이지만 기계판독 형식 아님. | 미수록 |
 | 하나카드 | `sitemap.xml` 에 상품 상세 URL 존재하나 본문이 스크립트 렌더링. | 미수록 |
 | 롯데카드 | `robots.txt` 응답 불안정. 상품 상세 스크립트 렌더링. | 미수록 |
