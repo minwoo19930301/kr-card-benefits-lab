@@ -76,7 +76,7 @@ node scripts/collect-issuer-feed.mjs --issuer woori            # 수집
 node scripts/collect-issuer-feed.mjs --issuer woori --limit 3 --dry-run
 ```
 
-의존성이 없다. Node 20 이상이면 그대로 돌아간다.
+의존성이 없다. Node 22 이상이면 그대로 돌아간다.
 
 수집기는 실행할 때마다 `robots.txt` 를 먼저 읽고, 대상 경로에 명시적 `Allow` 가 없으면
 중단한다. 요청은 순차적이고 기본 간격은 1.5초다. CI 에 스케줄 크롤을 걸지 않는다.

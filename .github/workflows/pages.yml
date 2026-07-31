@@ -25,7 +25,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       # 깨진 데이터가 배포되지 않도록 빌드 전에 검증한다.
       - name: 검증
