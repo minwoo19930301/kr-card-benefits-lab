@@ -1,0 +1,33 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 단위 테스트
+        run: npm test
+
+      - name: 스키마 및 출처 정책 검증
+        run: npm run validate
+
+      # 데이터에 금지 출처 흔적이 섞여 들어오는 것을 트리 전체에서 막는다.
+      # 이 저장소는 제3자 카드 비교 서비스의 비공개 API 를 사용하지 않는다.
+      - name: 금지 출처 문자열 검사
+        run: node scripts/check-forbidden.mjs
+
+      - name: 사이트 빌드
+        run: npm run build

@@ -1,0 +1,18 @@
+{
+  "name": "kr-card-benefits-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "카드사 공식 공개 피드 기반 한국 신용·체크카드 혜택 데이터셋 및 정적 리서치 대시보드",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build-site.mjs",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "collect": "node scripts/collect-issuer-feed.mjs",
+    "serve": "node --run build && node -e \"import('node:http').then(async({default:h})=>{const{readFile}=await import('node:fs/promises');const p=await import('node:path');h.createServer(async(q,s)=>{try{const f=p.join('dist',q.url==='/'?'index.html':q.url.split('?')[0]);const b=await readFile(f);const t={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8'}[p.extname(f)]||'application/octet-stream';s.writeHead(200,{'content-type':t});s.end(b)}catch{s.writeHead(404).end('not found')}}).listen(8787,()=>console.log('http://localhost:8787'))})\""
+  }
+}

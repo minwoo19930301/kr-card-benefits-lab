@@ -1,0 +1,3423 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-31",
+  "cards": [
+    {
+      "id": "woori-all-urikadeu-infinite",
+      "issuer": "woori",
+      "name": "ALL 우리카드 Infinite",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103187",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "아코르 서비스",
+          "summary": "14,000 ALL 리워드 포인트 제공 · 아코르 플러스 유료 멤버십 가입 · ALL 멤버십 회원 GOLD 등급 제공 및 업그레이드",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "point",
+          "title": "ALL 리워드 포인트 적립",
+          "summary": "이용금액 당 최대 5",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "Premium Service",
+          "summary": "공항라운지 무료이용 · KAL 리무진 버스 무료이용 · 국내 지정 골프장 무료커피 및 무료타석권 제공 · 아코르 호텔 프리미엄 서비스 제공",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103187.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "ALL 우리카드 Infinite 주요혜택: 아코르 서비스 / ALL 리워드 포인트 적립 / Premium Service",
+      "annual_fee_krw": 500000,
+      "annual_fee_note": "연회비 500,000원 500,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-all-urikadeu-premium",
+      "issuer": "woori",
+      "name": "ALL 우리카드 Premium",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103188",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "아코르 서비스",
+          "summary": "4,000 ALL 리워드 포인트 제공 · ALL 멤버십 회원 SILVER 등급 제공 및 업그레이드",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "point",
+          "title": "ALL 리워드 포인트 적립",
+          "summary": "이용금액 당 최대 3",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "Premium Service",
+          "summary": "공항라운지 무료이용 · KAL 리무진 버스 무료이용 · 아코르 호텔 프리미엄 서비스 제공",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103188.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "ALL 우리카드 Premium 주요혜택: 아코르 서비스 / ALL 리워드 포인트 적립 / Premium Service",
+      "annual_fee_krw": 150000,
+      "annual_fee_note": "연회비 150,000원 150,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-apateuai-urikadeu",
+      "issuer": "woori",
+      "name": "아파트아이 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104172",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "utility",
+          "title": "아파트관리비 청구할인",
+          "summary": "※ 전월실적 50만원 이상시 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104172.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "아파트아이 우리카드 - 아파트관리비 청구할인 서비스 주요혜택: 아파트관리비 청구할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        500000,
+        1000000,
+        1600000
+      ],
+      "integrated_monthly_cap_krw": 7000
+    },
+    {
+      "id": "woori-badipeuraendeu-urikadeu",
+      "issuer": "woori",
+      "name": "바디프랜드 우리카드 Ⅱ",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102858",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "바디프랜드 청구할인 서비스"
+        },
+        {
+          "category": "other",
+          "title": "바디프랜드 장기할부 서비스",
+          "rate_pct": 6
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102858.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "바디프랜드 우리카드 Ⅱ - 바디프랜드 렌탈요금 청구할인과 장기할부 서비스!",
+      "annual_fee_krw": 15000,
+      "annual_fee_note": "연회비 15,000원 15,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-cheonghonaiseu-urikadeu",
+      "issuer": "woori",
+      "name": "청호나이스 우리카드Ⅱ",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103725",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "청호나이스 청구할인 서비스"
+        },
+        {
+          "category": "other",
+          "title": "청호나이스 장기할부 서비스",
+          "rate_pct": 6
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103725.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "청호나이스 우리카드Ⅱ - 청호나이스 청구할인 및 장기할부 서비스",
+      "annual_fee_krw": 15000,
+      "annual_fee_note": "연회비 15,000원 15,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-d4kadeuuijeongseok",
+      "issuer": "woori",
+      "name": "D4카드의정석Ⅱ",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103305",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "food",
+          "title": "55% 청구할인",
+          "rate_pct": 55,
+          "summary": "커피 4대 브랜드 스타벅스, 투썸플레이스, 폴바셋, 커피빈"
+        },
+        {
+          "category": "transit",
+          "title": "33% 청구할인",
+          "rate_pct": 33,
+          "summary": "시내버스, 지하철(후불교통기능 선택 시), 택시 건당 최대 2,200원 청구할인",
+          "per_txn_eligible_spend_cap_krw": 2200
+        },
+        {
+          "category": "food",
+          "title": "11% 청구할인",
+          "rate_pct": 11,
+          "summary": "편의점 건당 할인한도 1,100원",
+          "per_txn_eligible_spend_cap_krw": 1100
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103305.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "D4카드의정석Ⅱ - Discount 4 주요혜택: 55% 청구할인 / 33% 청구할인 / 11% 청구할인",
+      "annual_fee_krw": 12000,
+      "annual_fee_note": "연회비 12,000원 12,000원"
+    },
+    {
+      "id": "woori-dakadeuuijeongseok",
+      "issuer": "woori",
+      "name": "DA카드의정석 Ⅱ",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102534",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "기본 Discount - 0.8% 기본 청구할인",
+          "rate_pct": 0.8,
+          "summary": "국내외 가맹점에서 결제 시 청구할인"
+        },
+        {
+          "category": "shopping",
+          "title": "추가 Discount - 0.5% 추가 청구할인",
+          "rate_pct": 0.5,
+          "summary": "생활업종 가맹점에서 결제 시 추가 청구할인"
+        },
+        {
+          "category": "travel",
+          "title": "국내 공항라운지 무료 이용 서비스",
+          "summary": "(MasterCard 브랜드 발급 시 제공)"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102534.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "DA카드의정석 Ⅱ - 전월 이용금액 관계없이, 할인한도 제한없이 최대 1.3% 청구할인 주요혜택: 기본 Discount - 0.8% 기본 청구할인 / 추가 Discount - 0.5% 추가 청구할인 / 국내 공항라운지 무료 이용 서비스",
+      "annual_fee_krw": 12000,
+      "annual_fee_note": "연회비 12,000원 12,000원"
+    },
+    {
+      "id": "woori-e1-urikadeu",
+      "issuer": "woori",
+      "name": "E1 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103564",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "E1 우리카드 청구할인 서비스",
+          "rate_pct": 10
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103564.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "E1 우리카드 - E1 충전소 10% 청구할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원",
+      "prev_month_spend_tiers_krw": [
+        400000,
+        800000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-fc-express-chekeu",
+      "issuer": "woori",
+      "name": "FC EXPRESS 체크",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=835453",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "overseas",
+          "title": "해외이용금액 외화결제 서비스",
+          "summary": "해외이용금액 외화결제계좌 달러 인출",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "overseas",
+          "title": "면제",
+          "summary": "해외가맹점 이용 시 이용수수료",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "point",
+          "title": "국내 전가맹점 모아포인트 적립",
+          "rate_pct": 0.3,
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_835453.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "FC EXPRESS 체크 - 국내에서는 원화로, 해외에서는 외화로 바로 출금! 주요혜택: 해외이용금액 외화결제 서비스 / 면제 / 0.3%",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-gaelreoria-platinum-urikadeu",
+      "issuer": "woori",
+      "name": "갤러리아 Platinum 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103483",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "갤러리아 백화점 5~7% 청구할인",
+          "rate_pct": 7,
+          "summary": "※ 전월실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "shopping",
+          "title": "갤러리아 백화점 최대 6개월 무이자할부",
+          "rate_pct": 5,
+          "summary": "※ 전월실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "food",
+          "title": "교통, 배달앱, OTT 3% 청구할인",
+          "rate_pct": 3,
+          "summary": "※ 전월실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103483.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "갤러리아 Platinum 우리카드 주요혜택: 갤러리아 백화점 5~7% 청구할인 / 갤러리아 백화점 최대 6개월 무이자할부 / 교통, 배달앱, OTT 3% 청구할인",
+      "annual_fee_krw": 30000,
+      "annual_fee_note": "연회비 30,000원 30,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-geurangbeulru-chekeukadeu",
+      "issuer": "woori",
+      "name": "그랑블루 체크카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=227977",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "travel",
+          "title": "공항라운지",
+          "summary": "국내외 무료 이용 서비스"
+        },
+        {
+          "category": "other",
+          "title": "선택형 기프트",
+          "summary": "매년 연회비 상당의 7가지 제공"
+        },
+        {
+          "category": "travel",
+          "title": "프리미엄서비스",
+          "summary": "여행, 골프, 라이프스타일에서 체크카드로 누리는"
+        }
+      ],
+      "confidence": "low",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_227977.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "그랑블루 체크카드 - 프리미엄의 혜택을 체크카드에 그대로! 주요혜택: 공항라운지 / 선택형 기프트 / 프리미엄서비스",
+      "annual_fee_krw": 95000,
+      "annual_fee_note": "연회비 100,000원 95,000원"
+    },
+    {
+      "id": "woori-gskaltekseu-hwamulbokjikadeu",
+      "issuer": "woori",
+      "name": "GS칼텍스 화물복지카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=100930",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "fuel",
+          "title": "GS칼텍스 주유할인 서비스",
+          "summary": "주유 리터당 최대 110원 할인"
+        },
+        {
+          "category": "shopping",
+          "title": "주요 업종 5% 청구할인",
+          "rate_pct": 5,
+          "summary": "대형마트, 병원, 서점 등 5% 할인"
+        },
+        {
+          "category": "food",
+          "title": "커피전문점 25% 청구할인",
+          "rate_pct": 25,
+          "summary": "스타벅스 등 커피전문점 25% 할인"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_100930.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "GS칼텍스 화물복지카드 - 유가보조금 받고! GS칼텍스 주유 할인까지! 주요혜택: GS칼텍스 주유할인 서비스 / 주요 업종 5% 청구할인 / 커피전문점 25% 청구할인",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000,
+        1000000
+      ]
+    },
+    {
+      "id": "woori-gukminhaengbok-chekeukadeus2",
+      "issuer": "woori",
+      "name": "국민행복 체크카드S2",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=100861",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "쇼핑/생활업종 캐시백",
+          "rate_pct": 2,
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 500000
+        },
+        {
+          "category": "medical",
+          "title": "의료(임신·출산) / 보육(교육) 업종 캐시백",
+          "rate_pct": 3,
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 50000
+        },
+        {
+          "category": "ott",
+          "title": "언택트 라이프 업종 캐시백",
+          "rate_pct": 10,
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_100861.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "국민행복 체크카드S2 - 국가바우처, 임신/출산, 보육/교육, 쇼핑, 해외, 언택트라이프 혜택까지 모두 담다!! 주요혜택: 2% / 3% / 10%",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-gukminhaengbokkadeus2",
+      "issuer": "woori",
+      "name": "국민행복카드S2",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=100860",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "쇼핑/생활업종 할인",
+          "rate_pct": 5,
+          "monthly_cap_krw": 4000,
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 50000
+        },
+        {
+          "category": "medical",
+          "title": "의료(임신·출산) / 보육(교육) 업종 할인",
+          "rate_pct": 7,
+          "monthly_cap_krw": 3000,
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 50000
+        },
+        {
+          "category": "ott",
+          "title": "언택트 라이프 업종 할인",
+          "rate_pct": 20,
+          "monthly_cap_krw": 3000,
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_100860.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "국민행복카드S2 - 국가바우처, 임신/출산, 보육/교육, 쇼핑, 해외, 언택트라이프 혜택까지 모두 담다!! 주요혜택: 5% / 7% / 20%",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000,
+        600000,
+        900000
+      ],
+      "integrated_monthly_cap_krw": 30000
+    },
+    {
+      "id": "woori-gukminyeongeumjeung-urikadeu",
+      "issuer": "woori",
+      "name": "국민연금증 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104140",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "tax",
+          "title": "국민연금증 우리카드란?"
+        },
+        {
+          "category": "other",
+          "title": "기본 서비스",
+          "rate_pct": 50
+        },
+        {
+          "category": "other",
+          "title": "교통 서비스",
+          "rate_pct": 50,
+          "per_txn_eligible_spend_cap_krw": 1250
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104140.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "국민연금증 우리카드 - 행복한 노후를 함께하는 국민연금증 우리카드",
+      "annual_fee_krw": 2000,
+      "annual_fee_note": "연회비 2,000원 5,000원"
+    },
+    {
+      "id": "woori-gyowonwelseu-urikadeu",
+      "issuer": "woori",
+      "name": "교원웰스 우리카드Ⅱ",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103737",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "utility",
+          "title": "웰스 렌탈요금/교원라이프 상조회비 청구할인"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103737.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "교원웰스 우리카드Ⅱ - 웰스 렌탈요금과 교원라이프 상조회비 청구할인 서비스!",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-haimateu-urikadeu",
+      "issuer": "woori",
+      "name": "하이마트 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102734",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "하이마트 장기할부 서비스",
+          "rate_pct": 6
+        },
+        {
+          "category": "shopping",
+          "title": "하이마트 청구할인 서비스"
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102734.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "하이마트 우리카드 - 하이마트 장기할부 및 청구할인!",
+      "annual_fee_krw": 18000,
+      "annual_fee_note": "연회비 18,000원 18,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-hyeondaerentalkeeo-urikadeu",
+      "issuer": "woori",
+      "name": "현대렌탈케어 우리카드Ⅱ",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103738",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "utility",
+          "title": "현대렌탈케어 렌탈요금 자동납부 청구할인"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103738.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "현대렌탈케어 우리카드Ⅱ - 현대렌탈케어 렌탈요금 자동납부 청구할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-hyeondaerentalseobiseu-urikadeu",
+      "issuer": "woori",
+      "name": "현대렌탈서비스 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103263",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "utility",
+          "title": "현대렌탈서비스 청구할인 서비스"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103263.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "현대렌탈서비스 우리카드 - 현대렌탈서비스 렌탈요금 청구할인!",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1500000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-k-paeseu-urikadeu",
+      "issuer": "woori",
+      "name": "K-패스 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102864",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "국내 가맹점 0.3% 청구할인",
+          "rate_pct": 0.3,
+          "summary": "전월 국내가맹점 40만원 이상"
+        },
+        {
+          "category": "food",
+          "title": "카페/편의점 10% 청구할인",
+          "rate_pct": 10,
+          "summary": "전월 국내가맹점 40만원 이상"
+        },
+        {
+          "category": "transit",
+          "title": "버스/지하철 10% 청구할인",
+          "rate_pct": 10,
+          "summary": "전월 국내가맹점 40만원 이상"
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102864.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "K-패스 우리카드 - anytime anywhere 주요혜택: 국내 가맹점 0.3% 청구할인 / 카페/편의점 10% 청구할인 / 버스/지하철 10% 청구할인",
+      "annual_fee_krw": 15000,
+      "annual_fee_note": "연회비 15,000원",
+      "prev_month_spend_tiers_krw": [
+        400000,
+        800000
+      ],
+      "integrated_monthly_cap_krw": 5000
+    },
+    {
+      "id": "woori-k-paeseu-urikadeu-chekeu",
+      "issuer": "woori",
+      "name": "K-패스 우리카드(체크)",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102865",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "생활 혜택",
+          "rate_pct": 10,
+          "summary": "스타벅스/폴바셋/CU/GS25 10% 캐시백",
+          "per_txn_eligible_spend_cap_krw": 10000
+        },
+        {
+          "category": "transit",
+          "title": "대중교통 혜택",
+          "rate_pct": 10,
+          "summary": "버스/지하철 10% 캐시백"
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102865.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "K-패스 우리카드(체크) - anytime anywhere 주요혜택: 생활 혜택 / 대중교통 혜택",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000,
+        600000
+      ],
+      "integrated_monthly_cap_krw": 2000
+    },
+    {
+      "id": "woori-kadeuuijeongseok-every-mile-skypass",
+      "issuer": "woori",
+      "name": "카드의정석 EVERY MILE SKYPASS",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102488",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "mileage",
+          "title": "대한항공 SKYPASS 마일리지 적립",
+          "summary": "이용금액 1천원당 1마일리지 적립",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "overseas",
+          "title": "해외수수료 면제",
+          "rate_pct": 1,
+          "summary": "국제브랜드사 수수료 1%, 해외이용 수수료 0.3% 면제",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "국내 공항라운지 무료이용 서비스",
+          "summary": "연 2회 제공(동반 1인 동시 이용가능) 전월 국내가맹점 이용실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102488.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석 EVERY MILE SKYPASS - 편하게 쓰기 좋은 해외여행의 정석 주요혜택: 대한항공 SKYPASS 마일리지 적립 / 해외수수료 면제 / 국내 공항라운지 무료이용 서비스",
+      "annual_fee_krw": 39000,
+      "annual_fee_note": "연회비 39,000원 39,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok-everyday-check",
+      "issuer": "woori",
+      "name": "카드의정석 EVERYDAY CHECK",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103734",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "overseas",
+          "title": "국내/해외 가맹점 0.2% 적립",
+          "rate_pct": 0.2,
+          "summary": "전월 실적 조건, 적립한도 제한 없음",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "shopping",
+          "title": "마트/슈퍼/커피/주유 1% 특별 적립",
+          "rate_pct": 1,
+          "summary": "이마트, 스타벅스, SK주유소",
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103734.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석 EVERYDAY CHECK - EVERY DAY EVERY WOORI 주요혜택: 국내/해외 가맹점 0.2% 적립 / 우리WON페이 0.5% 추가 적립 / 마트/슈퍼/커피/주유 1% 특별 적립",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok-hwamulbokjikadeu",
+      "issuer": "woori",
+      "name": "카드의정석 화물복지카드+",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102862",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "fuel",
+          "title": "주유할인 서비스",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "other",
+          "title": "SK에너지, 현대오일뱅크, S-OIL 멤버십카드 관련 사항",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "other",
+          "title": "부가세 환급 지원 서비스",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "other",
+          "title": "OK캐쉬백 멤버십 서비스",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "other",
+          "title": "주요 업종 청구할인",
+          "rate_pct": 5,
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "other",
+          "title": "전국 영화관 청구할인",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "food",
+          "title": "커피전문점 청구할인",
+          "rate_pct": 25,
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102862.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석 화물복지카드+ - 유가보조금 + 정유 3사 주유할인 카드의정석 화물복지카드+ 단 한장으로!",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok-hwamulbokjikadeu-chekeu",
+      "issuer": "woori",
+      "name": "카드의정석 화물복지카드(체크)",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102863",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "fuel",
+          "title": "주유할인 서비스",
+          "requires_prev_month_spend_krw": 1500000
+        },
+        {
+          "category": "other",
+          "title": "SK에너지, HD현대오일뱅크, S-OIL 멤버십카드 관련 사항",
+          "requires_prev_month_spend_krw": 1500000
+        },
+        {
+          "category": "other",
+          "title": "부가세 환급 지원 서비스",
+          "requires_prev_month_spend_krw": 1500000
+        },
+        {
+          "category": "other",
+          "title": "OK캐쉬백 멤버십 서비스",
+          "requires_prev_month_spend_krw": 1500000
+        },
+        {
+          "category": "food",
+          "title": "커피전문점 할인",
+          "rate_pct": 20,
+          "requires_prev_month_spend_krw": 1500000
+        },
+        {
+          "category": "other",
+          "title": "전국 영화관 할인",
+          "requires_prev_month_spend_krw": 1500000
+        },
+        {
+          "category": "other",
+          "title": "패밀리레스토랑 할인",
+          "rate_pct": 10,
+          "requires_prev_month_spend_krw": 1500000,
+          "per_txn_eligible_spend_cap_krw": 10000
+        },
+        {
+          "category": "education",
+          "title": "온라인 서점 할인",
+          "requires_prev_month_spend_krw": 1500000
+        },
+        {
+          "category": "other",
+          "title": "우리 체크카드 시스템 점검시간(한국시간 기준)",
+          "requires_prev_month_spend_krw": 1500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102863.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석 화물복지카드(체크) - 유가보조금 + 정유 3사 주유할인 카드의정석 화물복지카드(체크) 단 한장으로!",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        1500000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok-i-u",
+      "issuer": "woori",
+      "name": "카드의정석 I&U+",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102717",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "국내 가맹점 1%~0.7% 청구할인",
+          "rate_pct": 1,
+          "summary": "전월실적 조건, 할인 한도 없음",
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 1000000
+        },
+        {
+          "category": "fuel",
+          "title": "주유 리터당 60~100원 청구할인",
+          "summary": "전월 국내 이용실적 30만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "transit",
+          "title": "대중교통, 커피 10% 청구할인",
+          "rate_pct": 10,
+          "summary": "전월 국내 이용실적 30만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102717.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석 I&U+ - 초심플하게 할인에 초집중. 주요혜택: 국내 가맹점 1%~0.7% 청구할인 / 주유 리터당 60~100원 청구할인 / 대중교통, 커피 10% 청구할인",
+      "annual_fee_krw": 12000,
+      "annual_fee_note": "연회비 12,000원 12,000원",
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok-lck-urichekeu",
+      "issuer": "woori",
+      "name": "카드의정석 LCK 우리체크",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103116",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "국내외 가맹점 0.2% 적립",
+          "rate_pct": 0.2,
+          "summary": "전월실적, 적립한도 없음",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "point",
+          "title": "전월실적에 따라 최대 3천원 추가 적립",
+          "summary": "30만원 이용 시마다 1천원 추가적립",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "point",
+          "title": "4대 일상영역 중 한 곳 1만원 적립",
+          "rate_pct": 0.2,
+          "summary": "공연티켓, 놀이공원/워터파크, 영화관, 여행",
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103116.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석 LCK 우리체크 - We Make Legends 주요혜택: 국내외 가맹점 0.2% 적립 / 전월실적에 따라 최대 3천원 추가 적립 / 4대 일상영역 중 한 곳 1만원 적립",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok-ohacheck",
+      "issuer": "woori",
+      "name": "카드의정석 오하CHECK",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102716",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "SHOPPING 5% 캐시백",
+          "rate_pct": 5,
+          "summary": "쿠팡, 무신사, 지그재그, 안경/렌즈 5% 캐시백"
+        },
+        {
+          "category": "point",
+          "title": "EAT 5% 캐시백",
+          "rate_pct": 5,
+          "summary": "배달의민족, 쿠팡이츠, B마트, 마켓컬리 5% 캐시백"
+        },
+        {
+          "category": "point",
+          "title": "PLAY 5% 캐시백",
+          "rate_pct": 5,
+          "summary": "넷플릭스, 멜론, 공연티켓 5% 캐시백"
+        },
+        {
+          "category": "point",
+          "title": "LIFE 5% 캐시백",
+          "rate_pct": 5,
+          "summary": "해외, 어학시험, 대중교통, 이동통신 5% 캐시백"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102716.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석 오하CHECK - 나의 생활패턴을 알아주는 든든한 카드! 주요혜택: SHOPPING 5% 캐시백 / EAT 5% 캐시백 / PLAY 5% 캐시백 / LIFE 5% 캐시백",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        200000,
+        500000,
+        700000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok-shopping",
+      "issuer": "woori",
+      "name": "카드의정석 SHOPPING+",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102492",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "온라인 쇼핑 10% 청구할인",
+          "rate_pct": 10,
+          "summary": "※ 전월 이용실적 30만원 이상",
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 50000
+        },
+        {
+          "category": "shopping",
+          "title": "오프라인 쇼핑 10% 청구할인",
+          "rate_pct": 10,
+          "summary": "※ 전월 이용실적 30만원 이상",
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 50000
+        },
+        {
+          "category": "other",
+          "title": "4대 PAY 5% 추가할인",
+          "rate_pct": 5,
+          "summary": "※ 전월 이용실적 30만원 이상",
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102492.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석 SHOPPING+ - 온오프라인 쇼핑 시 10% 청구할인 간편결제 추가 할인까지! 주요혜택: 온라인 쇼핑 10% 청구할인 / 오프라인 쇼핑 10% 청구할인 / 4대 PAY 5% 추가할인",
+      "annual_fee_krw": 10000,
+      "annual_fee_note": "연회비 10,000원 12,000원 12,000원",
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok-ten",
+      "issuer": "woori",
+      "name": "카드의정석 TEN",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103686",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "TEN Discount",
+          "requires_prev_month_spend_krw": 400000
+        },
+        {
+          "category": "other",
+          "title": "ONE Discount",
+          "rate_pct": 1,
+          "requires_prev_month_spend_krw": 400000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103686.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석 TEN - 일상에서의 특별한 혜택 주요혜택: 커피, 편의점, 교통, 이동통신, 해외 10% 청구할인 / 음식점/주점 및 온라인 간편결제 1% 청구할인",
+      "annual_fee_krw": 12000,
+      "annual_fee_note": "연회비 12,000원 12,000원",
+      "prev_month_spend_tiers_krw": [
+        400000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2",
+      "issuer": "woori",
+      "name": "카드의정석2",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102997",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "국내외 가맹점 1.2% 청구할인",
+          "rate_pct": 1.2,
+          "summary": "전월 국내외 가맹점 이용실적 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "other",
+          "title": "분기별 이용실적에 따라 최대 15,000원 청구할인",
+          "summary": "분기별 국내외 가맹점 이용실적 300/600/900만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102997.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 - 믿고쓰는 카드의정석 시즌2는 1.2% 할인이 기본 주요혜택: 국내외 가맹점 1.2% 청구할인 / 분기별 이용실적에 따라 최대 15,000원 청구할인",
+      "annual_fee_krw": 22000,
+      "annual_fee_note": "연회비 22,000원 22,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-auto",
+      "issuer": "woori",
+      "name": "카드의정석2 AUTO",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500010",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "자동차 할부 이용고객 월 납부금 청구할인",
+          "summary": "※ 전월 국내외 가맹점 이용실적 40만원 이상 시",
+          "requires_prev_month_spend_krw": 400000
+        },
+        {
+          "category": "other",
+          "title": "주차비 2천원 청구할인",
+          "summary": "※ 전월 국내외 가맹점 이용실적 40만원 이상 시",
+          "requires_prev_month_spend_krw": 400000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_500010.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 AUTO 주요혜택: 자동차 할부 이용고객 월 납부금 청구할인 / 주차비 2천원 청구할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        400000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-every-discount",
+      "issuer": "woori",
+      "name": "카드의정석2 EVERY DISCOUNT",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103729",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "국내외 가맹점 0.8% 청구할인",
+          "rate_pct": 0.8,
+          "summary": "전월실적, 할인한도 없음",
+          "requires_prev_month_spend_krw": 400000
+        },
+        {
+          "category": "other",
+          "title": "국내 온라인 간편결제 2% 추가 청구할인",
+          "rate_pct": 2,
+          "summary": "우리WON페이, 네이버페이, 카카오페이",
+          "requires_prev_month_spend_krw": 400000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103729.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 EVERY DISCOUNT - 결제도 간편 혜택도 간편 주요혜택: 국내외 가맹점 0.8% 청구할인 / 국내 온라인 간편결제 2% 추가 청구할인",
+      "annual_fee_krw": 6000,
+      "annual_fee_note": "모바일카드 연회비 6,000원 6,000원",
+      "prev_month_spend_tiers_krw": [
+        400000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-every-point",
+      "issuer": "woori",
+      "name": "카드의정석2 EVERY POINT",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102718",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "국내외 가맹점 0.8% 적립",
+          "rate_pct": 0.8,
+          "summary": "전월실적 조건 없음 적립한도 제한 없음",
+          "requires_prev_month_spend_krw": 400000
+        },
+        {
+          "category": "point",
+          "title": "국내 온라인 간편결제 2% 추가적립",
+          "rate_pct": 2,
+          "summary": "대상 간편결제 : 우리WON페이, 네이버페이, 카카오페이 전월 국내외 가맹점 이용금액 40만원 이상 시 혜택 제공",
+          "requires_prev_month_spend_krw": 400000
+        },
+        {
+          "category": "other",
+          "title": "청소년 가족카드 발급 가능 상품",
+          "summary": "만 12~18세 청소년 발급 가능",
+          "requires_prev_month_spend_krw": 400000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102718.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 EVERY POINT - 모두를 위한 간편한 혜택 주요혜택: 국내외 가맹점 0.8% 적립 / 국내 온라인 간편결제 2% 추가적립 / 청소년 가족카드 발급 가능 상품",
+      "annual_fee_krw": 12000,
+      "annual_fee_note": "연회비 12,000원 12,000원 12,000원",
+      "prev_month_spend_tiers_krw": [
+        400000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-exk-chekeu",
+      "issuer": "woori",
+      "name": "카드의정석2 ExK 체크",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103496",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "아웃백스테이크하우스 5천원 캐시백",
+          "summary": "전월실적 20만원 이상, 건당 5만원 이상 결제 시 제공",
+          "requires_prev_month_spend_krw": 200000,
+          "per_txn_eligible_spend_cap_krw": 50000
+        },
+        {
+          "category": "food",
+          "title": "커피, 배달, 편의점 5% 캐시백",
+          "rate_pct": 5,
+          "summary": "전월실적 20만원 이상 시 건당 최대 1천원내 제공",
+          "requires_prev_month_spend_krw": 200000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103496.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 ExK 체크 - 해외 ATM 출금은 ExK 체크! 주요혜택: 해외ATM 인출수수료 건당 500원 / 아웃백스테이크하우스 5천원 캐시백 / 커피, 배달, 편의점 5% 캐시백",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        200000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-hubulhaipaeseu",
+      "issuer": "woori",
+      "name": "카드의정석2 후불하이패스+",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103416",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "transit",
+          "title": "평일 출퇴근 시간대 통행료",
+          "rate_pct": 50,
+          "summary": "20~50% 할인"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103416.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 후불하이패스+ - 카드의정석2 후불하이패스+ 주요혜택: 평일 출퇴근 시간대 통행료",
+      "annual_fee_krw": 2000,
+      "annual_fee_note": "연회비 2,000원"
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-kaltoe-check",
+      "issuer": "woori",
+      "name": "카드의정석2 칼퇴 CHECK",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102482",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "칼퇴 5% 캐시백 (전월 국내외 가맹점 이용실적 30만원 이상 시 제공)",
+          "rate_pct": 5,
+          "summary": "음식점·주점/카페/편의점 (저녁 6~11시 결제 건)",
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 30000
+        },
+        {
+          "category": "point",
+          "title": "갓생 5% 캐시백 (전월 국내외 가맹점 이용실적 30만원 이상 시 제공)",
+          "rate_pct": 5,
+          "summary": "헬스/뷰티/전자책",
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 10000
+        },
+        {
+          "category": "point",
+          "title": "교통 5% 캐시백 (전월 국내외 가맹점 이용실적 30만원 이상 시 제공)",
+          "rate_pct": 5,
+          "summary": "대중교통/택시/카셰어링",
+          "requires_prev_month_spend_krw": 300000,
+          "per_txn_eligible_spend_cap_krw": 50000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102482.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 칼퇴 CHECK - 다채로운 WOORI의 시간 주요혜택: 칼퇴 5% 캐시백 (전월 국내외 가맹점 이용실적 30만원 이상 시 제공) / 갓생 5% 캐시백 (전월 국내외 가맹점 이용실적 30만원 이상 시 제공) / 교통 5% 캐시백 (전월 국내외 가맹점 이용실적 30만원 이상 시 제공)",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-routine",
+      "issuer": "woori",
+      "name": "카드의정석2 ROUTINE",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500045",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "생활/통신 15% 할인",
+          "rate_pct": 15,
+          "summary": "아파트관리비, 전기/가스요금, 통신비 15% 청구할인 ※전월실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "ott",
+          "title": "디지털구독 30% 할인",
+          "rate_pct": 30,
+          "summary": "디지털구독 30% 청구할인 ※ 전월실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "other",
+          "title": "2~3개월 무이자 할부서비스",
+          "summary": "※ 전월실적 조건 없음",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_500045.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 ROUTINE - 숨 쉬듯 당연한 정기결제, 할인도 당연해야 하니까 주요혜택: 생활/통신 15% 할인 / 디지털구독 30% 할인 / 2~3개월 무이자 할부서비스",
+      "annual_fee_krw": 22000,
+      "annual_fee_note": "모바일카드 연회비 22,000원 22,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-shopper",
+      "issuer": "woori",
+      "name": "카드의정석2 SHOPPER",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104151",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "쇼핑 기본할인 10%",
+          "rate_pct": 10,
+          "summary": "온·오프라인 쇼핑 10% 청구할인 ※전월실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "shopping",
+          "title": "쇼핑 추가할인 5%",
+          "rate_pct": 5,
+          "summary": "주중 온라인/주말 오프라인 쇼핑 5% 추가 청구할인 ※전월실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "shopping",
+          "title": "쇼핑 멤버십 할인 50%",
+          "rate_pct": 50,
+          "summary": "쇼핑 멤버십 50% 청구할인 ※전월실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104151.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 SHOPPER - 쇼핑의 순간, 15% 가볍게 주요혜택: 쇼핑 기본할인 10% / 쇼핑 추가할인 5% / 쇼핑 멤버십 할인 50%",
+      "annual_fee_krw": 28000,
+      "annual_fee_note": "연회비 28,000원 28,000원 28,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-super",
+      "issuer": "woori",
+      "name": "카드의정석2 SUPER",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500044",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "국내외 가맹점 2.0% 청구할인",
+          "rate_pct": 2,
+          "summary": "※ 전월 실적 조건 없음"
+        },
+        {
+          "category": "other",
+          "title": "2~3개월 무이자 할부 서비스",
+          "summary": "※ 전월 실적 조건 없음"
+        },
+        {
+          "category": "overseas",
+          "title": "해외수수료 면제 서비스",
+          "rate_pct": 1,
+          "summary": "※ 국제브랜드사 수수료, 해외이용 수수료 면제"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_500044.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 SUPER - 2.0% SUPER Benefit 주요혜택: 국내외 가맹점 2.0% 청구할인 / 2~3개월 무이자 할부 서비스 / 해외수수료 면제 서비스",
+      "annual_fee_krw": 30000,
+      "annual_fee_note": "연회비 30,000원 30,000원",
+      "no_prev_month_spend_condition": true
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-wondeoraipeu",
+      "issuer": "woori",
+      "name": "카드의정석2 원더라이프",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500001",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "국내외 가맹점 1% 청구할인",
+          "rate_pct": 1,
+          "summary": "전월 국내외 가맹점 이용실적 관계없이 할인 제공 (월 할인한도 제한 없음)",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "shopping",
+          "title": "온라인/TV홈쇼핑, 생활/편의, 건강/의료 1.5% 청구할인",
+          "rate_pct": 1.5,
+          "summary": "전월 국내외 가맹점 이용실적 50만원 이상 시 청구할인 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "fuel",
+          "title": "보험, 레저/여가, 주유, 해외 2.5% 청구할인",
+          "rate_pct": 2.5,
+          "summary": "전월 국내외 가맹점 이용실적 50만원 이상 시 청구할인 제공",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_500001.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 원더라이프 주요혜택: 국내외 가맹점 1% 청구할인 / 온라인/TV홈쇼핑, 생활/편의, 건강/의료 1.5% 청구할인 / 보험, 레저/여가, 주유, 해외 2.5% 청구할인",
+      "annual_fee_krw": 25000,
+      "annual_fee_note": "연회비 25,000원 25,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-kadeuuijeongseok2-wondeoraipeu-check",
+      "issuer": "woori",
+      "name": "카드의정석2 원더라이프 CHECK",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500002",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "국내외 가맹점 0.2% 캐시백",
+          "rate_pct": 0.2,
+          "summary": "전월 국내외 가맹점 이용실적 관계없이 캐시백 제공 (월 캐시백한도 제한 없음)",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "shopping",
+          "title": "온라인/TV홈쇼핑, 생활/편의, 건강/의료 0.5% 캐시백",
+          "rate_pct": 0.5,
+          "summary": "전월 국내외 가맹점 이용실적 30만원 이상 시 캐시백 제공",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "fuel",
+          "title": "보험, 레저/여가, 주유 영역 1% 캐시백",
+          "rate_pct": 1,
+          "summary": "전월 국내외 가맹점 이용실적 30만원 이상 시 캐시백 제공",
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_500002.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "카드의정석2 원더라이프 CHECK 주요혜택: 국내외 가맹점 0.2% 캐시백 / 온라인/TV홈쇼핑, 생활/편의, 건강/의료 0.5% 캐시백 / 보험, 레저/여가, 주유 영역 1% 캐시백",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-kowei-icon-urikadeu",
+      "issuer": "woori",
+      "name": "코웨이 ICON 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500004",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "utility",
+          "title": "코웨이 렌탈요금 청구할인",
+          "summary": "※ 전월실적 30만원 이상시 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_500004.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "코웨이 ICON 우리카드 - 코웨이 렌탈요금 청구할인 서비스 주요혜택: 코웨이 렌탈요금 청구할인",
+      "annual_fee_krw": 25000,
+      "annual_fee_note": "연회비 25,000원 25,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        800000,
+        1500000
+      ],
+      "integrated_monthly_cap_krw": 13000
+    },
+    {
+      "id": "woori-kream-chekeukadeu",
+      "issuer": "woori",
+      "name": "KREAM 체크카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103117",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "KREAM 이용금액 5% 청구할인",
+          "rate_pct": 5,
+          "requires_prev_month_spend_krw": 200000
+        },
+        {
+          "category": "other",
+          "title": "국내외 가맹점 이용금액 0.2% 청구할인",
+          "rate_pct": 0.2,
+          "requires_prev_month_spend_krw": 200000
+        },
+        {
+          "category": "other",
+          "title": "우리 체크카드 시스템 점검시간(한국시간 기준)",
+          "requires_prev_month_spend_krw": 200000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103117.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "KREAM 체크카드 - KREAM 이용금액 5% 청구할인과 국내외 가맹점 이용금액 0.2% 청구할인",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        200000
+      ]
+    },
+    {
+      "id": "woori-kream-platinum-urikadeu",
+      "issuer": "woori",
+      "name": "KREAM Platinum 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104156",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "KREAM 이용금액 10% 청구할인",
+          "rate_pct": 10,
+          "summary": "전월 국내외 이용실적 50만원 이상 시 제공"
+        },
+        {
+          "category": "overseas",
+          "title": "해외 이용금액 3% 청구할인",
+          "rate_pct": 3,
+          "summary": "전월 국내외 이용실적 50만원 이상 시 제공"
+        },
+        {
+          "category": "overseas",
+          "title": "국내 고액매출 1-2% 청구할인",
+          "rate_pct": 2,
+          "summary": "전월 KREAM 및 해외 가맹점 이용실적 50만원 이상 시 제공"
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104156.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "KREAM Platinum 우리카드 주요혜택: KREAM 이용금액 10% 청구할인 / 해외 이용금액 3% 청구할인 / 국내 고액매출 1-2% 청구할인",
+      "annual_fee_krw": 22000,
+      "annual_fee_note": "연회비 22,000원",
+      "prev_month_spend_tiers_krw": [
+        500000,
+        1000000,
+        2000000
+      ],
+      "integrated_monthly_cap_krw": 20000
+    },
+    {
+      "id": "woori-kream-urikadeu",
+      "issuer": "woori",
+      "name": "KREAM 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102098",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "KREAM 이용금액 2% 청구할인",
+          "rate_pct": 2,
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "other",
+          "title": "국내외 가맹점 이용금액 0.5% 청구할인",
+          "rate_pct": 0.5,
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "other",
+          "title": "메탈 플레이트 제공",
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102098.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "KREAM 우리카드 - KREAM 이용금액 2% 청구할인 국내외 가맹점 이용금액 0.5% 청구할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-kt-36-plus-urikadeu",
+      "issuer": "woori",
+      "name": "KT 36 Plus 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104168",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "telecom",
+          "title": "KT 청구할인 서비스",
+          "summary": "※ 전월실적 40만원 이상시 제공",
+          "requires_prev_month_spend_krw": 400000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104168.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "KT 36 Plus 우리카드 - KT 단말기 장기할부, KT 청구할인 주요혜택: KT 단말기 장기할부 서비스 / KT 청구할인 서비스",
+      "annual_fee_krw": 25000,
+      "annual_fee_note": "연회비 25,000원 25,000원",
+      "prev_month_spend_tiers_krw": [
+        400000
+      ]
+    },
+    {
+      "id": "woori-kt-plus-urikadeu",
+      "issuer": "woori",
+      "name": "KT Plus 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103750",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "telecom",
+          "title": "KT 단말기 장기할부 서비스",
+          "rate_pct": 7,
+          "requires_prev_month_spend_krw": 400000
+        },
+        {
+          "category": "telecom",
+          "title": "KT 통신서비스 요금 청구할인",
+          "requires_prev_month_spend_krw": 400000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103750.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "KT Plus 우리카드 - KT Plus 우리카드로 통신요금 할인받자",
+      "annual_fee_krw": 25000,
+      "annual_fee_note": "연회비 25,000원",
+      "prev_month_spend_tiers_krw": [
+        400000
+      ]
+    },
+    {
+      "id": "woori-kuku-urikadeu",
+      "issuer": "woori",
+      "name": "쿠쿠 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102857",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "쿠쿠 청구할인 서비스"
+        },
+        {
+          "category": "other",
+          "title": "쿠쿠 장기할부 서비스",
+          "rate_pct": 6
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102857.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "쿠쿠 우리카드 - 쿠쿠 렌탈요금 청구할인과 장기할부 서비스!",
+      "annual_fee_krw": 15000,
+      "annual_fee_note": "연회비 15,000원 15,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-lghelrobijeon-urijipen-urikadeu",
+      "issuer": "woori",
+      "name": "LG헬로비전 우리집엔 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104173",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "utility",
+          "title": "LG헬로비전 자동납부 청구할인",
+          "summary": "※ 전월실적 30만원 이상시 제공",
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104173.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "LG헬로비전 우리집엔 우리카드 - LG헬로비전 자동납부 청구할인 주요혜택: LG헬로비전 자동납부 청구할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-lgjeonja-platinum-urikadeu",
+      "issuer": "woori",
+      "name": "LG전자 Platinum 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104169",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "ott",
+          "title": "LG전자 구독요금 청구할인",
+          "summary": "※ 전월실적 100만원 이상시 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104169.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "LG전자 Platinum 우리카드 - LG전자 구독요금 청구할인 서비스 주요혜택: LG전자 구독요금 청구할인",
+      "annual_fee_krw": 25000,
+      "annual_fee_note": "연회비 25,000원 25,000원",
+      "prev_month_spend_tiers_krw": [
+        1000000,
+        1500000,
+        2000000
+      ],
+      "integrated_monthly_cap_krw": 29000
+    },
+    {
+      "id": "woori-lgjeonja-urikadeu",
+      "issuer": "woori",
+      "name": "LG전자 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102535",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "ott",
+          "title": "LG전자 구독요금 청구할인",
+          "summary": "※ 전월 이용실적 30만원 이상"
+        },
+        {
+          "category": "other",
+          "title": "LG전자 24/36개월 장기할부",
+          "rate_pct": 6,
+          "summary": "※ LG베스트샵 제품 10만원 이상 결제 시"
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102535.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "LG전자 우리카드 - LG전자 구독요금 청구할인과 장기할부 서비스! 주요혜택: LG전자 구독요금 청구할인 / LG전자 24/36개월 장기할부",
+      "annual_fee_krw": 15000,
+      "annual_fee_note": "연회비 15,000원 15,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-nabien-gudok-urikadeu",
+      "issuer": "woori",
+      "name": "나비엔 구독 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104176",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "ott",
+          "title": "경동나비엔 구독료 자동납부 청구할인",
+          "summary": "※ 전월 실적 30만원 이상시 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104176.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "나비엔 구독 우리카드 - 경동나비엔 구독료 자동납부 청구할인 서비스 주요혜택: 경동나비엔 구독료 자동납부 청구할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1500000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-neksentaieo-urikadeu",
+      "issuer": "woori",
+      "name": "넥센타이어 우리카드 Ⅱ",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102724",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "넥센타이어 청구할인 서비스"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102724.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "넥센타이어 우리카드 Ⅱ - 넥센타이어 렌탈요금 청구할인!",
+      "annual_fee_krw": 15000,
+      "annual_fee_note": "연회비 15,000원 15,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-nu-biz",
+      "issuer": "woori",
+      "name": "NU Biz",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=101655",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "BASIC",
+          "rate_pct": 0.5,
+          "summary": "기본 0.5% 포인트 적립",
+          "requires_prev_month_spend_krw": 500000,
+          "per_txn_eligible_spend_cap_krw": 10000
+        },
+        {
+          "category": "overseas",
+          "title": "OWNER",
+          "rate_pct": 5,
+          "summary": "해외,외식,온라인쇼핑,대형할인점 5% 포인트 적립",
+          "requires_prev_month_spend_krw": 500000,
+          "per_txn_eligible_spend_cap_krw": 10000
+        },
+        {
+          "category": "utility",
+          "title": "OPERATION",
+          "rate_pct": 5,
+          "summary": "렌탈, 정기결제 5% 포인트 적립",
+          "requires_prev_month_spend_krw": 500000,
+          "per_txn_eligible_spend_cap_krw": 10000
+        },
+        {
+          "category": "point",
+          "title": "PREMIUM",
+          "rate_pct": 20,
+          "summary": "캐시노트 고급형 정기결제 20% 포인트 적립(월 1회)",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "PREMIUM",
+          "summary": "전세계 공항라운지 무료이용 캐시노트 고급형 포인트적립 개인사업자 세무지원서비스",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "other",
+          "title": "PREMIUM",
+          "summary": "개인사업자 Win-Tax 서비스",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_101655.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "NU Biz - 개인사업자에게 딱 맞춘 새로운 카드 주요혜택: BASIC / OWNER / OPERATION / PREMIUM / PREMIUM",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-royal-blue-mileage-skypass",
+      "issuer": "woori",
+      "name": "ROYAL BLUE MILEAGE [SKYPASS]",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=833841",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "travel",
+          "title": "국내가맹점 이용금액 초년도 50만원, 2차년도 부터는 전년도 또는 당해년도 500만원 이상 시 제공",
+          "summary": "아시아동반자왕복항공권, 호텔외식통합이용권, 스타벅스e카드교환권, 신세계상품권모바일교환권(연1회, 택1)"
+        },
+        {
+          "category": "travel",
+          "title": "국내외 공항라운지 무료",
+          "summary": "※ 전월 국내 가맹점 이용금액 50만원 이상 시 제공"
+        },
+        {
+          "category": "mileage",
+          "title": "이용금액 1,000원당 대한항공 마일리지 적립",
+          "summary": "※ 전월 국내 가맹점 이용금액 30만원 이상 시 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_833841.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "ROYAL BLUE MILEAGE [SKYPASS] 주요혜택: 국내가맹점 이용금액 초년도 50만원, 2차년도 부터는 전년도 또는 당해년도 500만원 이상 시 제공 / 국내외 공항라운지 무료 / 이용금액 1,000원당 대한항공 마일리지 적립",
+      "annual_fee_krw": 330000,
+      "annual_fee_note": "연회비 330,000원 330,000원 330,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        500000
+      ]
+    },
+    {
+      "id": "woori-royal-blue-point",
+      "issuer": "woori",
+      "name": "ROYAL BLUE POINT",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=833837",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "travel",
+          "title": "국내가맹점 이용금액 초년도 50만원, 2차년도 부터는 전년도 또는 당해년도 500만원 이상 시 제공",
+          "summary": "아시아동반자왕복항공권, 호텔외식통합이용권, 스타벅스e카드교환권, 신세계상품권모바일교환권(연1회, 택1)",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "국내외 공항라운지 무료",
+          "summary": "※ 전월 국내 가맹점 이용금액 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "point",
+          "title": "모아포인트 2%~1% 적립",
+          "rate_pct": 2,
+          "summary": "기본 1%, 특별 1.5~2% 포인트 적립",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_833837.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "ROYAL BLUE POINT 주요혜택: 국내가맹점 이용금액 초년도 50만원, 2차년도 부터는 전년도 또는 당해년도 500만원 이상 시 제공 / 국내외 공항라운지 무료 / 모아포인트 2%~1% 적립",
+      "annual_fee_krw": 300000,
+      "annual_fee_note": "연회비 300,000원 300,000원 300,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-royalbeulru1000kadeu-skypass",
+      "issuer": "woori",
+      "name": "로얄블루1000카드 [SKYPASS]",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=225501",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "의전혜택",
+          "summary": "명품점 점장 Escort, 미술관 Docent 서비스 등 차별화 된 제공"
+        },
+        {
+          "category": "other",
+          "title": "100만원 +",
+          "summary": "100만원 상당의 GIFT는 기본, 연간 이용실적에 따른 추가 GIFT 제공"
+        },
+        {
+          "category": "travel",
+          "title": "Premium 혜택",
+          "rate_pct": 20,
+          "summary": "항공권, 국내외 호텔 숙박, 골프선할인 등 다양한 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_225501.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "로얄블루1000카드 [SKYPASS] - 선택된 1,000분만이 누리는 최상급 Premium 서비스 주요혜택: 의전혜택 / 100만원 + / Premium 혜택",
+      "annual_fee_krw": 1000000,
+      "annual_fee_note": "연회비 1,000,000원"
+    },
+    {
+      "id": "woori-samseongaigudok-urikadeu",
+      "issuer": "woori",
+      "name": "삼성AI구독 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104123",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "ott",
+          "title": "삼성AI구독 요금 청구할인 서비스"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104123.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "삼성AI구독 우리카드",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1500000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-serajem-gudok-urikadeu",
+      "issuer": "woori",
+      "name": "세라젬 구독 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104147",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "ott",
+          "title": "세라젬 구독 자동납부 청구할인",
+          "summary": "※ 전월실적 30만원 이상시 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104147.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "세라젬 구독 우리카드 - 세라젬 구독 자동납부 할인 카드 주요혜택: 세라젬 구독 자동납부 청구할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-seutateuraebeul-urikadeu",
+      "issuer": "woori",
+      "name": "스타트래블 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104171",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "food",
+          "title": "스타벅스 리워드 별 적립",
+          "summary": "2만원당 스타벅스 리워드 별 최대 3개 적립 ※ 전월실적 30만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "point",
+          "title": "일상 포인트 적립",
+          "rate_pct": 2,
+          "summary": "국내 가맹점 2% 포인트 적립 ※ 전월실적 30만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 300000
+        },
+        {
+          "category": "overseas",
+          "title": "해외 이용 수수료 면제 서비스",
+          "rate_pct": 1.1,
+          "summary": "해외 서비스 및 국제 브랜드 수수료 면제 ※ 전월실적 없음",
+          "requires_prev_month_spend_krw": 300000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104171.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "스타트래블 우리카드 - 스타벅스 '별'이 쏟아진다 글로벌 '별' 적립의 정석! 주요혜택: 스타벅스 리워드 별 적립 / 일상 포인트 적립 / 해외 이용 수수료 면제 서비스",
+      "annual_fee_krw": 28000,
+      "annual_fee_note": "연회비 28,000원 28,000원",
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
+    },
+    {
+      "id": "woori-sk-juyu-400-urikadeu",
+      "issuer": "woori",
+      "name": "SK 주유 400 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104167",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "fuel",
+          "title": "SK주유소 주유 청구할인",
+          "summary": "※ 전월실적 40만원 이상시 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104167.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "SK 주유 400 우리카드 - SK주유소 주유 청구할인 주요혜택: SK주유소 주유 청구할인",
+      "annual_fee_krw": 25000,
+      "annual_fee_note": "연회비 25,000원 25,000원",
+      "prev_month_spend_tiers_krw": [
+        400000,
+        800000,
+        1200000,
+        2000000
+      ],
+      "integrated_monthly_cap_krw": 15000
+    },
+    {
+      "id": "woori-sk-lpg-hwamulbokjikadeu",
+      "issuer": "woori",
+      "name": "SK LPG 화물복지카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103757",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "fuel",
+          "title": "SK 충전소 LPG 충전할인"
+        },
+        {
+          "category": "fuel",
+          "title": "SK 엔크린 멤버십, 행복충전 멤버십 서비스"
+        }
+      ],
+      "confidence": "low",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103757.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "SK LPG 화물복지카드 - 화물차주 고객님을 위한 LPG 할인서비스!",
+      "annual_fee_krw": 0
+    },
+    {
+      "id": "woori-skintelrikseu-urikadeu",
+      "issuer": "woori",
+      "name": "SK인텔릭스 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102859",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "SK인텔릭스 청구할인 서비스"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102859.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "SK인텔릭스 우리카드 - SK인텔릭스 청구할인 서비스",
+      "annual_fee_krw": 15000,
+      "annual_fee_note": "연회비 15,000원 15,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-suhocheonsa-dongyangsaengmyeong-urikadeu",
+      "issuer": "woori",
+      "name": "수호천사 동양생명 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104137",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "동양생명 보험료 청구할인",
+          "summary": "※ 전월실적 30만원 이상시 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104137.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "수호천사 동양생명 우리카드 - 동양생명 보험료 청구할인 서비스 주요혜택: 동양생명 보험료 청구할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        800000,
+        1500000
+      ],
+      "integrated_monthly_cap_krw": 13000
+    },
+    {
+      "id": "woori-teuraebeulwolret-urikadeu",
+      "issuer": "woori",
+      "name": "트래블월렛 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102722",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "트래블 포인트 최대 2.0% 적립",
+          "rate_pct": 2,
+          "summary": "적립한도 없이 국내 1.0%, 해외 2.0% 적립"
+        },
+        {
+          "category": "overseas",
+          "title": "해외 이용 수수료 1.4% 면제",
+          "rate_pct": 1.4,
+          "summary": "해외서비스 수수료, 국제브랜드 수수료 면제"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102722.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "트래블월렛 우리카드 - 트래블페이와 신용카드의 결합 주요혜택: 트래블 포인트 최대 2.0% 적립 / 해외 이용 수수료 1.4% 면제",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원"
+    },
+    {
+      "id": "woori-the-opus-silver",
+      "issuer": "woori",
+      "name": "the OPUS silver",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103500",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "travel",
+          "title": "1차년도 12만원, 2차년도 이상 13만원 바우처 차등 혜택",
+          "summary": "①할인형 바우처 ②프리미엄 호텔 외식 이용권 ③신세계 상품권 모바일 교환권(연1회, 택1)",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "point",
+          "title": "국내 가맹점 1%, 특별 2~3% 포인트 적립",
+          "rate_pct": 3,
+          "summary": "항공, 호텔 및 해외 3%, 백화점, 온라인쇼핑 2% 적립 ※ 전월 국내외 이용실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "국내외 공항라운지 무료(동반1인 동시이용 가능)",
+          "summary": "통합 월 2회 연 4회 ※ 전월 국내외 이용실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103500.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "the OPUS silver - 당신의 라이프스타일, 작품이 되다 the OPUS 주요혜택: 1차년도 12만원, 2차년도 이상 13만원 바우처 차등 혜택 / 국내 가맹점 1%, 특별 2~3% 포인트 적립 / 국내외 공항라운지 무료(동반1인 동시이용 가능)",
+      "annual_fee_krw": 150000,
+      "annual_fee_note": "연회비 150,000원 150,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-the-opus-silver-biz",
+      "issuer": "woori",
+      "name": "the OPUS silver Biz",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500007",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "travel",
+          "title": "프리미엄 바우처 제공(10만원) (연1회, 택1)",
+          "summary": "①할인형 바우처 ②프리미엄 호텔 외식 이용권 ③신세계 상품권 모바일 교환권 ※ 국내 이용실적 초년도 50만원, 차년도이후 600만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "point",
+          "title": "국내 가맹점 1%, 특별 2~10% 포인트 적립",
+          "rate_pct": 10,
+          "summary": "주유, 정기결제 및 해외 10% 백화점, 온라인쇼핑 2% 적립 ※ 전월 국내외 이용실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "국내외 공항라운지 무료(본인1인)",
+          "summary": "월 2회 연 4회 ※ 전월 국내외 이용실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_500007.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "the OPUS silver Biz 주요혜택: 프리미엄 바우처 제공(10만원) (연1회, 택1) / 국내 가맹점 1%, 특별 2~10% 포인트 적립 / 국내외 공항라운지 무료(본인1인)",
+      "annual_fee_krw": 150000,
+      "annual_fee_note": "연회비 150,000원 150,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-traiteu-urikadeu",
+      "issuer": "woori",
+      "name": "T라이트 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103749",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "telecom",
+          "title": "SKT 단말기 장기할부 서비스",
+          "rate_pct": 7
+        },
+        {
+          "category": "telecom",
+          "title": "SKT 통신서비스 요금 청구할인"
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103749.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "T라이트 우리카드",
+      "annual_fee_krw": 25000,
+      "annual_fee_note": "연회비 25,000원",
+      "prev_month_spend_tiers_krw": [
+        400000,
+        800000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 10000
+    },
+    {
+      "id": "woori-two-chairs-w",
+      "issuer": "woori",
+      "name": "TWO CHAIRS W",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103726",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "프리미엄 기프트 2종(백화점 상품권, 모아포인트)",
+          "summary": "초년도 1천만원, 차년도 이후 5천만원 이상 이용 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "point",
+          "title": "국내외 2% 적립",
+          "rate_pct": 2,
+          "summary": "전월실적조건 없이 월 이용금액 1억원까지 적립 제공",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "럭셔리 공항라운지 본인+동반 3인",
+          "summary": "전월 국내외 실적 50만원 이상 이용 시 제공",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103726.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "TWO CHAIRS W - YOUR EXCLUSIVE PREMIUM PARTNER 주요혜택: 프리미엄 기프트 2종(백화점 상품권, 모아포인트) / 국내외 2% 적립 / 럭셔리 공항라운지 본인+동반 3인",
+      "annual_fee_krw": 2500000,
+      "annual_fee_note": "연회비 2,500,000원 2,500,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-u-iurikadeu-chekeu",
+      "issuer": "woori",
+      "name": "U&I우리카드(체크)+",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102861",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "포인트 적립",
+          "rate_pct": 1.5
+        },
+        {
+          "category": "other",
+          "title": "우리 체크카드 시스템 점검시간(한국시간 기준)"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_102861.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "U&I우리카드(체크)+ - 한국장애인고용공단 제휴카드",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000,
+        500000,
+        800000
+      ]
+    },
+    {
+      "id": "woori-u-x-urikadeu",
+      "issuer": "woori",
+      "name": "U+ X 우리카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103751",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "telecom",
+          "title": "LG U+ 단말기 장기할부 서비스",
+          "rate_pct": 7
+        },
+        {
+          "category": "telecom",
+          "title": "LG U+ 통신서비스 요금 청구할인"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103751.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "U+ X 우리카드",
+      "annual_fee_krw": 25000,
+      "annual_fee_note": "연회비 25,000원"
+    },
+    {
+      "id": "woori-ungjinpeurideuraipeu-urikadeu",
+      "issuer": "woori",
+      "name": "웅진프리드라이프 우리카드+",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103458",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "utility",
+          "title": "웅진프리드라이프 자동납부 청구할인"
+        },
+        {
+          "category": "other",
+          "title": "놀이공원 할인",
+          "rate_pct": 50
+        },
+        {
+          "category": "other",
+          "title": "영화관 할인"
+        },
+        {
+          "category": "other",
+          "title": "패밀리레스토랑 할인",
+          "rate_pct": 10,
+          "per_txn_eligible_spend_cap_krw": 10000
+        },
+        {
+          "category": "food",
+          "title": "커피전문점 할인",
+          "rate_pct": 20
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103458.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "웅진프리드라이프 우리카드+ - 프리드서비스 자동납부 청구할인!",
+      "annual_fee_krw": 10000,
+      "annual_fee_note": "연회비 10,000원 10,000원 12,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000
+      ],
+      "integrated_monthly_cap_krw": 8000
+    },
+    {
+      "id": "woori-uri-gihudonghaengkadeu-chekeu",
+      "issuer": "woori",
+      "name": "우리 기후동행카드(체크)",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104023",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "생활 5% 캐시백 서비스",
+          "rate_pct": 5,
+          "requires_prev_month_spend_krw": 250000
+        },
+        {
+          "category": "other",
+          "title": "우리 체크카드 시스템 점검시간(한국시간 기준)",
+          "requires_prev_month_spend_krw": 250000
+        },
+        {
+          "category": "other",
+          "title": "탭3",
+          "requires_prev_month_spend_krw": 250000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104023.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리 기후동행카드(체크) - SEOUL MY SOUL",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        250000
+      ]
+    },
+    {
+      "id": "woori-uri-gihudonghaengkadeu-sinyong",
+      "issuer": "woori",
+      "name": "우리 기후동행카드(신용)",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104022",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "할인 혜택",
+          "rate_pct": 0.8,
+          "requires_prev_month_spend_krw": 200000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104022.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리 기후동행카드(신용) - SEOUL MY SOUL",
+      "annual_fee_krw": 12000,
+      "annual_fee_note": "연회비 12,000원",
+      "prev_month_spend_tiers_krw": [
+        200000
+      ]
+    },
+    {
+      "id": "woori-uri-gskaltekseu-55-hwamulbokjikadeu",
+      "issuer": "woori",
+      "name": "우리 GS칼텍스 55 화물복지카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104146",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "fuel",
+          "title": "GS칼텍스 주유 할인",
+          "summary": "현장할인 L당 55원"
+        }
+      ],
+      "confidence": "low",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104146.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리 GS칼텍스 55 화물복지카드 - GS칼텍스 현장할인 L당 55원 주요혜택: GS칼텍스 주유 할인",
+      "annual_fee_krw": 0
+    },
+    {
+      "id": "woori-uri-gukminyeongeumjeungchekeukadeu",
+      "issuer": "woori",
+      "name": "우리 국민연금증체크카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=221287",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "transit",
+          "title": "최대 5천원 지원",
+          "summary": "버스요금 통합 매월 최대 4회,"
+        },
+        {
+          "category": "point",
+          "title": "월 최대 1만원, 5% 캐시백",
+          "rate_pct": 5,
+          "summary": "전통시장 캐시백 할인"
+        },
+        {
+          "category": "point",
+          "title": "3천원 캐시백",
+          "rate_pct": 5,
+          "summary": "온라인 서점 캐시백 할인"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_221287.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리 국민연금증체크카드 - 국민연금수급자임을 증명하는 신분증 기능에 버스요금 매달 최대 5천원과 다양한 카드 혜택 제공 주요혜택: 최대 5천원 지원 / 월 최대 1만원, 5% 캐시백 / 3천원 캐시백",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000,
+        1000000
+      ]
+    },
+    {
+      "id": "woori-uri-hwamulchayuryugumaekadeu-gaeinchekeu",
+      "issuer": "woori",
+      "name": "우리 화물차유류구매카드(개인체크)",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103444",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "fuel",
+          "title": "주유할인 서비스"
+        },
+        {
+          "category": "other",
+          "title": "S-OIL· HD현대오일뱅크 멤버십카드 관련 사항"
+        },
+        {
+          "category": "other",
+          "title": "부가세 환급 지원 서비스"
+        },
+        {
+          "category": "shopping",
+          "title": "생활 서비스",
+          "rate_pct": 50,
+          "per_txn_eligible_spend_cap_krw": 10000
+        },
+        {
+          "category": "other",
+          "title": "우리 체크카드 시스템 점검시간(한국시간 기준)"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103444.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리 화물차유류구매카드(개인체크) - 화물차우대주유소 거래 시, 할인 한도 제한없이 제공!",
+      "annual_fee_krw": 0
+    },
+    {
+      "id": "woori-uri-hwamulchayuryugumaekadeu-gaeinsinyong",
+      "issuer": "woori",
+      "name": "우리 화물차유류구매카드(개인신용)",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103443",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "fuel",
+          "title": "주유할인 서비스"
+        },
+        {
+          "category": "other",
+          "title": "S-OIL· HD현대오일뱅크 멤버십카드 관련 사항"
+        },
+        {
+          "category": "other",
+          "title": "부가세 환급 지원 서비스"
+        },
+        {
+          "category": "shopping",
+          "title": "생활 서비스",
+          "rate_pct": 50
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103443.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리 화물차유류구매카드(개인신용) - 유가보조금+주유할인 제공 화물차우대주유소 거래 시 할인 한도 제한없이 제공!",
+      "annual_fee_krw": 0
+    },
+    {
+      "id": "woori-urikadeu-7core",
+      "issuer": "woori",
+      "name": "우리카드 7CORE",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103755",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "shopping",
+          "title": "온라인쇼핑, 대형마트, 배달앱 10% 청구할인",
+          "rate_pct": 10,
+          "summary": "건당 2만원 이상 결제 시 할인 ※ 전월 이용실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000,
+          "per_txn_eligible_spend_cap_krw": 20000
+        },
+        {
+          "category": "food",
+          "title": "커피 10% 청구할인",
+          "rate_pct": 10,
+          "summary": "스타벅스, 투썸플레이스, 폴바셋, 이디야 ※ 전월 이용실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000,
+          "per_txn_eligible_spend_cap_krw": 20000
+        },
+        {
+          "category": "education",
+          "title": "교육, 병원, 주유 10% 청구할인",
+          "rate_pct": 10,
+          "summary": "학원/병원 업종, 교보문고/영풍문고, 4대 주유소 ※ 전월 이용실적 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000,
+          "per_txn_eligible_spend_cap_krw": 20000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103755.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리카드 7CORE - 라이프스타일 7대 영역, 10% 할인을 쏘다 주요혜택: 온라인쇼핑, 대형마트, 배달앱 10% 청구할인 / 커피 10% 청구할인 / 교육, 병원, 주유 10% 청구할인",
+      "annual_fee_krw": 50000,
+      "annual_fee_note": "연회비 50,000원 50,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-urikadeu-mile-point",
+      "issuer": "woori",
+      "name": "우리카드 MILE&POINT",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104154",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "overseas",
+          "title": "해외 가맹점 이용금액 1,500원당 최대 2마일리지 적립",
+          "summary": "※ 전월 이용실적 50만원 이상 ※ 월 추가 적립한도 2,000마일",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "mileage",
+          "title": "항공마일리지와 포인트 동시 적립",
+          "summary": "※ 전월 이용실적 50만원 이상 ※ 월 포인트 적립한도 3만 포인트",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "국내외 1,000여개 공항라운지 무료 이용",
+          "summary": "※ 전월 이용실적 50만원 이상 ※ 연 2회(동반인 1인 포함)",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104154.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리카드 MILE&POINT - 마일리지와 포인트를 동시에, 해외에서 누리는 더 큰 혜택 주요혜택: 해외 가맹점 이용금액 1,500원당 최대 2마일리지 적립 / 항공마일리지와 포인트 동시 적립 / 국내외 1,000여개 공항라운지 무료 이용",
+      "annual_fee_krw": 75000,
+      "annual_fee_note": "연회비 75,000원 75,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-urikadeu-unimile",
+      "issuer": "woori",
+      "name": "우리카드 UniMile",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104153",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "overseas",
+          "title": "해외/여행준비 2~6% 적립",
+          "rate_pct": 6,
+          "summary": "※ 전월 이용실적 50만원 이상 ※ 월 통합 적립한도 10만점 (단, 해외영역 적립한도 3만점)",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "other",
+          "title": "간편결제,인앱결제 3% 할인",
+          "rate_pct": 3,
+          "summary": "※ 전월 이용실적 50만원 이상 ※ 월 할인한도 3천원",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "국내 공항 라운지 무료 이용",
+          "summary": "※ 전월 이용실적 50만원 이상 ※ 연 2회 이용 가능",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_104153.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리카드 UniMile - 해외여행 필수템, LCC 통합 포인트 카드 주요혜택: 해외/여행준비 2~6% 적립 / 간편결제,인앱결제 3% 할인 / 국내 공항 라운지 무료 이용",
+      "annual_fee_krw": 33000,
+      "annual_fee_note": "연회비 33,000원 33,000원",
+      "prev_month_spend_tiers_krw": [
+        500000
+      ]
+    },
+    {
+      "id": "woori-uriwonmobail-chekeukadeu",
+      "issuer": "woori",
+      "name": "우리WON모바일 체크카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103687",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "telecom",
+          "title": "우리WON모바일 통신요금 캐시백",
+          "summary": "전월실적에 따라 최대 7천원 캐시백 (전월실적 최소 30만원 부터)"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103687.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리WON모바일 체크카드 - 우리WON모바일 통신요금 캐시백 서비스! 주요혜택: 우리WON모바일 통신요금 캐시백",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        300000,
+        800000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 2000
+    },
+    {
+      "id": "woori-uriwonmobail-kadeu",
+      "issuer": "woori",
+      "name": "우리WON모바일 카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103457",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "telecom",
+          "title": "우리WON모바일 통신요금 할인",
+          "summary": "전월실적에 따라 최대 1.5만원 할인 (전월실적 최소 40만원 부터)"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103457.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "우리WON모바일 카드 - 우리WON모바일 통신요금 청구할인 서비스! 주요혜택: 우리WON모바일 통신요금 할인",
+      "annual_fee_krw": 20000,
+      "annual_fee_note": "연회비 20,000원 20,000원",
+      "prev_month_spend_tiers_krw": [
+        400000,
+        800000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 5000
+    },
+    {
+      "id": "woori-wibiteuraebeul-chekeukadeu",
+      "issuer": "woori",
+      "name": "위비트래블 체크카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103489",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "overseas",
+          "title": "해외 수수료 면제 서비스",
+          "rate_pct": 1
+        },
+        {
+          "category": "overseas",
+          "title": "① 해외 5% 캐시백",
+          "rate_pct": 5
+        },
+        {
+          "category": "shopping",
+          "title": "② 쇼핑 5% 캐시백",
+          "rate_pct": 5
+        },
+        {
+          "category": "point",
+          "title": "③ 푸드 5% 캐시백",
+          "rate_pct": 5
+        },
+        {
+          "category": "point",
+          "title": "④ 일상 5% 캐시백",
+          "rate_pct": 5
+        },
+        {
+          "category": "other",
+          "title": "우리 체크카드 시스템 점검시간 (한국시간 기준)"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103489.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "위비트래블 체크카드 - 우리 해외여행의 A TO Z 주요혜택: 해외 가맹점 이용수수료 면제 / 해외, 간편결제 5% 캐시백 / 쿠팡, 배민, 스타벅스 사이렌오더 5% 캐시백",
+      "annual_fee_krw": 0
+    },
+    {
+      "id": "woori-wibiteuraebeul-j-chekeukadeu",
+      "issuer": "woori",
+      "name": "위비트래블 J 체크카드",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103490",
+      "card_type": "check",
+      "benefits": [
+        {
+          "category": "food",
+          "title": "일본 3대 편의점 50% 캐시백",
+          "rate_pct": 50,
+          "summary": "전월실적 30만원 이상 시 반기 5천원 / 연 1만원 한도 내 제공"
+        },
+        {
+          "category": "food",
+          "title": "일본 커피/패스트푸드 50% 캐시백",
+          "rate_pct": 50,
+          "summary": "전월실적 30만원 이상 시 반기 5천원 / 연 1만원 한도 내 제공"
+        },
+        {
+          "category": "point",
+          "title": "일본 오프라인 가맹점 10% 캐시백",
+          "rate_pct": 10,
+          "summary": "전월실적 20만원 이상 시 건당 최대 1천원 내 제공"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103490.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "위비트래블 J 체크카드 - 우리 일본여행의 A TO Z 주요혜택: 일본 3대 편의점 50% 캐시백 / 일본 커피/패스트푸드 50% 캐시백 / 일본 오프라인 가맹점 10% 캐시백",
+      "annual_fee_krw": 0,
+      "prev_month_spend_tiers_krw": [
+        200000,
+        300000
+      ]
+    },
+    {
+      "id": "woori-yedaham-urikadeu",
+      "issuer": "woori",
+      "name": "예다함 우리카드+",
+      "product_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103728",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "utility",
+          "title": "예다함 상조 자동납부 청구할인"
+        },
+        {
+          "category": "other",
+          "title": "놀이공원 할인",
+          "rate_pct": 50
+        },
+        {
+          "category": "other",
+          "title": "영화관 할인"
+        },
+        {
+          "category": "other",
+          "title": "패밀리레스토랑 할인",
+          "rate_pct": 10,
+          "per_txn_eligible_spend_cap_krw": 10000
+        },
+        {
+          "category": "food",
+          "title": "커피전문점 할인",
+          "rate_pct": 20
+        }
+      ],
+      "confidence": "high",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_machine_readable_feed",
+        "url": "https://pc.wooricard.com/ai-data/card_103728.html",
+        "retrieved_at": "2026-07-31",
+        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+      },
+      "tagline": "예다함 우리카드+ - 예다함 상조 자동납부 청구할인",
+      "annual_fee_krw": 10000,
+      "annual_fee_note": "연회비 10,000원 10,000원 12,000원",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        700000
+      ],
+      "integrated_monthly_cap_krw": 8000
+    }
+  ]
+}

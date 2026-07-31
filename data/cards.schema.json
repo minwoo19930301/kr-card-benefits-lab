@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/minwoo19930301/kr-card-benefits-lab/data/cards.schema.json",
+  "title": "kr-card-benefits-lab card dataset",
+  "description": "이 프로젝트가 자체 정의한 카드 혜택 스키마. 제3자 카드 비교 서비스의 필드 구조를 사용하지 않는다.",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "cards"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "integer", "minimum": 1 },
+    "generated_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "cards": { "type": "array", "items": { "$ref": "#/$defs/card" } }
+  },
+  "$defs": {
+    "card": {
+      "type": "object",
+      "required": [
+        "id",
+        "issuer",
+        "name",
+        "product_url",
+        "card_type",
+        "benefits",
+        "confidence",
+        "review_status",
+        "updated_at",
+        "source"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)+$",
+          "description": "내부 식별자. {issuer}-{slug} 규칙으로 우리가 생성한다. 외부 서비스의 숫자 ID를 쓰지 않는다."
+        },
+        "issuer": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "tagline": { "type": "string", "maxLength": 400 },
+        "product_url": { "type": "string", "pattern": "^https://" },
+        "card_type": { "type": "string", "enum": ["credit", "check"] },
+        "annual_fee_krw": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "국내 기준 최저 연회비. 브랜드별로 다르면 최저값을 쓰고 annual_fee_note로 보충한다. 불명확하면 필드를 생략한다."
+        },
+        "annual_fee_note": { "type": "string", "maxLength": 300 },
+        "prev_month_spend_tiers_krw": {
+          "type": "array",
+          "description": "전월 이용실적 구간. 빈 배열은 '실적 조건 없음'이 아니라 '미확인'을 의미하므로, 조건이 없다고 확인되면 no_prev_month_spend_condition 을 true 로 둔다.",
+          "items": { "type": "integer", "minimum": 0 }
+        },
+        "no_prev_month_spend_condition": { "type": "boolean" },
+        "integrated_monthly_cap_krw": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "카드 전체에 걸리는 통합 월 할인·적립 한도. 최저 전월실적 구간 기준. 개별 혜택 한도의 합이 아니며, 피킹률 계산에서 개별 한도 합보다 우선한다."
+        },
+        "benefits": { "type": "array", "items": { "$ref": "#/$defs/benefit" } },
+        "tax": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "counts_as_spend": { "type": "boolean" },
+            "earns_rewards": { "type": "boolean" },
+            "note": { "type": "string", "maxLength": 300 }
+          }
+        },
+        "confidence": { "type": "string", "enum": ["low", "medium", "high"] },
+        "review_status": {
+          "type": "string",
+          "enum": ["machine_extracted", "human_reviewed"],
+          "description": "machine_extracted = 공식 피드에서 자동 추출했고 사람이 눈으로 확인하지 않은 상태."
+        },
+        "updated_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "source": { "$ref": "#/$defs/source" }
+      }
+    },
+    "benefit": {
+      "type": "object",
+      "required": ["category", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": [
+            "shopping",
+            "food",
+            "transit",
+            "fuel",
+            "telecom",
+            "utility",
+            "tax",
+            "overseas",
+            "travel",
+            "ott",
+            "education",
+            "medical",
+            "mileage",
+            "point",
+            "other"
+          ]
+        },
+        "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "summary": { "type": "string", "maxLength": 600 },
+        "rate_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "monthly_cap_krw": { "type": "integer", "minimum": 0 },
+        "per_txn_eligible_spend_cap_krw": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "결제 1건당 할인·적립 '대상으로 인정되는 이용금액'의 상한. 할인 금액의 상한이 아니다. 따라서 monthly_cap_krw 보다 클 수 있다."
+        },
+        "requires_prev_month_spend_krw": { "type": "integer", "minimum": 0 },
+        "counts_toward_prev_month_spend": { "type": "boolean" },
+        "notes": { "type": "array", "items": { "type": "string", "maxLength": 500 } }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["kind", "url", "retrieved_at"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["issuer_machine_readable_feed", "issuer_official_page"],
+          "description": "허용되는 출처 종류. 제3자 비교 서비스·비공개 API는 스키마 차원에서 표현할 수 없다."
+        },
+        "url": { "type": "string", "pattern": "^https://" },
+        "retrieved_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "note": { "type": "string", "maxLength": 300 }
+      }
+    }
+  }
+}

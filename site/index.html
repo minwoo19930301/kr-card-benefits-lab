@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>한국 카드 혜택 리서치 — kr-card-benefits-lab</title>
+    <meta
+      name="description"
+      content="카드사가 공개한 기계판독 피드만으로 구축한 한국 신용·체크카드 혜택 데이터셋과 피킹률 추정 대시보드."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#results">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <h1>한국 카드 혜택 리서치</h1>
+        <p class="lede">
+          카드사가 스스로 공개한 기계판독 피드에서 수집한 데이터입니다. 제3자 카드 비교 서비스의
+          비공개 API 를 사용하지 않습니다.
+        </p>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <div class="notice notice-warn" role="note">
+        <strong>읽기 전에</strong>
+        <ul>
+          <li>금융 조언이 아닙니다. 개인 리서치용 참고 데이터입니다.</li>
+          <li>
+            카드 혜택은 수시로 변경·단종됩니다. 신청 전 반드시 각 카드의 공식 상품 페이지와 상품설명서를
+            확인하세요.
+          </li>
+          <li>
+            피킹률은 <em>약관상 월 한도를 모두 채웠다는 가정</em>의 추정치이며 실제 절감액과 다릅니다.
+            한도가 확인되지 않은 혜택은 0 원으로 계산해 과소추정될 수 있습니다.
+          </li>
+          <li>
+            원본 피드에 오탈자·잘린 금액이 있는 경우가 있어, 확실하지 않은 수치는 <em>비워 두었습니다</em>.
+            빈 값은 "혜택이 없음"이 아니라 "확인하지 못함"을 뜻합니다.
+          </li>
+        </ul>
+      </div>
+
+      <section class="controls" aria-label="검색 및 필터">
+        <div class="control">
+          <label for="q">검색</label>
+          <input id="q" type="search" placeholder="카드명 또는 혜택 키워드" autocomplete="off" />
+        </div>
+        <div class="control">
+          <label for="issuer">카드사</label>
+          <select id="issuer"></select>
+        </div>
+        <div class="control">
+          <label for="cardType">카드 종류</label>
+          <select id="cardType">
+            <option value="">전체</option>
+            <option value="credit">신용카드</option>
+            <option value="check">체크카드</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="maxFee">연회비 상한</label>
+          <select id="maxFee">
+            <option value="">제한 없음</option>
+            <option value="0">연회비 없음</option>
+            <option value="10000">1만원 이하</option>
+            <option value="30000">3만원 이하</option>
+            <option value="100000">10만원 이하</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="maxSpend">전월실적 상한</label>
+          <select id="maxSpend">
+            <option value="">제한 없음</option>
+            <option value="300000">30만원 이하</option>
+            <option value="500000">50만원 이하</option>
+            <option value="1000000">100만원 이하</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="sort">정렬</label>
+          <select id="sort">
+            <option value="name">이름</option>
+            <option value="fee-asc">연회비 낮은 순</option>
+            <option value="fee-desc">연회비 높은 순</option>
+            <option value="picking-desc">피킹률 높은 순</option>
+          </select>
+        </div>
+        <fieldset class="control control-wide">
+          <legend>혜택 분야</legend>
+          <div id="categories" class="chips"></div>
+        </fieldset>
+      </section>
+
+      <p id="summary" class="summary" role="status" aria-live="polite"></p>
+
+      <main id="results" class="results" tabindex="-1"></main>
+
+      <footer class="site-footer">
+        <p id="meta-line"></p>
+        <p>
+          출처 정책과 계산식은 저장소의 <code>docs/sources.md</code>, <code>docs/methodology.md</code>,
+          <code>docs/legal-notes.md</code> 를 참고하세요.
+        </p>
+      </footer>
+    </div>
+
+    <dialog id="detail" aria-labelledby="detail-title">
+      <button id="detail-close" class="close" aria-label="닫기">닫기</button>
+      <div id="detail-body"></div>
+    </dialog>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
