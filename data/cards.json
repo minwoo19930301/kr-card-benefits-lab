@@ -3,6 +3,291 @@
   "generated_at": "2026-07-31",
   "cards": [
     {
+      "id": "hyundai-hyeondaekadeu-mx-black-edition2",
+      "issuer": "hyundai",
+      "name": "현대카드 MX Black Edition2",
+      "product_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MXBE2",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "국내외 가맹점 1% M포인트 적립",
+          "rate_pct": 1,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "other",
+          "title": "5개 영역 10 % 청구 할인",
+          "rate_pct": 10,
+          "summary": "전월 이용 금액 100만원/200만원 이상 시 영역별 월 1만원/2만원 한도",
+          "requires_prev_month_spend_krw": 2000000
+        },
+        {
+          "category": "other",
+          "title": "메탈 플레이트 차별화된 가치를 느낄 수 있는 메탈 플레이트 제공",
+          "summary": "발급 수수료 10만원 별도"
+        },
+        {
+          "category": "travel",
+          "title": "The Lounge 국내외 1,000여 개 공항라운지 무료 이용",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "발레파킹서비스 인천국제공항 및 국내 특급호텔 무료 발레파킹",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_official_page",
+        "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MXBE2",
+        "retrieved_at": "2026-07-31",
+        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+      },
+      "annual_fee_krw": 200000,
+      "prev_month_spend_tiers_krw": [
+        500000,
+        1000000,
+        2000000
+      ]
+    },
+    {
+      "id": "hyundai-hyeondaekadeu-summit",
+      "issuer": "hyundai",
+      "name": "현대카드 Summit",
+      "product_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SPM",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "국내외 가맹점 1.5% M포인트 적립",
+          "rate_pct": 1.5,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "education",
+          "title": "교육, 병원, 여행, 골프 영역 5% M포인트 적립",
+          "rate_pct": 5,
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "requires_prev_month_spend_krw": 1000000
+        },
+        {
+          "category": "shopping",
+          "title": "백화점, 호텔, 여행 영역 등에서 사용 가능한 15만원권 바우처 제공",
+          "summary": "발급 첫해 : 누적 이용 금액 100만원 이상 시 2차년도 이후 : 전년도 이용 금액 1,200만원 이상 시"
+        },
+        {
+          "category": "point",
+          "title": "M 긴급적립(선지급 포인트 서비스) 최대 50만 M포인트 먼저 받아 사용하고 적립되 M포인트로 상환",
+          "summary": "발급 수수료 10만원 별도"
+        },
+        {
+          "category": "travel",
+          "title": "The Lounge 국내외 1,000여 개 공항라운지 무료 이용",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "발레파킹서비스 인천국제공항 및 국내 특급호텔 무료 발레파킹",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_official_page",
+        "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SPM",
+        "retrieved_at": "2026-07-31",
+        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+      },
+      "annual_fee_krw": 200000,
+      "prev_month_spend_tiers_krw": [
+        500000,
+        1000000
+      ]
+    },
+    {
+      "id": "hyundai-hyeondaekadeu-summit-ce",
+      "issuer": "hyundai",
+      "name": "현대카드 Summit CE",
+      "product_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTMCE",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "국내외 가맹점 1.5% M포인트 적립",
+          "rate_pct": 1.5,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "education",
+          "title": "교육, 병원, 여행, 골프 5% M포인트 적립 (월 1만 M포인트 한도)",
+          "rate_pct": 5,
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "requires_prev_month_spend_krw": 1000000
+        },
+        {
+          "category": "shopping",
+          "title": "5만 크레딧 제공 백화점, 주유, 다이닝 영역에서 자동 할인",
+          "summary": "발급 첫해 : 누적 이용 금액 100만원 이상 시 2차년도 이후 : 전년도 이용 금액 600만원 이상 시"
+        },
+        {
+          "category": "point",
+          "title": "M 긴급적립(선지급 포인트 서비스) 최대 50만 M포인트 먼저 받아 사용하고 적립되는 M포인트로 상환",
+          "summary": "발급 수수료 10만원 별도"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_official_page",
+        "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTMCE",
+        "retrieved_at": "2026-07-31",
+        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+      },
+      "annual_fee_krw": 80000,
+      "prev_month_spend_tiers_krw": [
+        500000,
+        1000000
+      ]
+    },
+    {
+      "id": "hyundai-hyeondaekadeu-zero-up-halinhyeong",
+      "issuer": "hyundai",
+      "name": "현대카드 ZERO Up(할인형)",
+      "product_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZRUP",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "other",
+          "title": "실적·한도 제한 없이 국내외 가맹점 0.8% 청구 할인",
+          "rate_pct": 0.8
+        },
+        {
+          "category": "shopping",
+          "title": "온라인몰·대형마트·교육·주유·이동통신 요금 1.6% 청구 할인",
+          "rate_pct": 1.6,
+          "summary": "10만원 이상 결제 시"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_official_page",
+        "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZRUP",
+        "retrieved_at": "2026-07-31",
+        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+      },
+      "annual_fee_krw": 30000
+    },
+    {
+      "id": "hyundai-imbaengkeu-hyeondaekadeum",
+      "issuer": "hyundai",
+      "name": "iM뱅크-현대카드M",
+      "product_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MIMB",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "국내외 가맹점 1.5% M포인트 적립",
+          "rate_pct": 1.5,
+          "summary": "전월 이용금액 50만원 미만 시 M포인트 적립 제외"
+        },
+        {
+          "category": "food",
+          "title": "온라인몰, 일반음식점, 해외 가맹점 5% M포인트 적립 (월 1만 M포인트 한도)",
+          "rate_pct": 5,
+          "summary": "전월 이용금액 100만원 미만 시 M포인트 적립 제외"
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_official_page",
+        "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MIMB",
+        "retrieved_at": "2026-07-31",
+        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+      },
+      "annual_fee_krw": 30000,
+      "prev_month_spend_tiers_krw": [
+        500000,
+        1000000
+      ]
+    },
+    {
+      "id": "hyundai-the-orange",
+      "issuer": "hyundai",
+      "name": "the Orange",
+      "product_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TO",
+      "card_type": "credit",
+      "benefits": [
+        {
+          "category": "point",
+          "title": "국내외 가맹점 1% M포인트 적립",
+          "rate_pct": 1,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "point",
+          "title": "온라인몰, 다이닝, 웰니스, 테크 영역 10% M포인트 적립 (대상 영역별 월 1만 M포인트 한도)",
+          "rate_pct": 10,
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "requires_prev_month_spend_krw": 1000000
+        },
+        {
+          "category": "shopping",
+          "title": "백화점, 호텔, 여행 영역 등에서 사용 가능한 15만원권 바우처 제공",
+          "summary": "발급 첫해 : 누적 이용 금액 100만원 이상 시 2차년도 이후 : 전년도 이용 금액 1,200만원 이상 시"
+        },
+        {
+          "category": "point",
+          "title": "M 긴급적립(선지급 포인트 서비스) 최대 50만 M포인트 먼저 받아 사용하고 적립되는 M포인트로 상환",
+          "summary": "발급 수수료 10만원 별도"
+        },
+        {
+          "category": "travel",
+          "title": "The Lounge 전 세계 1,000여 개 공항 라운지 무료 이용",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "travel",
+          "title": "발레파킹서비스 인천국제공항 및 국내 특급호텔 무료 발레파킹",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        }
+      ],
+      "confidence": "medium",
+      "review_status": "machine_extracted",
+      "updated_at": "2026-07-31",
+      "source": {
+        "kind": "issuer_official_page",
+        "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TO",
+        "retrieved_at": "2026-07-31",
+        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+      },
+      "annual_fee_krw": 200000,
+      "prev_month_spend_tiers_krw": [
+        500000,
+        1000000
+      ]
+    },
+    {
       "id": "woori-all-urikadeu-infinite",
       "issuer": "woori",
       "name": "ALL 우리카드 Infinite",

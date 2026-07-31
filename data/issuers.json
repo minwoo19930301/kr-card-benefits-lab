@@ -1,12 +1,16 @@
 {
   "schema_version": 1,
-  "note": "allowed_domains 는 validate.mjs 가 source.url / product_url 을 검사할 때 쓰는 화이트리스트다. 카드사 본인 도메인만 등록한다. 제3자 카드 비교 서비스 도메인은 등록 금지.",
+  "note": "allowed_domains 는 validate.mjs 가 source.url / product_url 을 검사할 때 쓰는 화이트리스트다. 카드사 본인 도메인만 등록한다. 제3자 카드 비교 서비스 도메인은 등록 금지. rendered_source 는 브라우저 렌더링이 필요한 카드사용 설정이다.",
   "issuers": [
     {
       "key": "woori",
       "name": "우리카드",
       "site": "https://www.wooricard.com",
-      "allowed_domains": ["pc.wooricard.com", "www.wooricard.com", "m.wooricard.com"],
+      "allowed_domains": [
+        "pc.wooricard.com",
+        "www.wooricard.com",
+        "m.wooricard.com"
+      ],
       "machine_readable_feed": {
         "sitemap": "https://pc.wooricard.com/sitemap.xml",
         "path_prefix": "/ai-data/",
@@ -18,7 +22,9 @@
       "key": "shinhan",
       "name": "신한카드",
       "site": "https://www.shinhancard.com",
-      "allowed_domains": ["www.shinhancard.com"],
+      "allowed_domains": [
+        "www.shinhancard.com"
+      ],
       "machine_readable_feed": null,
       "status": "not_collected",
       "status_reason": "robots.txt 는 /pconts/html/card/ 를 허용하지만 기계판독 상품 피드가 없고 상품 상세가 스크립트 렌더링이다. 수록하려면 공식 URL 을 명시한 수동 PR 이 필요하다."
@@ -27,7 +33,9 @@
       "key": "samsung",
       "name": "삼성카드",
       "site": "https://www.samsungcard.com",
-      "allowed_domains": ["www.samsungcard.com"],
+      "allowed_domains": [
+        "www.samsungcard.com"
+      ],
       "machine_readable_feed": null,
       "status": "not_collected",
       "status_reason": "sitemap.xml 에 상품 상세가 없고 robots.txt 가 지정 봇에 한해 일부 경로만 허용한다."
@@ -36,16 +44,26 @@
       "key": "hyundai",
       "name": "현대카드",
       "site": "https://www.hyundaicard.com",
-      "allowed_domains": ["www.hyundaicard.com"],
+      "allowed_domains": [
+        "www.hyundaicard.com"
+      ],
       "machine_readable_feed": null,
-      "status": "not_collected",
-      "status_reason": "robots.txt 는 관대하지만 실제 요청이 보호 계층에서 차단된다. 차단 우회는 하지 않는다."
+      "rendered_source": {
+        "list_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0101_01.hc",
+        "detail_url_pattern": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd={code}",
+        "robots_status": "no_matching_rule_default_allow",
+        "robots_evidence": "https://www.hyundaicard.com/robots.txt 에 /cpc/ 를 막는 규칙이 없다",
+        "method": "설치된 Chrome 을 헤드리스로 렌더링해 최종 DOM 에서 추출. UA 위장·스텔스 플러그인·쿠키 재사용·CAPTCHA 우회 없음.",
+        "coverage_note": "공식 목록 페이지가 노출하는 카드만 수집한다. 전체 카탈로그는 UI 상호작용이 필요해 미수록분이 있다."
+      }
     },
     {
       "key": "kb",
       "name": "KB국민카드",
       "site": "https://card.kbcard.com",
-      "allowed_domains": ["card.kbcard.com"],
+      "allowed_domains": [
+        "card.kbcard.com"
+      ],
       "machine_readable_feed": null,
       "status": "not_collected",
       "status_reason": "sitemap.xml 미제공. robots.txt 가 /CRD/ 를 허용하나 상품 목록이 기계판독 형식이 아니다."
@@ -54,7 +72,9 @@
       "key": "hana",
       "name": "하나카드",
       "site": "https://www.hanacard.co.kr",
-      "allowed_domains": ["www.hanacard.co.kr"],
+      "allowed_domains": [
+        "www.hanacard.co.kr"
+      ],
       "machine_readable_feed": null,
       "status": "not_collected",
       "status_reason": "sitemap.xml 에 상품 상세 URL 이 있으나 본문이 스크립트 렌더링이라 정적 추출로는 값을 신뢰할 수 없다."
@@ -63,7 +83,9 @@
       "key": "lotte",
       "name": "롯데카드",
       "site": "https://www.lottecard.co.kr",
-      "allowed_domains": ["www.lottecard.co.kr"],
+      "allowed_domains": [
+        "www.lottecard.co.kr"
+      ],
       "machine_readable_feed": null,
       "status": "not_collected",
       "status_reason": "robots.txt 응답이 불안정하고 상품 상세가 스크립트 렌더링이다."
@@ -72,7 +94,9 @@
       "key": "nh",
       "name": "NH농협카드",
       "site": "https://card.nonghyup.com",
-      "allowed_domains": ["card.nonghyup.com"],
+      "allowed_domains": [
+        "card.nonghyup.com"
+      ],
       "machine_readable_feed": null,
       "status": "not_collected",
       "status_reason": "robots.txt 요청이 리다이렉트되고 기계판독 상품 피드가 없다."
@@ -81,7 +105,9 @@
       "key": "bc",
       "name": "BC카드",
       "site": "https://www.bccard.com",
-      "allowed_domains": ["www.bccard.com"],
+      "allowed_domains": [
+        "www.bccard.com"
+      ],
       "machine_readable_feed": null,
       "status": "not_collected",
       "status_reason": "기계판독 상품 피드 미확인."

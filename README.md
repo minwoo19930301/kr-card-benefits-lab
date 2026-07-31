@@ -17,9 +17,14 @@
 **카드사 공식 페이지, 그중에서도 기계 접근이 명시적으로 허용된 경로만 사용한다.**
 제3자 카드 비교 서비스나 가계부 앱의 비공개 API 는 사용하지 않는다.
 
-현재 수집 대상은 우리카드가 `robots.txt` 에서 `Allow: /ai-data/` 로 명시 허용하고
-`sitemap.xml` 에 등재해 둔 기계판독 상품 페이지 한 곳이다.
-다른 카드사는 공식 기계판독 피드가 없거나 자동 접근이 차단되어 **미수록**으로 두었다.
+현재 수집 대상은 두 곳이다.
+
+- **우리카드** — `robots.txt` 에서 `Allow: /ai-data/` 로 명시 허용하고 `sitemap.xml` 에 등재해 둔
+  기계판독 상품 페이지 (schema.org `CreditCard` JSON-LD)
+- **현대카드** — 공식 상품 상세 페이지. 일반 HTTP 요청이 차단되므로 설치된 Chrome 을 헤드리스로
+  렌더링해 읽는다. UA 위장·스텔스 플러그인·쿠키 재사용·CAPTCHA 우회는 쓰지 않는다.
+
+나머지 카드사는 상세 값을 신뢰할 수 있게 읽을 방법이 아직 없어 **미수록**으로 두었다.
 차단을 우회하지 않는다.
 
 자세한 근거와 카드사별 확인 결과는 [`docs/sources.md`](docs/sources.md) 에 있다.
@@ -53,7 +58,8 @@ data/
   cards.schema.json    스키마 정본
   issuers.json         카드사 레지스트리 + 도메인 화이트리스트
 scripts/
-  collect-issuer-feed.mjs   공식 피드 수집 (robots 확인 → sitemap → 파싱)
+  collect-issuer-feed.mjs       기계판독 피드 수집 (robots 확인 → sitemap → 파싱)
+  collect-issuer-rendered.mjs   렌더링 필요한 공식 페이지 수집 (로컬 전용, Chrome 필요)
   validate.mjs              스키마 + 출처 정책 검증
   build-site.mjs            site/ + data/ → dist/
 site/
@@ -72,8 +78,9 @@ npm run validate -- --check-urls  # 공식 URL 도달성까지 확인 (네트워
 npm run build                     # dist/ 생성
 npm run serve                     # 로컬에서 대시보드 확인
 
-node scripts/collect-issuer-feed.mjs --issuer woori            # 수집
-node scripts/collect-issuer-feed.mjs --issuer woori --limit 3 --dry-run
+node scripts/collect-issuer-feed.mjs --issuer woori              # 기계판독 피드
+node scripts/collect-issuer-rendered.mjs --issuer hyundai        # 렌더링 필요 (Chrome)
+node scripts/collect-issuer-rendered.mjs --issuer hyundai --limit 2 --dry-run
 ```
 
 의존성이 없다. Node 22 이상이면 그대로 돌아간다.
