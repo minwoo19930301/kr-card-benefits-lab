@@ -1,5 +1,7 @@
 # kr-card-benefits-lab
 
+[![OPEN DASHBOARD](https://img.shields.io/badge/OPEN%20DASHBOARD-GitHub%20Pages-4caf50?style=for-the-badge&logo=githubpages&logoColor=white)](https://minwoo19930301.github.io/kr-card-benefits-lab/) [![SOURCE CODE](https://img.shields.io/badge/SOURCE%20CODE-minwoo19930301-e7322d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/minwoo19930301/kr-card-benefits-lab)
+
 한국 신용·체크카드 혜택을 **카드사가 스스로 공개한 데이터만으로** 정리하는 개인 리서치 저장소다.
 정적 대시보드와 기계 판독용 JSON 데이터셋을 함께 제공한다.
 
