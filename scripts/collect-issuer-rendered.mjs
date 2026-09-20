@@ -173,7 +173,7 @@ export function parseHyundaiDetail(html, { pageUrl, retrievedAt, cardType = 'cre
     return { card: null, warnings: ['카드명을 확인할 수 없음 — 건너뜀'] };
   }
 
-  const bodyHtml = html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, '');
+  const bodyHtml = html.replace(/<!--[\s\S]*?-->/g, '').replace(/<(script|style)[\s\S]*?<\/\1>/gi, '');
 
   const annualFee = parseHyundaiAnnualFee(stripTags(bodyHtml));
   if (annualFee === null) warnings.push('연회비 파싱 불가 — 필드 생략');
@@ -237,7 +237,7 @@ export function parseHyundaiDetail(html, { pageUrl, retrievedAt, cardType = 'cre
     // 어느 카탈로그(신용/체크)에서 발견했는지를 기본값으로 쓰고,
     // 상품명에 '체크' 가 있으면 그쪽을 신뢰한다.
     card_type: /체크/.test(name) ? 'check' : cardType,
-    benefits,
+    benefits: [...new Map(benefits.map(b => [JSON.stringify(b), b])).values()],
     confidence: score >= 5 ? 'high' : score >= 3 ? 'medium' : 'low',
     review_status: 'machine_extracted',
     updated_at: retrievedAt,
@@ -273,7 +273,7 @@ export function parseShinhanDetail(html, { pageUrl, retrievedAt, cardType = 'cre
     return { card: null, warnings: ['카드명을 확인할 수 없음 — 건너뜀'] };
   }
 
-  const bodyHtml = html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, '');
+  const bodyHtml = html.replace(/<!--[\s\S]*?-->/g, '').replace(/<(script|style)[\s\S]*?<\/\1>/gi, '');
   const pageText = stripTags(bodyHtml);
 
   // 연회비: '연회비' 이후 200자 안의 금액 표기 중 최저값.

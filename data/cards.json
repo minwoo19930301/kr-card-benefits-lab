@@ -4528,18 +4528,6 @@
         },
         {
           "category": "mileage",
-          "title": "국내 가맹점 이용 금액 1천원당 1 마일리지 적립",
-          "summary": "전월 이용 금액 50만원 이상 시",
-          "requires_prev_month_spend_krw": 500000
-        },
-        {
-          "category": "overseas",
-          "title": "해외 가맹점·대한항공 직판 항공권 이용 금액 1천원당 2 마일리지 적립",
-          "summary": "전월 이용 금액 50만원 이상 시",
-          "requires_prev_month_spend_krw": 500000
-        },
-        {
-          "category": "mileage",
           "title": "연간 이용 금액 기준 달성 시 1천 마일리지 적립(연 1회)",
           "summary": "제공 기준"
         },
@@ -8118,19 +8106,19 @@
       "benefits": [
         {
           "category": "point",
-          "title": "5X - 특별 적립 5 --> 5% 스탁마일리지 적립",
+          "title": "5X - 특별 적립 5% 스탁마일리지 적립",
           "rate_pct": 5,
           "summary": "호텔ㆍ여행ㆍ면세점ㆍ골프 결제 시"
         },
         {
           "category": "point",
-          "title": "3X - 특별 적립 3 --> 3% 스탁마일리지 적립",
+          "title": "3X - 특별 적립 3% 스탁마일리지 적립",
           "rate_pct": 3,
           "summary": "백화점ㆍ프리미엄 아울렛 결제 시"
         },
         {
           "category": "point",
-          "title": "1X - 기본 적립 1 --> 1% 스탁마일리지 적립",
+          "title": "1X - 기본 적립 1% 스탁마일리지 적립",
           "rate_pct": 1,
           "summary": "그 외 가맹점 결제 시"
         },
