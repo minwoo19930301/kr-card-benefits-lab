@@ -287,7 +287,8 @@ export function parseShinhanDetail(html, { pageUrl, retrievedAt, cardType = 'cre
       if (v !== null && v > 0) amounts.push(v);
     }
     if (amounts.length) annualFee = Math.min(...amounts);
-    else if (/연회비\s*(없음|면제)/.test(pageText)) annualFee = 0;
+    // Page-wide fee-waiver boilerplate is not this product's annual fee.
+    else if (/^\s*(없음|면제)(?:\s|$)/.test(feeRegion[1])) annualFee = 0;
   }
   if (annualFee === null) warnings.push('연회비 파싱 불가 — 필드 생략');
 

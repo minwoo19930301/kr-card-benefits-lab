@@ -32,7 +32,7 @@ const DOC_ALLOWLIST = [
   'tests/validate.test.mjs',
 ];
 
-const SKIP_DIRS = new Set(['.git', 'node_modules', 'dist', '.github/cache']);
+const SKIP_DIRS = new Set(['.git', 'node_modules', 'dist', '.github/cache', 'work', '.cache']);
 
 async function* walk(dir) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
