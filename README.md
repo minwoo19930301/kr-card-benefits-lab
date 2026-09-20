@@ -57,9 +57,8 @@ npm run collect:official -- --transport brightdata --limit 400 --apply
 필요하면 `--key-name BRIGHT_DATA_API_KEY`를 함께 지정합니다. 파일의 선택한 변수만 읽으며 셸 코드로 실행하지 않습니다.
 zone은 환경변수 또는 `--zone`으로 지정합니다.
 
-**2026-09-21 복구 점검 상태:** 사용 가능한 zone을 확보하지 못했고 zone 생성 요청은 HTTP 403으로 거절됐습니다.
-이 점검에서 Bright Data를 통한 상품 수집 성공은 **0건**입니다. 전송 모듈 구현이나 모의 테스트 통과를 실제 수집 성공으로 해석하지 않습니다.
-이후 실행 결과는 `data/collection-report.json`과 `data/collection-evidence.json`을 기준으로 확인합니다.
+**2026-09-21 갱신:** 초기 점검 이후 사용자가 Web Unlocker zone을 설정했고 실제 카드사 원문 수집을 시작했습니다.
+현재 실행 결과는 `data/collection-report.json`과 `data/collection-evidence.json`을 기준으로 확인합니다.
 
 ### 공식 사이트 직접 요청
 
@@ -72,8 +71,22 @@ npm run collect:official -- --transport direct --limit 400 --apply
 읽지 못한 값은 성공으로 꾸미지 않으며, 기존 자료보다 필수 정보가 줄어든 후보는 반영하지 않습니다.
 직접 요청 결과를 Bright Data로 수집한 것처럼 표시하지 않습니다.
 
-`--issuer shinhan`처럼 한 카드사로 좁히거나 `--concurrency`로 동시 요청 수를 조정할 수 있습니다.
+`--issuer shinhan`처럼 한 카드사로 좁히거나 `--concurrency`(1~20)로 동시 요청 수를 조정할 수 있습니다.
+카드사별 연속 실패 중단 기준은 `--failure-threshold`(기본 3)입니다. 알려진 URL을 모두 확인할 때는 요청 예산 안에서 기준을 높일 수 있습니다.
 요청 상한·인증·권한·할당량 오류와 카드사별 연속 실패는 실행 보고서에서 확인합니다.
+
+### 공식 공개 API 보완
+
+```bash
+# 마지막 수집 보고서를 기준으로 우리·신한 공개 API 및 현대 상세 HTML 보완
+npm run enrich:official
+```
+
+상품코드·이름·카드 유형을 대조하며, 보완 원문 URL·해시·수집일·전송 방식을 별도로 기록합니다.
+신한카드 연회비는 본인 카드 근거가 명확한 경우만 적용합니다. 기존 수치 조건이 사라지면 이전 자료를 유지합니다.
+이 명령은 공식 공개 API·HTML에 직접 요청하며 Bright Data 요청 건수와 구분됩니다.
+직접 수집의 준비 디렉터리를 인자로 주면 검증된 직접 수집 결과도 병합합니다.
+`collect:official -- --cache-only`는 검증된 Bright Data 캐시만 통합하며 새로운 유료 요청을 만들지 않습니다. 캐시 통합 단계의 요청 수 0은 앞선 수집 비용이 0이라는 뜻이 아닙니다.
 
 ### 저장과 재검증
 

@@ -52,7 +52,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104453&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 43000,
       "annual_fee_note": "국내전용 43,000원"
@@ -107,7 +107,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104452&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 29000,
       "annual_fee_note": "국내전용 29,000원"
@@ -173,7 +173,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103862&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "annual_fee_note": "국내전용 15,000원"
@@ -223,7 +223,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101922&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 5000,
       "annual_fee_note": "국내전용 5,000원"
@@ -289,7 +289,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=102040&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 5000,
       "annual_fee_note": "국내전용 5,000원"
@@ -363,7 +363,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104520&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 19000,
       "annual_fee_note": "국내전용 19,000원"
@@ -465,7 +465,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101010&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 12000,
       "annual_fee_note": "국내전용 12,000원"
@@ -670,7 +670,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=105000&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 25000,
       "annual_fee_note": "국내전용 25,000원"
@@ -712,7 +712,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103125&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 12000,
       "annual_fee_note": "국내전용 12,000원"
@@ -754,7 +754,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104063&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 25000,
       "annual_fee_note": "국내전용 25,000원"
@@ -812,7 +812,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=105052&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "annual_fee_note": "국내전용 15,000원"
@@ -897,7 +897,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101881&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 5000,
       "annual_fee_note": "국내전용 5,000원"
@@ -971,7 +971,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101874&mbkNo=050",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 5000,
       "annual_fee_note": "국내전용 5,000원"
@@ -1207,7 +1207,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=11584&mID=PI41006884P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "국내 가맹점 0.7%, 국내 온라인/해외 가맹점 1.7% 할인",
       "annual_fee_note": "국내외겸용 mastercard, UPI 17,000원"
@@ -1235,7 +1235,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18835&mID=PI41006884P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 29000,
       "annual_fee_note": "국내외겸용 Visa 29,000원 (기본연회비 29,000원 + 제휴연회비 0원) 국내전용 29,000원 (기본연회비 29,000원 + 제휴연회비 0원)"
@@ -1280,7 +1280,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=2338&mID=PI41006884P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "국내 5대 업종, 해외쇼핑 캐쉬백 서비스!",
       "annual_fee_note": "없음"
@@ -1341,7 +1341,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=1544&mID=PI41006884P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "100만 고객이 선택한 SK의 모든 혜택",
       "annual_fee_krw": 6000,
@@ -1433,7 +1433,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18058&mID=PI41006884P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "카드혜택까지 이렇게 달달 하나",
       "annual_fee_note": "없음"
@@ -1590,7 +1590,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15124&mID=PI41015124P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "1천원당 최대 2마일리지, 라운지 동반자 혜택, 메탈 플레이트의 품격",
       "annual_fee_note": "Amex 150,000원 (본인 기본연회비 45,000원, 제휴연회비 105,000원) Amex 20,000원 (가족 본연회비 20,000원, 제휴연회비 0원)"
@@ -1771,7 +1771,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18813&mID=PI41006884P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "나라를 사랑하는 마음, 혜택으로 돌아옵니다.",
       "annual_fee_note": "없음 / Visa"
@@ -1835,7 +1835,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18643&mID=PI41006884P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_note": "없음(국내전용/Mastercard)"
     },
@@ -1886,7 +1886,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17504&mID=PI41006884P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "이제, 당신의 선택은 제이드",
       "annual_fee_krw": 115000,
@@ -2018,7 +2018,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17771&mID=PI41017771P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "이제, 당신의 선택은 제이드",
       "annual_fee_krw": 995000,
@@ -2071,7 +2071,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17769&mID=PI41017769P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "이제, 당신의 선택은 제이드",
       "annual_fee_krw": 295000,
@@ -2166,7 +2166,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17016&mID=PI41006884P&schID=pcd",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "스마트한 대중교통 할인방법",
       "annual_fee_note": "국내전용/국내외겸용(Mastercard) 17,000원 (기본연회비 1만 7천원, 제휴연회비 0원)"
@@ -3936,12 +3936,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALB",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "prev_month_spend_tiers_krw": [
@@ -3978,12 +3978,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCD",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "prev_month_spend_tiers_krw": [
@@ -4037,12 +4037,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALD",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 50000,
       "prev_month_spend_tiers_krw": [
@@ -4080,12 +4080,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCH",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "prev_month_spend_tiers_krw": [
@@ -4122,12 +4122,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCO",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "prev_month_spend_tiers_krw": [
@@ -4164,12 +4164,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALP",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "prev_month_spend_tiers_krw": [
@@ -4206,12 +4206,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALR",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "prev_month_spend_tiers_krw": [
@@ -4248,12 +4248,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCS",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "prev_month_spend_tiers_krw": [
@@ -4307,12 +4307,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALS",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 50000,
       "prev_month_spend_tiers_krw": [
@@ -4351,12 +4351,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCT",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 15000
     },
@@ -4407,12 +4407,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALT",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 50000,
       "prev_month_spend_tiers_krw": [
@@ -4435,12 +4435,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CHHHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -4494,12 +4494,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MCWYE3",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -4528,6 +4528,18 @@
         },
         {
           "category": "mileage",
+          "title": "국내 가맹점 이용 금액 1천원당 1 마일리지 적립",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "overseas",
+          "title": "해외 가맹점·대한항공 직판 항공권 이용 금액 1천원당 2 마일리지 적립",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
+        },
+        {
+          "category": "mileage",
           "title": "연간 이용 금액 기준 달성 시 1천 마일리지 적립(연 1회)",
           "summary": "제공 기준"
         },
@@ -4539,12 +4551,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=KALE2T1",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 60000,
       "prev_month_spend_tiers_krw": [
@@ -4584,12 +4596,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MDBI",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -4607,12 +4619,16 @@
         {
           "category": "fuel",
           "title": "GS칼텍스 내 주변 5km 최저가 주유 보장 + 바로주유 추가 5% 청구 할인",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "summary": "전월 이용 금액 40만원 이상 시 (월 최대 3만원 한도)",
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "other",
           "title": "세차, 주차, 정비 5% 청구 할인",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "summary": "전월 이용 금액 40만원 이상 시 (월 최대 1만원 한도)",
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "other",
@@ -4621,12 +4637,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=GEPHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 10000,
       "prev_month_spend_tiers_krw": [
@@ -4644,12 +4660,16 @@
         {
           "category": "transit",
           "title": "블루멤버스 포인트 적립 Premium 업종 이용 시 5%, 차량유지관리 업종 이용 시 3~4.5%, Mobility 업종 이용 시 2~3%",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "summary": "전월 이용금액 최소 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "transit",
           "title": "그 외 가맹점 0.5~1.5% 블루멤버스 포인트 적립",
-          "rate_pct": 1.5
+          "rate_pct": 1.5,
+          "summary": "전월 이용금액 최소 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "other",
@@ -4671,12 +4691,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HGEHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 100000,
       "prev_month_spend_tiers_krw": [
@@ -4693,13 +4713,17 @@
         {
           "category": "point",
           "title": "국내외 가맹점 1 % M포인트 적립",
-          "rate_pct": 1
+          "rate_pct": 1,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "shopping",
           "title": "롯데백화점, 롯데아울렛, 롯데몰, 롯데백화점몰(온라인) 10% M포인트 적립 (월 4만 M포인트 한도)",
           "rate_pct": 10,
-          "monthly_cap_points": 40000
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "monthly_cap_points": 40000,
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "shopping",
@@ -4707,7 +4731,8 @@
         },
         {
           "category": "shopping",
-          "title": "롯데백화점, 롯데아울렛, 롯데몰, 롯데백화점몰(온라인) 10만 M포인트 적립"
+          "title": "롯데백화점, 롯데아울렛, 롯데몰, 롯데백화점몰(온라인) 10만 M포인트 적립",
+          "summary": "발급 첫해 : 누적 이용 금액 100만원 이상 시"
         },
         {
           "category": "point",
@@ -4715,24 +4740,33 @@
         },
         {
           "category": "shopping",
-          "title": "무이자 할부 롯데백화점 6개월 무이자 할부"
+          "title": "무이자 할부 롯데백화점 6개월 무이자 할부",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "shopping",
           "title": "롯데백화점 전용 쿠폰 에누리 쿠폰 7% 3매, 10% 1매",
-          "rate_pct": 10
+          "rate_pct": 10,
+          "summary": "10% 에누리: 전월 이용 금액 200만원 이상 시",
+          "requires_prev_month_spend_krw": 2000000
         },
         {
           "category": "other",
-          "title": "메탈 플레이트 차별화된 가치를 느낄 수 있는 메탈 플레이트 제공"
+          "title": "메탈 플레이트 차별화된 가치를 느낄 수 있는 메탈 플레이트 제공",
+          "summary": "발급 수수료 10만원 별도"
         },
         {
           "category": "travel",
-          "title": "The Lounge 전 세계 1,000여 개 공항라운지 무료 이용 서비스"
+          "title": "The Lounge 전 세계 1,000여 개 공항라운지 무료 이용 서비스",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "travel",
-          "title": "발레파킹서비스 인천국제공항 및 국내 특급호텔 무료 발레파킹"
+          "title": "발레파킹서비스 인천국제공항 및 국내 특급호텔 무료 발레파킹",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "point",
@@ -4754,12 +4788,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=LTTDSHCP",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 150000,
       "prev_month_spend_tiers_krw": [
@@ -4777,12 +4811,16 @@
         {
           "category": "point",
           "title": "국내외 가맹점 0.5% M포인트 적립",
-          "rate_pct": 0.5
+          "rate_pct": 0.5,
+          "summary": "전월 이용 금액 30만원 이상 시",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "medical",
           "title": "의료, 온라인몰, 교육, 통신 요금, 렌탈 요금, 코스트코 5% M포인트 적립",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "summary": "전월 이용 금액 30만원 이상 시",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "point",
@@ -4807,12 +4845,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=PHHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 0,
       "prev_month_spend_tiers_krw": [
@@ -4844,12 +4882,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SLHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 10000,
       "prev_month_spend_tiers_krw": [
@@ -4866,12 +4904,16 @@
         {
           "category": "other",
           "title": "한도 제한 없이 국내 가맹점 0.7 % 청구 할인",
-          "rate_pct": 0.7
+          "rate_pct": 0.7,
+          "summary": "전월 이용 금액 30만원 이상 시",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "other",
           "title": "사업성 경비 영역 1.5 % 청구 할인 (통합 월 2만원 할인 한도)",
-          "rate_pct": 1.5
+          "rate_pct": 1.5,
+          "summary": "전월 이용 금액 30만원 이상 시",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "other",
@@ -4885,12 +4927,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SLMB",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 10000,
       "prev_month_spend_tiers_krw": [
@@ -4930,12 +4972,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MHMFI",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -4953,23 +4995,27 @@
         {
           "category": "point",
           "title": "국내외 가맹점 1 % 적립금 적립",
-          "rate_pct": 1
+          "rate_pct": 1,
+          "summary": "전월 이용 금액 40만원 이상 시",
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "shopping",
           "title": "현대홈쇼핑 Hmall 7 % 청구 할인 (월 3만원 한도)",
           "rate_pct": 7,
-          "monthly_cap_krw": 30000
+          "summary": "전월 이용 금액 40만원 이상 시",
+          "monthly_cap_krw": 30000,
+          "requires_prev_month_spend_krw": 400000
         }
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HDSHE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -5044,12 +5090,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTCP",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 80000,
       "prev_month_spend_tiers_krw": [
@@ -5125,12 +5171,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTST",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 80000,
       "prev_month_spend_tiers_krw": [
@@ -5206,12 +5252,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTVV",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 80000,
       "prev_month_spend_tiers_krw": [
@@ -5266,7 +5312,9 @@
         {
           "category": "food",
           "title": "일반음식점, 배달 앱, 편의점, 대중교통 3% 캐시백 (대상점 통합해 월 5천원 캐시백 한도)",
-          "rate_pct": 3
+          "rate_pct": 3,
+          "summary": "전월 이용 금액 30만원 이상 시",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "other",
@@ -5275,12 +5323,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCD",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 5000,
       "prev_month_spend_tiers_krw": [
@@ -5302,7 +5350,9 @@
         {
           "category": "food",
           "title": "일반음식점, 배달 앱, 편의점, 대중교통 5% M포인트 적립 (대상점 통합해 월 5천 M포인트 한도)",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "summary": "전월 이용 금액 30만원 이상 시",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "other",
@@ -5328,12 +5378,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCM",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 5000,
       "prev_month_spend_tiers_krw": [
@@ -5521,12 +5571,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MXBE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 200000,
       "prev_month_spend_tiers_krw": [
@@ -5602,12 +5652,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SPM",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 200000,
       "prev_month_spend_tiers_krw": [
@@ -5671,12 +5721,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTMCE",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 80000,
       "prev_month_spend_tiers_krw": [
@@ -5709,12 +5759,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=FCDY",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 2000,
       "prev_month_spend_tiers_krw": [
@@ -5731,12 +5781,20 @@
         {
           "category": "other",
           "title": "국내외 가맹점 1 % 청구 할인",
-          "rate_pct": 1
+          "rate_pct": 1,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "shopping",
           "title": "뷰티/생활/패션, 배달 앱, 편의점 5 % 청구 할인",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "requires_prev_month_spend_krw": 1000000
+        },
+        {
+          "category": "point",
+          "title": "긴급할인(선지급 포인트 서비스) 최대 50만 긴급할인 캐시 먼저 받아 할인받고 카드 이용하며 받는 할인 혜택으로 상환"
         },
         {
           "category": "other",
@@ -5745,12 +5803,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XCUT",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -5768,12 +5826,20 @@
         {
           "category": "other",
           "title": "국내외 가맹점 1 % 청구 할인",
-          "rate_pct": 1
+          "rate_pct": 1,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "education",
           "title": "온라인몰, 교육, 병원 5 % 청구 할인",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "requires_prev_month_spend_krw": 1000000
+        },
+        {
+          "category": "point",
+          "title": "긴급할인(선지급 포인트 서비스) 최대 50만 긴급할인 캐시 먼저 받아 할인받고 카드 이용하며 받는 할인 혜택으로 상환"
         },
         {
           "category": "other",
@@ -5782,12 +5848,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XSAV",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -5824,12 +5890,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZRUP",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000
     },
@@ -5862,12 +5928,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MZRUP",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000
     },
@@ -5881,13 +5947,17 @@
         {
           "category": "point",
           "title": "국내외 가맹점 1.5% M포인트 적립",
-          "rate_pct": 1.5
+          "rate_pct": 1.5,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "shopping",
           "title": "온라인 쇼핑몰, 일반음식점, 해외 가맹점 5% M포인트 적립 (월 1만 M포인트 한도)",
           "rate_pct": 5,
-          "monthly_cap_points": 10000
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 10000,
+          "requires_prev_month_spend_krw": 1000000
         },
         {
           "category": "point",
@@ -5917,12 +5987,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ME4",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -5945,11 +6015,15 @@
         {
           "category": "point",
           "title": "기본 적립 국내 가맹점에서 0.2% M포인트 적립",
-          "rate_pct": 0.2
+          "rate_pct": 0.2,
+          "summary": "전월 이용 금액 30만원 이상 시",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "point",
-          "title": "추가 적립 제휴 온라인 쇼핑몰 M포인트 적립"
+          "title": "추가 적립 제휴 온라인 쇼핑몰 M포인트 적립",
+          "summary": "전월 이용 금액 30만원 이상 시",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "fuel",
@@ -5970,12 +6044,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MSCE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 5000,
       "prev_month_spend_tiers_krw": [
@@ -6061,13 +6135,17 @@
         {
           "category": "point",
           "title": "국내외 가맹점 1.5% M포인트 적립",
-          "rate_pct": 1.5
+          "rate_pct": 1.5,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "shopping",
           "title": "온라인 쇼핑몰, 일반음식점, 해외 가맹점 10% M포인트 적립 (월 2만 M포인트 한도)",
           "rate_pct": 10,
-          "monthly_cap_points": 20000
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 20000,
+          "requires_prev_month_spend_krw": 1000000
         },
         {
           "category": "point",
@@ -6075,11 +6153,15 @@
         },
         {
           "category": "travel",
-          "title": "공항 서비스 인천국제공항 라운지 무료 이용"
+          "title": "공항 서비스 인천국제공항 라운지 무료 이용",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "other",
-          "title": "공항 서비스 인천국제공항 발레파킹 무료 이용"
+          "title": "공항 서비스 인천국제공항 발레파킹 무료 이용",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "other",
@@ -6105,12 +6187,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MPE4",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 70000,
       "prev_month_spend_tiers_krw": [
@@ -6180,12 +6262,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MMBES",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 50000,
       "prev_month_spend_tiers_krw": [
@@ -6255,12 +6337,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MMBFB",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 50000,
       "prev_month_spend_tiers_krw": [
@@ -6330,12 +6412,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MMBRT",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 50000,
       "prev_month_spend_tiers_krw": [
@@ -6418,12 +6500,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SPMMB",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 250000,
       "prev_month_spend_tiers_krw": [
@@ -6506,12 +6588,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBTO",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 250000,
       "prev_month_spend_tiers_krw": [
@@ -6571,12 +6653,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XMBES",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 70000,
       "prev_month_spend_tiers_krw": [
@@ -6636,12 +6718,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XMBFB",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 70000,
       "prev_month_spend_tiers_krw": [
@@ -6701,12 +6783,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XMBRT",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 70000,
       "prev_month_spend_tiers_krw": [
@@ -6745,12 +6827,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBZRO",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000
     },
@@ -6802,12 +6884,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBMZRO",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000
     },
@@ -6848,12 +6930,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBZRUP",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 40000
     },
@@ -6911,12 +6993,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBMZRUP",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 40000
     },
@@ -6930,7 +7012,9 @@
         {
           "category": "other",
           "title": "국내외 가맹점 1 % 청구 할인",
-          "rate_pct": 1
+          "rate_pct": 1,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "point",
@@ -6942,11 +7026,15 @@
         },
         {
           "category": "travel",
-          "title": "공항 서비스 인천국제공항 라운지 무료 이용"
+          "title": "공항 서비스 인천국제공항 라운지 무료 이용",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "other",
-          "title": "공항 서비스 인천국제공항 발레파킹 무료 이용"
+          "title": "공항 서비스 인천국제공항 발레파킹 무료 이용",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "other",
@@ -6955,12 +7043,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XPE4",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 50000,
       "prev_month_spend_tiers_krw": [
@@ -6982,7 +7070,9 @@
         {
           "category": "other",
           "title": "주말 10% 청구 할인",
-          "rate_pct": 10
+          "rate_pct": 10,
+          "summary": "전월 이용금액 50만원/100만원 이상 시 영역별 할인 한도 상이",
+          "requires_prev_month_spend_krw": 1000000
         },
         {
           "category": "other",
@@ -6991,12 +7081,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZWK",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -7038,12 +7128,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZFE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -7085,12 +7175,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZOE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -7180,12 +7270,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZROE3",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 15000
     },
@@ -7229,12 +7319,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MZROE3",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 15000
     },
@@ -7271,12 +7361,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HMHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000
     },
@@ -7304,12 +7394,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=EMTE3S",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -7360,12 +7450,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MIMB",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -7401,12 +7491,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=GMSE4",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -7423,12 +7513,16 @@
         {
           "category": "point",
           "title": "국내외 가맹점 1% M포인트 적립",
-          "rate_pct": 1
+          "rate_pct": 1,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "point",
           "title": "사업성 경비 영역 5% M포인트 적립 (영역별 월 5천, 5개 영역 합산 월 2만5천 M포인트 한도)",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "requires_prev_month_spend_krw": 1000000
         },
         {
           "category": "point",
@@ -7442,7 +7536,9 @@
         },
         {
           "category": "other",
-          "title": "캐시노트 우대 혜택 Ⅱ 카드매출 바로입금 수수료 전액 할인 쿠폰 (월 1매)"
+          "title": "캐시노트 우대 혜택 Ⅱ 카드매출 바로입금 수수료 전액 할인 쿠폰 (월 1매)",
+          "summary": "전월 이용 금액 30만원 이상 시",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "point",
@@ -7468,12 +7564,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMECN",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -7533,12 +7629,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMEKKOB",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -7613,12 +7709,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMEKKOBP",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 150000,
       "prev_month_spend_tiers_krw": [
@@ -7671,12 +7767,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMEKBNK",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -7698,12 +7794,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZKFE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -7725,7 +7821,8 @@
         {
           "category": "transit",
           "title": "Kia Members 제휴처 이용 시 0.5~2% 기아멤버스 포인트 동시 적립",
-          "rate_pct": 2
+          "rate_pct": 2,
+          "summary": "당월 이용금액 50만원 이상 시"
         },
         {
           "category": "other",
@@ -7754,12 +7851,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MRDED2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000
     },
@@ -7773,12 +7870,16 @@
         {
           "category": "point",
           "title": "기본 혜택 국내외 가맹점 이용 금액의 1% 적립",
-          "rate_pct": 1
+          "rate_pct": 1,
+          "summary": "전월 실적 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "point",
           "title": "추가 혜택 코스트코 이용 금액의 2~3% 적립",
-          "rate_pct": 3
+          "rate_pct": 3,
+          "summary": "전월 실적 50만원 이상 시 연간 최대 50만 코스트코 리워드 포인트 적립",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "point",
@@ -7791,12 +7892,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CSTCE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -7819,12 +7920,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CWYHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -7849,10 +7950,6 @@
           "title": "기본 적립 국내외 가맹점에서 0.5~3% M포인트 적립",
           "rate_pct": 3,
           "summary": "당월 이용금액 100만원 이상 이용 시 1.5배 적립"
-        },
-        {
-          "category": "shopping",
-          "title": "온라인 쇼핑 온라인 쇼핑 시 M포인트 추가 적립"
         },
         {
           "category": "point",
@@ -7882,12 +7979,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MKTE3TP",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -7911,12 +8008,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCKHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -7941,10 +8038,6 @@
           "title": "기본 적립 국내외 가맹점에서 0.5~3% M포인트 적립",
           "rate_pct": 3,
           "summary": "당월 이용금액 100만원 이상 이용 시 1.5배 적립"
-        },
-        {
-          "category": "shopping",
-          "title": "온라인 쇼핑 온라인 쇼핑 시 M포인트 추가 적립"
         },
         {
           "category": "point",
@@ -7974,12 +8067,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MLGTE3",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -8003,12 +8096,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=LGEHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -8026,17 +8119,20 @@
         {
           "category": "point",
           "title": "5X - 특별 적립 5 --> 5% 스탁마일리지 적립",
-          "rate_pct": 5
+          "rate_pct": 5,
+          "summary": "호텔ㆍ여행ㆍ면세점ㆍ골프 결제 시"
         },
         {
           "category": "point",
           "title": "3X - 특별 적립 3 --> 3% 스탁마일리지 적립",
-          "rate_pct": 3
+          "rate_pct": 3,
+          "summary": "백화점ㆍ프리미엄 아울렛 결제 시"
         },
         {
           "category": "point",
           "title": "1X - 기본 적립 1 --> 1% 스탁마일리지 적립",
-          "rate_pct": 1
+          "rate_pct": 1,
+          "summary": "그 외 가맹점 결제 시"
         },
         {
           "category": "other",
@@ -8074,12 +8170,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MRASSTDM",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 500000,
       "prev_month_spend_tiers_krw": [
@@ -8096,22 +8192,26 @@
         {
           "category": "point",
           "title": "기본 혜택 국내외 가맹점 이용 금액 0.7% 네이버페이 포인트 적립",
-          "rate_pct": 0.7
+          "rate_pct": 0.7,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "point",
           "title": "추가 혜택 네이버플러스 멤버십 대상 가맹점 최대 7% 네이버페이 포인트 적립 (월 최대 2만 네이버페이 포인트 한도)",
-          "rate_pct": 7
+          "rate_pct": 7,
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=NVE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -8145,12 +8245,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=NXNX",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -8167,17 +8267,23 @@
         {
           "category": "point",
           "title": "NOL · NOL 인터파크(NOL 인터파크투어/NOL 티켓) · 트리플 10 % 적립 (월 1만/1.2만 포인트 한도)",
-          "rate_pct": 10
+          "rate_pct": 10,
+          "summary": "전월 이용 금액 40/80만원 이상 시",
+          "requires_prev_month_spend_krw": 800000
         },
         {
           "category": "overseas",
           "title": "해외결제 10 % 적립 (월 5천/8천 포인트 한도)",
-          "rate_pct": 10
+          "rate_pct": 10,
+          "summary": "전월 이용 금액 40/80만원 이상 시",
+          "requires_prev_month_spend_krw": 800000
         },
         {
           "category": "food",
           "title": "커피전문점· 편의점· 디지털 콘텐츠 서비스 10 % 적립 (월 5천/8천 포인트 한도)",
-          "rate_pct": 10
+          "rate_pct": 10,
+          "summary": "전월 이용 금액 40/80만원 이상 시",
+          "requires_prev_month_spend_krw": 800000
         },
         {
           "category": "shopping",
@@ -8187,12 +8293,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=NOLHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -8224,12 +8330,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=OLVYHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 30000,
       "prev_month_spend_tiers_krw": [
@@ -8296,12 +8402,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TRSCSTE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 500000,
       "prev_month_spend_tiers_krw": [
@@ -8324,12 +8430,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SKIHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -8356,10 +8462,6 @@
           "summary": "당월 이용금액 100만원 이상 이용 시 1.5배 적립"
         },
         {
-          "category": "shopping",
-          "title": "온라인 쇼핑 온라인 쇼핑 시 M포인트 추가 적립"
-        },
-        {
           "category": "point",
           "title": "특별 적립 현대자동차·기아 신차 구매 시 1.5% M포인트 적립",
           "rate_pct": 1.5
@@ -8383,12 +8485,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MSKTE3",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 20000,
       "prev_month_spend_tiers_krw": [
@@ -8418,12 +8520,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SGE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 10000,
       "prev_month_spend_tiers_krw": [
@@ -8450,12 +8552,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SCHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 10000
     },
@@ -8493,12 +8595,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TBE4",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 3000000,
       "prev_month_spend_tiers_krw": [
@@ -8524,10 +8626,6 @@
           "summary": "당월 이용금액 100만원 이상 시 1.5배 적립"
         },
         {
-          "category": "shopping",
-          "title": "온라인 쇼핑 온라인 쇼핑 시 M포인트 추가 적립"
-        },
-        {
           "category": "point",
           "title": "특별 적립 현대자동차·기아 신차 구매 시 1.5% M포인트 적립",
           "rate_pct": 1.5
@@ -8551,12 +8649,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MCJE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 15000,
       "prev_month_spend_tiers_krw": [
@@ -8581,7 +8679,9 @@
           "category": "travel",
           "title": "여행, 해외 영역 5 % M포인트 적립 (월 5만 M포인트 한도)",
           "rate_pct": 5,
-          "monthly_cap_points": 50000
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 50000,
+          "requires_prev_month_spend_krw": 1000000
         },
         {
           "category": "point",
@@ -8624,12 +8724,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TGE3",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 150000,
       "prev_month_spend_tiers_krw": [
@@ -8736,7 +8836,9 @@
           "category": "shopping",
           "title": "프리미엄쇼핑 영역 5 % M포인트 적립 (월 5만 M포인트 한도)",
           "rate_pct": 5,
-          "monthly_cap_points": 50000
+          "summary": "전월 이용 금액 100만원 이상 시",
+          "monthly_cap_points": 50000,
+          "requires_prev_month_spend_krw": 1000000
         },
         {
           "category": "point",
@@ -8779,12 +8881,12 @@
       ],
       "confidence": "high",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TPIE2",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 150000,
       "prev_month_spend_tiers_krw": [
@@ -8805,25 +8907,33 @@
         },
         {
           "category": "travel",
-          "title": "인천국제공항 라운지 서비스 마티나 골드 라운지 무료 이용"
+          "title": "인천국제공항 라운지 서비스 마티나 골드 라운지 무료 이용",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "travel",
-          "title": "발레파킹 서비스 인천국제공항 및 국내 특급호텔 무료 발레파킹 서비스"
+          "title": "발레파킹 서비스 인천국제공항 및 국내 특급호텔 무료 발레파킹 서비스",
+          "summary": "전월 이용 금액 50만원 이상 시",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "other",
           "title": "메탈 플레이트 the Purple 헤리티지를 담은 메탈 플레이트 본인 및 가족 회원에게 무료 제공"
+        },
+        {
+          "category": "other",
+          "title": "현대카드 슈퍼콘서트 혜택 현대카드 슈퍼콘서트 퍼플 전용 선예매 혜택"
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TPE4",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 1000000,
       "prev_month_spend_tiers_krw": [
@@ -8974,12 +9084,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=YSHC",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "현대카드 공식 상품 페이지와 해당 페이지에 명시된 공식 혜택 HTML 조각을 직접 수집하여 보완. 상품명은 공식 메타 정보로 확인. 상세 조건은 원문 확인 필요."
       },
       "annual_fee_krw": 10000
     },
@@ -9022,7 +9132,7 @@
         "kind": "issuer_official_page",
         "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04260&mainCC=a",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "반려동물을 사랑하는 마음. KB국민 반려애카드가 함께합니다!"
     },
@@ -9065,7 +9175,7 @@
         "kind": "issuer_official_page",
         "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04261&mainCC=a",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "반려동물을 사랑하는 마음. KB국민 반려애카드가 함께합니다!"
     },
@@ -9173,7 +9283,7 @@
         "kind": "issuer_official_page",
         "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09169&mainCC=a",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "KB국민 훈민정음 두번째 이야기, 모두의 이야기를 담은 카드"
     },
@@ -9237,7 +9347,7 @@
         "kind": "issuer_official_page",
         "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04580&mainCC=a",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "모바일로 누리는 더 좋은 혜택! Fine thanks, 파인테크!",
       "annual_fee_krw": 12000,
@@ -9293,7 +9403,7 @@
         "kind": "issuer_official_page",
         "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04582&mainCC=a",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "모바일로 누리는 더 좋은 혜택! Fine thanks, 파인테크!",
       "annual_fee_krw": 14000,
@@ -10120,7 +10230,7 @@
         "kind": "issuer_official_page",
         "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02233&mainCC=a",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "해피포인트 KB국민카드로 생활의 즐거움을 느끼세요!"
     },
@@ -11822,7 +11932,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P11714-A11714",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "tagline": "롯데백화점 롯데카드",
       "annual_fee_note": "연회비 10,000원/15,000원"
@@ -11978,7 +12088,7 @@
         "kind": "issuer_official_page",
         "url": "https://card.nonghyup.com/servlet/IpCc2021R.act?CD_WRS_SQNO=90010470",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 0,
       "annual_fee_note": "국내전용 일반카드 총연회비 0원"
@@ -12014,7 +12124,7 @@
         "kind": "issuer_official_page",
         "url": "https://card.nonghyup.com/servlet/IpCc2021R.act?CD_WRS_SQNO=90010604",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 22000,
       "annual_fee_note": "국내 본인: 구분 모바일카드 일반카드 / 총 연회비 22,000원 28,000원"
@@ -12076,7 +12186,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1766",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_note": "[해외] 본인 49,000원"
     },
@@ -12130,7 +12240,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1716",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_note": "[해외] 본인 20,000원"
     },
@@ -12183,17 +12293,18 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1227020_2207.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
-      "annual_fee_krw": 15000,
       "prev_month_spend_tiers_krw": [
         300000
-      ]
+      ],
+      "annual_fee_krw": 15000,
+      "annual_fee_note": "본인 총연회비: 국내전용 기본 15,000원 / Mastercard 기본 18,000원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-cheoeum-chekeu",
@@ -12232,11 +12343,13 @@
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1234710_2206.html",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "신한카드 공식 페이지를 Bright Data로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
       "prev_month_spend_tiers_krw": [
         100000
-      ]
+      ],
+      "annual_fee_krw": 0,
+      "annual_fee_note": "본인 총연회비: Mastercard 기본 0원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-deep-dream-chekeu-minieonjeu",
@@ -12291,7 +12404,7 @@
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1187959_2206.html",
         "retrieved_at": "2026-09-21",
-        "note": "카드사 공식 공개 원문을 직접 HTTP 요청으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "prev_month_spend_tiers_krw": [
         200000
@@ -12440,20 +12553,21 @@
           "summary": "공통 유의사항 안내 / 전월 이용금액 산정기준"
         }
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1219683_2207.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
-      "annual_fee_krw": 19000,
       "prev_month_spend_tiers_krw": [
         400000,
         800000
-      ]
+      ],
+      "annual_fee_krw": 19000,
+      "annual_fee_note": "본인 총연회비: 국내전용 기본 19,000원 / Visa 기본 22,000원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-k-paeseu-sinhankadeu",
@@ -12493,20 +12607,21 @@
           "requires_prev_month_spend_krw": 300000
         }
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1225543_2207.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
-      "annual_fee_krw": 7000,
       "prev_month_spend_tiers_krw": [
         300000,
         600000
-      ]
+      ],
+      "annual_fee_krw": 7000,
+      "annual_fee_note": "본인 총연회비: 국내전용 기본 7,000원 / Mastercard 기본 10,000원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-merieoteu-bonboi-deo-beseuteu-sinhankadeu",
@@ -12612,12 +12727,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1236922_2206.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
       "prev_month_spend_tiers_krw": [
         100000,
@@ -12626,7 +12741,9 @@
         500000,
         700000,
         1000000
-      ]
+      ],
+      "annual_fee_krw": 0,
+      "annual_fee_note": "본인 총연회비: Visa 플래티늄 0원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-point-plan",
@@ -12708,12 +12825,12 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1187945_2207.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "카드사 공식 공개 원문을 Bright Data으로 수집하여 자동 추출. 상품 조건은 공식 원문 확인 필요."
       },
       "annual_fee_krw": 32000,
       "prev_month_spend_tiers_krw": [
@@ -12872,19 +12989,21 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1239102_2206.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
       "prev_month_spend_tiers_krw": [
         200000,
         600000,
         1000000,
         2000000
-      ]
+      ],
+      "annual_fee_krw": 0,
+      "annual_fee_note": "본인 총연회비: 국내전용 기본 0원 / Mastercard 기본 0원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-solteuraebeul-chekeu",
@@ -12934,16 +13053,18 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1225714_2206.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
       "prev_month_spend_tiers_krw": [
         300000
-      ]
+      ],
+      "annual_fee_krw": 0,
+      "annual_fee_note": "본인 총연회비: Mastercard 플래티늄 0원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-solteuraebeulj-chekeu",
@@ -12993,16 +13114,18 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1232877_2206.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
       "prev_month_spend_tiers_krw": [
         300000
-      ]
+      ],
+      "annual_fee_krw": 0,
+      "annual_fee_note": "본인 총연회비: Mastercard 기본 0원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-solteuripaenj-chekeu",
@@ -13047,16 +13170,18 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1237542_2206.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
       "prev_month_spend_tiers_krw": [
         300000
-      ]
+      ],
+      "annual_fee_krw": 0,
+      "annual_fee_note": "본인 총연회비: 브랜드코드 3 플래티늄 0원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-solteuripaensyap-chekeu",
@@ -13106,16 +13231,18 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1236362_2206.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
       "prev_month_spend_tiers_krw": [
         300000
-      ]
+      ],
+      "annual_fee_krw": 0,
+      "annual_fee_note": "본인 총연회비: Visa 기본 0원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-the-ace-blue-label",
@@ -13309,17 +13436,18 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1188441_2207.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
-      "annual_fee_krw": 197000,
       "prev_month_spend_tiers_krw": [
         300000
-      ]
+      ],
+      "annual_fee_krw": 197000,
+      "annual_fee_note": "본인 총연회비: 국내전용 기본 197,000원 / Visa Infinite 200,000원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-the-classic",
@@ -13503,18 +13631,19 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
         "kind": "issuer_official_page",
         "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1216601_2205.html",
-        "retrieved_at": "2026-07-31",
-        "note": "카드사 공식 상품 상세 페이지 (브라우저 렌더링 후 추출)"
+        "retrieved_at": "2026-09-21",
+        "note": "신한카드 공식 페이지를 직접 HTTP로 수집하고 공식 공개 상품 API로 본인 연회비를 보완. 상세 조건은 원문 확인 필요."
       },
-      "annual_fee_krw": 197000,
       "prev_month_spend_tiers_krw": [
         500000,
         3000000
-      ]
+      ],
+      "annual_fee_krw": 197000,
+      "annual_fee_note": "본인 총연회비: 국내전용 기본 197,000원 / Mastercard 플래티늄 200,000원 / Visa 플래티늄 200,000원. 공식 상품 API 확인."
     },
     {
       "id": "shinhan-the-classic-y",
@@ -13707,7 +13836,7 @@
         {
           "category": "point",
           "title": "ALL 리워드 포인트 적립",
-          "summary": "이용금액 당 최대 5",
+          "summary": "이용금액 당 최대 5 ALL 리워드 포인트 적립",
           "requires_prev_month_spend_krw": 500000
         },
         {
@@ -13719,16 +13848,15 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_103187.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103187",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "ALL 우리카드 Infinite 주요혜택: 아코르 서비스 / ALL 리워드 포인트 적립 / Premium Service",
       "annual_fee_krw": 500000,
-      "annual_fee_note": "연회비 500,000원 500,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 500,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000
       ]
@@ -13749,7 +13877,7 @@
         {
           "category": "point",
           "title": "ALL 리워드 포인트 적립",
-          "summary": "이용금액 당 최대 3",
+          "summary": "이용금액 당 최대 3 ALL 리워드 포인트 적립",
           "requires_prev_month_spend_krw": 500000
         },
         {
@@ -13761,16 +13889,15 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_103188.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103188",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "ALL 우리카드 Premium 주요혜택: 아코르 서비스 / ALL 리워드 포인트 적립 / Premium Service",
       "annual_fee_krw": 150000,
-      "annual_fee_note": "연회비 150,000원 150,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 150,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000
       ]
@@ -13785,21 +13912,21 @@
         {
           "category": "utility",
           "title": "아파트관리비 청구할인",
-          "summary": "※ 전월실적 50만원 이상시 제공"
+          "summary": "※ 전월실적 50만원 이상시 제공",
+          "requires_prev_month_spend_krw": 500000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104172.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104172",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "아파트아이 우리카드 - 아파트관리비 청구할인 서비스 주요혜택: 아파트관리비 청구할인",
       "annual_fee_krw": 20000,
-      "annual_fee_note": "연회비 20,000원 20,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 20,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000,
         1000000,
@@ -13889,36 +14016,39 @@
         {
           "category": "food",
           "title": "55% 청구할인",
+          "summary": "커피 4대 브랜드 스타벅스, 투썸플레이스, 폴바셋, 커피빈 55% 청구할인",
           "rate_pct": 55,
-          "summary": "커피 4대 브랜드 스타벅스, 투썸플레이스, 폴바셋, 커피빈"
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "transit",
           "title": "33% 청구할인",
-          "rate_pct": 33,
           "summary": "시내버스, 지하철(후불교통기능 선택 시), 택시 건당 최대 2,200원 청구할인",
-          "per_txn_eligible_spend_cap_krw": 2200
+          "rate_pct": 33,
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "food",
           "title": "11% 청구할인",
-          "rate_pct": 11,
           "summary": "편의점 건당 할인한도 1,100원",
-          "per_txn_eligible_spend_cap_krw": 1100
+          "rate_pct": 11,
+          "requires_prev_month_spend_krw": 300000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_103305.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103305",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "D4카드의정석Ⅱ - Discount 4 주요혜택: 55% 청구할인 / 33% 청구할인 / 11% 청구할인",
       "annual_fee_krw": 12000,
-      "annual_fee_note": "연회비 12,000원 12,000원"
+      "annual_fee_note": "공식 연회비 항목 중 최저 12,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
     },
     {
       "id": "woori-dakadeuuijeongseok",
@@ -13930,33 +14060,38 @@
         {
           "category": "other",
           "title": "기본 Discount - 0.8% 기본 청구할인",
+          "summary": "국내외 가맹점에서 결제 시 청구할인",
           "rate_pct": 0.8,
-          "summary": "국내외 가맹점에서 결제 시 청구할인"
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "shopping",
           "title": "추가 Discount - 0.5% 추가 청구할인",
+          "summary": "생활업종 가맹점에서 결제 시 추가 청구할인",
           "rate_pct": 0.5,
-          "summary": "생활업종 가맹점에서 결제 시 추가 청구할인"
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "travel",
           "title": "국내 공항라운지 무료 이용 서비스",
-          "summary": "(MasterCard 브랜드 발급 시 제공)"
+          "summary": "국내 공항라운지 무료 이용 서비스 (MasterCard 브랜드 발급 시 제공)",
+          "requires_prev_month_spend_krw": 300000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_102534.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102534",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "DA카드의정석 Ⅱ - 전월 이용금액 관계없이, 할인한도 제한없이 최대 1.3% 청구할인 주요혜택: 기본 Discount - 0.8% 기본 청구할인 / 추가 Discount - 0.5% 추가 청구할인 / 국내 공항라운지 무료 이용 서비스",
       "annual_fee_krw": 12000,
-      "annual_fee_note": "연회비 12,000원 12,000원"
+      "annual_fee_note": "공식 연회비 항목 중 최저 12,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
+      "prev_month_spend_tiers_krw": [
+        300000
+      ]
     },
     {
       "id": "woori-e1-urikadeu",
@@ -14005,7 +14140,7 @@
         {
           "category": "overseas",
           "title": "면제",
-          "summary": "해외가맹점 이용 시 이용수수료",
+          "summary": "해외가맹점 이용 시 이용수수료 면제",
           "requires_prev_month_spend_krw": 300000
         },
         {
@@ -14017,15 +14152,15 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_835453.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=835453",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "FC EXPRESS 체크 - 국내에서는 원화로, 해외에서는 외화로 바로 출금! 주요혜택: 해외이용금액 외화결제 서비스 / 면제 / 0.3%",
       "annual_fee_krw": 0,
+      "annual_fee_note": "공식 연회비 항목 중 최저 0원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         300000
       ]
@@ -14085,31 +14220,34 @@
         {
           "category": "travel",
           "title": "공항라운지",
-          "summary": "국내외 무료 이용 서비스"
+          "summary": "국내외 공항라운지 무료 이용 서비스"
         },
         {
           "category": "other",
           "title": "선택형 기프트",
-          "summary": "매년 연회비 상당의 7가지 제공"
+          "summary": "매년 연회비 상당의 7가지 선택형 기프트 제공"
         },
         {
           "category": "travel",
           "title": "프리미엄서비스",
-          "summary": "여행, 골프, 라이프스타일에서 체크카드로 누리는"
+          "summary": "여행, 골프, 라이프스타일에서 체크카드로 누리는 프리미엄서비스"
         }
       ],
-      "confidence": "low",
+      "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_227977.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=227977",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "그랑블루 체크카드 - 프리미엄의 혜택을 체크카드에 그대로! 주요혜택: 공항라운지 / 선택형 기프트 / 프리미엄서비스",
       "annual_fee_krw": 95000,
-      "annual_fee_note": "연회비 100,000원 95,000원"
+      "annual_fee_note": "공식 연회비 항목 중 최저 95,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
+      "prev_month_spend_tiers_krw": [
+        300000,
+        500000
+      ]
     },
     {
       "id": "woori-gskaltekseu-hwamulbokjikadeu",
@@ -14121,36 +14259,39 @@
         {
           "category": "fuel",
           "title": "GS칼텍스 주유할인 서비스",
-          "summary": "주유 리터당 최대 110원 할인"
+          "summary": "주유 리터당 최대 110원 할인",
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "shopping",
           "title": "주요 업종 5% 청구할인",
+          "summary": "대형마트, 병원, 서점 등 5% 할인",
           "rate_pct": 5,
-          "summary": "대형마트, 병원, 서점 등 5% 할인"
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "food",
           "title": "커피전문점 25% 청구할인",
+          "summary": "스타벅스 등 커피전문점 25% 할인",
           "rate_pct": 25,
-          "summary": "스타벅스 등 커피전문점 25% 할인"
+          "requires_prev_month_spend_krw": 300000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_100930.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=100930",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "GS칼텍스 화물복지카드 - 유가보조금 받고! GS칼텍스 주유 할인까지! 주요혜택: GS칼텍스 주유할인 서비스 / 주요 업종 5% 청구할인 / 커피전문점 25% 청구할인",
       "annual_fee_krw": 0,
+      "annual_fee_note": "공식 연회비 항목 중 최저 0원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
-        300000,
-        1000000
-      ]
+        300000
+      ],
+      "integrated_monthly_cap_krw": 5000
     },
     {
       "id": "woori-gukminhaengbok-chekeukadeus2",
@@ -14206,37 +14347,37 @@
           "category": "shopping",
           "title": "쇼핑/생활업종 할인",
           "rate_pct": 5,
-          "monthly_cap_krw": 4000,
+          "per_txn_eligible_spend_cap_krw": 50000,
           "requires_prev_month_spend_krw": 300000,
-          "per_txn_eligible_spend_cap_krw": 50000
+          "monthly_cap_krw": 4000
         },
         {
           "category": "medical",
           "title": "의료(임신·출산) / 보육(교육) 업종 할인",
           "rate_pct": 7,
-          "monthly_cap_krw": 3000,
+          "per_txn_eligible_spend_cap_krw": 50000,
           "requires_prev_month_spend_krw": 300000,
-          "per_txn_eligible_spend_cap_krw": 50000
+          "monthly_cap_krw": 3000
         },
         {
           "category": "ott",
           "title": "언택트 라이프 업종 할인",
           "rate_pct": 20,
-          "monthly_cap_krw": 3000,
-          "requires_prev_month_spend_krw": 300000
+          "requires_prev_month_spend_krw": 300000,
+          "monthly_cap_krw": 3000
         }
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_100860.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=100860",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "국민행복카드S2 - 국가바우처, 임신/출산, 보육/교육, 쇼핑, 해외, 언택트라이프 혜택까지 모두 담다!! 주요혜택: 5% / 7% / 20%",
       "annual_fee_krw": 0,
+      "annual_fee_note": "공식 연회비 항목 중 최저 0원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         300000,
         600000,
@@ -14419,34 +14560,36 @@
         {
           "category": "other",
           "title": "국내 가맹점 0.3% 청구할인",
+          "summary": "전월 국내가맹점 40만원 이상",
           "rate_pct": 0.3,
-          "summary": "전월 국내가맹점 40만원 이상"
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "food",
           "title": "카페/편의점 10% 청구할인",
+          "summary": "전월 국내가맹점 40만원 이상",
           "rate_pct": 10,
-          "summary": "전월 국내가맹점 40만원 이상"
+          "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "transit",
           "title": "버스/지하철 10% 청구할인",
+          "summary": "전월 국내가맹점 40만원 이상",
           "rate_pct": 10,
-          "summary": "전월 국내가맹점 40만원 이상"
+          "requires_prev_month_spend_krw": 400000
         }
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_102864.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102864",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "K-패스 우리카드 - anytime anywhere 주요혜택: 국내 가맹점 0.3% 청구할인 / 카페/편의점 10% 청구할인 / 버스/지하철 10% 청구할인",
       "annual_fee_krw": 15000,
-      "annual_fee_note": "연회비 15,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 15,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         400000,
         800000
@@ -14931,8 +15074,8 @@
         {
           "category": "other",
           "title": "국내외 가맹점 1.2% 청구할인",
-          "rate_pct": 1.2,
           "summary": "전월 국내외 가맹점 이용실적 50만원 이상 시",
+          "rate_pct": 1.2,
           "requires_prev_month_spend_krw": 500000
         },
         {
@@ -14944,16 +15087,15 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_102997.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102997",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "카드의정석2 - 믿고쓰는 카드의정석 시즌2는 1.2% 할인이 기본 주요혜택: 국내외 가맹점 1.2% 청구할인 / 분기별 이용실적에 따라 최대 15,000원 청구할인",
       "annual_fee_krw": 22000,
-      "annual_fee_note": "연회비 22,000원 22,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 22,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000
       ]
@@ -14980,19 +15122,21 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_500010.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500010",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "카드의정석2 AUTO 주요혜택: 자동차 할부 이용고객 월 납부금 청구할인 / 주차비 2천원 청구할인",
       "annual_fee_krw": 20000,
-      "annual_fee_note": "연회비 20,000원 20,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 20,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
-        400000
-      ]
+        400000,
+        800000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 11000
     },
     {
       "id": "woori-kadeuuijeongseok2-every-discount",
@@ -15004,30 +15148,29 @@
         {
           "category": "other",
           "title": "국내외 가맹점 0.8% 청구할인",
-          "rate_pct": 0.8,
           "summary": "전월실적, 할인한도 없음",
+          "rate_pct": 0.8,
           "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "other",
           "title": "국내 온라인 간편결제 2% 추가 청구할인",
-          "rate_pct": 2,
           "summary": "우리WON페이, 네이버페이, 카카오페이",
+          "rate_pct": 2,
           "requires_prev_month_spend_krw": 400000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_103729.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103729",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "카드의정석2 EVERY DISCOUNT - 결제도 간편 혜택도 간편 주요혜택: 국내외 가맹점 0.8% 청구할인 / 국내 온라인 간편결제 2% 추가 청구할인",
       "annual_fee_krw": 6000,
-      "annual_fee_note": "모바일카드 연회비 6,000원 6,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 6,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         400000
       ]
@@ -15042,15 +15185,15 @@
         {
           "category": "point",
           "title": "국내외 가맹점 0.8% 적립",
-          "rate_pct": 0.8,
           "summary": "전월실적 조건 없음 적립한도 제한 없음",
+          "rate_pct": 0.8,
           "requires_prev_month_spend_krw": 400000
         },
         {
           "category": "point",
           "title": "국내 온라인 간편결제 2% 추가적립",
-          "rate_pct": 2,
           "summary": "대상 간편결제 : 우리WON페이, 네이버페이, 카카오페이 전월 국내외 가맹점 이용금액 40만원 이상 시 혜택 제공",
+          "rate_pct": 2,
           "requires_prev_month_spend_krw": 400000
         },
         {
@@ -15062,16 +15205,15 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_102718.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102718",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "카드의정석2 EVERY POINT - 모두를 위한 간편한 혜택 주요혜택: 국내외 가맹점 0.8% 적립 / 국내 온라인 간편결제 2% 추가적립 / 청소년 가족카드 발급 가능 상품",
       "annual_fee_krw": 12000,
-      "annual_fee_note": "연회비 12,000원 12,000원 12,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 12,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         400000
       ]
@@ -15123,22 +15265,21 @@
         {
           "category": "transit",
           "title": "평일 출퇴근 시간대 통행료",
-          "rate_pct": 50,
-          "summary": "20~50% 할인"
+          "summary": "20~50% 할인",
+          "rate_pct": 50
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_103416.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103416",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "카드의정석2 후불하이패스+ - 카드의정석2 후불하이패스+ 주요혜택: 평일 출퇴근 시간대 통행료",
       "annual_fee_krw": 2000,
-      "annual_fee_note": "연회비 2,000원"
+      "annual_fee_note": "공식 연회비 항목 중 최저 2,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음."
     },
     {
       "id": "woori-kadeuuijeongseok2-kaltoe-check",
@@ -15197,15 +15338,15 @@
         {
           "category": "shopping",
           "title": "생활/통신 15% 할인",
-          "rate_pct": 15,
           "summary": "아파트관리비, 전기/가스요금, 통신비 15% 청구할인 ※전월실적 50만원 이상 시 제공",
+          "rate_pct": 15,
           "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "ott",
           "title": "디지털구독 30% 할인",
-          "rate_pct": 30,
           "summary": "디지털구독 30% 청구할인 ※ 전월실적 50만원 이상 시 제공",
+          "rate_pct": 30,
           "requires_prev_month_spend_krw": 500000
         },
         {
@@ -15217,16 +15358,15 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_500045.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500045",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "카드의정석2 ROUTINE - 숨 쉬듯 당연한 정기결제, 할인도 당연해야 하니까 주요혜택: 생활/통신 15% 할인 / 디지털구독 30% 할인 / 2~3개월 무이자 할부서비스",
       "annual_fee_krw": 22000,
-      "annual_fee_note": "모바일카드 연회비 22,000원 22,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 22,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000
       ]
@@ -15241,37 +15381,36 @@
         {
           "category": "shopping",
           "title": "쇼핑 기본할인 10%",
-          "rate_pct": 10,
           "summary": "온·오프라인 쇼핑 10% 청구할인 ※전월실적 50만원 이상 시 제공",
+          "rate_pct": 10,
           "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "shopping",
           "title": "쇼핑 추가할인 5%",
-          "rate_pct": 5,
           "summary": "주중 온라인/주말 오프라인 쇼핑 5% 추가 청구할인 ※전월실적 50만원 이상 시 제공",
+          "rate_pct": 5,
           "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "shopping",
           "title": "쇼핑 멤버십 할인 50%",
-          "rate_pct": 50,
           "summary": "쇼핑 멤버십 50% 청구할인 ※전월실적 50만원 이상 시 제공",
+          "rate_pct": 50,
           "requires_prev_month_spend_krw": 500000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104151.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104151",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "카드의정석2 SHOPPER - 쇼핑의 순간, 15% 가볍게 주요혜택: 쇼핑 기본할인 10% / 쇼핑 추가할인 5% / 쇼핑 멤버십 할인 50%",
       "annual_fee_krw": 28000,
-      "annual_fee_note": "연회비 28,000원 28,000원 28,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 28,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000
       ]
@@ -15325,37 +15464,36 @@
         {
           "category": "other",
           "title": "국내외 가맹점 1% 청구할인",
-          "rate_pct": 1,
           "summary": "전월 국내외 가맹점 이용실적 관계없이 할인 제공 (월 할인한도 제한 없음)",
+          "rate_pct": 1,
           "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "shopping",
           "title": "온라인/TV홈쇼핑, 생활/편의, 건강/의료 1.5% 청구할인",
-          "rate_pct": 1.5,
           "summary": "전월 국내외 가맹점 이용실적 50만원 이상 시 청구할인 제공",
+          "rate_pct": 1.5,
           "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "fuel",
           "title": "보험, 레저/여가, 주유, 해외 2.5% 청구할인",
-          "rate_pct": 2.5,
           "summary": "전월 국내외 가맹점 이용실적 50만원 이상 시 청구할인 제공",
+          "rate_pct": 2.5,
           "requires_prev_month_spend_krw": 500000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_500001.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500001",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "카드의정석2 원더라이프 주요혜택: 국내외 가맹점 1% 청구할인 / 온라인/TV홈쇼핑, 생활/편의, 건강/의료 1.5% 청구할인 / 보험, 레저/여가, 주유, 해외 2.5% 청구할인",
       "annual_fee_krw": 25000,
-      "annual_fee_note": "연회비 25,000원 25,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 25,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000
       ]
@@ -15414,21 +15552,21 @@
         {
           "category": "utility",
           "title": "코웨이 렌탈요금 청구할인",
-          "summary": "※ 전월실적 30만원 이상시 제공"
+          "summary": "※ 전월실적 30만원 이상시 제공",
+          "requires_prev_month_spend_krw": 300000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_500004.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500004",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "코웨이 ICON 우리카드 - 코웨이 렌탈요금 청구할인 서비스 주요혜택: 코웨이 렌탈요금 청구할인",
       "annual_fee_krw": 25000,
-      "annual_fee_note": "연회비 25,000원 25,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 25,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         300000,
         800000,
@@ -15486,34 +15624,36 @@
         {
           "category": "other",
           "title": "KREAM 이용금액 10% 청구할인",
+          "summary": "전월 국내외 이용실적 50만원 이상 시 제공",
           "rate_pct": 10,
-          "summary": "전월 국내외 이용실적 50만원 이상 시 제공"
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "overseas",
           "title": "해외 이용금액 3% 청구할인",
+          "summary": "전월 국내외 이용실적 50만원 이상 시 제공",
           "rate_pct": 3,
-          "summary": "전월 국내외 이용실적 50만원 이상 시 제공"
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "overseas",
           "title": "국내 고액매출 1-2% 청구할인",
+          "summary": "전월 KREAM 및 해외 가맹점 이용실적 50만원 이상 시 제공",
           "rate_pct": 2,
-          "summary": "전월 KREAM 및 해외 가맹점 이용실적 50만원 이상 시 제공"
+          "requires_prev_month_spend_krw": 500000
         }
       ],
-      "confidence": "high",
+      "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104156.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104156",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "KREAM Platinum 우리카드 주요혜택: KREAM 이용금액 10% 청구할인 / 해외 이용금액 3% 청구할인 / 국내 고액매출 1-2% 청구할인",
       "annual_fee_krw": 22000,
-      "annual_fee_note": "연회비 22,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 22,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000,
         1000000,
@@ -15571,6 +15711,10 @@
       "benefits": [
         {
           "category": "telecom",
+          "title": "KT 단말기 장기할부 서비스"
+        },
+        {
+          "category": "telecom",
           "title": "KT 청구할인 서비스",
           "summary": "※ 전월실적 40만원 이상시 제공",
           "requires_prev_month_spend_krw": 400000
@@ -15578,19 +15722,21 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104168.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104168",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "KT 36 Plus 우리카드 - KT 단말기 장기할부, KT 청구할인 주요혜택: KT 단말기 장기할부 서비스 / KT 청구할인 서비스",
       "annual_fee_krw": 25000,
-      "annual_fee_note": "연회비 25,000원 25,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 25,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
-        400000
-      ]
+        400000,
+        800000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 8000
     },
     {
       "id": "woori-kt-plus-urikadeu",
@@ -15679,19 +15825,21 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104173.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104173",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "LG헬로비전 우리집엔 우리카드 - LG헬로비전 자동납부 청구할인 주요혜택: LG헬로비전 자동납부 청구할인",
       "annual_fee_krw": 20000,
-      "annual_fee_note": "연회비 20,000원 20,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 20,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
-        300000
-      ]
+        300000,
+        700000,
+        1200000
+      ],
+      "integrated_monthly_cap_krw": 8000
     },
     {
       "id": "woori-lgjeonja-platinum-urikadeu",
@@ -15703,21 +15851,21 @@
         {
           "category": "ott",
           "title": "LG전자 구독요금 청구할인",
-          "summary": "※ 전월실적 100만원 이상시 제공"
+          "summary": "※ 전월실적 100만원 이상시 제공",
+          "requires_prev_month_spend_krw": 1000000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104169.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104169",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "LG전자 Platinum 우리카드 - LG전자 구독요금 청구할인 서비스 주요혜택: LG전자 구독요금 청구할인",
       "annual_fee_krw": 25000,
-      "annual_fee_note": "연회비 25,000원 25,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 25,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         1000000,
         1500000,
@@ -15773,21 +15921,21 @@
         {
           "category": "ott",
           "title": "경동나비엔 구독료 자동납부 청구할인",
-          "summary": "※ 전월 실적 30만원 이상시 제공"
+          "summary": "※ 전월 실적 30만원 이상시 제공",
+          "requires_prev_month_spend_krw": 300000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104176.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104176",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "나비엔 구독 우리카드 - 경동나비엔 구독료 자동납부 청구할인 서비스 주요혜택: 경동나비엔 구독료 자동납부 청구할인",
       "annual_fee_krw": 20000,
-      "annual_fee_note": "연회비 20,000원 20,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 20,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         300000,
         700000,
@@ -15908,26 +16056,27 @@
         {
           "category": "travel",
           "title": "국내외 공항라운지 무료",
-          "summary": "※ 전월 국내 가맹점 이용금액 50만원 이상 시 제공"
+          "summary": "※ 전월 국내 가맹점 이용금액 50만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "mileage",
           "title": "이용금액 1,000원당 대한항공 마일리지 적립",
-          "summary": "※ 전월 국내 가맹점 이용금액 30만원 이상 시 제공"
+          "summary": "※ 전월 국내 가맹점 이용금액 30만원 이상 시 제공",
+          "requires_prev_month_spend_krw": 300000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_833841.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=833841",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "ROYAL BLUE MILEAGE [SKYPASS] 주요혜택: 국내가맹점 이용금액 초년도 50만원, 2차년도 부터는 전년도 또는 당해년도 500만원 이상 시 제공 / 국내외 공항라운지 무료 / 이용금액 1,000원당 대한항공 마일리지 적립",
       "annual_fee_krw": 330000,
-      "annual_fee_note": "연회비 330,000원 330,000원 330,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 330,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         300000,
         500000
@@ -16054,21 +16203,21 @@
         {
           "category": "ott",
           "title": "세라젬 구독 자동납부 청구할인",
-          "summary": "※ 전월실적 30만원 이상시 제공"
+          "summary": "※ 전월실적 30만원 이상시 제공",
+          "requires_prev_month_spend_krw": 300000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104147.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104147",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "세라젬 구독 우리카드 - 세라젬 구독 자동납부 할인 카드 주요혜택: 세라젬 구독 자동납부 청구할인",
       "annual_fee_krw": 20000,
-      "annual_fee_note": "연회비 20,000원 20,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 20,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         300000,
         700000,
@@ -16130,21 +16279,21 @@
         {
           "category": "fuel",
           "title": "SK주유소 주유 청구할인",
-          "summary": "※ 전월실적 40만원 이상시 제공"
+          "summary": "※ 전월실적 40만원 이상시 제공",
+          "requires_prev_month_spend_krw": 400000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104167.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104167",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "SK 주유 400 우리카드 - SK주유소 주유 청구할인 주요혜택: SK주유소 주유 청구할인",
       "annual_fee_krw": 25000,
-      "annual_fee_note": "연회비 25,000원 25,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 25,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         400000,
         800000,
@@ -16222,21 +16371,21 @@
         {
           "category": "other",
           "title": "동양생명 보험료 청구할인",
-          "summary": "※ 전월실적 30만원 이상시 제공"
+          "summary": "※ 전월실적 30만원 이상시 제공",
+          "requires_prev_month_spend_krw": 300000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104137.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104137",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "수호천사 동양생명 우리카드 - 동양생명 보험료 청구할인 서비스 주요혜택: 동양생명 보험료 청구할인",
       "annual_fee_krw": 20000,
-      "annual_fee_note": "연회비 20,000원 20,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 20,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         300000,
         800000,
@@ -16415,8 +16564,8 @@
         {
           "category": "point",
           "title": "국내외 2% 적립",
-          "rate_pct": 2,
           "summary": "전월실적조건 없이 월 이용금액 1억원까지 적립 제공",
+          "rate_pct": 2,
           "requires_prev_month_spend_krw": 500000
         },
         {
@@ -16428,16 +16577,15 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_103726.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103726",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "TWO CHAIRS W - YOUR EXCLUSIVE PREMIUM PARTNER 주요혜택: 프리미엄 기프트 2종(백화점 상품권, 모아포인트) / 국내외 2% 적립 / 럭셔리 공항라운지 본인+동반 3인",
       "annual_fee_krw": 2500000,
-      "annual_fee_note": "연회비 2,500,000원 2,500,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 2,500,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000
       ]
@@ -16638,17 +16786,17 @@
           "summary": "현장할인 L당 55원"
         }
       ],
-      "confidence": "low",
+      "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104146.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104146",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "우리 GS칼텍스 55 화물복지카드 - GS칼텍스 현장할인 L당 55원 주요혜택: GS칼텍스 주유 할인",
-      "annual_fee_krw": 0
+      "annual_fee_krw": 0,
+      "annual_fee_note": "공식 연회비 항목 중 최저 0원. 브랜드·실물·모바일 구분에 따라 다를 수 있음."
     },
     {
       "id": "woori-uri-gukminyeongeumjeungchekeukadeu",
@@ -16870,15 +17018,15 @@
         {
           "category": "overseas",
           "title": "해외/여행준비 2~6% 적립",
-          "rate_pct": 6,
           "summary": "※ 전월 이용실적 50만원 이상 ※ 월 통합 적립한도 10만점 (단, 해외영역 적립한도 3만점)",
+          "rate_pct": 6,
           "requires_prev_month_spend_krw": 500000
         },
         {
           "category": "other",
           "title": "간편결제,인앱결제 3% 할인",
-          "rate_pct": 3,
           "summary": "※ 전월 이용실적 50만원 이상 ※ 월 할인한도 3천원",
+          "rate_pct": 3,
           "requires_prev_month_spend_krw": 500000
         },
         {
@@ -16890,16 +17038,15 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_104153.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104153",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "우리카드 UniMile - 해외여행 필수템, LCC 통합 포인트 카드 주요혜택: 해외/여행준비 2~6% 적립 / 간편결제,인앱결제 3% 할인 / 국내 공항 라운지 무료 이용",
       "annual_fee_krw": 33000,
-      "annual_fee_note": "연회비 33,000원 33,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 33,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         500000
       ]
@@ -16914,20 +17061,21 @@
         {
           "category": "telecom",
           "title": "우리WON모바일 통신요금 캐시백",
-          "summary": "전월실적에 따라 최대 7천원 캐시백 (전월실적 최소 30만원 부터)"
+          "summary": "전월실적에 따라 최대 7천원 캐시백 (전월실적 최소 30만원 부터)",
+          "requires_prev_month_spend_krw": 300000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_103687.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103687",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "우리WON모바일 체크카드 - 우리WON모바일 통신요금 캐시백 서비스! 주요혜택: 우리WON모바일 통신요금 캐시백",
       "annual_fee_krw": 0,
+      "annual_fee_note": "공식 연회비 항목 중 최저 0원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         300000,
         800000,
@@ -16950,16 +17098,15 @@
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_103457.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103457",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "우리WON모바일 카드 - 우리WON모바일 통신요금 청구할인 서비스! 주요혜택: 우리WON모바일 통신요금 할인",
       "annual_fee_krw": 20000,
-      "annual_fee_note": "연회비 20,000원 20,000원",
+      "annual_fee_note": "공식 연회비 항목 중 최저 20,000원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         400000,
         800000,
@@ -17026,33 +17173,36 @@
         {
           "category": "food",
           "title": "일본 3대 편의점 50% 캐시백",
+          "summary": "전월실적 30만원 이상 시 반기 5천원 / 연 1만원 한도 내 제공",
           "rate_pct": 50,
-          "summary": "전월실적 30만원 이상 시 반기 5천원 / 연 1만원 한도 내 제공"
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "food",
           "title": "일본 커피/패스트푸드 50% 캐시백",
+          "summary": "전월실적 30만원 이상 시 반기 5천원 / 연 1만원 한도 내 제공",
           "rate_pct": 50,
-          "summary": "전월실적 30만원 이상 시 반기 5천원 / 연 1만원 한도 내 제공"
+          "requires_prev_month_spend_krw": 300000
         },
         {
           "category": "point",
           "title": "일본 오프라인 가맹점 10% 캐시백",
+          "summary": "전월실적 20만원 이상 시 건당 최대 1천원 내 제공",
           "rate_pct": 10,
-          "summary": "전월실적 20만원 이상 시 건당 최대 1천원 내 제공"
+          "requires_prev_month_spend_krw": 200000
         }
       ],
       "confidence": "medium",
       "review_status": "machine_extracted",
-      "updated_at": "2026-07-31",
+      "updated_at": "2026-09-21",
       "source": {
-        "kind": "issuer_machine_readable_feed",
-        "url": "https://pc.wooricard.com/ai-data/card_103490.html",
-        "retrieved_at": "2026-07-31",
-        "note": "robots.txt 에서 명시 허용된 카드사 자체 기계판독 경로"
+        "kind": "issuer_official_page",
+        "url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103490",
+        "retrieved_at": "2026-09-21",
+        "note": "우리카드 공식 상품 페이지의 공개 상세조회 API로 보완 수집. 자동 추출값이며 상세 조건은 공식 원문 확인 필요."
       },
-      "tagline": "위비트래블 J 체크카드 - 우리 일본여행의 A TO Z 주요혜택: 일본 3대 편의점 50% 캐시백 / 일본 커피/패스트푸드 50% 캐시백 / 일본 오프라인 가맹점 10% 캐시백",
       "annual_fee_krw": 0,
+      "annual_fee_note": "공식 연회비 항목 중 최저 0원. 브랜드·실물·모바일 구분에 따라 다를 수 있음.",
       "prev_month_spend_tiers_krw": [
         200000,
         300000

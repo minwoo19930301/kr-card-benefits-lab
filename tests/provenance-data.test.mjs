@@ -23,7 +23,13 @@ test('published collection counts and content hash match accepted evidence', asy
     assert.equal(card.source.url, record.url);
     assert.match(record.sha256, /^[a-f0-9]{64}$/);
     assert.ok(record.bytes > 0);
-    assert.equal(record.transport, report.transport);
+    assert.ok((report.transports ?? [report.transport]).includes(record.transport));
+    if(record.transport === 'direct_official_api') {
+      assert.equal(record.issuer, 'woori');
+      assert.equal(record.supplemental_evidence.endpoint, 'https://pc.wooricard.com/dcpc/yh1/crd/crd01/searchCrdDtl.pwkjson');
+      assert.equal(new URL(record.url).searchParams.get('cdPrdCd'), record.supplemental_evidence.request_product_id);
+      assert.equal(record.supplemental_evidence.hash_scope, 'resultVo');
+    }
   }
 });
 

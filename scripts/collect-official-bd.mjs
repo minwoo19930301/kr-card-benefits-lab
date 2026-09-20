@@ -117,11 +117,13 @@ async function fetchDirect(url, options) {
 }
 
 function argumentsFor(argv) {
-  const result = { transport: 'brightdata', limit: 400, concurrency: 3, apply: false, cacheDir: path.join(ROOT, '..', 'bd-card-cache') };
+  const result = { transport: 'brightdata', limit: 400, concurrency: 3, failureThreshold: 3, apply: false, cacheDir: path.join(ROOT, '..', 'bd-card-cache') };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--apply') result.apply = true;
+    else if (arg === '--cache-only') result.cacheOnly = true;
     else if (['--limit','--concurrency'].includes(arg)) result[arg.slice(2)] = Number(argv[++i]);
+    else if (arg === '--failure-threshold') result.failureThreshold = Number(argv[++i]);
     else if (arg === '--key-file') result.keyFile = argv[++i];
     else if (arg === '--key-name') result.keyName = argv[++i];
     else if (arg === '--zone') result.zone = argv[++i];
@@ -131,7 +133,8 @@ function argumentsFor(argv) {
     else throw new Error(`Unknown argument ${arg}`);
   }
   if (!Number.isInteger(result.limit) || result.limit < 1 || result.limit > 1000) throw new Error('--limit must be 1..1000');
-  if (!Number.isInteger(result.concurrency) || result.concurrency < 1 || result.concurrency > 5) throw new Error('--concurrency must be 1..5');
+  if (!Number.isInteger(result.concurrency) || result.concurrency < 1 || result.concurrency > 20) throw new Error('--concurrency must be 1..20');
+  if (!Number.isInteger(result.failureThreshold) || result.failureThreshold < 1 || result.failureThreshold > 1000) throw new Error('--failure-threshold must be 1..1000');
   if (!['brightdata', 'direct'].includes(result.transport)) throw new Error('--transport must be brightdata or direct');
   return result;
 }
@@ -157,7 +160,7 @@ async function main() {
   async function worker() {
     while (cursor < jobs.length) {
       const job = jobs[cursor++];
-      if (stopped || (failures.get(job.issuer) ?? 0) >= 3) {
+      if (stopped || (failures.get(job.issuer) ?? 0) >= args.failureThreshold) {
         records.push({ ...job, status: 'skipped', reason: stopped ?? 'issuer_failure_circuit' });
         continue;
       }
@@ -187,7 +190,7 @@ async function main() {
           failures.set(job.issuer, 0);
         }
       } catch (error) {
-        Object.assign(record, { status: 'failed', reason: error.code ?? 'collection_error' });
+        Object.assign(record, { status: error.code === 'cache_miss' ? 'skipped' : 'failed', reason: error.code ?? 'collection_error', ...(error.status ? {http_status:error.status} : {}) });
         failures.set(job.issuer, (failures.get(job.issuer) ?? 0) + 1);
         if (['authentication', 'permission', 'quota', 'rate_limit', 'configuration', 'budget_exhausted'].includes(error.code)) stopped = error.code;
       }
@@ -206,7 +209,8 @@ async function main() {
   if (errors.length) throw new Error(`Candidate validation failed: ${errors.slice(0, 5).join('; ')}`);
   const report = {
     generated_at: new Date().toISOString(), run_id: runId, transport: args.transport === 'direct' ? 'direct_official_http' : 'brightdata_web_unlocker',
-    request_count: budget.used, request_limit: budget.limit, stopped_reason: stopped,
+    cache_only: Boolean(args.cacheOnly), request_count: budget.used, request_limit: budget.limit, stopped_reason: stopped,
+    concurrency: args.concurrency, failure_threshold: args.failureThreshold,
     known_source_count: allJobs.length, accepted_count: accepted.length, corpus_sha256: fingerprint(candidate),
     issuer_reports: issuers.issuers.map(i => {
       const rs = records.filter(r => r.issuer === i.key);

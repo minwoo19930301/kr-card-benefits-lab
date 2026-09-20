@@ -1,39 +1,42 @@
 {
-  "generated_at": "2026-09-20T16:10:29.528Z",
-  "run_id": "2026-09-20T16-10-28-857Z",
-  "transport": "direct_official_http",
-  "request_count": 1,
+  "generated_at": "2026-09-20T16:59:48.601Z",
+  "run_id": "2026-09-20T16-59-48-433Z",
+  "transport": "brightdata_web_unlocker",
+  "cache_only": true,
+  "request_count": 0,
   "request_limit": 400,
   "stopped_reason": null,
+  "concurrency": 20,
+  "failure_threshold": 1000,
   "known_source_count": 353,
-  "accepted_count": 132,
-  "corpus_sha256": "d188fb0eef5755dccbbe295cb1c5186d81c9be025a8b5ff48aedb56073d3e5dd",
+  "accepted_count": 267,
+  "corpus_sha256": "a3ff2230ba7ef9486d3895afef26d5e69388a19fae57d5930ef4d05cccda1ddd",
   "issuer_reports": [
     {
       "issuer": "woori",
-      "status": "failed",
+      "status": "partial",
       "discovered": 87,
-      "attempted": 3,
-      "succeeded": 0,
-      "failed": 3,
-      "skipped": 84,
-      "updated_cards": 0,
-      "retained_cards": 87,
+      "attempted": 87,
+      "succeeded": 34,
+      "failed": 53,
+      "skipped": 0,
+      "updated_cards": 34,
+      "retained_cards": 53,
       "checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 87개 중 검증 통과 0개. 전체 발급 상품 완전성은 미보증."
+      "note": "발견된 공식 URL 87개 중 검증 통과 34개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
     },
     {
       "issuer": "shinhan",
       "status": "partial",
       "discovered": 29,
-      "attempted": 6,
-      "succeeded": 2,
-      "failed": 4,
-      "skipped": 23,
-      "updated_cards": 2,
-      "retained_cards": 27,
+      "attempted": 29,
+      "succeeded": 14,
+      "failed": 15,
+      "skipped": 0,
+      "updated_cards": 14,
+      "retained_cards": 15,
       "checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 29개 중 검증 통과 2개. 전체 발급 상품 완전성은 미보증."
+      "note": "발견된 공식 URL 29개 중 검증 통과 14개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
     },
     {
       "issuer": "samsung",
@@ -46,20 +49,20 @@
       "updated_cards": 2,
       "retained_cards": 0,
       "checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 2개 중 검증 통과 2개. 전체 발급 상품 완전성은 미보증."
+      "note": "발견된 공식 URL 2개 중 검증 통과 2개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
     },
     {
       "issuer": "hyundai",
-      "status": "failed",
+      "status": "partial",
       "discovered": 98,
-      "attempted": 3,
-      "succeeded": 0,
-      "failed": 3,
-      "skipped": 95,
-      "updated_cards": 0,
-      "retained_cards": 98,
+      "attempted": 98,
+      "succeeded": 89,
+      "failed": 9,
+      "skipped": 0,
+      "updated_cards": 89,
+      "retained_cards": 9,
       "checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 98개 중 검증 통과 0개. 전체 발급 상품 완전성은 미보증."
+      "note": "발견된 공식 URL 98개 중 검증 통과 89개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
     },
     {
       "issuer": "kb",
@@ -72,7 +75,7 @@
       "updated_cards": 40,
       "retained_cards": 0,
       "checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 43개 중 검증 통과 40개. 전체 발급 상품 완전성은 미보증."
+      "note": "발견된 공식 URL 43개 중 검증 통과 40개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
     },
     {
       "issuer": "hana",
@@ -85,7 +88,7 @@
       "updated_cards": 45,
       "retained_cards": 0,
       "checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 46개 중 검증 통과 45개. 전체 발급 상품 완전성은 미보증."
+      "note": "발견된 공식 URL 46개 중 검증 통과 45개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
     },
     {
       "issuer": "lotte",
@@ -98,7 +101,7 @@
       "updated_cards": 20,
       "retained_cards": 0,
       "checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 23개 중 검증 통과 20개. 전체 발급 상품 완전성은 미보증."
+      "note": "발견된 공식 URL 23개 중 검증 통과 20개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
     },
     {
       "issuer": "nh",
@@ -111,7 +114,7 @@
       "updated_cards": 2,
       "retained_cards": 0,
       "checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 3개 중 검증 통과 2개. 전체 발급 상품 완전성은 미보증."
+      "note": "발견된 공식 URL 3개 중 검증 통과 2개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
     },
     {
       "issuer": "bc",
@@ -124,10 +127,30 @@
       "updated_cards": 21,
       "retained_cards": 0,
       "checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 22개 중 검증 통과 21개. 전체 발급 상품 완전성은 미보증."
+      "note": "발견된 공식 URL 22개 중 검증 통과 21개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
     }
   ],
-  "transport_note": "Bright Data는 활성 zone 부재와 zone 생성 권한 부족(403)으로 이번 수집에 사용하지 못함. 공식 사이트 직접 HTTP 수집 결과.",
-  "requested_transport": "brightdata_web_unlocker",
-  "brightdata_requests": 0
+  "fallback_run_id": "2026-09-20T16-58-38-116Z",
+  "fallback_request_count": 198,
+  "enriched_at": "2026-09-20T17:01:03.199Z",
+  "supplemental_request_count": 241,
+  "supplemental_updated_cards": 130,
+  "transports": [
+    "direct_official_http",
+    "brightdata_web_unlocker",
+    "direct_official_api"
+  ],
+  "transport_note": "Bright Data를 우선 사용하고 실패한 원문은 직접 공식 HTTP 및 우리·신한 공개 API와 현대 공식 상세 HTML로 보완. 직접 수집·API 요청 수는 fallback_request_count와 supplemental_request_count로 별도 기록.",
+  "accepted_by_transport": {
+    "direct_official_http": 189,
+    "brightdata_web_unlocker": 44,
+    "direct_official_api": 34
+  },
+  "network_request_accounting_note": "request_count는 캐시 통합 단계의 신규 Bright Data 요청 수이다. 앞서 실행하다 중단한 Bright Data 네트워크 요청 총수와 비용은 이 값에 포함되지 않으며 0을 뜻하지 않는다. 성공 근거는 URL별 해시·취득시각·전송방식으로 확인한다.",
+  "primary_network_run": {
+    "completed_records_before_stop": 143,
+    "network_request_count": null,
+    "stop_reason": "공식 직접 수집과 공개 API 보완이 가능해져 느린 중복 요청을 중단; 확보된 Bright Data 원문을 캐시에서 검증·통합",
+    "key_selection": "BRIGHT_DATA_KEY_1"
+  }
 }

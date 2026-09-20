@@ -86,13 +86,13 @@ function classify(status, message) {
   return 'api_http';
 }
 
-async function readCache(directory, cacheKey, { url, render, country, maxAgeMs, now }) {
+async function readCache(directory, cacheKey, { url, render, country, version, maxAgeMs, now }) {
   if (!directory || maxAgeMs <= 0) return null;
   try {
     const metadata = JSON.parse(await readFile(path.join(directory, `${cacheKey}.json`), 'utf8'));
     const html = await readFile(path.join(directory, `${cacheKey}.html`), 'utf8');
     const age = now - Date.parse(metadata.retrievedAt);
-    if (metadata.version !== 1 || metadata.transport !== TRANSPORT || metadata.sourceUrl !== url || metadata.render !== render
+    if (metadata.version !== version || metadata.transport !== TRANSPORT || metadata.sourceUrl !== url || metadata.render !== render
         || metadata.country !== country || !Number.isInteger(metadata.status) || metadata.status < 200 || metadata.status > 299
         || !Number.isFinite(age) || age < 0 || age > maxAgeMs
         || metadata.sha256 !== sha256(html) || metadata.bytes !== Buffer.byteLength(html)) return null;
@@ -111,22 +111,27 @@ async function readCache(directory, cacheKey, { url, render, country, maxAgeMs, 
 export async function fetchBrightData(inputUrl, options = {}) {
   const url = validateTarget(inputUrl);
   const render = options.render === true;
+  // Hana serves EUC-KR. JSON envelopes have already irreversibly decoded its bytes.
+  const raw = new URL(url).hostname === 'www.hanacard.co.kr';
+  const version = raw ? 2 : 1;
+  const format = raw ? 'raw' : 'json';
   const country = options.country ?? null;
   if (country !== null && !/^[a-z]{2}$/.test(country)) throw new BrightDataError('configuration', 'country must be a lowercase ISO two-letter code');
   const timeoutMs = options.timeoutMs ?? 120_000;
   if (!Number.isFinite(timeoutMs) || timeoutMs <= 0) throw new BrightDataError('configuration', 'timeoutMs must be positive');
   const now = options.now?.() ?? Date.now();
-  const cacheKey = sha256(JSON.stringify({ version: 1, url, render, country, transport: TRANSPORT }));
+  const cacheKey = sha256(JSON.stringify({ version, url, render, country, transport: TRANSPORT }));
   const cached = await readCache(options.cacheDir, cacheKey, {
-    url, render, country, maxAgeMs: options.cacheMaxAgeMs ?? 86_400_000, now,
+    url, render, country, version, maxAgeMs: options.cacheMaxAgeMs ?? 86_400_000, now,
   });
   if (cached) return cached;
+  if(options.cacheOnly) throw new BrightDataError('cache_miss','No verified cached response');
   const { key, zone } = await credentials(options);
   const budget = options.budget ?? defaultBudget;
   if (typeof budget.consume !== 'function') throw new BrightDataError('configuration', 'A createRequestBudget() budget is required');
   budget.consume();
   const controller = new AbortController();
-  const payload = { zone, url, format: 'json' };
+  const payload = { zone, url, format };
   if (render) payload.render = 'true';
   if (country) payload.country = country;
   let timer;
@@ -146,7 +151,15 @@ export async function fetchBrightData(inputUrl, options = {}) {
           headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
           body: JSON.stringify(payload), signal: controller.signal, redirect: 'error',
         });
-        return { response, text: await response.text() };
+        if (!raw || !response.ok) return { response, text: await response.text() };
+        const bytes = new Uint8Array(await response.arrayBuffer());
+        if (bytes.byteLength > (options.maxResponseBytes ?? 16 * 1024 * 1024)) throw new BrightDataError('invalid_response', 'Bright Data response exceeds size limit');
+        const prefix = new TextDecoder('windows-1252').decode(bytes.subarray(0, 8192));
+        const charset = /charset\s*=\s*["']?([\w-]+)/i.exec(response.headers.get('content-type') ?? '')?.[1]
+          ?? /charset\s*=\s*["']?([\w-]+)/i.exec(prefix)?.[1]
+          ?? (render ? 'utf-8' : 'euc-kr');
+        try { return { response, text: new TextDecoder(charset, { fatal: true }).decode(bytes) }; }
+        catch { throw new BrightDataError('invalid_response', 'Issuer response charset could not be decoded'); }
       })(),
       timeout,
     ]));
@@ -164,21 +177,24 @@ export async function fetchBrightData(inputUrl, options = {}) {
   }
   if (Buffer.byteLength(text) > (options.maxResponseBytes ?? 16 * 1024 * 1024)) throw new BrightDataError('invalid_response', 'Bright Data response exceeds size limit');
   let data;
-  try { data = JSON.parse(text); } catch { throw new BrightDataError('invalid_response', 'Bright Data returned a non-JSON envelope'); }
+  try { data = raw ? { status_code: response.status, body: text } : JSON.parse(text); } catch { throw new BrightDataError('invalid_response', 'Bright Data returned a non-JSON envelope'); }
   const status = Number(data?.status_code);
   if (!Number.isInteger(status) || status < 100 || status > 599 || typeof data?.body !== 'string') {
     throw new BrightDataError('invalid_response', 'Bright Data envelope must include status_code and a string body');
+  }
+  if (status === 402 && /Residential Failed/i.test(data.body) && /(?:no KYC|KYC form)/i.test(data.body)) {
+    throw new BrightDataError('kyc_required', 'Bright Data requires account KYC verification for this target', { status, retryable: false });
   }
   if (status < 200 || status > 299) throw new BrightDataError('target_http', `Issuer page returned HTTP ${status}`, { status, retryable: status === 429 || status >= 500 });
   if (!data.body.trim()) throw new BrightDataError('empty_body', 'Issuer page returned an empty body', { status });
   // A provider error or echoed authorization value must never become a cache artifact.
   if (data.body.includes(key)) throw new BrightDataError('invalid_response', 'Response unexpectedly contains credential material');
   const metadata = {
-    version: 1, sourceUrl: url, status, transport: TRANSPORT,
+    version, sourceUrl: url, status, transport: TRANSPORT,
     retrievedAt: new Date(options.now?.() ?? Date.now()).toISOString(),
     bytes: Buffer.byteLength(data.body), sha256: sha256(data.body), cacheKey,
     render, country, cacheHit: false, contentVerified: false,
-    provenance: { endpoint: ENDPOINT, format: 'json', apiStatus: response.status },
+    provenance: { endpoint: ENDPOINT, format, apiStatus: response.status },
   };
   if (options.cacheDir) {
     try {

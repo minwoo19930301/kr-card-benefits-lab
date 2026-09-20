@@ -181,13 +181,13 @@ export function parseHyundaiDetail(html, { pageUrl, retrievedAt, cardType = 'cre
   // 혜택 블록. 레이아웃 변형이 여러 개라 item_cont/img_area 존재를 전제하지 않는다.
   // item_tit 를 구분자로 나누고, 뒤따르는 일정 범위에서 대상·요율·조건을 찾는다.
   const benefits = [];
-  for (const raw of bodyHtml.split(/<div class="item_tit">/).slice(1)) {
+  for (const raw of bodyHtml.split(/<div\b[^>]*\bclass=["'][^"']*\bitem_tit\b[^"']*["'][^>]*>/i).slice(1)) {
     const region = raw.slice(0, 1500);
     const scope = stripTags(/<em[^>]*>([\s\S]*?)<\/em>/i.exec(region)?.[1] ?? '');
     const headline = stripTags(/<p[^>]*>([\s\S]*?)<\/p>/i.exec(region)?.[1] ?? '');
     if (!scope && !headline) continue;
     const condition = stripTags(
-      /<div class="sub_txt">[\s\S]{0,200}?<p[^>]*>([\s\S]*?)<\/p>/i.exec(region)?.[1] ?? '',
+      /<div\b[^>]*\bclass=["'][^"']*\bsub_txt\b[^"']*["'][^>]*>[\s\S]{0,200}?<p[^>]*>([\s\S]*?)<\/p>/i.exec(region)?.[1] ?? '',
     );
 
     const title = [scope, headline].filter(Boolean).join(' ').trim();
