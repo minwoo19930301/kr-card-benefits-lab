@@ -96,3 +96,10 @@ test('parseHyundaiDetail: 혜택 블록이 없으면 수록하지 않는다', ()
   );
   assert.equal(card, null);
 });
+
+
+test('rendered tracking attributes preserve Hyundai benefits and conditions', () => {
+  const html = DETAIL_FIXTURE.replaceAll('class="item_tit"', 'data-trg-fired="false" class="item_tit" aria-hidden="false"').replaceAll('class="sub_txt"', 'class="sub_txt" data-trg-fired="false"');
+  const options = { pageUrl: 'https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTMCE', retrievedAt: '2026-09-21' };
+  assert.deepEqual(parseHyundaiDetail(html, options), parseHyundaiDetail(DETAIL_FIXTURE, options));
+});

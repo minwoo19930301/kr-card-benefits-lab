@@ -121,3 +121,53 @@ test('unofficial, authenticated and private URLs never reach the provider', asyn
   }
   assert.equal(calls, 0);
 });
+
+test('Hana raw bytes decode EUC-KR and use a separate cache generation', async () => {
+  const cacheDir = await mkdtemp(path.join(tmpdir(), 'card-bd-hana-'));
+  const url = 'https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=11584';
+  // EUC-KR bytes for 하나카드, deliberately invalid as UTF-8.
+  const encoded = Buffer.concat([Buffer.from('<meta charset="euc-kr"><title>'), Buffer.from([0xc7,0xcf,0xb3,0xaa,0xc4,0xab,0xb5,0xe5]), Buffer.from('</title>')]);
+  try {
+    let body;
+    const result = await fetchBrightData(url, options({ cacheDir, fetchImpl: async (_, init) => {
+      body = JSON.parse(init.body); return new Response(encoded, { headers: { 'Content-Type': 'text/html' } });
+    } }));
+    assert.equal(body.format, 'raw');
+    assert.match(result.html, /<title>하나카드<\/title>/);
+    assert.equal(result.version, 2);
+    assert.equal(result.provenance.format, 'raw');
+    const cached = await fetchBrightData(url, { cacheDir, env: {}, budget: createRequestBudget(0) });
+    assert.equal(cached.cacheHit, true);
+    assert.equal(cached.html, result.html);
+    const metadataPath = path.join(cacheDir, `${result.cacheKey}.json`);
+    const oldMetadata = JSON.parse(await readFile(metadataPath, 'utf8'));
+    oldMetadata.version = 1;
+    await writeFile(metadataPath, JSON.stringify(oldMetadata));
+    await assert.rejects(fetchBrightData(url, { cacheDir, env, budget: createRequestBudget(0) }), { code: 'budget_exhausted' });
+  } finally { await rm(cacheDir, { recursive: true, force: true }); }
+});
+
+test('Hana raw UTF-8 charset is honored and invalid byte sequences are rejected', async () => {
+  const url = 'https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=11584';
+  const good = await fetchBrightData(url, options({ fetchImpl: async () => new Response('<title>하나카드</title>', { headers: { 'Content-Type': 'text/html; charset=UTF-8' } }) }));
+  assert.equal(good.html, '<title>하나카드</title>');
+  await assert.rejects(fetchBrightData(url, options({ fetchImpl: async () => new Response(Buffer.from([0xff]), { headers: { 'Content-Type': 'text/html; charset=UTF-8' } }) })), { code: 'invalid_response' });
+});
+
+test('residential target KYC failure is classified without exposing provider body', async () => {
+  const body = `Residential Failed (bad_endpoint): Requested site is not available for immediate residential (no KYC) access mode in accordance with robots.txt. To get full residential access for targeting this site, fill in the KYC form: https://brightdata.com/cp/kyc ${env.BRIGHT_DATA_API_KEY}`;
+  await assert.rejects(fetchBrightData(URL, options({ fetchImpl: async () => envelope(body, 402) })), (error) => {
+    assert.equal(error.code, 'kyc_required'); assert.equal(error.status, 402); assert.equal(error.retryable, false);
+    assert.ok(!String(error.stack).includes(env.BRIGHT_DATA_API_KEY)); assert.ok(!error.message.includes('bad_endpoint'));
+    return true;
+  });
+  await assert.rejects(fetchBrightData(URL, options({ fetchImpl: async () => envelope('Unrelated issuer payment required', 402) })), { code: 'target_http', status: 402 });
+});
+
+test('cache-only consolidation never makes a paid request on a cache miss', async () => {
+  let calls = 0;
+  const budget = createRequestBudget(1);
+  await assert.rejects(fetchBrightData(URL, { cacheOnly: true, budget, env: {}, fetchImpl: async () => { calls++; return envelope(); } }), error => error.code === 'cache_miss');
+  assert.equal(calls, 0);
+  assert.equal(budget.used, 0);
+});
