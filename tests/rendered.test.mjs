@@ -103,3 +103,16 @@ test('rendered tracking attributes preserve Hyundai benefits and conditions', ()
   const options = { pageUrl: 'https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTMCE', retrievedAt: '2026-09-21' };
   assert.deepEqual(parseHyundaiDetail(html, options), parseHyundaiDetail(DETAIL_FIXTURE, options));
 });
+
+
+test('commented legacy markup does not become current benefits or leak into titles', () => {
+  const options={pageUrl:'https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTMCE',retrievedAt:'2026-09-21'};
+  const html=DETAIL_FIXTURE.replace('1.5% M포인트', '<!-- <strong>5</strong> -->1.5% M포인트')+'<!--'+DETAIL_FIXTURE+'-->';
+  assert.deepEqual(parseHyundaiDetail(html,options),parseHyundaiDetail(DETAIL_FIXTURE,options));
+});
+
+
+test('identical responsive benefit blocks are stored once', () => {
+ const options={pageUrl:'https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTMCE',retrievedAt:'2026-09-21'};
+ assert.deepEqual(parseHyundaiDetail(DETAIL_FIXTURE+DETAIL_FIXTURE,options),parseHyundaiDetail(DETAIL_FIXTURE,options));
+});

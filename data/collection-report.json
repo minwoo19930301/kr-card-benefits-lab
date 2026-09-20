@@ -10,7 +10,7 @@
   "failure_threshold": 1000,
   "known_source_count": 353,
   "accepted_count": 267,
-  "corpus_sha256": "a3ff2230ba7ef9486d3895afef26d5e69388a19fae57d5930ef4d05cccda1ddd",
+  "corpus_sha256": "9ee24220163cd9a86426574f1755262c606b66c90b55c06a89daaed9dc604207",
   "issuer_reports": [
     {
       "issuer": "woori",
@@ -152,5 +152,6 @@
     "network_request_count": null,
     "stop_reason": "공식 직접 수집과 공개 API 보완이 가능해져 느린 중복 요청을 중단; 확보된 Bright Data 원문을 캐시에서 검증·통합",
     "key_selection": "BRIGHT_DATA_KEY_1"
-  }
+  },
+  "parser_cleanup": "Commented legacy markup and exact duplicate responsive benefit blocks excluded; two Hyundai cards corrected from the same verified source cache without network requests."
 }
