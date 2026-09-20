@@ -13,6 +13,8 @@
     "build": "node scripts/build-site.mjs",
     "test": "node --test \"tests/**/*.test.mjs\"",
     "collect": "node scripts/collect-issuer-feed.mjs",
+    "collect:official": "node scripts/collect-official-bd.mjs",
+    "verify:live": "node scripts/verify-live.mjs",
     "serve": "node --run build && node -e \"import('node:http').then(async({default:h})=>{const{readFile}=await import('node:fs/promises');const p=await import('node:path');h.createServer(async(q,s)=>{try{const f=p.join('dist',q.url==='/'?'index.html':q.url.split('?')[0]);const b=await readFile(f);const t={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8'}[p.extname(f)]||'application/octet-stream';s.writeHead(200,{'content-type':t});s.end(b)}catch{s.writeHead(404).end('not found')}}).listen(8787,()=>console.log('http://localhost:8787'))})\""
   }
 }

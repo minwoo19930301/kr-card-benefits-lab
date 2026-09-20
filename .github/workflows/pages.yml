@@ -45,3 +45,9 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: 실제 배포 버전과 데이터 검증
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+          RELEASE_SHA: ${{ github.sha }}
+        run: node scripts/verify-live.mjs "$SITE_URL" "$RELEASE_SHA"

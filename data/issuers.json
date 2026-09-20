@@ -16,7 +16,10 @@
         "path_prefix": "/ai-data/",
         "robots_status": "explicitly_allowed",
         "robots_evidence": "https://pc.wooricard.com/robots.txt 에 'Allow: /ai-data/' 명시"
-      }
+      },
+      "status": "failed",
+      "last_checked_at": "2026-09-21",
+      "note": "발견된 공식 URL 87개 중 검증 통과 0개. 전체 발급 상품 완전성은 미보증."
     },
     {
       "key": "shinhan",
@@ -37,7 +40,10 @@
         "robots_evidence": "robots.txt 의 User-agent: * 그룹에 'Allow: /pconts/html/card/' 명시. 전체 차단 규칙 없음",
         "method": "상세는 정적 HTML 이지만 연회비가 클라이언트 템플릿이라 Chrome 렌더링 후 추출.",
         "coverage_note": "공식 목록 페이지가 노출하는 카드만 수집한다."
-      }
+      },
+      "status": "partial",
+      "last_checked_at": "2026-09-21",
+      "note": "발견된 공식 URL 29개 중 검증 통과 2개. 전체 발급 상품 완전성은 미보증."
     },
     {
       "key": "samsung",
@@ -47,8 +53,11 @@
         "www.samsungcard.com"
       ],
       "machine_readable_feed": null,
-      "status": "blocked_by_robots",
-      "status_reason": "robots.txt 마지막에 'User-agent: * / Disallow: /' 가 있다. Allow 목록은 Yeti·googlebot·GPTbot·ClaudeBot 등 지정 봇에만 적용된다. 우리는 그중 어느 것도 아니므로 전면 차단 대상이다. UA 를 그 봇으로 위장하지 않는다. 수집 금지."
+      "status": "collected",
+      "status_reason": "robots.txt 마지막에 'User-agent: * / Disallow: /' 가 있다. Allow 목록은 Yeti·googlebot·GPTbot·ClaudeBot 등 지정 봇에만 적용된다. 우리는 그중 어느 것도 아니므로 전면 차단 대상이다. UA 를 그 봇으로 위장하지 않는다. 수집 금지.",
+      "previous_collection_status": "blocked_by_robots",
+      "last_checked_at": "2026-09-21",
+      "note": "발견된 공식 URL 2개 중 검증 통과 2개. 전체 발급 상품 완전성은 미보증."
     },
     {
       "key": "hyundai",
@@ -65,7 +74,10 @@
         "robots_evidence": "https://www.hyundaicard.com/robots.txt 에 /cpc/ 를 막는 규칙이 없다",
         "method": "설치된 Chrome 을 헤드리스로 렌더링해 최종 DOM 에서 추출. UA 위장·스텔스 플러그인·쿠키 재사용·CAPTCHA 우회 없음.",
         "coverage_note": "공식 카탈로그(신용 92 + 체크 15)에서 발견한 98건 전부 수집."
-      }
+      },
+      "status": "failed",
+      "last_checked_at": "2026-09-21",
+      "note": "발견된 공식 URL 98개 중 검증 통과 0개. 전체 발급 상품 완전성은 미보증."
     },
     {
       "key": "kb",
@@ -75,8 +87,11 @@
         "card.kbcard.com"
       ],
       "machine_readable_feed": null,
-      "status": "not_collected",
-      "status_reason": "sitemap.xml 미제공. robots.txt 가 /CRD/ 를 허용하나 상품 목록이 기계판독 형식이 아니다."
+      "status": "partial",
+      "status_reason": "sitemap.xml 미제공. robots.txt 가 /CRD/ 를 허용하나 상품 목록이 기계판독 형식이 아니다.",
+      "previous_collection_status": "not_collected",
+      "last_checked_at": "2026-09-21",
+      "note": "발견된 공식 URL 43개 중 검증 통과 40개. 전체 발급 상품 완전성은 미보증."
     },
     {
       "key": "hana",
@@ -86,8 +101,11 @@
         "www.hanacard.co.kr"
       ],
       "machine_readable_feed": null,
-      "status": "not_collected",
-      "status_reason": "sitemap.xml 에 상품 상세 URL 이 있으나 본문이 스크립트 렌더링이라 정적 추출로는 값을 신뢰할 수 없다."
+      "status": "partial",
+      "status_reason": "sitemap.xml 에 상품 상세 URL 이 있으나 본문이 스크립트 렌더링이라 정적 추출로는 값을 신뢰할 수 없다.",
+      "previous_collection_status": "not_collected",
+      "last_checked_at": "2026-09-21",
+      "note": "발견된 공식 URL 46개 중 검증 통과 45개. 전체 발급 상품 완전성은 미보증."
     },
     {
       "key": "lotte",
@@ -97,8 +115,11 @@
         "www.lottecard.co.kr"
       ],
       "machine_readable_feed": null,
-      "status": "not_collected",
-      "status_reason": "robots.txt 응답이 불안정하고 상품 상세가 스크립트 렌더링이다."
+      "status": "partial",
+      "status_reason": "robots.txt 응답이 불안정하고 상품 상세가 스크립트 렌더링이다.",
+      "previous_collection_status": "not_collected",
+      "last_checked_at": "2026-09-21",
+      "note": "발견된 공식 URL 23개 중 검증 통과 20개. 전체 발급 상품 완전성은 미보증."
     },
     {
       "key": "nh",
@@ -108,8 +129,11 @@
         "card.nonghyup.com"
       ],
       "machine_readable_feed": null,
-      "status": "not_collected",
-      "status_reason": "robots.txt 요청이 리다이렉트되고 기계판독 상품 피드가 없다."
+      "status": "partial",
+      "status_reason": "robots.txt 요청이 리다이렉트되고 기계판독 상품 피드가 없다.",
+      "previous_collection_status": "not_collected",
+      "last_checked_at": "2026-09-21",
+      "note": "발견된 공식 URL 3개 중 검증 통과 2개. 전체 발급 상품 완전성은 미보증."
     },
     {
       "key": "bc",
@@ -119,8 +143,11 @@
         "www.bccard.com"
       ],
       "machine_readable_feed": null,
-      "status": "not_collected",
-      "status_reason": "기계판독 상품 피드 미확인."
+      "status": "partial",
+      "status_reason": "기계판독 상품 피드 미확인.",
+      "previous_collection_status": "not_collected",
+      "last_checked_at": "2026-09-21",
+      "note": "발견된 공식 URL 22개 중 검증 통과 21개. 전체 발급 상품 완전성은 미보증."
     }
   ]
 }

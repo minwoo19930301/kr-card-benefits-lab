@@ -6,7 +6,7 @@
     <title>한국 카드 혜택 리서치 — kr-card-benefits-lab</title>
     <meta
       name="description"
-      content="카드사가 공개한 기계판독 피드만으로 구축한 한국 신용·체크카드 혜택 데이터셋과 피킹률 추정 대시보드."
+      content="공식 상품 페이지와 공개 피드의 출처·확인일을 함께 보는 한국 신용·체크카드 혜택 리서치."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -17,15 +17,39 @@
       <div class="wrap">
         <h1>한국 카드 혜택 리서치</h1>
         <p class="lede">
-          카드사가 스스로 공개한 기계판독 피드에서 수집한 데이터입니다. 제3자 카드 비교 서비스의
-          비공개 API 를 사용하지 않습니다.
+          공식 상품 페이지와 공개 피드에서 찾은 혜택을 비교합니다. 출처, 확인일, 아직 확인하지 못한 조건을 함께 살펴보세요.
         </p>
       </div>
     </header>
 
     <div class="wrap">
-      <div class="notice notice-warn" role="note">
-        <strong>읽기 전에</strong>
+      <section class="overview" aria-label="자료 현황">
+        <div id="data-stats" class="data-stats"></div>
+        <p class="caveat">최근 확인은 수집일 기준 30일 이내입니다. 현재 발급 가능하거나 모든 조건을 검수했다는 뜻은 아닙니다.</p>
+        <details class="coverage">
+          <summary>카드사별 수집 현황 <span id="coverage-summary"></span></summary>
+          <p id="collection-note" class="caveat"></p>
+          <div class="table-scroll" tabindex="0" role="region" aria-label="카드사별 수집 현황 표">
+            <table class="coverage-table">
+              <thead><tr><th scope="col">카드사</th><th scope="col">저장 카드</th><th scope="col">마지막 실행</th><th scope="col">결과</th><th scope="col">확인일·설명</th></tr></thead>
+              <tbody id="coverage-body"></tbody>
+            </table>
+          </div>
+        </details>
+      </section>
+
+      <details class="events-section" aria-labelledby="events-heading">
+        <summary><strong id="events-heading">세금 납부 행사</strong> — 기간·대상·제외 조건 보기</summary>
+        <p class="caveat">카드사 단위의 별도 행사입니다. 아래 카드 전체에 적용된다는 뜻은 아닙니다. 대상 카드·납부 채널·신청 조건을 행사 원문에서 확인하세요.</p>
+        <div id="current-events"><p class="caveat">행사 자료를 확인하고 있습니다.</p></div>
+        <details id="event-history" hidden>
+          <summary id="event-history-label">진행 중이 아닌 행사</summary>
+          <div id="other-events" class="event-list"></div>
+        </details>
+      </details>
+
+      <details class="notice notice-warn">
+        <summary><strong>자료와 계산 읽는 법</strong> — 미확인은 혜택 없음이 아닙니다</summary>
         <ul>
           <li>금융 조언이 아닙니다. 개인 리서치용 참고 데이터입니다.</li>
           <li>
@@ -37,20 +61,21 @@
             한도가 확인되지 않은 혜택은 0 원으로 계산해 과소추정될 수 있습니다.
           </li>
           <li>
-            원본 피드에 오탈자·잘린 금액이 있는 경우가 있어, 확실하지 않은 수치는 <em>비워 두었습니다</em>.
+            공식 자료를 자동 추출하는 과정에서 읽지 못한 값이나 모호한 수치는 <em>비워 두었습니다</em>.
             빈 값은 "혜택이 없음"이 아니라 "확인하지 못함"을 뜻합니다.
           </li>
           <li>
             한도가 포인트로만 표기된 혜택(<code>1만 M포인트</code> 등)은 피킹률 계산에서만
             <em>1포인트 = 1원</em>으로 가정합니다. 포인트의 실제 가치는 사용처에 따라 다릅니다.
           </li>
+          <li>세금의 전월실적 포함 여부와 적립·할인 대상 여부는 별개의 조건입니다. 국세·지방세 범위와 예외는 카드 상세의 원문에서 확인하세요.</li>
         </ul>
-      </div>
+      </details>
 
       <section class="controls" aria-label="검색 및 필터">
-        <div class="control">
+        <div class="control control-search">
           <label for="q">검색</label>
-          <input id="q" type="search" placeholder="카드명 또는 혜택 키워드" autocomplete="off" />
+          <input id="q" type="search" placeholder="예: 신한 체크, 통신 할인" autocomplete="off" />
         </div>
         <div class="control">
           <label for="issuer">카드사</label>
@@ -84,6 +109,30 @@
           </select>
         </div>
         <div class="control">
+          <label for="taxSpend">세금 전월실적</label>
+          <select id="taxSpend">
+            <option value="">전체</option><option value="yes">포함 확인</option><option value="no">제외 확인</option><option value="unknown">미확인</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="taxRewards">세금 적립·할인</label>
+          <select id="taxRewards">
+            <option value="">전체</option><option value="yes">대상 확인</option><option value="no">제외 확인</option><option value="unknown">미확인</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="freshness">자료 확인일</label>
+          <select id="freshness">
+            <option value="">전체</option><option value="fresh">30일 이내 확인</option><option value="stale">재확인 필요 (30일 초과)</option><option value="unknown">확인일 미확인</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="reviewStatus">원문 검수</label>
+          <select id="reviewStatus">
+            <option value="">전체</option><option value="machine_extracted">자동 추출 · 검수 전</option><option value="human_reviewed">사람 검수 완료</option>
+          </select>
+        </div>
+        <div class="control">
           <label for="sort">정렬</label>
           <select id="sort">
             <option value="name">이름</option>
@@ -96,6 +145,10 @@
           <legend>혜택 분야</legend>
           <div id="categories" class="chips"></div>
         </fieldset>
+        <div class="filter-footer control-wide">
+          <p class="caveat">세금 미확인 카드는 포함·제외 어느 쪽으로도 분류하지 않습니다.</p>
+          <button id="reset-filters" class="link-btn" type="button">필터 초기화</button>
+        </div>
       </section>
 
       <p id="summary" class="summary" role="status" aria-live="polite"></p>

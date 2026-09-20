@@ -4,9 +4,12 @@
  */
 
 import { computePickingRate } from './picking.js';
+import { freshness, taxState } from './evidence.js';
+
+const ISSUER_NAMES = { woori: '우리카드', shinhan: '신한카드', samsung: '삼성카드', hyundai: '현대카드', kb: 'KB국민카드', hana: '하나카드', lotte: '롯데카드', nh: 'NH농협카드', bc: 'BC카드' };
 
 export function emptyFilters() {
-  return { q: '', issuer: '', cardType: '', maxFee: '', maxSpend: '', categories: new Set() };
+  return { q: '', issuer: '', cardType: '', maxFee: '', maxSpend: '', taxSpend: '', taxRewards: '', freshness: '', reviewStatus: '', categories: new Set() };
 }
 
 /** 카드의 최저 전월실적 구간. 없으면 null. */
@@ -18,6 +21,10 @@ export function minTier(card) {
 export function matches(card, filters) {
   if (filters.issuer && card.issuer !== filters.issuer) return false;
   if (filters.cardType && card.card_type !== filters.cardType) return false;
+  if (filters.taxSpend && taxState(card, 'counts_as_spend') !== filters.taxSpend) return false;
+  if (filters.taxRewards && taxState(card, 'earns_rewards') !== filters.taxRewards) return false;
+  if (filters.freshness && freshness(card, filters.today).key !== filters.freshness) return false;
+  if (filters.reviewStatus && card.review_status !== filters.reviewStatus) return false;
 
   // 상한 필터는 값을 모르는 카드를 통과시키지 않는다.
   // 미확인을 0 으로 보고 "연회비 없음" 결과에 섞으면 사용자를 오도한다.
@@ -39,15 +46,16 @@ export function matches(card, filters) {
   }
 
   if (filters.q) {
-    const needle = filters.q.toLowerCase();
+    const needles = filters.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const haystack = [
       card.name,
+      card.issuer, ISSUER_NAMES[card.issuer] || '', card.card_type === 'check' ? '체크카드' : '신용카드',
       card.tagline ?? '',
       ...(card.benefits ?? []).map((b) => `${b.title} ${b.summary ?? ''}`),
     ]
       .join(' ')
       .toLowerCase();
-    if (!haystack.includes(needle)) return false;
+    if (!needles.every((needle) => haystack.includes(needle))) return false;
   }
   return true;
 }

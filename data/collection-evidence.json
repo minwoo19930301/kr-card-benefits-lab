@@ -1,0 +1,4746 @@
+{
+  "run_id": "2026-09-20T16-10-28-857Z",
+  "records": [
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALB",
+      "name": "알파벳카드B",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeub",
+      "attempted_at": "2026-09-20T16:10:28.859Z",
+      "fetched_at": "2026-09-20T16:04:25.122Z",
+      "sha256": "1de0af41a041729723296ba7ab543c48697f328977ccd123cf4e0ec8ef261cbe",
+      "bytes": 186029,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "카드명을 확인할 수 없음 — 건너뜀"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=11584&mID=PI41006884P&schID=pcd",
+      "name": "애터미 Any PLUS 카드",
+      "card_type": "credit",
+      "existingId": "hana-aeteomi-any-plus-kadeu",
+      "attempted_at": "2026-09-20T16:10:28.859Z",
+      "fetched_at": "2026-09-20T16:05:58.307Z",
+      "sha256": "eb0f24bfbce43c2dc36f50b315338813a313d94ce29441384c80ed1a7502f633",
+      "bytes": 264392,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-aeteomi-any-plus-kadeu"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104453&mbkNo=050",
+      "name": "BC 바로 에어 맥스",
+      "card_type": "credit",
+      "existingId": "bc-bc-baro-eeo-maekseu",
+      "attempted_at": "2026-09-20T16:10:28.858Z",
+      "fetched_at": "2026-09-20T16:05:52.228Z",
+      "sha256": "0ba757a7e0a708eeb138c276377cb798d03de41360b5f97c2487e9f1f66805de",
+      "bytes": 74376,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-bc-baro-eeo-maekseu"
+    },
+    {
+      "issuer": "samsung",
+      "url": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1766",
+      "name": "삼성 iD AUTO 카드",
+      "card_type": "credit",
+      "existingId": "samsung-samseong-id-auto-kadeu",
+      "attempted_at": "2026-09-20T16:10:28.880Z",
+      "fetched_at": "2026-09-20T16:05:51.245Z",
+      "sha256": "663064ce2e2bbff259361413786ddd5ae7e06bc817599c2fa13eb8e9d1a7ecdb",
+      "bytes": 306810,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "samsung-samseong-id-auto-kadeu"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15673-A15673",
+      "name": "DIGILOCA SKYPASS",
+      "card_type": "credit",
+      "existingId": "lotte-digiloca-skypass",
+      "attempted_at": "2026-09-20T16:10:28.879Z",
+      "fetched_at": "2026-09-20T16:05:56.433Z",
+      "sha256": "17a7f81a291bc0e765783334845e9b79fd389dbe9ee2c2c470b02b105a011d88",
+      "bytes": 210645,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-digiloca-skypass"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04260&mainCC=a",
+      "name": "반려愛카드(강아지)",
+      "card_type": "credit",
+      "existingId": "kb-banryeo-kadeu-gangaji",
+      "attempted_at": "2026-09-20T16:10:28.873Z",
+      "fetched_at": "2026-09-20T16:05:56.790Z",
+      "sha256": "b79c2771590ba3c03b01b7c4b03eeb2c90bd93c60bd679bdcbd2c44c6f6d2892",
+      "bytes": 394378,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-banryeo-kadeu-gangaji"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103187.html",
+      "name": "ALL 우리카드 Infinite",
+      "card_type": "credit",
+      "existingId": "woori-all-urikadeu-infinite",
+      "attempted_at": "2026-09-20T16:10:28.887Z",
+      "fetched_at": "2026-09-20T16:04:25.111Z",
+      "sha256": "23930b487e8074c41095b8ccafe6aeb15c89652ff3b06cbd88bde4c8f7d5712b",
+      "bytes": 4878,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "JSON-LD name 없음 — 건너뜀"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "nh",
+      "url": "https://card.nonghyup.com/servlet/IpCc2021R.act?CD_WRS_SQNO=90010051",
+      "name": "올바른FLEX카드",
+      "card_type": null,
+      "discovery_note": "상품명/혜택/연회비 확인. 신용/체크 직접 표기를 못찾아 null. hidden card_4는 인터넷가입가능여부이므로 유형근거가 아님.",
+      "attempted_at": "2026-09-20T16:10:28.890Z",
+      "fetched_at": "2026-09-20T16:05:50.180Z",
+      "sha256": "8a9a2beac93e7d1878ef61bd8e2c218c928f04d6e83189ed421e263d5e297872",
+      "bytes": 207081,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "신용/체크 구분 미확인; 기본값으로 신용을 지정하지 않음"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1227020_2207.html",
+      "name": "신한카드 처음",
+      "card_type": "credit",
+      "existingId": "shinhan-cheoeum",
+      "attempted_at": "2026-09-20T16:10:28.885Z",
+      "fetched_at": "2026-09-20T16:04:24.909Z",
+      "sha256": "7053d2695534eb7ccfbaeaed72cd113cf0d33cd57673502273a7012ebe617127",
+      "bytes": 59778,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "연회비 파싱 불가 — 필드 생략"
+      ],
+      "status": "rejected",
+      "reason": "lost_annual_fee_krw"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104452&mbkNo=050",
+      "name": "BC 바로 에어 마스터",
+      "card_type": "credit",
+      "existingId": "bc-bc-baro-eeo-maseuteo",
+      "attempted_at": "2026-09-20T16:10:28.891Z",
+      "fetched_at": "2026-09-20T16:05:51.967Z",
+      "sha256": "a4f4e5554070075ae3405c4bd95d1b034ba46ee39d85a881932f163fa032334c",
+      "bytes": 72897,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-bc-baro-eeo-maseuteo"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCD",
+      "name": "알파벳카드D",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeud",
+      "attempted_at": "2026-09-20T16:10:28.896Z",
+      "fetched_at": "2026-09-20T16:04:25.394Z",
+      "sha256": "657c72a49587c759c55d4b52ae6a7951bb092cfb68b0c9fee53fe984b85b7756",
+      "bytes": 186305,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "카드명을 확인할 수 없음 — 건너뜀"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18835&mID=PI41006884P&schID=pcd",
+      "name": "아정당 하나카드",
+      "card_type": "credit",
+      "existingId": "hana-ajeongdang-hanakadeu",
+      "attempted_at": "2026-09-20T16:10:28.893Z",
+      "fetched_at": "2026-09-20T16:06:04.873Z",
+      "sha256": "d23b6b151476ef7499c6dd5e96ba710fef1e4f50562afc969010b1359c81d3ca",
+      "bytes": 259282,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-ajeongdang-hanakadeu"
+    },
+    {
+      "issuer": "samsung",
+      "url": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1716",
+      "name": "삼성카드 BIZ LEADERS",
+      "card_type": "credit",
+      "existingId": "samsung-samseongkadeu-biz-leaders",
+      "attempted_at": "2026-09-20T16:10:28.900Z",
+      "fetched_at": "2026-09-20T16:05:50.622Z",
+      "sha256": "c6bac87650d88054a92e9814aaf43aeab4cb7083156cfe84773635f4bfe100fd",
+      "bytes": 284918,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "samsung-samseongkadeu-biz-leaders"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04261&mainCC=a",
+      "name": "반려愛카드(고양이)",
+      "card_type": "credit",
+      "existingId": "kb-banryeo-kadeu-goyangi",
+      "attempted_at": "2026-09-20T16:10:28.898Z",
+      "fetched_at": "2026-09-20T16:05:57.252Z",
+      "sha256": "95a1bab1bfe7db7ab31b9f2cfc92e8b80fa212061b6c5c97cfe52f0feefd64a6",
+      "bytes": 393484,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-banryeo-kadeu-goyangi"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15590-A15590",
+      "name": "디지로카 Auto",
+      "card_type": "credit",
+      "existingId": "lotte-dijiroka-auto",
+      "attempted_at": "2026-09-20T16:10:28.899Z",
+      "fetched_at": "2026-09-20T16:05:57.474Z",
+      "sha256": "fb97c523047bb78fe47c188b28086add91f5bd699cbb55110e4d9a9901826f11",
+      "bytes": 219821,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-dijiroka-auto"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1234710_2206.html",
+      "name": "신한카드 처음 체크",
+      "card_type": "check",
+      "existingId": "shinhan-cheoeum-chekeu",
+      "attempted_at": "2026-09-20T16:10:28.905Z",
+      "fetched_at": "2026-09-20T16:04:25.154Z",
+      "sha256": "e5c92bbe15ba7e2821dc29993a115ab63ef0f143b94ee1c6febe0a04c5cc78cd",
+      "bytes": 38047,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "연회비 파싱 불가 — 필드 생략"
+      ],
+      "status": "accepted",
+      "card_id": "shinhan-cheoeum-chekeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103188.html",
+      "name": "ALL 우리카드 Premium",
+      "card_type": "credit",
+      "existingId": "woori-all-urikadeu-premium",
+      "attempted_at": "2026-09-20T16:10:28.907Z",
+      "fetched_at": "2026-09-20T16:04:25.552Z",
+      "sha256": "23930b487e8074c41095b8ccafe6aeb15c89652ff3b06cbd88bde4c8f7d5712b",
+      "bytes": 4878,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "JSON-LD name 없음 — 건너뜀"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "nh",
+      "url": "https://card.nonghyup.com/servlet/IpCc2021R.act?CD_WRS_SQNO=90010604",
+      "name": "NH올원더풀카드",
+      "card_type": "credit",
+      "discovery_note": "동일 공식 상세 카드사용안내의 발급기준 표에 발급대상 개인(신용) 명시.",
+      "attempted_at": "2026-09-20T16:10:28.908Z",
+      "fetched_at": "2026-09-20T16:05:50.830Z",
+      "sha256": "3e7201064e6d5faf5744034740e3f1b9c19b9d58fb9dc1133151840cf0608664",
+      "bytes": 230634,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "nh-nholwondeopulkadeu"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103862&mbkNo=050",
+      "name": "BC 바로 KaPick",
+      "card_type": "credit",
+      "existingId": "bc-bc-baro-kapick",
+      "attempted_at": "2026-09-20T16:10:28.911Z",
+      "fetched_at": "2026-09-20T16:05:53.489Z",
+      "sha256": "c91b0bdbd6b8639c575479896792924915a04876b76e8796445c52b8aa8f02c0",
+      "bytes": 80901,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-bc-baro-kapick"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=2338&mID=PI41006884P&schID=pcd",
+      "name": "비바 G 플래티늄 체크카드",
+      "card_type": "check",
+      "existingId": "hana-biba-g-peulraetinyum-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:28.911Z",
+      "fetched_at": "2026-09-20T16:06:01.810Z",
+      "sha256": "c8e0fc24f0e2b1347e01d50a15425da8e272729ec19ff16595d3055926f17d46",
+      "bytes": 278241,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-biba-g-peulraetinyum-chekeukadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALD",
+      "name": "알파벳카드D BOLD",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeud-bold",
+      "attempted_at": "2026-09-20T16:10:28.913Z",
+      "fetched_at": "2026-09-20T16:04:25.373Z",
+      "sha256": "65b17690c7ed1169fe1a65a7b5dae26c1a1a7d3f17d381901c4203e83da6b22c",
+      "bytes": 186349,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "카드명을 확인할 수 없음 — 건너뜀"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09169&mainCC=a",
+      "name": "다담카드(비 OTP)",
+      "card_type": "credit",
+      "existingId": "kb-dadamkadeu-bi-otp",
+      "attempted_at": "2026-09-20T16:10:28.915Z",
+      "fetched_at": "2026-09-20T16:06:04.513Z",
+      "sha256": "3a00ec9da5f0d102876e7352acdc6a58d29dd35a3afabc76bb17183b68f02683",
+      "bytes": 429479,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-dadamkadeu-bi-otp"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15584-A15584",
+      "name": "디지로카 Las Vegas",
+      "card_type": "credit",
+      "existingId": "lotte-dijiroka-las-vegas",
+      "attempted_at": "2026-09-20T16:10:28.917Z",
+      "fetched_at": "2026-09-20T16:05:51.664Z",
+      "sha256": "a0e665cde0ec5d8a543ffe95190522ab8dfa385461b1d6a71b7d4d3a0cabd616",
+      "bytes": 217333,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-dijiroka-las-vegas"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1187959_2206.html",
+      "name": "신한카드 Deep Dream 체크 (미니언즈)",
+      "card_type": "check",
+      "existingId": "shinhan-deep-dream-chekeu-minieonjeu",
+      "attempted_at": "2026-09-20T16:10:28.918Z",
+      "fetched_at": "2026-09-20T16:04:25.430Z",
+      "sha256": "3baa4bbc5c16aa965018d934e3a9d958db8666e05f9ab355db5a7d11bd22183e",
+      "bytes": 44816,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "연회비 파싱 불가 — 필드 생략"
+      ],
+      "status": "accepted",
+      "card_id": "shinhan-deep-dream-chekeu-minieonjeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104172.html",
+      "name": "아파트아이 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-apateuai-urikadeu",
+      "attempted_at": "2026-09-20T16:10:28.922Z",
+      "fetched_at": "2026-09-20T16:04:25.705Z",
+      "sha256": "23930b487e8074c41095b8ccafe6aeb15c89652ff3b06cbd88bde4c8f7d5712b",
+      "bytes": 4878,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "JSON-LD name 없음 — 건너뜀"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101922&mbkNo=050",
+      "name": "BC 바로 클리어 플러스",
+      "card_type": "credit",
+      "existingId": "bc-bc-baro-keulrieo-peulreoseu",
+      "attempted_at": "2026-09-20T16:10:28.953Z",
+      "fetched_at": "2026-09-20T16:05:59.313Z",
+      "sha256": "ae5ff2c601ae241235b11bb591468773a04fcfd81cf2d0ed4795c9d4a777aceb",
+      "bytes": 74816,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-bc-baro-keulrieo-peulreoseu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCH",
+      "name": "알파벳카드H",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeuh",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=1544&mID=PI41006884P&schID=pcd",
+      "name": "CLUB SK(클럽 SK)카드",
+      "card_type": "credit",
+      "existingId": "hana-club-sk-keulreop-sk-kadeu",
+      "attempted_at": "2026-09-20T16:10:28.954Z",
+      "fetched_at": "2026-09-20T16:05:58.773Z",
+      "sha256": "46234084c6f0e07137585ca35d34ca2facd923978e067225c31c54b3b796336c",
+      "bytes": 309413,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-club-sk-keulreop-sk-kadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04580&mainCC=a",
+      "name": "FINETECH카드",
+      "card_type": "credit",
+      "existingId": "kb-finetechkadeu",
+      "attempted_at": "2026-09-20T16:10:28.955Z",
+      "fetched_at": "2026-09-20T16:06:00.604Z",
+      "sha256": "aed2ec5ee77fe312ba35b2e77812ab02d7417d374e77107a7a8d06535eec92eb",
+      "bytes": 400452,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-finetechkadeu"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14718-A14718",
+      "name": "디지로카 London",
+      "card_type": "credit",
+      "existingId": "lotte-dijiroka-london",
+      "attempted_at": "2026-09-20T16:10:28.958Z",
+      "fetched_at": "2026-09-20T16:05:50.812Z",
+      "sha256": "07fb8de2a691e6a703d11d5c2be17f6bbddf96b8278bad47bed6529f20b3612e",
+      "bytes": 223967,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-dijiroka-london"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102858.html",
+      "name": "바디프랜드 우리카드 Ⅱ",
+      "card_type": "credit",
+      "existingId": "woori-badipeuraendeu-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1188274_2207.html",
+      "name": "신한카드 Deep Oil",
+      "card_type": "credit",
+      "existingId": "shinhan-deep-oil",
+      "attempted_at": "2026-09-20T16:10:28.961Z",
+      "fetched_at": "2026-09-20T16:04:25.468Z",
+      "sha256": "cd8f06d43f84f04a5ed525b00debb411bd1faf81091d1cc44f1871ae9838c10f",
+      "bytes": 41571,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "연회비 파싱 불가 — 필드 생략"
+      ],
+      "status": "rejected",
+      "reason": "lost_annual_fee_krw"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=102040&mbkNo=050",
+      "name": "BC 바로 On&Off 카드",
+      "card_type": "credit",
+      "existingId": "bc-bc-baro-on-off-kadeu",
+      "attempted_at": "2026-09-20T16:10:28.963Z",
+      "fetched_at": "2026-09-20T16:05:56.000Z",
+      "sha256": "ebe41a98e1762038cbe5ce94d222ac805ebfdcfd58e1999682b9546735ac67e8",
+      "bytes": 76958,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-bc-baro-on-off-kadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCO",
+      "name": "알파벳카드O",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeuo",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18058&mID=PI41006884P&schID=pcd",
+      "name": "달달 하나 체크카드",
+      "card_type": "check",
+      "existingId": "hana-daldal-hana-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:28.964Z",
+      "fetched_at": "2026-09-20T16:06:04.137Z",
+      "sha256": "ee009638069c6bfd1f7d4f470fdd90a70c5749a38a5599a11ac1bd72fcc968ea",
+      "bytes": 282782,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-daldal-hana-chekeukadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04582&mainCC=a",
+      "name": "FINETECH카드(아시아나)",
+      "card_type": "credit",
+      "existingId": "kb-finetechkadeu-asiana",
+      "attempted_at": "2026-09-20T16:10:28.965Z",
+      "fetched_at": "2026-09-20T16:06:01.394Z",
+      "sha256": "84920cabbfc7cf6de65a3d7c0ee6346342f84036241171318e78ca1894b1c9a7",
+      "bytes": 398387,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-finetechkadeu-asiana"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1232390_2207.html",
+      "name": "신한카드 Discount Plan+",
+      "card_type": "credit",
+      "existingId": "shinhan-discount-plan",
+      "attempted_at": "2026-09-20T16:10:28.971Z",
+      "fetched_at": "2026-09-20T16:04:25.603Z",
+      "sha256": "a5070c6a2c700b4760187b944adbda6810ed04a6d36ac1ccba44de3586eb338c",
+      "bytes": 72795,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "연회비 파싱 불가 — 필드 생략"
+      ],
+      "status": "rejected",
+      "reason": "lost_annual_fee_krw"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103725.html",
+      "name": "청호나이스 우리카드Ⅱ",
+      "card_type": "credit",
+      "existingId": "woori-cheonghonaiseu-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14724-A14724",
+      "name": "디지로카 Monaco",
+      "card_type": "credit",
+      "existingId": "lotte-dijiroka-monaco",
+      "attempted_at": "2026-09-20T16:10:28.968Z",
+      "fetched_at": "2026-09-20T16:05:59.942Z",
+      "sha256": "3a7fa6390f7ef12ee42b652ab33dd1fb3337ca4e03db65c49453ce6d6b96d199",
+      "bytes": 244849,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-dijiroka-monaco"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104520&mbkNo=050",
+      "name": "BC 바로 ZONE 카드",
+      "card_type": "credit",
+      "existingId": "bc-bc-baro-zone-kadeu",
+      "attempted_at": "2026-09-20T16:10:28.972Z",
+      "fetched_at": "2026-09-20T16:05:51.421Z",
+      "sha256": "4e81785e6da7eb5b3234122f53acce7ec88908ec22f35334ff480c8f3c6735c9",
+      "bytes": 82537,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-bc-baro-zone-kadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALP",
+      "name": "알파벳카드P",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeup",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18271&mID=PI41006884P&schID=pcd",
+      "name": "더 심플 체크카드",
+      "card_type": "check",
+      "existingId": "hana-deo-simpeul-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:28.974Z",
+      "fetched_at": "2026-09-20T16:06:03.589Z",
+      "sha256": "3578f131155528a752b747f60bfe782ead1bfe0a13ee39c8b6ae2c4ea67fbae1",
+      "bytes": 264997,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-deo-simpeul-chekeukadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04581&mainCC=a",
+      "name": "FINETECH카드(대한항공)",
+      "card_type": "credit",
+      "existingId": "kb-finetechkadeu-daehanhanggong",
+      "attempted_at": "2026-09-20T16:10:28.975Z",
+      "fetched_at": "2026-09-20T16:06:01.117Z",
+      "sha256": "027b5ad79af846d4ad32aa0b7942600127ba497a51faa74fa6fda89e24f4f5a4",
+      "bytes": 398433,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-finetechkadeu-daehanhanggong"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1219683_2207.html",
+      "name": "신한카드 EVerywhere",
+      "card_type": "credit",
+      "existingId": "shinhan-everywhere",
+      "attempted_at": "2026-09-20T16:10:28.980Z",
+      "fetched_at": "2026-09-20T16:04:25.740Z",
+      "sha256": "da08389e77804d9dd59e7073cd1d938e32174b6a4e5f50385fd1e426dcb7a31e",
+      "bytes": 39835,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "연회비 파싱 불가 — 필드 생략"
+      ],
+      "status": "rejected",
+      "reason": "lost_annual_fee_krw"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103305.html",
+      "name": "D4카드의정석Ⅱ",
+      "card_type": "credit",
+      "existingId": "woori-d4kadeuuijeongseok",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14728-A14728",
+      "name": "디지로카 Paris",
+      "card_type": "credit",
+      "existingId": "lotte-dijiroka-paris",
+      "attempted_at": "2026-09-20T16:10:28.977Z",
+      "fetched_at": "2026-09-20T16:05:52.003Z",
+      "sha256": "fc1d41382df99966350d79b1aa1ec36e5ce645f8f7497c3b19055966fa77cb71",
+      "bytes": 227138,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-dijiroka-paris"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103183&mbkNo=050",
+      "name": "BC 후불하이패스카드 _카드형",
+      "card_type": "credit",
+      "existingId": "bc-bc-hubulhaipaeseukadeu-kadeuhyeong",
+      "attempted_at": "2026-09-20T16:10:28.982Z",
+      "fetched_at": "2026-09-20T16:05:55.448Z",
+      "sha256": "2ddc6767fb89651c271a2aab1fb8306c30f42fabd687b134665c33b53b5b41e0",
+      "bytes": 58812,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-bc-hubulhaipaeseukadeu-kadeuhyeong"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALR",
+      "name": "알파벳카드R",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeur",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=16952&mID=PI41006884P&schID=pcd",
+      "name": "더 심플 하나카드",
+      "card_type": "credit",
+      "existingId": "hana-deo-simpeul-hanakadeu",
+      "attempted_at": "2026-09-20T16:10:28.984Z",
+      "fetched_at": "2026-09-20T16:05:59.481Z",
+      "sha256": "a0e3b950da1b6951b610e03e171a1967db5b95e11bb4cfd9de6a59d9dd2f8e47",
+      "bytes": 260182,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-deo-simpeul-hanakadeu"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14744-A14744",
+      "name": "어디로든 그린카드 X LOCA",
+      "card_type": "credit",
+      "existingId": "lotte-eodirodeun-geurinkadeu-x-loca",
+      "attempted_at": "2026-09-20T16:10:28.986Z",
+      "fetched_at": "2026-09-20T16:05:58.416Z",
+      "sha256": "7a65827be858d5c9185de674107cfe5556e89bbec113bdaff7eeed8c252de000",
+      "bytes": 215489,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-eodirodeun-geurinkadeu-x-loca"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1225543_2207.html",
+      "name": "K-패스 신한카드",
+      "card_type": "credit",
+      "existingId": "shinhan-k-paeseu-sinhankadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102534.html",
+      "name": "DA카드의정석 Ⅱ",
+      "card_type": "credit",
+      "existingId": "woori-dakadeuuijeongseok",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09269&mainCC=a",
+      "name": "Get100카드",
+      "card_type": "credit",
+      "existingId": "kb-get100kadeu",
+      "attempted_at": "2026-09-20T16:10:28.985Z",
+      "fetched_at": "2026-09-20T16:06:06.211Z",
+      "sha256": "9b5eebf1b7b49855097a98c589e654888533afd113a77f20f589de927518af18",
+      "bytes": 387193,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-get100kadeu"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103132&mbkNo=050",
+      "name": "BC 후불하이패스카드 _SIM타입",
+      "card_type": "credit",
+      "existingId": "bc-bc-hubulhaipaeseukadeu-simtaip",
+      "attempted_at": "2026-09-20T16:10:28.989Z",
+      "fetched_at": "2026-09-20T16:05:55.025Z",
+      "sha256": "0e812278aff86df6bd918439bb378dc69e006e512f47cc39c94b7344f7bfcde0",
+      "bytes": 58959,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-bc-hubulhaipaeseukadeu-simtaip"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCS",
+      "name": "알파벳카드S",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeus",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18463",
+      "name": "하이마트 하나카드",
+      "card_type": "credit",
+      "existingId": "hana-haimateu-hanakadeu",
+      "attempted_at": "2026-09-20T16:10:28.991Z",
+      "fetched_at": "2026-09-20T16:06:07.143Z",
+      "sha256": "86e4e7558d8d2968a47628d1690c622dee9b8f55e9731f699a20be67e917357e",
+      "bytes": 264064,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-haimateu-hanakadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02087&mainCC=a",
+      "name": "그린카드(전국형_서울제외)",
+      "card_type": "credit",
+      "existingId": "kb-geurinkadeu-jeongukhyeong-seouljeoe",
+      "attempted_at": "2026-09-20T16:10:28.992Z",
+      "fetched_at": "2026-09-20T16:05:54.742Z",
+      "sha256": "5bcd8ba3e23193c2e47f69a4b4aa4dad62d24d2d2611b0ff480cb7443d897329",
+      "bytes": 396691,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-geurinkadeu-jeongukhyeong-seouljeoe"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1200288_2205.html",
+      "name": "메리어트 본보이™ 더 베스트 신한카드",
+      "card_type": "credit",
+      "existingId": "shinhan-merieoteu-bonboi-deo-beseuteu-sinhankadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103564.html",
+      "name": "E1 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-e1-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15644-A15644",
+      "name": "K-패스엔로카",
+      "card_type": "credit",
+      "existingId": "lotte-k-paeseuenroka",
+      "attempted_at": "2026-09-20T16:10:28.994Z",
+      "fetched_at": "2026-09-20T16:05:58.131Z",
+      "sha256": "b80ceaf1c749ae076e7623d3111a16b7a0d7ed2703a40f553b41e97879d4ba2f",
+      "bytes": 217843,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-k-paeseuenroka"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15124&mID=PI41015124P&schID=pcd",
+      "name": "하나 CLUB H 아메리칸 익스프레스 리저브 카드",
+      "card_type": "credit",
+      "existingId": "hana-hana-club-h-amerikan-ikseupeureseu-rijeobeu",
+      "attempted_at": "2026-09-20T16:10:28.999Z",
+      "fetched_at": "2026-09-20T16:05:53.826Z",
+      "sha256": "5e1cded79d525d6e31a77995d6caa240c6f477a45b7fbcbbd7f7abf63cdbd3f5",
+      "bytes": 275367,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-hana-club-h-amerikan-ikseupeureseu-rijeobeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALS",
+      "name": "알파벳카드S BOLD",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeus-bold",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101010&mbkNo=050",
+      "name": "BC바로 MACAO 카드",
+      "card_type": "credit",
+      "existingId": "bc-bcbaro-macao-kadeu",
+      "attempted_at": "2026-09-20T16:10:28.998Z",
+      "fetched_at": "2026-09-20T16:05:53.330Z",
+      "sha256": "fd0311c2f8ea46f071b4b1a437f35513d9c689087b0f9f4fb64cd69e802328f4",
+      "bytes": 84554,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-bcbaro-macao-kadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02042&mainCC=a",
+      "name": "G마켓플러스카드",
+      "card_type": "credit",
+      "existingId": "kb-gmaketpeulreoseukadeu",
+      "attempted_at": "2026-09-20T16:10:29.001Z",
+      "fetched_at": "2026-09-20T16:05:53.055Z",
+      "sha256": "da532c998bcd9e3a9e7a76591e108cb116f96d48a21cd3bb15b53a077d68cbf3",
+      "bytes": 397333,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-gmaketpeulreoseukadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1236922_2206.html",
+      "name": "신한카드 나라사랑카드 체크",
+      "card_type": "check",
+      "existingId": "shinhan-narasarangkadeu-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_835453.html",
+      "name": "FC EXPRESS 체크",
+      "card_type": "check",
+      "existingId": "woori-fc-express-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14028-A14028",
+      "name": "LOCA 365 카드",
+      "card_type": "credit",
+      "existingId": "lotte-loca-365-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.002Z",
+      "fetched_at": "2026-09-20T16:05:58.912Z",
+      "sha256": "94c64c0f23d8a3b11e7f39a82616dd52f98c6601c5f723d30e6b1d7f13bf4204",
+      "bytes": 223655,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-loca-365-kadeu"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=100980&mbkNo=050",
+      "name": "그린카드",
+      "card_type": "credit",
+      "existingId": "bc-geurinkadeu",
+      "attempted_at": "2026-09-20T16:10:29.006Z",
+      "fetched_at": "2026-09-20T16:05:59.989Z",
+      "sha256": "4912a85b3c9b84f4df5b624d9013cfc7d4beb516b45f3ec212a836a04908d75b",
+      "bytes": 68845,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-geurinkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCT",
+      "name": "알파벳카드T",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeut",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18394&mID=PI41006884P&schID=pcd",
+      "name": "하나 더 넥스트 멤버스",
+      "card_type": "credit",
+      "existingId": "hana-hana-deo-nekseuteu-membeoseu",
+      "attempted_at": "2026-09-20T16:10:29.007Z",
+      "fetched_at": "2026-09-20T16:05:52.439Z",
+      "sha256": "b2c3f31992b02e08c93a5392ea7e968d9a9f6ff3a68014088e99103c3748d91c",
+      "bytes": 280811,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-hana-deo-nekseuteu-membeoseu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04453&mainCC=a",
+      "name": "골든라이프 티타늄카드",
+      "card_type": "credit",
+      "existingId": "kb-goldeunraipeu-titanyumkadeu",
+      "attempted_at": "2026-09-20T16:10:29.009Z",
+      "fetched_at": "2026-09-20T16:05:59.144Z",
+      "sha256": "35d4041b802af845ba09f237fb67a09cc91dff620b8bbb7ea336d9d921c0e627",
+      "bytes": 407221,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-goldeunraipeu-titanyumkadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1228407_2207.html",
+      "name": "신한카드 Point Plan+",
+      "card_type": "credit",
+      "existingId": "shinhan-point-plan",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103483.html",
+      "name": "갤러리아 Platinum 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-gaelreoria-platinum-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13746-A13746",
+      "name": "LOCA LIKIT",
+      "card_type": "credit",
+      "existingId": "lotte-loca-likit",
+      "attempted_at": "2026-09-20T16:10:29.011Z",
+      "fetched_at": "2026-09-20T16:05:54.566Z",
+      "sha256": "d44d619b0069a3c319caacee0311a76f16e8da70cc06055f212bdcc87c67f733",
+      "bytes": 219716,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-loca-likit"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103112&mbkNo=050",
+      "name": "K-패스 카드",
+      "card_type": "credit",
+      "existingId": "bc-k-paeseu-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.014Z",
+      "fetched_at": "2026-09-20T16:05:56.485Z",
+      "sha256": "4626b003b4249a70948105ed54980a3607746df1b78abd253182caa03d1cef94",
+      "bytes": 77897,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-k-paeseu-kadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALT",
+      "name": "알파벳카드T BOLD",
+      "card_type": "credit",
+      "existingId": "hyundai-alpabetkadeut-bold",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18409&mID=PI41006884P&schID=pcd",
+      "name": "하나 더 소호 카드",
+      "card_type": "credit",
+      "existingId": "hana-hana-deo-soho-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.016Z",
+      "fetched_at": "2026-09-20T16:05:59.835Z",
+      "sha256": "8c43f409cfb5e4ac6d25c9062b4b9c3d44cf059a1fe8a1c078939db894adb952",
+      "bytes": 279364,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-hana-deo-soho-kadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04452&mainCC=a",
+      "name": "골든라이프 티타늄카드(스마트 OTP)",
+      "card_type": "credit",
+      "existingId": "kb-goldeunraipeu-titanyumkadeu-seumateu-otp",
+      "attempted_at": "2026-09-20T16:10:29.017Z",
+      "fetched_at": "2026-09-20T16:05:58.740Z",
+      "sha256": "9fba3b0e1f89f24d3ed20907ce01f4b521bd780c5de8e4ffd5041481b2d6360e",
+      "bytes": 407609,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-goldeunraipeu-titanyumkadeu-seumateu-otp"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1187945_2207.html",
+      "name": "신한카드 RPM+ Platinum#",
+      "card_type": "credit",
+      "existingId": "shinhan-rpm-platinum",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_227977.html",
+      "name": "그랑블루 체크카드",
+      "card_type": "check",
+      "existingId": "woori-geurangbeulru-chekeukadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13943-A13943",
+      "name": "LOCA LIKIT Eat",
+      "card_type": "credit",
+      "existingId": "lotte-loca-likit-eat",
+      "attempted_at": "2026-09-20T16:10:29.019Z",
+      "fetched_at": "2026-09-20T16:05:55.022Z",
+      "sha256": "ec4c825b24f1ec387f86d85d251167a81ccde93e754344fb8aa1182c7eae12df",
+      "bytes": 216478,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-loca-likit-eat"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=105000&mbkNo=050",
+      "name": "케이뱅크 히든카드",
+      "card_type": "credit",
+      "existingId": "bc-keibaengkeu-hideunkadeu",
+      "attempted_at": "2026-09-20T16:10:29.022Z",
+      "fetched_at": "2026-09-20T16:05:50.811Z",
+      "sha256": "622a127fe71208d90d9f7020c251e9c6707a3e016a310172e205e046a677f522",
+      "bytes": 76187,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-keibaengkeu-hideunkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CHHHC",
+      "name": "청호나이스 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-cheonghonaiseu-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18813&mID=PI41006884P&schID=pcd",
+      "name": "하나 나라사랑카드(체크)",
+      "card_type": "check",
+      "existingId": "hana-hana-narasarangkadeu-chekeu",
+      "attempted_at": "2026-09-20T16:10:29.024Z",
+      "fetched_at": "2026-09-20T16:06:03.230Z",
+      "sha256": "7a2a91d33cb33fc3e25f76a3875779e1e5e809693dce36693076df64de8a558d",
+      "bytes": 294179,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-hana-narasarangkadeu-chekeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04451&mainCC=a",
+      "name": "골든라이프올림카드",
+      "card_type": "credit",
+      "existingId": "kb-goldeunraipeuolrimkadeu",
+      "attempted_at": "2026-09-20T16:10:29.024Z",
+      "fetched_at": "2026-09-20T16:05:58.631Z",
+      "sha256": "b67f4fccf224cf73598a3f0a29fb3f061e24d654cf1fe178cece984d3008873e",
+      "bytes": 409099,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-goldeunraipeuolrimkadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1237253_2207.html",
+      "name": "신한카드 Simple Plan",
+      "card_type": "credit",
+      "existingId": "shinhan-simple-plan",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_100930.html",
+      "name": "GS칼텍스 화물복지카드",
+      "card_type": "credit",
+      "existingId": "woori-gskaltekseu-hwamulbokjikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13949-A13949",
+      "name": "LOCA LIKIT Play",
+      "card_type": "credit",
+      "existingId": "lotte-loca-likit-play",
+      "attempted_at": "2026-09-20T16:10:29.027Z",
+      "fetched_at": "2026-09-20T16:05:55.301Z",
+      "sha256": "20707aeb0ac6bf5e53fbdf475a2a52aa825141c50d3e5142c38ac6c841bcf49a",
+      "bytes": 220526,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-loca-likit-play"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103125&mbkNo=050",
+      "name": "kt DC PLUS",
+      "card_type": "credit",
+      "existingId": "bc-kt-dc-plus",
+      "attempted_at": "2026-09-20T16:10:29.029Z",
+      "fetched_at": "2026-09-20T16:05:54.609Z",
+      "sha256": "776a7b5fd01f67bc581659d364f9064bca8e824c5b544dd48124f0c16f178571",
+      "bytes": 75529,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-kt-dc-plus"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MCWYE3",
+      "name": "coway-현대카드M Edition3",
+      "card_type": "credit",
+      "existingId": "hyundai-coway-hyeondaekadeum-edition3",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=13912&mID=PI41013912P&schID=pcd",
+      "name": "하나 스카이패스 아멕스 플래티늄 카드",
+      "card_type": "credit",
+      "existingId": "hana-hana-seukaipaeseu-amekseu-peulraetinyum-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.031Z",
+      "fetched_at": "2026-09-20T16:05:53.628Z",
+      "sha256": "85498bf3529ec90ca86a30ed95f60d70a247fdba1c0968c0e520f7b043dc77dc",
+      "bytes": 268304,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-hana-seukaipaeseu-amekseu-peulraetinyum-kadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04450&mainCC=a",
+      "name": "골든라이프올림카드(스마트 OTP)",
+      "card_type": "credit",
+      "existingId": "kb-goldeunraipeuolrimkadeu-seumateu-otp",
+      "attempted_at": "2026-09-20T16:10:29.032Z",
+      "fetched_at": "2026-09-20T16:05:57.893Z",
+      "sha256": "1493796c96c91a95d851e395940b234c6b8ca4e389735f48f8e0632226132b93",
+      "bytes": 408541,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-goldeunraipeuolrimkadeu-seumateu-otp"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1221024_2205.html",
+      "name": "싱가포르항공 크리스플라이어 더 베스트 신한카드",
+      "card_type": "credit",
+      "existingId": "shinhan-singgaporeuhanggong-keuriseupeulraieo-deo-beseuteu-sinhankadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_100861.html",
+      "name": "국민행복 체크카드S2",
+      "card_type": "check",
+      "existingId": "woori-gukminhaengbok-chekeukadeus2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13955-A13955",
+      "name": "LOCA LIKIT Shop",
+      "card_type": "credit",
+      "existingId": "lotte-loca-likit-shop",
+      "attempted_at": "2026-09-20T16:10:29.034Z",
+      "fetched_at": "2026-09-20T16:05:52.623Z",
+      "sha256": "727e596f79866c5b715f9cbb251f28748971e9318eed34d2c510ce6b923d45a2",
+      "bytes": 220312,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-loca-likit-shop"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104063&mbkNo=050",
+      "name": "KT SUPER DC BC 바로카드",
+      "card_type": "credit",
+      "existingId": "bc-kt-super-dc-bc-barokadeu",
+      "attempted_at": "2026-09-20T16:10:29.037Z",
+      "fetched_at": "2026-09-20T16:05:52.608Z",
+      "sha256": "1f10ace5812a7f5ff8deedc460d684110f01eb4376debc04bfb2009333667100",
+      "bytes": 70506,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-kt-super-dc-bc-barokadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=KALE2T1",
+      "name": "대한항공카드 060",
+      "card_type": "credit",
+      "existingId": "hyundai-daehanhanggongkadeu-060",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18643&mID=PI41006884P&schID=pcd",
+      "name": "HERO 체크카드",
+      "card_type": "check",
+      "existingId": "hana-hero-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.039Z",
+      "fetched_at": "2026-09-20T16:06:03.827Z",
+      "sha256": "d2a9b023a5a515920dc2c5e10ab222ec47d9ae74871322bcc67388e0100249e2",
+      "bytes": 264034,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-hero-chekeukadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04583&mainCC=a",
+      "name": "골프존 KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-golpeujon-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.040Z",
+      "fetched_at": "2026-09-20T16:06:01.617Z",
+      "sha256": "ea51e6438efe621faf93d512802b372b4f993c860a6c792e59c4cb0319ed1a31",
+      "bytes": 395521,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-golpeujon-kbgukminkadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1239102_2206.html",
+      "name": "SOL 메이트 신한카드 SOL Plan 체크",
+      "card_type": "check",
+      "existingId": "shinhan-sol-meiteu-sinhankadeu-sol-plan-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_100860.html",
+      "name": "국민행복카드S2",
+      "card_type": "credit",
+      "existingId": "woori-gukminhaengbokkadeus2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14123-A14123",
+      "name": "LOCA 나누기 카드",
+      "card_type": "credit",
+      "existingId": "lotte-loca-nanugi-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.042Z",
+      "fetched_at": "2026-09-20T16:05:59.599Z",
+      "sha256": "8f8bcbd47132c2d5b7eef54a0a56f5e119c216584f3d73d9495c2c32d74f15e5",
+      "bytes": 210884,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-loca-nanugi-kadeu"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=105052&mbkNo=050",
+      "name": "페이북카드",
+      "card_type": "credit",
+      "existingId": "bc-peibukkadeu",
+      "attempted_at": "2026-09-20T16:10:29.045Z",
+      "fetched_at": "2026-09-20T16:05:50.059Z",
+      "sha256": "11743e43d022a20fc89fedaafd849c2826ab51753f6298462152c0d2095627a7",
+      "bytes": 81787,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-peibukkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MDBI",
+      "name": "DB손해보험 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-dbsonhaeboheom-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04584&mainCC=a",
+      "name": "골프존 KB국민카드(아시아나)",
+      "card_type": "credit",
+      "existingId": "kb-golpeujon-kbgukminkadeu-asiana",
+      "attempted_at": "2026-09-20T16:10:29.048Z",
+      "fetched_at": "2026-09-20T16:06:01.825Z",
+      "sha256": "30604f20366e500affb40f26339149d39bce3e339f7e61989372c0394e4dd2e9",
+      "bytes": 390828,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-golpeujon-kbgukminkadeu-asiana"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17504&mID=PI41006884P&schID=pcd",
+      "name": "JADE Classic",
+      "card_type": "credit",
+      "existingId": "hana-jade-classic",
+      "attempted_at": "2026-09-20T16:10:29.047Z",
+      "fetched_at": "2026-09-20T16:06:00.273Z",
+      "sha256": "54f68a06ba54581cd34fee39e94fc7992b7a04bbc95fb7e890fd83113070b659",
+      "bytes": 289276,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-jade-classic"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1225714_2206.html",
+      "name": "신한카드 SOL트래블 체크",
+      "card_type": "check",
+      "existingId": "shinhan-solteuraebeul-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104140.html",
+      "name": "국민연금증 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-gukminyeongeumjeung-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14715-A14715",
+      "name": "LOCA Professional",
+      "card_type": "credit",
+      "existingId": "lotte-loca-professional",
+      "attempted_at": "2026-09-20T16:10:29.053Z",
+      "fetched_at": "2026-09-20T16:06:00.305Z",
+      "sha256": "c58b81829384851b5c134f6c8483f6f2a893459d74ffbe61b77e53005b4d31e0",
+      "bytes": 231971,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-loca-professional"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101686&mbkNo=050",
+      "name": "로스트아크 카드",
+      "card_type": "credit",
+      "existingId": "bc-roseuteuakeu-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.054Z",
+      "fetched_at": "2026-09-20T16:05:59.582Z",
+      "sha256": "29e63b171a1c6687bbf78accf150806df3744d2b15b9914c83afe587013df53a",
+      "bytes": 57668,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-roseuteuakeu-kadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=GEPHC",
+      "name": "에너지플러스 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-eneojipeulreoseu-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17770&mID=PI41017770P&schID=pcd",
+      "name": "JADE First",
+      "card_type": "credit",
+      "existingId": "hana-jade-first",
+      "attempted_at": "2026-09-20T16:10:29.056Z",
+      "fetched_at": "2026-09-20T16:05:51.169Z",
+      "sha256": "7a8a76758a40756213132caf560b8e12ce9f770a2bbbc29b26e5c491fa6155b4",
+      "bytes": 288880,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-jade-first"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09062&mainCC=a",
+      "name": "굿데이 플래티늄카드",
+      "card_type": "credit",
+      "existingId": "kb-gutdei-peulraetinyumkadeu",
+      "attempted_at": "2026-09-20T16:10:29.057Z",
+      "fetched_at": "2026-09-20T16:06:03.696Z",
+      "sha256": "f0758a97b830996563cc8265bdda66f88c796124a064a988aba56443f1b9ecd6",
+      "bytes": 513471,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-gutdei-peulraetinyumkadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1232877_2206.html",
+      "name": "신한카드 SOL트래블J 체크",
+      "card_type": "check",
+      "existingId": "shinhan-solteuraebeulj-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103737.html",
+      "name": "교원웰스 우리카드Ⅱ",
+      "card_type": "credit",
+      "existingId": "woori-gyowonwelseu-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13473-A13473",
+      "name": "롤라카드",
+      "card_type": "credit",
+      "existingId": "lotte-rolrakadeu",
+      "attempted_at": "2026-09-20T16:10:29.059Z",
+      "fetched_at": "2026-09-20T16:05:53.667Z",
+      "sha256": "b815d56f54db2891a206c9f29471ca45a45079828a9668be091a0615b2feab38",
+      "bytes": 214830,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-rolrakadeu"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101881&mbkNo=050",
+      "name": "신세계 BC 바로 클리어 플러스",
+      "card_type": "credit",
+      "existingId": "bc-sinsegye-bc-baro-keulrieo-peulreoseu",
+      "attempted_at": "2026-09-20T16:10:29.062Z",
+      "fetched_at": "2026-09-20T16:05:58.451Z",
+      "sha256": "4e66a7a39e009e1f3e07c3ed129b956e32678aa4006a032a67493b66d9fbf417",
+      "bytes": 70148,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-sinsegye-bc-baro-keulrieo-peulreoseu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HGEHC",
+      "name": "GENESIS CARD",
+      "card_type": "credit",
+      "existingId": "hyundai-genesis-card",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17771&mID=PI41017771P&schID=pcd",
+      "name": "JADE First Centum",
+      "card_type": "credit",
+      "existingId": "hana-jade-first-centum",
+      "attempted_at": "2026-09-20T16:10:29.064Z",
+      "fetched_at": "2026-09-20T16:05:51.786Z",
+      "sha256": "8ef0c56b5457675da00a50de2be3bc060df50afe4b57750453de71fd28e4385c",
+      "bytes": 293871,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-jade-first-centum"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09061&mainCC=a",
+      "name": "굿데이카드",
+      "card_type": "credit",
+      "existingId": "kb-gutdeikadeu",
+      "attempted_at": "2026-09-20T16:10:29.065Z",
+      "fetched_at": "2026-09-20T16:06:03.595Z",
+      "sha256": "0bb0654b5345f44849d9467b9202aba57d615b523640a92f118607c60cebc8d3",
+      "bytes": 405254,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-gutdeikadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1237542_2206.html",
+      "name": "신한카드 SOL트립앤J 체크",
+      "card_type": "check",
+      "existingId": "shinhan-solteuripaenj-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102734.html",
+      "name": "하이마트 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-haimateu-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101874&mbkNo=050",
+      "name": "신세계 BC 바로 콰트로 플러스",
+      "card_type": "credit",
+      "existingId": "bc-sinsegye-bc-baro-kwateuro-peulreoseu",
+      "attempted_at": "2026-09-20T16:10:29.070Z",
+      "fetched_at": "2026-09-20T16:05:57.507Z",
+      "sha256": "ec5d401d7062c56f3468a8fff7737d783d513d67baa2385fc53234c56d2f3bb5",
+      "bytes": 74657,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-sinsegye-bc-baro-kwateuro-peulreoseu"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P11714-A11714",
+      "name": "롯데백화점 롯데카드",
+      "card_type": "credit",
+      "existingId": "lotte-rotdebaekhwajeom-rotdekadeu",
+      "attempted_at": "2026-09-20T16:10:29.068Z",
+      "fetched_at": "2026-09-20T16:05:52.300Z",
+      "sha256": "59e6a3cdf2af2b9853890e24fe9ef1775ed685825192794dbfcbb42d8ab22807",
+      "bytes": 213780,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-rotdebaekhwajeom-rotdekadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=LTTDSHCP",
+      "name": "GOLD FOR LOTTE DEPARTMENT STORE",
+      "card_type": "credit",
+      "existingId": "hyundai-gold-for-lotte-department-store",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17769&mID=PI41017769P&schID=pcd",
+      "name": "JADE Prime",
+      "card_type": "credit",
+      "existingId": "hana-jade-prime",
+      "attempted_at": "2026-09-20T16:10:29.075Z",
+      "fetched_at": "2026-09-20T16:05:50.498Z",
+      "sha256": "700ff2ba64409577c40e5a88ae8973e111b09018fa543bcc7bb911c0a83716ad",
+      "bytes": 287722,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-jade-prime"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09063&mainCC=a",
+      "name": "굿데이올림카드",
+      "card_type": "credit",
+      "existingId": "kb-gutdeiolrimkadeu",
+      "attempted_at": "2026-09-20T16:10:29.076Z",
+      "fetched_at": "2026-09-20T16:06:04.150Z",
+      "sha256": "417b6f91ee3959f30950fe9f10638bc2258f925b55ae0192334fbaa9cc376cb7",
+      "bytes": 411161,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-gutdeiolrimkadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/check/1236362_2206.html",
+      "name": "신한카드 SOL트립앤샵 체크",
+      "card_type": "check",
+      "existingId": "shinhan-solteuripaensyap-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103738.html",
+      "name": "현대렌탈케어 우리카드Ⅱ",
+      "card_type": "credit",
+      "existingId": "woori-hyeondaerentalkeeo-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101877&mbkNo=050",
+      "name": "신세계 BC 바로 리워드 플러스",
+      "card_type": "credit",
+      "existingId": "bc-sinsegye-bc-baro-riwodeu-peulreoseu",
+      "attempted_at": "2026-09-20T16:10:29.081Z",
+      "fetched_at": "2026-09-20T16:05:58.928Z",
+      "sha256": "f1b10bb481aa30d659383428d23b7bed15e8f2a3ce9cb031f3369a2902b42794",
+      "bytes": 77716,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-sinsegye-bc-baro-riwodeu-peulreoseu"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15648-A15648",
+      "name": "롯데멤버스 카드",
+      "card_type": "credit",
+      "existingId": "lotte-rotdemembeoseu-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.079Z",
+      "fetched_at": "2026-09-20T16:05:54.014Z",
+      "sha256": "8be447878bf168a804885a2cf1bc6619777e40698aac2d7c964312d4a1d5bfbc",
+      "bytes": 237594,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-rotdemembeoseu-kadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=PHHC",
+      "name": "국민행복 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-gukminhaengbok-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17033&mID=PI41006884P&schID=pcd",
+      "name": "K-패스 하나 체크카드",
+      "card_type": "check",
+      "existingId": "hana-k-paeseu-hana-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.083Z",
+      "fetched_at": "2026-09-20T16:06:03.017Z",
+      "sha256": "74c4ec8a1654b5ce5f2f2603e47c539c9c1e97312d83ef304d9506b0ea272e21",
+      "bytes": 269561,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-k-paeseu-hana-chekeukadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09057&mainCC=a",
+      "name": "굿쇼핑플래티늄카드",
+      "card_type": "credit",
+      "existingId": "kb-gutsyopingpeulraetinyumkadeu",
+      "attempted_at": "2026-09-20T16:10:29.084Z",
+      "fetched_at": "2026-09-20T16:06:03.392Z",
+      "sha256": "97d6b0dd2ff0bf5ade6022a3f14b22a5392894d0fb5e576527497dc3dfc7189c",
+      "bytes": 505136,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-gutsyopingpeulraetinyumkadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1188283_2205.html",
+      "name": "신한카드 The ACE BLUE LABEL",
+      "card_type": "credit",
+      "existingId": "shinhan-the-ace-blue-label",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103263.html",
+      "name": "현대렌탈서비스 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-hyeondaerentalseobiseu-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101883&mbkNo=050",
+      "name": "신세계 BC 바로 SEVEN FLEX",
+      "card_type": "credit",
+      "existingId": "bc-sinsegye-bc-baro-seven-flex",
+      "attempted_at": "2026-09-20T16:10:29.090Z",
+      "fetched_at": "2026-09-20T16:05:58.028Z",
+      "sha256": "be1df2d28862e7fb0ed787e26a2f792a59f83007c92c4e5dfdf936c106185f5b",
+      "bytes": 78249,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-sinsegye-bc-baro-seven-flex"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00276-A00276",
+      "name": "롯데포인트 플러스 카드",
+      "card_type": "credit",
+      "existingId": "lotte-rotdepointeu-peulreoseu-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.087Z",
+      "fetched_at": "2026-09-20T16:05:53.387Z",
+      "sha256": "39007dfd48f27d17e4533eadba63e87a764111b261baed880959dd0eebd39556",
+      "bytes": 209930,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-rotdepointeu-peulreoseu-kadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SLHC",
+      "name": "현대 햇살론카드",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondae-haetsalronkadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17016&mID=PI41006884P&schID=pcd",
+      "name": "K-패스 하나 신용카드",
+      "card_type": "credit",
+      "existingId": "hana-k-paeseu-hana-sinyongkadeu",
+      "attempted_at": "2026-09-20T16:10:29.091Z",
+      "fetched_at": "2026-09-20T16:05:59.140Z",
+      "sha256": "0d0b7260224d9916a7cb3dbb2b6af84d646f238bd145e327b80050980971421f",
+      "bytes": 268184,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-k-paeseu-hana-sinyongkadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02233&mainCC=a",
+      "name": "해피포인트 KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-haepipointeu-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.092Z",
+      "fetched_at": "2026-09-20T16:05:55.747Z",
+      "sha256": "819d992e5b09df81dc112d5fffea03c3022285a5743ff9e3e67cba9fa1c8eba9",
+      "bytes": 401887,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-haepipointeu-kbgukminkadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1188285_2205.html",
+      "name": "신한카드 The BEST+",
+      "card_type": "credit",
+      "existingId": "shinhan-the-best",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102864.html",
+      "name": "K-패스 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-k-paeseu-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14430-A14430",
+      "name": "Trip to 로카",
+      "card_type": "credit",
+      "existingId": "lotte-trip-to-roka",
+      "attempted_at": "2026-09-20T16:10:29.095Z",
+      "fetched_at": "2026-09-20T16:05:56.048Z",
+      "sha256": "211577482c4e9df7a5605ea0c2249309bee7f18fff59d569e3ee2ff051d707a6",
+      "bytes": 214457,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "lotte-trip-to-roka"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=102603&mbkNo=050",
+      "name": "신세계 푸빌라 BC 바로카드",
+      "card_type": "credit",
+      "existingId": "bc-sinsegye-pubilra-bc-barokadeu",
+      "attempted_at": "2026-09-20T16:10:29.097Z",
+      "fetched_at": "2026-09-20T16:05:57.012Z",
+      "sha256": "19fa7812ca98eacbc6aebea7872eb1a1089d8a26786e6adafcbe648629d547f0",
+      "bytes": 69617,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "bc-sinsegye-pubilra-bc-barokadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SLMB",
+      "name": "현대 소상공인 특례 햇살론카드",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondae-sosanggongin-teukrye-haetsalronkadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=2931&mID=PI41006884P&schID=pcd",
+      "name": "카카오페이 체크카드",
+      "card_type": "check",
+      "existingId": "hana-kakaopei-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.099Z",
+      "fetched_at": "2026-09-20T16:06:02.352Z",
+      "sha256": "9f22de53748a548731e0dc298e63c591ad1b562c2168dfe720499430522b79b0",
+      "bytes": 271330,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-kakaopei-chekeukadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=01234&mainCC=a",
+      "name": "하나투어 KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-hanatueo-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.100Z",
+      "fetched_at": "2026-09-20T16:05:50.507Z",
+      "sha256": "30a329ec77ea296699b07586702a1db0df43b4de556ab079ce4316fb8412f400",
+      "bytes": 400790,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-hanatueo-kbgukminkadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1231479_2205.html",
+      "name": "신한카드 The BEST-XO",
+      "card_type": "credit",
+      "existingId": "shinhan-the-best-xo",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102865.html",
+      "name": "K-패스 우리카드(체크)",
+      "card_type": "check",
+      "existingId": "woori-k-paeseu-urikadeu-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13937-A13937",
+      "name": "LOCA LIKIT 1.2",
+      "card_type": "credit",
+      "discovery_note": "상세 본문에서 신규발급 중단 확인; 활성상품 수록 대상 제외.",
+      "attempted_at": "2026-09-20T16:10:29.102Z",
+      "fetched_at": "2026-09-20T16:05:49.594Z",
+      "sha256": "a09db974c3d193257cec54cbf4d5e025fa5114478935bb0f3670e8fdbf9b2fec",
+      "bytes": 209370,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "공식 본문에 신규 발급 중단 명시"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "bc",
+      "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103127&mbkNo=050",
+      "name": "KT 마이알뜰폰BC 바로카드",
+      "card_type": "credit",
+      "attempted_at": "2026-09-20T16:10:29.105Z",
+      "fetched_at": "2026-09-20T16:05:54.048Z",
+      "sha256": "5c333671b5163d166139cdd4e4aa97519fb334831a8973aeed65fd1fa04004df",
+      "bytes": 71418,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "상품별 혜택 본문 확인 불가"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MHMFI",
+      "name": "현대해상 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaehaesang-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18243&mID=PI41006884P&schID=pcd",
+      "name": "카카오페이 트래블로그 체크카드",
+      "card_type": "check",
+      "existingId": "hana-kakaopei-teuraebeulrogeu-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.106Z",
+      "fetched_at": "2026-09-20T16:06:00.554Z",
+      "sha256": "8d4e1101fa068af4aa44cd3b72af1e1cd9202197fe2b0b4930e238a9c2f9310b",
+      "bytes": 269285,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-kakaopei-teuraebeulrogeu-chekeukadeu"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02050&mainCC=a",
+      "name": "홈플러스 KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-hompeulreoseu-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.107Z",
+      "fetched_at": "2026-09-20T16:05:53.385Z",
+      "sha256": "6769606577c6b9087bd0a0f98b839ae589e659d24fba60f31a7faea62a6e21d6",
+      "bytes": 396916,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-hompeulreoseu-kbgukminkadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1188441_2207.html",
+      "name": "THE BOON SVIP 신한카드",
+      "card_type": "credit",
+      "existingId": "shinhan-the-boon-svip-sinhankadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102488.html",
+      "name": "카드의정석 EVERY MILE SKYPASS",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok-every-mile-skypass",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P11690-A11690",
+      "name": "아시아나 듀얼마일리지 롯데카드",
+      "card_type": "credit",
+      "discovery_note": "상세 본문에서 신규발급 중단 확인; 활성상품 수록 대상 제외.",
+      "attempted_at": "2026-09-20T16:10:29.109Z",
+      "fetched_at": "2026-09-20T16:05:57.087Z",
+      "sha256": "6c7125cde8caeb271379e12ebed53dd83a533c1f001dff77ca2c0659fae5acc3",
+      "bytes": 211818,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "공식 본문에 신규 발급 중단 명시"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HDSHE2",
+      "name": "현대홈쇼핑 현대카드 Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaehomsyoping-hyeondaekadeu-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=13836&mID=PI41006884P&schID=pcd",
+      "name": "모두의 신세계 하나카드",
+      "card_type": "credit",
+      "existingId": "hana-moduui-sinsegye-hanakadeu",
+      "attempted_at": "2026-09-20T16:10:29.112Z",
+      "fetched_at": "2026-09-20T16:06:05.382Z",
+      "sha256": "26f55cb6b777fb06af6e98caf3498c0ad0c192c264c638a1643115f69980d7ad",
+      "bytes": 266737,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-moduui-sinsegye-hanakadeu"
+    },
+    {
+      "issuer": "lotte",
+      "url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15469-A15469",
+      "name": "모바일엔디지로카",
+      "card_type": "credit",
+      "discovery_note": "상세 본문에서 신규발급 중단 확인; 활성상품 수록 대상 제외.",
+      "attempted_at": "2026-09-20T16:10:29.116Z",
+      "fetched_at": "2026-09-20T16:05:59.276Z",
+      "sha256": "462b3cf6b3ac7f7be193554733fa99e6d151b5a80fcfb23af15340799eb46241",
+      "bytes": 208697,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "공식 본문에 신규 발급 중단 명시"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1187949_2205.html",
+      "name": "신한카드 The CLASSIC+",
+      "card_type": "credit",
+      "existingId": "shinhan-the-classic",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103734.html",
+      "name": "카드의정석 EVERYDAY CHECK",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok-everyday-check",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02054&mainCC=a",
+      "name": "이랜드리테일 KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-iraendeuriteil-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.114Z",
+      "fetched_at": "2026-09-20T16:05:54.270Z",
+      "sha256": "0fdbc5e976d47c9192b8a8b5e16e812b7ac7ce3991fa4fa264c0598071a99f35",
+      "bytes": 393390,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-iraendeuriteil-kbgukminkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTCP",
+      "name": "현대카드 Boutique - Copper",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-boutique-copper",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19149",
+      "name": "MOVING카드 ALLDAY모드",
+      "card_type": "credit",
+      "existingId": "hana-movingkadeu-alldaymodeu",
+      "attempted_at": "2026-09-20T16:10:29.119Z",
+      "fetched_at": "2026-09-20T16:06:06.257Z",
+      "sha256": "ca3c7beebc51fc02af06b5a4a47bb408ce1483b4ffe9a561f3495459733ab59b",
+      "bytes": 288000,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-movingkadeu-alldaymodeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1236160_2205.html",
+      "name": "신한카드 The CLASSIC NEO",
+      "card_type": "credit",
+      "existingId": "shinhan-the-classic-neo",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102862.html",
+      "name": "카드의정석 화물복지카드+",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok-hwamulbokjikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?categoryCode=L0112&cooperationcode=03973&mainCC=a",
+      "name": "KB국민 내고장사랑카드(구로사랑)",
+      "card_type": "credit",
+      "existingId": "kb-kbgukmin-naegojangsarangkadeu-gurosarang",
+      "attempted_at": "2026-09-20T16:10:29.121Z",
+      "fetched_at": "2026-09-20T16:05:56.094Z",
+      "sha256": "f23cd95fd231f68370ed948ca633a01324f0e1fcdd4500ed3fb8e2d4a546cf8e",
+      "bytes": 394345,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-kbgukmin-naegojangsarangkadeu-gurosarang"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTST",
+      "name": "현대카드 Boutique - Satin",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-boutique-satin",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19153",
+      "name": "MOVING카드 GLOBAL모드",
+      "card_type": "credit",
+      "existingId": "hana-movingkadeu-globalmodeu",
+      "attempted_at": "2026-09-20T16:10:29.126Z",
+      "fetched_at": "2026-09-20T16:06:06.879Z",
+      "sha256": "0157030afa409caa45fd74b2fc72f32249b8e6cd01c19637440833e06929a7e7",
+      "bytes": 290912,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-movingkadeu-globalmodeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1196402_2205.html",
+      "name": "신한카드 The CLASSIC-S",
+      "card_type": "credit",
+      "existingId": "shinhan-the-classic-s",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102863.html",
+      "name": "카드의정석 화물복지카드(체크)",
+      "card_type": "check",
+      "existingId": "woori-kadeuuijeongseok-hwamulbokjikadeu-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04404&mainCC=a",
+      "name": "KB국민 펫코노미 카드",
+      "card_type": "credit",
+      "existingId": "kb-kbgukmin-petkonomi-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.129Z",
+      "fetched_at": "2026-09-20T16:05:57.864Z",
+      "sha256": "6ef917010040348a9ef2a99f00e95e3d07c32171bba8a967f27530cc4524aa89",
+      "bytes": 390397,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-kbgukmin-petkonomi-kadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTVV",
+      "name": "현대카드 Boutique - Velvet",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-boutique-velvet",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19152",
+      "name": "MOVING카드 LIFE모드",
+      "card_type": "credit",
+      "existingId": "hana-movingkadeu-lifemodeu",
+      "attempted_at": "2026-09-20T16:10:29.132Z",
+      "fetched_at": "2026-09-20T16:06:06.914Z",
+      "sha256": "e327a8253846924d4ad99da1aaba673a615a1333eb1f84816b4c45a4933547c4",
+      "bytes": 290234,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-movingkadeu-lifemodeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1216601_2205.html",
+      "name": "신한카드 The CLASSIC-V",
+      "card_type": "credit",
+      "existingId": "shinhan-the-classic-v",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102717.html",
+      "name": "카드의정석 I&U+",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok-i-u",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04586&mainCC=a",
+      "name": "코웨이 KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-kowei-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.135Z",
+      "fetched_at": "2026-09-20T16:06:02.007Z",
+      "sha256": "e82539307d63f3e59e24b04e994b7881d973f8778f15f49c8583953b3cd0ea66",
+      "bytes": 391086,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-kowei-kbgukminkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCA",
+      "name": "현대카드 체크(Apple Pay Rewards)",
+      "card_type": "check",
+      "existingId": "hyundai-hyeondaekadeu-chekeu-apple-pay-rewards",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19150",
+      "name": "MOVING카드 ONLINE모드",
+      "card_type": "credit",
+      "existingId": "hana-movingkadeu-onlinemodeu",
+      "attempted_at": "2026-09-20T16:10:29.137Z",
+      "fetched_at": "2026-09-20T16:06:06.615Z",
+      "sha256": "1eb9a8f96532e228d251b7f567a5340d5e8be7baf928f1c46ff981e8455e27b9",
+      "bytes": 288325,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-movingkadeu-onlinemodeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1187940_2205.html",
+      "name": "신한카드 The CLASSIC-Y",
+      "card_type": "credit",
+      "existingId": "shinhan-the-classic-y",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103116.html",
+      "name": "카드의정석 LCK 우리체크",
+      "card_type": "check",
+      "existingId": "woori-kadeuuijeongseok-lck-urichekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04561&mainCC=a",
+      "name": "LG U+ 할인포커스 KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-lg-u-halinpokeoseu-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.141Z",
+      "fetched_at": "2026-09-20T16:05:59.798Z",
+      "sha256": "191f34607b808bd07022e770d83d4a2083ba31b6547c04d46f72cf3e02e9a442",
+      "bytes": 381397,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-lg-u-halinpokeoseu-kbgukminkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCD",
+      "name": "현대카드 체크(캐시백형)",
+      "card_type": "check",
+      "existingId": "hyundai-hyeondaekadeu-chekeu-kaesibaekhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19151",
+      "name": "MOVING카드 PLAY모드",
+      "card_type": "credit",
+      "existingId": "hana-movingkadeu-playmodeu",
+      "attempted_at": "2026-09-20T16:10:29.143Z",
+      "fetched_at": "2026-09-20T16:06:06.549Z",
+      "sha256": "f77b5b2b0e060c5ca291f62b178826facbe256caa2691b194f23d63f5d2c00af",
+      "bytes": 287845,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-movingkadeu-playmodeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1188306_2205.html",
+      "name": "신한카드 The PREMIER GOLD EDITION",
+      "card_type": "credit",
+      "existingId": "shinhan-the-premier-gold-edition",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102716.html",
+      "name": "카드의정석 오하CHECK",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok-ohacheck",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09923",
+      "name": "My WE:SH 카드",
+      "card_type": "credit",
+      "existingId": "kb-my-we-sh-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.146Z",
+      "fetched_at": "2026-09-20T16:06:06.212Z",
+      "sha256": "5d84918f960d156fa168cab97c1e6aba1d0cfb0c89c9b2831e835671589a5ca3",
+      "bytes": 396821,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-my-we-sh-kadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCM",
+      "name": "현대카드 체크(포인트형)",
+      "card_type": "check",
+      "existingId": "hyundai-hyeondaekadeu-chekeu-pointeuhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=9656&mID=PI41006884P&schID=pcd",
+      "name": "신세계 하나 체크카드",
+      "card_type": "check",
+      "existingId": "hana-sinsegye-hana-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.149Z",
+      "fetched_at": "2026-09-20T16:06:04.416Z",
+      "sha256": "84a4e0d51ef98c5b341769d7d4954e1f736efaecf51ca5c93374c91c460e290d",
+      "bytes": 269931,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-sinsegye-hana-chekeukadeu"
+    },
+    {
+      "issuer": "shinhan",
+      "url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1228947_2205.html",
+      "name": "신한카드 The Premium PET",
+      "card_type": "credit",
+      "existingId": "shinhan-the-premium-pet",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102492.html",
+      "name": "카드의정석 SHOPPING+",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok-shopping",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02000&mainCC=a",
+      "name": "myOne KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-myone-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.152Z",
+      "fetched_at": "2026-09-20T16:05:52.101Z",
+      "sha256": "6dcd3646085be126905d1aeee2223400bc36e7e8c031486a214c632694a3a761",
+      "bytes": 382093,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-myone-kbgukminkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCAH",
+      "name": "현대카드 하이브리드(Apple Pay Rewards)",
+      "card_type": "check",
+      "existingId": "hyundai-hyeondaekadeu-haibeurideu-apple-pay-rewards",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18398&mID=PI41006884P&schID=pcd",
+      "name": "신세계 트래블GO 하나카드",
+      "card_type": "credit",
+      "existingId": "hana-sinsegye-teuraebeulgo-hanakadeu",
+      "attempted_at": "2026-09-20T16:10:29.155Z",
+      "fetched_at": "2026-09-20T16:06:05.147Z",
+      "sha256": "50f9ee825d9bd436ad6dab38a03f6e8fb4b6fd84bfa782f2f506440e99b5081c",
+      "bytes": 276128,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-sinsegye-teuraebeulgo-hanakadeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103686.html",
+      "name": "카드의정석 TEN",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok-ten",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=01664&mainCC=a",
+      "name": "노리 체크카드",
+      "card_type": "check",
+      "existingId": "kb-nori-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.157Z",
+      "fetched_at": "2026-09-20T16:05:51.657Z",
+      "sha256": "439f77f7728ea21aaf2c72c27244fb9aa6e563b092ec6d9a06f8d3e22438229b",
+      "bytes": 416777,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-nori-chekeukadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCDH",
+      "name": "현대카드 하이브리드(캐시백형)",
+      "card_type": "check",
+      "existingId": "hyundai-hyeondaekadeu-haibeurideu-kaesibaekhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18064&mID=PI41006884P&schID=pcd",
+      "name": "트래블GO 체크카드",
+      "card_type": "check",
+      "existingId": "hana-teuraebeulgo-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.159Z",
+      "fetched_at": "2026-09-20T16:05:52.181Z",
+      "sha256": "6b85bd30af88e01061a975eb1227eb3f2dc8510e3d067e0d332c285ff140e68a",
+      "bytes": 279514,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-teuraebeulgo-chekeukadeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102997.html",
+      "name": "카드의정석2",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02046&mainCC=a",
+      "name": "옥션 KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-oksyeon-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.163Z",
+      "fetched_at": "2026-09-20T16:05:52.983Z",
+      "sha256": "ce0db6bf9d52f43b2f0eb8ee886f89e64e62797b41264214730c8d0458bd2c6d",
+      "bytes": 397976,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-oksyeon-kbgukminkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCMH",
+      "name": "현대카드 하이브리드(포인트형)",
+      "card_type": "check",
+      "existingId": "hyundai-hyeondaekadeu-haibeurideu-pointeuhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15414&mID=PI41006884P&schID=pcd",
+      "name": "트래블로그 체크카드",
+      "card_type": "check",
+      "existingId": "hana-teuraebeulrogeu-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.165Z",
+      "fetched_at": "2026-09-20T16:06:00.852Z",
+      "sha256": "59a1f90ad0d8a6fcfe2e28cdbdbb096eec4a178825db6f194a660b9bb524c62f",
+      "bytes": 275625,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-teuraebeulrogeu-chekeukadeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_500010.html",
+      "name": "카드의정석2 AUTO",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-auto",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=01515&mainCC=a",
+      "name": "스카이패스 KB국민 플래티늄카드",
+      "card_type": "credit",
+      "existingId": "kb-seukaipaeseu-kbgukmin-peulraetinyumkadeu",
+      "attempted_at": "2026-09-20T16:10:29.167Z",
+      "fetched_at": "2026-09-20T16:05:51.226Z",
+      "sha256": "5835c5b98f0fd4765d996fdfca57220c149488046bac7904090b0bae9211b566",
+      "bytes": 495236,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-seukaipaeseu-kbgukmin-peulraetinyumkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MXBE2",
+      "name": "현대카드 MX Black Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-mx-black-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17886&mID=PI41017886P&schID=pcd",
+      "name": "트래블로그 PRESTIGE 신용카드",
+      "card_type": "credit",
+      "existingId": "hana-teuraebeulrogeu-prestige-sinyongkadeu",
+      "attempted_at": "2026-09-20T16:10:29.170Z",
+      "fetched_at": "2026-09-20T16:05:54.325Z",
+      "sha256": "d29adcee0ffd7fc022e00dc663cf1f1bb45d72766ac768f34e88716edc1b419f",
+      "bytes": 282358,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-teuraebeulrogeu-prestige-sinyongkadeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103729.html",
+      "name": "카드의정석2 EVERY DISCOUNT",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-every-discount",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04560&mainCC=a",
+      "name": "SKT 할인포커스 KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-skt-halinpokeoseu-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.174Z",
+      "fetched_at": "2026-09-20T16:05:59.415Z",
+      "sha256": "dcfafaf915d5e92aa7a629eef5de012491c66403a63f7b747560d5de9937e3ad",
+      "bytes": 384749,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-skt-halinpokeoseu-kbgukminkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SPM",
+      "name": "현대카드 Summit",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-summit",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=16787&mID=PI41016787P&schID=pcd",
+      "name": "트래블로그 신용카드",
+      "card_type": "credit",
+      "existingId": "hana-teuraebeulrogeu-sinyongkadeu",
+      "attempted_at": "2026-09-20T16:10:29.176Z",
+      "fetched_at": "2026-09-20T16:05:54.837Z",
+      "sha256": "fcab55a20d369287ff8fd402dee057b524d93cee398eab69662765044d276d01",
+      "bytes": 280772,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-teuraebeulrogeu-sinyongkadeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102718.html",
+      "name": "카드의정석2 EVERY POINT",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-every-point",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09217&mainCC=a",
+      "name": "탄탄대로 온리유카드",
+      "card_type": "credit",
+      "existingId": "kb-tantandaero-onriyukadeu",
+      "attempted_at": "2026-09-20T16:10:29.179Z",
+      "fetched_at": "2026-09-20T16:06:04.870Z",
+      "sha256": "959ecf0c5467d1f353fb8a0f4242c8c24fde2d4915ee572cc209a1bb4f661402",
+      "bytes": 402368,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-tantandaero-onriyukadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTMCE",
+      "name": "현대카드 Summit CE",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-summit-ce",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17945&mID=PI41017945P&schID=pcd",
+      "name": "트래블로그 SKYPASS 신용카드",
+      "card_type": "credit",
+      "existingId": "hana-teuraebeulrogeu-skypass-sinyongkadeu",
+      "attempted_at": "2026-09-20T16:10:29.182Z",
+      "fetched_at": "2026-09-20T16:05:52.931Z",
+      "sha256": "9b167fac690b6f2e9a34dc8c7bf52a7e0e887bc9c6f9073f85862129567918a2",
+      "bytes": 274414,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-teuraebeulrogeu-skypass-sinyongkadeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103496.html",
+      "name": "카드의정석2 ExK 체크",
+      "card_type": "check",
+      "existingId": "woori-kadeuuijeongseok2-exk-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09237&mainCC=a",
+      "name": "탄탄대로 오토카드",
+      "card_type": "credit",
+      "existingId": "kb-tantandaero-otokadeu",
+      "attempted_at": "2026-09-20T16:10:29.185Z",
+      "fetched_at": "2026-09-20T16:06:05.679Z",
+      "sha256": "33e7a9e00af9955ea6d983103fdcacc3f806c97ee12c1adb078894a722743d79",
+      "bytes": 395581,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-tantandaero-otokadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=FCDY",
+      "name": "현대카드 Teens",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-teens",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18023&mID=PI41006884P&schID=pcd",
+      "name": "토스뱅크 하나카드 Wide",
+      "card_type": "credit",
+      "existingId": "hana-toseubaengkeu-hanakadeu-wide",
+      "attempted_at": "2026-09-20T16:10:29.187Z",
+      "fetched_at": "2026-09-20T16:06:04.625Z",
+      "sha256": "af05ff5ccb82fb4be5615168fb913f650eaced7435b2556f1eecdba8cb5b3ad1",
+      "bytes": 260356,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-toseubaengkeu-hanakadeu-wide"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103416.html",
+      "name": "카드의정석2 후불하이패스+",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-hubulhaipaeseu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=01142&mainCC=a",
+      "name": "The CJ KB국민카드",
+      "card_type": "credit",
+      "existingId": "kb-the-cj-kbgukminkadeu",
+      "attempted_at": "2026-09-20T16:10:29.191Z",
+      "fetched_at": "2026-09-20T16:05:50.119Z",
+      "sha256": "f3af567b704d74463f97ac045a4ae6e8d6ba8cb15643347bb5e1996198fa4f1a",
+      "bytes": 395568,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-the-cj-kbgukminkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XCUT",
+      "name": "현대카드 X Cut",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-x-cut",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=9047&mID=PI41006884P&schID=pcd",
+      "name": "VIVA+ 체크카드",
+      "card_type": "check",
+      "existingId": "hana-viva-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.192Z",
+      "fetched_at": "2026-09-20T16:06:02.103Z",
+      "sha256": "a60d4d1810fdc3385a99db2fc5dc514625afc37f1b9bc132d6473731eeed5728",
+      "bytes": 270701,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-viva-chekeukadeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102482.html",
+      "name": "카드의정석2 칼퇴 CHECK",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-kaltoe-check",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09250&mainCC=a",
+      "name": "The Easy카드",
+      "card_type": "credit",
+      "existingId": "kb-the-easykadeu",
+      "attempted_at": "2026-09-20T16:10:29.196Z",
+      "fetched_at": "2026-09-20T16:06:05.774Z",
+      "sha256": "eed94375d4020c13f491a99a58b6af9e88717a520123945f8fd8bc64ed0729b4",
+      "bytes": 393959,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-the-easykadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XSAV",
+      "name": "현대카드 X Save",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-x-save",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=12519&mID=PI41006884P&schID=pcd",
+      "name": "VIVA X 체크카드",
+      "card_type": "check",
+      "existingId": "hana-viva-x-chekeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.197Z",
+      "fetched_at": "2026-09-20T16:06:01.413Z",
+      "sha256": "5b79cc1835a16fc99f7a8b9fe5a89362de4485a16b156587fafff02086b60841",
+      "bytes": 271314,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-viva-x-chekeukadeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_500045.html",
+      "name": "카드의정석2 ROUTINE",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-routine",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02090&mainCC=a",
+      "name": "와이즈홈카드",
+      "card_type": "credit",
+      "existingId": "kb-waijeuhomkadeu",
+      "attempted_at": "2026-09-20T16:10:29.200Z",
+      "fetched_at": "2026-09-20T16:05:54.914Z",
+      "sha256": "0ce278f88fc20668a8b63286c517c70487247e12160480c40486497110fa98e8",
+      "bytes": 396418,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-waijeuhomkadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZRUP",
+      "name": "현대카드 ZERO Up(할인형)",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-zero-up-halinhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17582&mID=PI41006884P&schID=pcd",
+      "name": "원더 K리그 축덕카드",
+      "card_type": "credit",
+      "existingId": "hana-wondeo-krigeu-chukdeokkadeu",
+      "attempted_at": "2026-09-20T16:10:29.202Z",
+      "fetched_at": "2026-09-20T16:05:57.814Z",
+      "sha256": "23220a220a5b41b2a6728c491d69483134b44bf190d1c82572f22d5f667cbd63",
+      "bytes": 278382,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-wondeo-krigeu-chukdeokkadeu"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104151.html",
+      "name": "카드의정석2 SHOPPER",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-shopper",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09091&mainCC=a",
+      "name": "와이즈카드",
+      "card_type": "credit",
+      "existingId": "kb-waijeukadeu",
+      "attempted_at": "2026-09-20T16:10:29.205Z",
+      "fetched_at": "2026-09-20T16:06:04.115Z",
+      "sha256": "c0e41c460eef91267440239ed5628666bd34925817fb44bf6bd48265b1e61c69",
+      "bytes": 404816,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-waijeukadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MZRUP",
+      "name": "현대카드 ZERO Up(포인트형)",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeu-zero-up-pointeuhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15857&mID=PI41015857P&schID=pcd",
+      "name": "원더카드 2.0 DAILY",
+      "card_type": "credit",
+      "existingId": "hana-wondeokadeu-2-0-daily",
+      "attempted_at": "2026-09-20T16:10:29.207Z",
+      "fetched_at": "2026-09-20T16:05:56.824Z",
+      "sha256": "e5a350eaffa959be49630c73d52dfa762d5f11293af5f46fe9f61c478d27b17d",
+      "bytes": 294078,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-wondeokadeu-2-0-daily"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_500044.html",
+      "name": "카드의정석2 SUPER",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-super",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09570&mainCC=a",
+      "name": "WE:SH Daily 카드",
+      "card_type": "credit",
+      "existingId": "kb-we-sh-daily-kadeu",
+      "attempted_at": "2026-09-20T16:10:29.211Z",
+      "fetched_at": "2026-09-20T16:06:06.961Z",
+      "sha256": "8dfdcca168a147d96ffc276b16a49b15e163450e7d107e15aaeb6dd3c8b00fe1",
+      "bytes": 397738,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "kb-we-sh-daily-kadeu"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ME4",
+      "name": "현대카드M",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeum",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=16947&mID=PI41016947P&schID=pcd",
+      "name": "원더카드 2.0 FREE+",
+      "card_type": "credit",
+      "existingId": "hana-wondeokadeu-2-0-free-plus",
+      "attempted_at": "2026-09-20T16:10:29.213Z",
+      "fetched_at": "2026-09-20T16:05:49.731Z",
+      "sha256": "666badf59f0caa6bb7290dd38f5be6be93d9e92be5003e283db8b622744f2712",
+      "bytes": 292230,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-wondeokadeu-2-0-free-plus"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_500001.html",
+      "name": "카드의정석2 원더라이프",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-wondeoraipeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0137?cooperationcode=04587",
+      "name": null,
+      "card_type": null,
+      "discovery_note": "공식 목록 URL 발견; 상세 상품명 파싱 미확인. 임의 명칭/유형을 채우지 않음.",
+      "attempted_at": "2026-09-20T16:10:29.218Z",
+      "fetched_at": "2026-09-20T16:06:02.125Z",
+      "sha256": "ddb9e1c258c4c6e1ce2b0af19e3e6abbfabbc261ca329c5cd9fd347f45ba814d",
+      "bytes": 280095,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "상품명 확인 불가; 오류/목록/미렌더링 페이지를 수록하지 않음"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MSCE2",
+      "name": "현대카드M-경차전용카드 Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeum-gyeongchajeonyongkadeu-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15861&mID=PI41015861P&schID=pcd",
+      "name": "원더카드 2.0 HAPPY",
+      "card_type": "credit",
+      "existingId": "hana-wondeokadeu-2-0-happy",
+      "attempted_at": "2026-09-20T16:10:29.220Z",
+      "fetched_at": "2026-09-20T16:05:57.330Z",
+      "sha256": "c60d788db25e6d266f138a6195b066d98b3f63aeff5d17da736fcb16099ebff8",
+      "bytes": 288321,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-wondeokadeu-2-0-happy"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_500002.html",
+      "name": "카드의정석2 원더라이프 CHECK",
+      "card_type": "credit",
+      "existingId": "woori-kadeuuijeongseok2-wondeoraipeu-check",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09010&mainCC=a",
+      "name": "BeV Ⅸ 대한항공 카드",
+      "card_type": null,
+      "attempted_at": "2026-09-20T16:10:29.222Z",
+      "fetched_at": "2026-09-20T16:06:02.938Z",
+      "sha256": "90ced6b5ced369df7faaed832f45aa519a21314a9e61916198cbdeafac60b35a",
+      "bytes": 449315,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "신용/체크 구분 미확인; 기본값으로 신용을 지정하지 않음"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MLSB",
+      "name": "현대카드M-화물차유가보조금카드",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeum-hwamulchayugabojogeumkadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15863&mID=PI41015863P&schID=pcd",
+      "name": "원더카드 2.0 LIVING",
+      "card_type": "credit",
+      "existingId": "hana-wondeokadeu-2-0-living",
+      "attempted_at": "2026-09-20T16:10:29.224Z",
+      "fetched_at": "2026-09-20T16:05:55.820Z",
+      "sha256": "0633871a249e522d2e0e41d3de88f8a754eef21628d2e96361b9c054801f9428",
+      "bytes": 289022,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-wondeokadeu-2-0-living"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_500004.html",
+      "name": "코웨이 ICON 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-kowei-icon-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "kb",
+      "url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09218&mainCC=a",
+      "name": "탄탄대로 온리유 티타늄카드",
+      "card_type": "credit",
+      "attempted_at": "2026-09-20T16:10:29.228Z",
+      "fetched_at": "2026-09-20T16:06:04.919Z",
+      "sha256": "885c811436feb4f5965aaaa34326a541fac5bacdae9f26694e9770358346a3cd",
+      "bytes": 373364,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "상품별 혜택 본문 확인 불가"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MPE4",
+      "name": "현대카드MM",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumm",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103117.html",
+      "name": "KREAM 체크카드",
+      "card_type": "check",
+      "existingId": "woori-kream-chekeukadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15865&mID=PI41015865P&schID=pcd",
+      "name": "원더카드 2.0 T",
+      "card_type": "credit",
+      "existingId": "hana-wondeokadeu-2-0-t",
+      "attempted_at": "2026-09-20T16:10:29.230Z",
+      "fetched_at": "2026-09-20T16:05:55.315Z",
+      "sha256": "4241d5730dabd22d175a0f991a0a2fc034c1fb16daacc893f9b77327b246d36c",
+      "bytes": 288559,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "국내 본인 총연회비를 단일 값으로 확인하지 못해 생략",
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-wondeokadeu-2-0-t"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MMBES",
+      "name": "현대카드MY BUSINESS M E-seller",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-m-e-seller",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104156.html",
+      "name": "KREAM Platinum 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-kream-platinum-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15859&mID=PI41015859P&schID=pcd",
+      "name": "원더카드 2.0 FREE",
+      "card_type": "credit",
+      "attempted_at": "2026-09-20T16:10:29.233Z",
+      "fetched_at": "2026-09-20T16:05:56.312Z",
+      "sha256": "9a9a4d6472275bb938e15f4393f7488fb1444ab0a81839bfccd325d9500ff013",
+      "bytes": 286729,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "hana-wondeokadeu-2-0-free"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MMBFB",
+      "name": "현대카드MY BUSINESS M F&B",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-m-f-b",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102098.html",
+      "name": "KREAM 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-kream-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MMBRT",
+      "name": "현대카드MY BUSINESS M Retail",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-m-retail",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104168.html",
+      "name": "KT 36 Plus 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-kt-36-plus-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SPMMB",
+      "name": "현대카드MY BUSINESS Summit",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-summit",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103750.html",
+      "name": "KT Plus 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-kt-plus-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBTO",
+      "name": "현대카드MY BUSINESS the Orange",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-the-orange",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102857.html",
+      "name": "쿠쿠 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-kuku-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XMBES",
+      "name": "현대카드MY BUSINESS X E-seller",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-x-e-seller",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104173.html",
+      "name": "LG헬로비전 우리집엔 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-lghelrobijeon-urijipen-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XMBFB",
+      "name": "현대카드MY BUSINESS X F&B",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-x-f-b",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104169.html",
+      "name": "LG전자 Platinum 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-lgjeonja-platinum-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XMBRT",
+      "name": "현대카드MY BUSINESS X Retail",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-x-retail",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102535.html",
+      "name": "LG전자 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-lgjeonja-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBZRO",
+      "name": "현대카드MY BUSINESS ZERO Edition3(할인형)",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-zero-edition3-halinhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104176.html",
+      "name": "나비엔 구독 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-nabien-gudok-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBMZRO",
+      "name": "현대카드MY BUSINESS ZERO Edition3(포인트형)",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-zero-edition3-pointeuhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102724.html",
+      "name": "넥센타이어 우리카드 Ⅱ",
+      "card_type": "credit",
+      "existingId": "woori-neksentaieo-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBZRUP",
+      "name": "현대카드MY BUSINESS ZERO Up(할인형)",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-zero-up-halinhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_101655.html",
+      "name": "NU Biz",
+      "card_type": "credit",
+      "existingId": "woori-nu-biz",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBMZRUP",
+      "name": "현대카드MY BUSINESS ZERO Up(포인트형)",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeumy-business-zero-up-pointeuhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_833841.html",
+      "name": "ROYAL BLUE MILEAGE [SKYPASS]",
+      "card_type": "credit",
+      "existingId": "woori-royal-blue-mileage-skypass",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XPE4",
+      "name": "현대카드X",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeux",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_833837.html",
+      "name": "ROYAL BLUE POINT",
+      "card_type": "credit",
+      "existingId": "woori-royal-blue-point",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZWK",
+      "name": "현대카드Z everyday",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeuz-everyday",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_225501.html",
+      "name": "로얄블루1000카드 [SKYPASS]",
+      "card_type": "credit",
+      "existingId": "woori-royalbeulru1000kadeu-skypass",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZFE2",
+      "name": "현대카드Z family Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeuz-family-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104123.html",
+      "name": "삼성AI구독 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-samseongaigudok-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZOE2",
+      "name": "현대카드Z play",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeuz-play",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104147.html",
+      "name": "세라젬 구독 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-serajem-gudok-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZWE2",
+      "name": "현대카드Z work Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeuz-work-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104171.html",
+      "name": "스타트래블 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-seutateuraebeul-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZROE3",
+      "name": "현대카드ZERO Edition3(할인형)",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeuzero-edition3-halinhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104167.html",
+      "name": "SK 주유 400 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-sk-juyu-400-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MZROE3",
+      "name": "현대카드ZERO Edition3(포인트형)",
+      "card_type": "credit",
+      "existingId": "hyundai-hyeondaekadeuzero-edition3-pointeuhyeong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103757.html",
+      "name": "SK LPG 화물복지카드",
+      "card_type": "credit",
+      "existingId": "woori-sk-lpg-hwamulbokjikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HMHC",
+      "name": "Hyundai Mobility카드",
+      "card_type": "credit",
+      "existingId": "hyundai-hyundai-mobilitykadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102859.html",
+      "name": "SK인텔릭스 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-skintelrikseu-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=EMTE3S",
+      "name": "이마트 e카드 Plus",
+      "card_type": "credit",
+      "existingId": "hyundai-imateu-ekadeu-plus",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104137.html",
+      "name": "수호천사 동양생명 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-suhocheonsa-dongyangsaengmyeong-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MIMB",
+      "name": "iM뱅크-현대카드M",
+      "card_type": "credit",
+      "existingId": "hyundai-imbaengkeu-hyeondaekadeum",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102722.html",
+      "name": "트래블월렛 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-teuraebeulwolret-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=GMSE4",
+      "name": "지마켓 꼭 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-jimaket-kkok-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103500.html",
+      "name": "the OPUS silver",
+      "card_type": "credit",
+      "existingId": "woori-the-opus-silver",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMECN",
+      "name": "캐시노트 BUSINESS 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-kaesinoteu-business-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_500007.html",
+      "name": "the OPUS silver Biz",
+      "card_type": "credit",
+      "existingId": "woori-the-opus-silver-biz",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMEKKOB",
+      "name": "카카오뱅크 BUSINESS 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-kakaobaengkeu-business-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103749.html",
+      "name": "T라이트 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-traiteu-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMEKKOBP",
+      "name": "카카오뱅크 BUSINESS 현대카드 PRIME",
+      "card_type": "credit",
+      "existingId": "hyundai-kakaobaengkeu-business-hyeondaekadeu-prime",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103726.html",
+      "name": "TWO CHAIRS W",
+      "card_type": "credit",
+      "existingId": "woori-two-chairs-w",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMEKBNK",
+      "name": "케이뱅크 BUSINESS 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-keibaengkeu-business-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_102861.html",
+      "name": "U&I우리카드(체크)+",
+      "card_type": "check",
+      "existingId": "woori-u-iurikadeu-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZKFE2",
+      "name": "케이뱅크-현대카드Z family Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-keibaengkeu-hyeondaekadeuz-family-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103751.html",
+      "name": "U+ X 우리카드",
+      "card_type": "credit",
+      "existingId": "woori-u-x-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MRDED2",
+      "name": "Kia Members 신용카드 Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-kia-members-sinyongkadeu-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103458.html",
+      "name": "웅진프리드라이프 우리카드+",
+      "card_type": "credit",
+      "existingId": "woori-ungjinpeurideuraipeu-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CSTCE2",
+      "name": "코스트코 리워드 현대카드 Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-koseuteuko-riwodeu-hyeondaekadeu-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104023.html",
+      "name": "우리 기후동행카드(체크)",
+      "card_type": "check",
+      "existingId": "woori-uri-gihudonghaengkadeu-chekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CWYHC",
+      "name": "코웨이 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-kowei-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104022.html",
+      "name": "우리 기후동행카드(신용)",
+      "card_type": "credit",
+      "existingId": "woori-uri-gihudonghaengkadeu-sinyong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MKTE3TP",
+      "name": "kt-현대카드M Edition3(통신할인형 2.0)",
+      "card_type": "credit",
+      "existingId": "hyundai-kt-hyeondaekadeum-edition3-tongsinhalinhyeong-2-0",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104146.html",
+      "name": "우리 GS칼텍스 55 화물복지카드",
+      "card_type": "credit",
+      "existingId": "woori-uri-gskaltekseu-55-hwamulbokjikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCKHC",
+      "name": "쿠쿠 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-kuku-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_221287.html",
+      "name": "우리 국민연금증체크카드",
+      "card_type": "check",
+      "existingId": "woori-uri-gukminyeongeumjeungchekeukadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MLGTE3",
+      "name": "LG U+-현대카드M Edition3(통신할인형2.0)",
+      "card_type": "credit",
+      "existingId": "hyundai-lg-u-hyeondaekadeum-edition3-tongsinhalinhyeong2-0",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103444.html",
+      "name": "우리 화물차유류구매카드(개인체크)",
+      "card_type": "check",
+      "existingId": "woori-uri-hwamulchayuryugumaekadeu-gaeinchekeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=LGEHC",
+      "name": "LG전자 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-lgjeonja-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103443.html",
+      "name": "우리 화물차유류구매카드(개인신용)",
+      "card_type": "credit",
+      "existingId": "woori-uri-hwamulchayuryugumaekadeu-gaeinsinyong",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MRASSTDM",
+      "name": "미래에셋 현대카드 Diamond",
+      "card_type": "credit",
+      "existingId": "hyundai-miraeeset-hyeondaekadeu-diamond",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103755.html",
+      "name": "우리카드 7CORE",
+      "card_type": "credit",
+      "existingId": "woori-urikadeu-7core",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=NVE2",
+      "name": "네이버 현대카드 Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-neibeo-hyeondaekadeu-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104154.html",
+      "name": "우리카드 MILE&POINT",
+      "card_type": "credit",
+      "existingId": "woori-urikadeu-mile-point",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=NXNX",
+      "name": "넥슨 현대카드 Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-nekseun-hyeondaekadeu-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_104153.html",
+      "name": "우리카드 UniMile",
+      "card_type": "credit",
+      "existingId": "woori-urikadeu-unimile",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=NOLHC",
+      "name": "NOL 카드",
+      "card_type": "credit",
+      "existingId": "hyundai-nol-kadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103687.html",
+      "name": "우리WON모바일 체크카드",
+      "card_type": "check",
+      "existingId": "woori-uriwonmobail-chekeukadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=OLVYHC",
+      "name": "올리브영 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-olribeuyeong-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103457.html",
+      "name": "우리WON모바일 카드",
+      "card_type": "credit",
+      "existingId": "woori-uriwonmobail-kadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TRSCSTE2",
+      "name": "SC제일은행-the Red Stripe Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-scjeileunhaeng-the-red-stripe-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103489.html",
+      "name": "위비트래블 체크카드",
+      "card_type": "check",
+      "existingId": "woori-wibiteuraebeul-chekeukadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SKIHC",
+      "name": "SK인텔릭스 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-skintelrikseu-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103490.html",
+      "name": "위비트래블 J 체크카드",
+      "card_type": "check",
+      "existingId": "woori-wibiteuraebeul-j-chekeukadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MSKTE3",
+      "name": "SKT-현대카드M Edition3(라이트할부형2.0)",
+      "card_type": "credit",
+      "existingId": "hyundai-skt-hyeondaekadeum-edition3-raiteuhalbuhyeong2-0",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "woori",
+      "url": "https://pc.wooricard.com/ai-data/card_103728.html",
+      "name": "예다함 우리카드+",
+      "card_type": "credit",
+      "existingId": "woori-yedaham-urikadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SGE2",
+      "name": "SSG.COM카드 Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-ssg-comkadeu-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SCHC",
+      "name": "쏘카카드",
+      "card_type": "credit",
+      "existingId": "hyundai-ssokakadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TBE4",
+      "name": "the Black",
+      "card_type": "credit",
+      "existingId": "hyundai-the-black",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MCJE2",
+      "name": "The CJ-현대카드M Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-the-cj-hyeondaekadeum-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TGE3",
+      "name": "the Green Edition3",
+      "card_type": "credit",
+      "existingId": "hyundai-the-green-edition3",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TO",
+      "name": "the Orange",
+      "card_type": "credit",
+      "existingId": "hyundai-the-orange",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TPIE2",
+      "name": "the Pink Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-the-pink-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TPE4",
+      "name": "the Purple",
+      "card_type": "credit",
+      "existingId": "hyundai-the-purple",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TRE6",
+      "name": "the Red",
+      "card_type": "credit",
+      "existingId": "hyundai-the-red",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TRSTE2",
+      "name": "the Red Stripe Edition2",
+      "card_type": "credit",
+      "existingId": "hyundai-the-red-stripe-edition2",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hyundai",
+      "url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=YSHC",
+      "name": "예스24 현대카드",
+      "card_type": "credit",
+      "existingId": "hyundai-yeseu24-hyeondaekadeu",
+      "status": "skipped",
+      "reason": "issuer_failure_circuit"
+    },
+    {
+      "issuer": "hana",
+      "url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18184&mID=PI41006884P&schID=pcd",
+      "name": null,
+      "card_type": null,
+      "discovery_note": "공식 목록 URL 발견; 상세 상품명 파싱 미확인. 임의 명칭/유형을 채우지 않음.",
+      "attempted_at": "2026-09-20T16:10:29.235Z",
+      "fetched_at": "2026-09-20T16:06:02.734Z",
+      "sha256": "533978f98d9a058919e8f47f8975dddb11bd4a54ec9e98e4e40c5dd8315c20d0",
+      "bytes": 239206,
+      "cache_hit": true,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "상품명 확인 불가; 오류/목록/미렌더링 페이지를 수록하지 않음"
+      ],
+      "status": "rejected",
+      "reason": "no_product_benefits"
+    },
+    {
+      "issuer": "nh",
+      "url": "https://card.nonghyup.com/servlet/IpCc2021R.act?CD_WRS_SQNO=90010470",
+      "name": "K-패스카드(체크)",
+      "card_type": "check",
+      "discovery_note": "공식 IpCc1411R.act 목록의 hidden card_2 및 openDetailCardInfo 상품코드에서 발견. 상세 본문 상품명에 체크 명시.",
+      "attempted_at": "2026-09-20T16:10:28.923Z",
+      "fetched_at": "2026-09-20T16:10:29.508Z",
+      "sha256": "e1166f58b184a270ff2b82e5698cb33dbd0ff59811bbebffe7dc4272d77901a4",
+      "bytes": 205321,
+      "cache_hit": false,
+      "transport": "direct_official_http",
+      "http_status": 200,
+      "warnings": [
+        "혜택 요약만 구조화; 세금 취급·실적 기준·월 한도는 자동 추정하지 않음"
+      ],
+      "status": "accepted",
+      "card_id": "nh-k-paeseukadeu-chekeu"
+    }
+  ]
+}
