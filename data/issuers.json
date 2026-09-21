@@ -18,8 +18,8 @@
         "robots_evidence": "https://pc.wooricard.com/robots.txt 에 'Allow: /ai-data/' 명시"
       },
       "status": "partial",
-      "last_checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 87개 중 검증 통과 34개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 87개. 이번 누락 추가 0개·기존 갱신 0개. 발급 가능 전체 수/전수 완료 여부는 미확인."
     },
     {
       "key": "shinhan",
@@ -42,8 +42,8 @@
         "coverage_note": "공식 목록 페이지가 노출하는 카드만 수집한다."
       },
       "status": "partial",
-      "last_checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 29개 중 검증 통과 14개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 104개. 이번 누락 추가 75개·기존 갱신 12개. 발급 가능 전체 수/전수 완료 여부는 미확인."
     },
     {
       "key": "samsung",
@@ -53,10 +53,10 @@
         "www.samsungcard.com"
       ],
       "machine_readable_feed": null,
-      "status": "collected",
+      "status": "partial",
       "previous_collection_status": "blocked_by_robots",
-      "last_checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 2개 중 검증 통과 2개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증.",
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 163개. 이번 누락 추가 161개·기존 갱신 2개. 발급 가능 전체 수/전수 완료 여부는 미확인.",
       "previous_status_reason": "robots.txt 마지막에 'User-agent: * / Disallow: /' 가 있다. Allow 목록은 Yeti·googlebot·GPTbot·ClaudeBot 등 지정 봇에만 적용된다. 우리는 그중 어느 것도 아니므로 전면 차단 대상이다. UA 를 그 봇으로 위장하지 않는다. 수집 금지."
     },
     {
@@ -76,8 +76,8 @@
         "coverage_note": "공식 카탈로그(신용 92 + 체크 15)에서 발견한 98건 전부 수집."
       },
       "status": "partial",
-      "last_checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 98개 중 검증 통과 89개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증."
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 112개. 이번 누락 추가 14개·기존 갱신 0개. 발급 가능 전체 수/전수 완료 여부는 미확인."
     },
     {
       "key": "kb",
@@ -89,8 +89,8 @@
       "machine_readable_feed": null,
       "status": "partial",
       "previous_collection_status": "not_collected",
-      "last_checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 43개 중 검증 통과 40개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증.",
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 81개. 이번 누락 추가 41개·기존 갱신 0개. 발급 가능 전체 수/전수 완료 여부는 미확인.",
       "previous_status_reason": "sitemap.xml 미제공. robots.txt 가 /CRD/ 를 허용하나 상품 목록이 기계판독 형식이 아니다."
     },
     {
@@ -103,8 +103,8 @@
       "machine_readable_feed": null,
       "status": "partial",
       "previous_collection_status": "not_collected",
-      "last_checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 46개 중 검증 통과 45개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증.",
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 56개. 이번 누락 추가 11개·기존 갱신 0개. 발급 가능 전체 수/전수 완료 여부는 미확인.",
       "previous_status_reason": "sitemap.xml 에 상품 상세 URL 이 있으나 본문이 스크립트 렌더링이라 정적 추출로는 값을 신뢰할 수 없다."
     },
     {
@@ -117,8 +117,8 @@
       "machine_readable_feed": null,
       "status": "partial",
       "previous_collection_status": "not_collected",
-      "last_checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 23개 중 검증 통과 20개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증.",
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 34개. 이번 누락 추가 14개·기존 갱신 0개. 발급 가능 전체 수/전수 완료 여부는 미확인.",
       "previous_status_reason": "robots.txt 응답이 불안정하고 상품 상세가 스크립트 렌더링이다."
     },
     {
@@ -131,8 +131,8 @@
       "machine_readable_feed": null,
       "status": "partial",
       "previous_collection_status": "not_collected",
-      "last_checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 3개 중 검증 통과 2개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증.",
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 153개. 이번 누락 추가 151개·기존 갱신 2개. 발급 가능 전체 수/전수 완료 여부는 미확인.",
       "previous_status_reason": "robots.txt 요청이 리다이렉트되고 기계판독 상품 피드가 없다."
     },
     {
@@ -145,9 +145,46 @@
       "machine_readable_feed": null,
       "status": "partial",
       "previous_collection_status": "not_collected",
-      "last_checked_at": "2026-09-21",
-      "note": "발견된 공식 URL 22개 중 검증 통과 21개. 공식 API 보완 포함. 전체 발급 상품 완전성은 미보증.",
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 21개. 이번 누락 추가 0개·기존 갱신 0개. 발급 가능 전체 수/전수 완료 여부는 미확인.",
       "previous_status_reason": "기계판독 상품 피드 미확인."
+    },
+    {
+      "key": "kakao",
+      "name": "카카오뱅크",
+      "site": "https://www.kakaobank.com",
+      "allowed_domains": [
+        "www.kakaobank.com",
+        "kakaobank.com"
+      ],
+      "status": "partial",
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 3개. 이번 누락 추가 3개·기존 갱신 0개. 발급 가능 전체 수/전수 완료 여부는 미확인."
+    },
+    {
+      "key": "toss",
+      "name": "토스뱅크",
+      "site": "https://www.tossbank.com",
+      "allowed_domains": [
+        "www.tossbank.com",
+        "tossbank.com"
+      ],
+      "status": "partial",
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 1개. 이번 누락 추가 1개·기존 갱신 0개. 발급 가능 전체 수/전수 완료 여부는 미확인."
+    },
+    {
+      "key": "ibk",
+      "name": "IBK기업은행",
+      "site": "https://www.ibk.co.kr",
+      "allowed_domains": [
+        "www.ibk.co.kr",
+        "cardapplication.ibk.co.kr",
+        "blog.ibk.co.kr"
+      ],
+      "status": "partial",
+      "last_checked_at": "2026-09-22",
+      "note": "공식 원문 수록 1개. 이번 누락 추가 1개·기존 갱신 0개. 발급 가능 전체 수/전수 완료 여부는 미확인."
     }
   ]
 }

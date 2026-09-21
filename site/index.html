@@ -8,7 +8,7 @@
       name="description"
       content="공식 상품 페이지와 공개 피드의 출처·확인일을 함께 보는 한국 신용·체크카드 혜택 리서치."
     />
-    <link rel="stylesheet" href="styles.css?v=card-gallery-2" />
+    <link rel="stylesheet" href="styles.css?v=full-catalog-3" />
   </head>
   <body>
     <a class="skip-link" href="#results">본문으로 건너뛰기</a>
@@ -17,7 +17,7 @@
       <div class="wrap">
         <h1>한국 카드 혜택 리서치</h1>
         <p class="lede">
-          공식 상품 페이지와 공개 피드에서 찾은 혜택을 비교합니다. 출처, 확인일, 아직 확인하지 못한 조건을 함께 살펴보세요.
+          기존 카드 목록과 새로 수집한 공식 상품을 한곳에서 찾아보세요. 이전 저장 자료와 공식 확인 자료를 구분합니다.
         </p>
       </div>
     </header>
@@ -25,21 +25,10 @@
     <div class="wrap">
       <section class="overview" aria-label="자료 현황">
         <div id="data-stats" class="data-stats"></div>
-        <p class="coverage-alert">현재 일부 상품을 수록한 자료입니다. 카드사 전체 상품 목록이 아니며, 수집 범위와 누락 사례는 아래에서 확인할 수 있습니다.</p>
-        <p class="caveat">최근 확인은 수집일 기준 30일 이내입니다. 현재 발급 가능하거나 모든 조건을 검수했다는 뜻은 아닙니다.</p>
+        <p class="coverage-alert">기존 1,563개를 복구하고 공식 원문과 대조했습니다. ‘이전 자료’는 과거 기록이며 현재 혜택·발급 상태는 미확인입니다.</p>
         <details class="coverage">
           <summary>카드사별 수집 현황 <span id="coverage-summary"></span></summary>
           <p id="collection-note" class="caveat"></p>
-          <div class="coverage-gaps">
-            <strong>누락 사례 확인 · 2026-09-22</strong>
-            <p>현재 목록은 전수 수집 결과가 아닙니다. 아래 공식 페이지에 있는 상품도 아직 수록되지 않았습니다.</p>
-            <ul>
-              <li><a href="https://www.samsungcard.com/personal/card/UHPPCA0340M0.jsp?click=main_top_apply" target="_blank" rel="noopener noreferrer">삼성 공식 목록</a>: iD ON, iD ALL, iD SIMPLE 등</li>
-              <li><a href="https://card.nonghyup.com/servlet/IpCc1411R.act" target="_blank" rel="noopener noreferrer">NH농협 공식 목록</a>: zgm.the pay, zgm 할인, 히어로즈 체크 등</li>
-              <li><a href="https://www.shinhancard.com/pconts/html/card/CONFM70045/CONFM70045R01.html" target="_blank" rel="noopener noreferrer">신한 공식 목록</a>: Mr.Life, SOL트래블 신용, SOL Plan+ 등</li>
-            </ul>
-            <p>다른 카드사도 누락 가능성이 있습니다. 공식 전체 상품 수를 확정하지 못했으므로 수집 완료율을 표시하지 않습니다.</p>
-          </div>
           <div class="table-scroll" tabindex="0" role="region" aria-label="카드사별 수집 현황 표">
             <table class="coverage-table">
               <thead><tr><th scope="col">카드사</th><th scope="col">저장 카드</th><th scope="col">마지막 실행</th><th scope="col">결과</th><th scope="col">확인일·설명</th></tr></thead>
@@ -84,6 +73,10 @@
       </details>
 
       <section class="controls" aria-label="검색 및 필터">
+        <div class="control catalog-control">
+          <label for="catalogOrigin">자료 범위</label>
+          <select id="catalogOrigin"><option value="">전체 · 이전 + 공식</option><option value="official">공식 원문 수록</option><option value="archive">이전 자료 · 재확인 전</option></select>
+        </div>
         <div class="control control-search">
           <label for="q">검색</label>
           <input id="q" type="search" placeholder="예: 신한 체크, 통신 할인" autocomplete="off" />
@@ -171,6 +164,8 @@
 
       <main id="results" class="results" tabindex="-1"></main>
 
+      <button id="load-more" class="link-btn load-more" type="button" hidden>60개 더 보기</button>
+
       <footer class="site-footer">
         <p id="meta-line"></p>
         <p>
@@ -185,6 +180,6 @@
       <div id="detail-body"></div>
     </dialog>
 
-    <script type="module" src="app.js?v=card-gallery-2"></script>
+    <script type="module" src="app.js?v=full-catalog-3"></script>
   </body>
 </html>

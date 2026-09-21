@@ -13,14 +13,17 @@ async function get(file) {
 let lastError;
 for (let attempt = 0; attempt < 6; attempt++) {
   try {
-    const [releaseText, cardsText, html, js, css, eventsText, reportText] = await Promise.all(['release.json', 'cards.json', '', 'app.js', 'styles.css', 'card-events.json', 'collection-report.json'].map(get));
+    const [releaseText, cardsText, html, js, css, eventsText, reportText, archiveText] = await Promise.all(['release.json', 'cards.json', '', 'app.js', 'styles.css', 'card-events.json', 'collection-report.json', 'archive-catalog.json'].map(get));
     const release = JSON.parse(releaseText), cards = JSON.parse(cardsText);
     if (release.commit !== expectedCommit) throw new Error('Live release has a different commit');
     if (release.card_count !== cards.cards.length || !cards.cards.length) throw new Error('Live card count mismatch');
     if (release.cards_sha256 !== createHash('sha256').update(cardsText).digest('hex')) throw new Error('Live corpus hash mismatch');
+    const archive=JSON.parse(archiveText);
+    if (release.archive_count !== archive.cards.length || archive.cards.length !== 1563) throw new Error('Historical catalog count mismatch');
+    if (release.archive_sha256 !== createHash('sha256').update(archiveText).digest('hex')) throw new Error('Historical catalog hash mismatch');
     if (!html.includes('app.js') || !js.includes('cards.json') || css.length < 100) throw new Error('Missing site assets');
     if (!Array.isArray(JSON.parse(eventsText).events) || !Array.isArray(JSON.parse(reportText).issuer_reports)) throw new Error('Missing event/coverage data');
-    console.log(JSON.stringify({ url: base.href, commit: release.commit, cards: cards.cards.length, verified: true }));
+    console.log(JSON.stringify({ url: base.href, commit: release.commit, cards: cards.cards.length, archived: archive.cards.length, catalog: release.catalog_count, verified: true }));
     process.exit(0);
   } catch (error) {
     lastError = error;
