@@ -284,7 +284,11 @@ function cardArtwork(card, detail = false) {
     return box;
   }
   const img = create('img');
-  const orient = () => { if (img.naturalHeight > img.naturalWidth) img.classList.add('portrait-to-landscape'); };
+  const orient = () => {
+    if (!img.naturalWidth) return;
+    if (img.naturalHeight > img.naturalWidth) img.classList.add('portrait-to-landscape');
+    img.classList.add('artwork-ready');
+  };
   img.addEventListener('load', orient, {once: true});
   img.src = image.src;
   if (img.complete) orient();
