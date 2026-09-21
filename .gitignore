@@ -5,3 +5,5 @@ dist/
 work/
 .cache/
 .env*
+
+__pycache__/

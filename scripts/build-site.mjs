@@ -31,7 +31,7 @@ async function main() {
   for (const name of ['cards.json', 'issuers.json']) {
     await copyFile(path.join(ROOT, 'data', name), path.join(DIST, name));
   }
-  for (const name of ['collection-report.json', 'collection-evidence.json', 'card-events.json']) {
+  for (const name of ['collection-report.json', 'collection-evidence.json', 'card-events.json', 'card-images.json']) {
     try { await copyFile(path.join(ROOT, 'data', name), path.join(DIST, name)); }
     catch (error) { if (error.code !== 'ENOENT') throw error; }
   }
