@@ -8,7 +8,7 @@
       name="description"
       content="공식 상품 페이지와 공개 피드의 출처·확인일을 함께 보는 한국 신용·체크카드 혜택 리서치."
     />
-    <link rel="stylesheet" href="styles.css?v=card-images-1" />
+    <link rel="stylesheet" href="styles.css?v=card-gallery-2" />
   </head>
   <body>
     <a class="skip-link" href="#results">본문으로 건너뛰기</a>
@@ -25,10 +25,21 @@
     <div class="wrap">
       <section class="overview" aria-label="자료 현황">
         <div id="data-stats" class="data-stats"></div>
+        <p class="coverage-alert">현재 일부 상품을 수록한 자료입니다. 카드사 전체 상품 목록이 아니며, 수집 범위와 누락 사례는 아래에서 확인할 수 있습니다.</p>
         <p class="caveat">최근 확인은 수집일 기준 30일 이내입니다. 현재 발급 가능하거나 모든 조건을 검수했다는 뜻은 아닙니다.</p>
         <details class="coverage">
           <summary>카드사별 수집 현황 <span id="coverage-summary"></span></summary>
           <p id="collection-note" class="caveat"></p>
+          <div class="coverage-gaps">
+            <strong>누락 사례 확인 · 2026-09-22</strong>
+            <p>현재 목록은 전수 수집 결과가 아닙니다. 아래 공식 페이지에 있는 상품도 아직 수록되지 않았습니다.</p>
+            <ul>
+              <li><a href="https://www.samsungcard.com/personal/card/UHPPCA0340M0.jsp?click=main_top_apply" target="_blank" rel="noopener noreferrer">삼성 공식 목록</a>: iD ON, iD ALL, iD SIMPLE 등</li>
+              <li><a href="https://card.nonghyup.com/servlet/IpCc1411R.act" target="_blank" rel="noopener noreferrer">NH농협 공식 목록</a>: zgm.the pay, zgm 할인, 히어로즈 체크 등</li>
+              <li><a href="https://www.shinhancard.com/pconts/html/card/CONFM70045/CONFM70045R01.html" target="_blank" rel="noopener noreferrer">신한 공식 목록</a>: Mr.Life, SOL트래블 신용, SOL Plan+ 등</li>
+            </ul>
+            <p>다른 카드사도 누락 가능성이 있습니다. 공식 전체 상품 수를 확정하지 못했으므로 수집 완료율을 표시하지 않습니다.</p>
+          </div>
           <div class="table-scroll" tabindex="0" role="region" aria-label="카드사별 수집 현황 표">
             <table class="coverage-table">
               <thead><tr><th scope="col">카드사</th><th scope="col">저장 카드</th><th scope="col">마지막 실행</th><th scope="col">결과</th><th scope="col">확인일·설명</th></tr></thead>
@@ -90,6 +101,18 @@
           </select>
         </div>
         <div class="control">
+          <label for="sort">정렬</label>
+          <select id="sort">
+            <option value="name">이름</option>
+            <option value="fee-asc">연회비 낮은 순</option>
+            <option value="fee-desc">연회비 높은 순</option>
+            <option value="picking-desc">피킹률 높은 순</option>
+          </select>
+        </div>
+        <details class="advanced-filters control-wide">
+          <summary>상세 필터 · 연회비, 실적, 세금, 혜택 분야</summary>
+          <div class="advanced-grid">
+        <div class="control">
           <label for="maxFee">연회비 상한</label>
           <select id="maxFee">
             <option value="">제한 없음</option>
@@ -132,15 +155,6 @@
             <option value="">전체</option><option value="machine_extracted">자동 추출 · 검수 전</option><option value="human_reviewed">사람 검수 완료</option>
           </select>
         </div>
-        <div class="control">
-          <label for="sort">정렬</label>
-          <select id="sort">
-            <option value="name">이름</option>
-            <option value="fee-asc">연회비 낮은 순</option>
-            <option value="fee-desc">연회비 높은 순</option>
-            <option value="picking-desc">피킹률 높은 순</option>
-          </select>
-        </div>
         <fieldset class="control control-wide">
           <legend>혜택 분야</legend>
           <div id="categories" class="chips"></div>
@@ -149,6 +163,8 @@
           <p class="caveat">세금 미확인 카드는 포함·제외 어느 쪽으로도 분류하지 않습니다.</p>
           <button id="reset-filters" class="link-btn" type="button">필터 초기화</button>
         </div>
+          </div>
+        </details>
       </section>
 
       <p id="summary" class="summary" role="status" aria-live="polite"></p>
@@ -169,6 +185,6 @@
       <div id="detail-body"></div>
     </dialog>
 
-    <script type="module" src="app.js?v=card-images-1"></script>
+    <script type="module" src="app.js?v=card-gallery-2"></script>
   </body>
 </html>
