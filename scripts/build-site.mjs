@@ -31,7 +31,7 @@ async function main() {
   for (const name of ['cards.json', 'issuers.json']) {
     await copyFile(path.join(ROOT, 'data', name), path.join(DIST, name));
   }
-  for (const name of ['collection-report.json', 'collection-evidence.json', 'card-events.json', 'card-images.json']) {
+  for (const name of ['collection-report.json', 'collection-evidence.json', 'card-events.json', 'card-images.json', 'archive-catalog.json', 'catalog-expansion-report.json', 'card-status.json']) {
     try { await copyFile(path.join(ROOT, 'data', name), path.join(DIST, name)); }
     catch (error) { if (error.code !== 'ENOENT') throw error; }
   }
@@ -40,9 +40,14 @@ async function main() {
   await writeFile(path.join(DIST, '.nojekyll'), '', 'utf8');
 
   const cards = JSON.parse(await readFile(path.join(DIST, 'cards.json'), 'utf8'));
+  const archive = JSON.parse(await readFile(path.join(DIST, 'archive-catalog.json'), 'utf8'));
+  const {mergeCatalog} = await import('../site/catalog.js');
+  const catalog = mergeCatalog(cards.cards, archive.cards);
   const sha = process.env.GITHUB_SHA || execFileSync('git', ['rev-parse', 'HEAD'], { cwd: ROOT, encoding: 'utf8' }).trim();
   await writeFile(path.join(DIST, 'release.json'), `${JSON.stringify({
     commit: sha, built_at: new Date().toISOString(), card_count: cards.cards.length,
+    archive_count: archive.cards.length, catalog_count: catalog.cards.length,
+    archive_sha256: createHash('sha256').update(await readFile(path.join(DIST, 'archive-catalog.json'))).digest('hex'),
     cards_sha256: createHash('sha256').update(await readFile(path.join(DIST, 'cards.json'))).digest('hex'),
   }, null, 2)}\n`);
   const bytes = Buffer.byteLength(JSON.stringify(cards));

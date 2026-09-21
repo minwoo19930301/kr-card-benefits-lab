@@ -1,0 +1,2886 @@
+{
+  "checked_at": "2026-09-22",
+  "baseline_official": 344,
+  "official_total": 816,
+  "added_official": 472,
+  "updated_official": 16,
+  "retained_official": 16,
+  "rejected_new": 0,
+  "archive_total": 1563,
+  "archive_matched": 436,
+  "archive_unmatched": 1127,
+  "display_total": 1943,
+  "added_ids": [
+    "hyundai-daehanhanggongkadeu-120",
+    "hyundai-daehanhanggongkadeu-300",
+    "hyundai-american-express-gold-card-edition2",
+    "hyundai-daehanhanggongkadeu-the-first-edition2",
+    "hyundai-american-express-green-card-edition2",
+    "kb-you-wish-kadeu",
+    "kb-we-sh-travel",
+    "kb-need-pay-kadeu",
+    "kb-bev-kadeu",
+    "kb-bev-kadeu-seukaipaeseuhyeong",
+    "kb-easy-all-titanyumkadeu",
+    "kb-cheongchundaero-toktokkadeu",
+    "kb-need-global-kadeu",
+    "kb-gihudonghaengkadeu",
+    "kb-bev-kadeu-pointeuhyeong",
+    "kb-all-point-kadeu",
+    "kb-toktok-withkadeu",
+    "kb-american-express-blue-card",
+    "kb-gaongeulrobeolkadeu",
+    "kb-toktok-paykadeu",
+    "kb-easy-ring-titanyumkadeu",
+    "kb-american-express-rose-gold-card",
+    "kb-easy-pickkadeu",
+    "kb-need-edukadeu",
+    "kb-heritage-classic-halinhyeong",
+    "kb-easy-allkadeu",
+    "kb-easy-onkadeu",
+    "kb-teuraebeulreoseu-chekeukadeu-tosimi",
+    "kb-tosimi-chekchek-chekeukadeu",
+    "kb-youth-club-chekeukadeu",
+    "kb-nori2-chekeukadeu-global",
+    "kb-teuraebeulreoseu-chekeukadeu-seupesyeol",
+    "kb-nori2-chekeukadeu-kb-pay",
+    "kb-tineop-chekeukadeu",
+    "kb-jikjanginboneoseuchekeukadeu",
+    "kb-tamnaneunjeon-chekeukadeu",
+    "kb-cheongchundaero-singgeul-chekeukadeu",
+    "kb-gaonchekeukadeu",
+    "kb-wigeulwigeul-chekchek-chekeukadeu",
+    "kb-saeroi-chekeukadeu",
+    "kb-gaon-olpointeu-chekeukadeu",
+    "kb-seutachekeukadeu",
+    "kb-uridongne-chekeukadeu-kimyu",
+    "lotte-hilteun-aneoseu-amekseu-peurimieom",
+    "lotte-loca-likit-2-0",
+    "lotte-loca-likit-1-5",
+    "kb-geurinjaekit-chekeukadeu",
+    "lotte-rotde-gukminhaengbokkadeu",
+    "lotte-dijiroka-link",
+    "lotte-rotdemembeoseu-kadeu-peurimieom",
+    "lotte-loca-money-kadeu",
+    "lotte-dijiroka-wellness",
+    "lotte-loca-x-gihudonghaengkadeu",
+    "lotte-dijiroka-pet",
+    "lotte-loca-100-kadeu",
+    "lotte-dijiroka-golf",
+    "lotte-dijiroka-edu",
+    "lotte-hilteun-aneoseu-amekseu",
+    "kb-alpawonkadeu-bi-otp",
+    "hana-hana-seukaipaeseu-amekseu-peulraetinyum-kadeu-e43a6200",
+    "hana-club-sk-keulreop-sk-kadeu-873543c2",
+    "hana-wondeokadeu-2-0-free-plus-15b6e991",
+    "hana-wondeokadeu-2-0-living-2a3284c6",
+    "hana-hana-club-h-amerikan-ikseupeureseu-rijeobeu-d3788fc0",
+    "hana-wondeokadeu-2-0-t-7ec9da3f",
+    "hana-jade-prime-5f610718",
+    "hana-wondeokadeu-2-0-daily-5d2a5aea",
+    "hana-jade-first-centum-5c4f78af",
+    "hana-jade-first-4dc02006",
+    "hana-wondeokadeu-2-0-happy-plus",
+    "hyundai-the-green-edition4",
+    "hyundai-the-pink-edition3",
+    "hyundai-neibeo-hyeondaekadeu-edition3",
+    "hyundai-olribeuyeong-hyeondaekadeu-plus",
+    "hyundai-gyowonwelseu-hyeondaekadeu",
+    "hyundai-badipeuraendeu-hyeondaekadeu",
+    "hyundai-hyeondaekyuming-hyeondaekadeu",
+    "hyundai-neksentaieo-hyeondaekadeu",
+    "hyundai-serajem-hyeondaekadeu",
+    "kb-k-paeseukadeu",
+    "samsung-samseongkadeu-mileage-platinum-seukaipaeseu",
+    "samsung-samseong-id-select-on-kadeu",
+    "samsung-samseong-id-select-all-kadeu",
+    "samsung-the-id-1st",
+    "samsung-teuraipeulreoseu-samseongkadeu",
+    "samsung-samseong-id-global-kadeu",
+    "samsung-samseong-id-simple-kadeu",
+    "samsung-samseong-id-on-kadeu",
+    "samsung-samseongkadeu-taptap-o",
+    "samsung-samseong-id-plug-in-kadeu",
+    "samsung-the-1-seukaipaeseu",
+    "samsung-samseong-id-all-kadeu",
+    "samsung-taptap-digital",
+    "samsung-monimoa-kadeu",
+    "samsung-taptap-drive",
+    "samsung-the-id-platinum-pointeu",
+    "samsung-samseongkadeu-taptap-s",
+    "samsung-teureideoseusinsegye-samseongkadeu",
+    "samsung-samseong-id-station-kadeu-hdhyeondaeoilbaengkeu",
+    "samsung-samseong-id-energy-kadeu",
+    "samsung-ktx-samseongkadeu",
+    "samsung-american-express-blue",
+    "samsung-samseongkadeu-seupesyeolmailriji-seukaipaeseu",
+    "samsung-samseong-id-pet-kadeu",
+    "samsung-samseong-id-vita-kadeu",
+    "samsung-samseong-id-station-kadeu-skeneoji",
+    "samsung-taptap-shopping",
+    "samsung-samseongkadeu-taptap-i",
+    "samsung-american-express-reserve",
+    "samsung-the-id-titanium-pointeu",
+    "samsung-seutabeokseu-samseongkadeu",
+    "samsung-samseong-id-classy-kadeu",
+    "samsung-cu-baedaluiminjok-samseongkadeu-taptap",
+    "samsung-samseong-id-station-kadeu-gskaltekseu",
+    "samsung-samseongkaaenmoakadeu",
+    "samsung-samseong-id-nomad-kadeu",
+    "shinhan-mr-life",
+    "shinhan-simple-plan-1237252-2207",
+    "shinhan-air-one",
+    "shinhan-point-plan-1226113-2207",
+    "shinhan-globus",
+    "shinhan-edu-plan",
+    "shinhan-timeoni-pay-go-sinhankadeu",
+    "shinhan-alriikseupeureseu-sinhankadeu",
+    "shinhan-haru-hoshino-resorts",
+    "shinhan-deep-on-platinum",
+    "shinhan-eco-plan",
+    "shinhan-air-platinum",
+    "shinhan-pay-sinhankadeu",
+    "shinhan-eats-more-icheumoa",
+    "shinhan-gukminhaengbok",
+    "shinhan-edu",
+    "shinhan-b-big-ppik",
+    "shinhan-shopping",
+    "shinhan-deep-store",
+    "shinhan-peulri",
+    "shinhan-deep-once",
+    "shinhan-yolo",
+    "shinhan-deep-taking",
+    "shinhan-yay",
+    "shinhan-11beonga-sinhankadeu",
+    "shinhan-deep-once-plus",
+    "shinhan-labe",
+    "shinhan-the-best-f",
+    "shinhan-unboxing",
+    "shinhan-peulri-chekeu-sanriokaerikteojeu",
+    "shinhan-kakaopei-sinhan-chekeukadeu",
+    "shinhan-pick-i-chekeu-kaerikteohyeong-hangyodong",
+    "shinhan-hey-young-chekeu",
+    "shinhan-point-plan-chekeu-kaerikteohyeong-jjanggu",
+    "shinhan-way-chekeu-jyuragi",
+    "shinhan-on-chekeu",
+    "shinhan-peulri-chekeu",
+    "shinhan-way-chekeu",
+    "shinhan-pick-e-chekeu-kaerikteohyeong-sinuitap",
+    "shinhan-on-chekeu-jyuragi",
+    "shinhan-cheoeum-1229296-2207",
+    "samsung-monimopeikadeu",
+    "samsung-samseong-id-select-up-kadeu",
+    "samsung-samseong-biz-id-select-kadeu",
+    "samsung-my-s-oil-samseongkadeu",
+    "samsung-musinsa-samseongkadeu",
+    "samsung-samseong-id-one-kadeu",
+    "samsung-hanhwaigeulseu-samseongkadeu",
+    "samsung-porsche-samseongkadeu",
+    "samsung-rotdehomsyoping-samseongkadeu",
+    "samsung-monimokadeu",
+    "samsung-samseong-id-haeoe-3-5-kadeu",
+    "samsung-rotdemateu-samseongkadeu",
+    "samsung-u-plus-raiteu-samseongkadeu",
+    "samsung-neksentaieo-samseongkadeu",
+    "samsung-samseongsaengmyeong-samseongkadeu",
+    "samsung-beongaejangteo-samseongkadeu",
+    "samsung-oasiseu-samseongkadeu",
+    "samsung-samseonghwajae-samseongkadeu",
+    "samsung-gmaket-samseongkadeu",
+    "samsung-toseu-samseongkadeu",
+    "samsung-haimateu-samseongkadeu",
+    "samsung-alradin-mangwondang-samseongkadeu",
+    "samsung-ai-gudok-keulreop-samseongkadeu",
+    "samsung-shilla-rewards-samseongkadeu",
+    "samsung-samseongraionjeukadeu",
+    "samsung-gihudonghaeng-samseongkadeu",
+    "samsung-danbigyoyuk-samseongkadeu",
+    "samsung-sinsegye-sinbaekriwodeu-samseongkadeu",
+    "samsung-imateusinsegye-samseongkadeu",
+    "samsung-hanatueo-samseongkadeu",
+    "samsung-wkeonsep-samseongkadeu",
+    "samsung-embeseuteu-elrihai-samseongkadeu",
+    "samsung-k-paeseu-samseongkadeu",
+    "samsung-ebeoraendeu-samseongkadeu",
+    "samsung-uridongnegs-samseongkadeu",
+    "samsung-neibeopei-taptap",
+    "samsung-daiso-samseongkadeu",
+    "samsung-neibeoweptun-samseong-id-kadeu",
+    "samsung-t-premium-samseongkadeu",
+    "samsung-samseong-pei-samseongkadeu-taptap",
+    "samsung-biz-the-id-platinum-pointeu",
+    "samsung-samseongjeonja-ai-gudok-samseongkadeu",
+    "samsung-rotdewoldeukadeu",
+    "samsung-kt-halbu-s-samseongkadeu",
+    "samsung-kowei-samseongkadeu",
+    "samsung-seseuko-samseongkadeu",
+    "samsung-samseongseutoeo-benefit-samseongkadeu",
+    "samsung-cj-samseong-id-kadeu",
+    "samsung-kuku-samseongkadeu",
+    "samsung-kt-samseongkadeu",
+    "samsung-lg-u-plus-samseongkadeu",
+    "samsung-t-raiteu-samseongkadeu",
+    "samsung-traders-club-samseongkadeu",
+    "samsung-tnaneunhyetaek-samseongkadeu",
+    "samsung-nshomsyoping-samseongkadeu",
+    "samsung-cheonghonaiseu-samseongkadeu",
+    "samsung-sinsegye-art-science-samseongkadeu",
+    "samsung-u-plus-altteulpon-pateuneoseu-samseongkadeu",
+    "samsung-sinsegye-aulret-benefit-samseongkadeu",
+    "samsung-skrenteoka-samseongkadeu",
+    "samsung-samseong-mobailpeulreoseukadeu",
+    "samsung-skintelrikseu-samseongkadeu",
+    "samsung-ssg-com-samseongkadeu",
+    "samsung-samseong-biz-id-benefit-kadeu",
+    "samsung-scjeileunhaeng-deuraibeu-samseongkadeu",
+    "samsung-samseong-id-move-kadeu",
+    "samsung-samseongkadeu-deobeulpointeu",
+    "samsung-welseu-samseongkadeu",
+    "samsung-skintelrikseu-samseongkadeu-halbu",
+    "samsung-raipeupateuneo-samseongkadeu",
+    "samsung-yogiyo-samseongkadeu",
+    "samsung-samseong-id-all-kadeu-pointeu",
+    "samsung-s-oil-samseongkadeu-point",
+    "samsung-samseong-id-pocket-kadeu",
+    "samsung-gukminhaengbok-samseongkadeu-v2",
+    "samsung-geulrobeolsyoping-samseongkadeu-5-v2",
+    "samsung-jeonusarang-paemilri-samseongkadeu",
+    "samsung-gongmuwonyeongeum-samseongkadeu",
+    "samsung-teureideoseu-samseongkadeu-biz",
+    "samsung-samseongkadeu-biz-4-v2",
+    "samsung-samseongkadeu-biz-6-v2",
+    "samsung-samseong-haetsalronkadeu",
+    "samsung-lh-peulreoseu-samseongkadeu",
+    "samsung-keunsure-samseongkadeu-biz-6-v2",
+    "samsung-deo-roieoseu-keulraesik-samseongkadeu",
+    "samsung-kaemko-peulreoseu-samseongkadeu",
+    "samsung-samseong-id-road-kadeu-hdhyeondaeoilbaengkeu",
+    "samsung-urieunhaeng-drive-samseongkadeu",
+    "samsung-urieunhaeng-save-samseongkadeu",
+    "samsung-peulreoseu-samseongkadeu",
+    "samsung-samseong-sosanggongin-teukrye-haetsalronkadeu",
+    "samsung-urieunhaeng-wide-samseongkadeu",
+    "samsung-urieunhaeng-wave-samseongkadeu",
+    "samsung-urieunhaeng-live-samseongkadeu",
+    "samsung-jeongrim-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-ktx-samseongbeopinkadeu",
+    "samsung-samseong-id-select-plus-kadeu",
+    "samsung-samseongbeopinkadeu-with-tisang",
+    "samsung-samseong-id-road-kadeu-skeneoji",
+    "samsung-miraeesetjeunggwon-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-samseong-id-road-kadeu-gskaltekseu",
+    "samsung-biz-the-id-gold",
+    "samsung-hanmi-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-bohungongdan-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-namsan-club-samseongkadeu",
+    "samsung-jeonjaraendeu-raiteu-samseongkadeu",
+    "samsung-hangukjeonryeokgongsa-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-otobil-samseongbeopinkadeu",
+    "samsung-samseongbeopinkadeu-plus",
+    "samsung-the-id-titanium-asiana",
+    "samsung-sfc-the-id-titanium-asiana",
+    "samsung-welseu-samseongkadeu-halbu",
+    "samsung-cfa-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-jonggeundang-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-koelsa-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-anjeonbogeongongdan-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-samseongkadeu-corporate-mailriji-seukaipaeseu",
+    "samsung-byeonhosahoe-roieoseu-samseongkadeu",
+    "samsung-wonbeilri-homnik-samseongkadeu",
+    "samsung-yeongeumnuri-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-altteulgyotongpeulreoseu-samseongkadeu",
+    "samsung-gyeonggidocheong-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-wonbeilri-sinsegye-homnik-samseongkadeu",
+    "samsung-ablsaengmyeongboheom-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-samseong-id-e-hi-pass-kadeu",
+    "shinhan-discount-plan-1232369-2207",
+    "shinhan-kowei-sinhankadeu",
+    "shinhan-lgjeonja-the-gudokkeeo-sinhankadeu",
+    "shinhan-hi-point-plan-2013775-2207",
+    "shinhan-hi-point-plan-2013774-2207",
+    "shinhan-jigeujaegeu-sinhankadeu",
+    "shinhan-toss-one-sinhankadeu",
+    "shinhan-skt-t-life-sinhankadeu",
+    "shinhan-sol-plan",
+    "shinhan-kakaobaengkeu-chakbut-sinhankadeu",
+    "shinhan-baemin-sinhankadeu-bapchingu",
+    "shinhan-gs-all-sinhankadeu",
+    "shinhan-point-plan-sanriokaerikteojeu",
+    "shinhan-biz-plan",
+    "shinhan-lge-com-sinhankadeu",
+    "shinhan-cu-npay-kadeu",
+    "shinhan-solteuraebeul",
+    "shinhan-susocha-chungjeonhalin-sinhankadeu",
+    "shinhan-lg-u-bora-sinhankadeu-big-plus",
+    "shinhan-lg-u-seumateupeulraen-plus-sinhankadeu",
+    "shinhan-gyeongchasarang-life",
+    "shinhan-gukminnaeilbaeum-sinhankadeu-simple",
+    "shinhan-sinsegye-sinhankadeu",
+    "shinhan-solgeulrobeol-chekeu",
+    "shinhan-pick-e-chekeu",
+    "shinhan-pick-i-chekeu",
+    "shinhan-point-plan-chekeu",
+    "shinhan-jugeorae-chekeu",
+    "shinhan-haipaeseu-jeonyong-chekeu",
+    "shinhan-peulri-sanriokaerikteojeu",
+    "shinhan-narasarangkadeu-chekeu-2014054-2206",
+    "shinhan-narasarangkadeu-chekeu-2013660-2206",
+    "shinhan-jeontongsijangsarang-chekeukadeu",
+    "shinhan-sinhan-syupeosol-chekeukadeu",
+    "nh-the-originskadeu",
+    "nh-zgm-reoning",
+    "nh-zgm-jeojangchekeukadeu",
+    "nh-olbareunieumchekeukadeu",
+    "nh-olbareunieumkadeu",
+    "nh-zgm-seuseurokadeu",
+    "nh-nhgeulrobeolwideuchekeukadeu-nh-globalwith-checkcard",
+    "nh-ieungpaeseu-yeominjeon-chekeukadeu",
+    "nh-kungyasingsingchekeukadeu",
+    "nh-keulraesi-teuraebeulkadeu",
+    "nh-mimikadeu",
+    "nh-gihudonghaengkadeu-sinyong",
+    "nh-gihudonghaengkadeu-chekeu",
+    "nh-chunsikidaldalchekeukadeu",
+    "nh-nhteuraebeulrichekeukadeu",
+    "nh-hieorojeu-chekeukadeu",
+    "nh-nanakadeu",
+    "nh-zgm-halinkadeu",
+    "nh-zgm-pointkadeu",
+    "nh-k-paeseukadeu-sinyong",
+    "nh-jeonnam-kkum-silhyeon-gongsaengkadeu-chekeu",
+    "nh-pom-chekeukadeu",
+    "nh-kthalbu-plus-nhnonghyeopkadeu",
+    "nh-zgm-livingkadeu",
+    "nh-zgm-shoppingkadeu",
+    "nh-nh-mureoki-chekeukadeu",
+    "nh-eodirodeun-geurinkadeu",
+    "nh-zgm-ilbonyeohaengjung-kadeu",
+    "nh-zgm-playkadeu",
+    "nh-zgm-play-plus-plus-kadeu",
+    "nh-zgm-gohyangeurochekeukadeu",
+    "nh-zgm-gohyangeurokadeu",
+    "nh-zgm-roundingkadeu",
+    "nh-zgm-hyugajungkadeu",
+    "nh-namu-nhnonghyeopkadeu",
+    "nh-goodgame-chekeukadeu",
+    "nh-zgm-the-paykadeu",
+    "nh-zgm-streamingkadeu",
+    "nh-olbareunhometownkadeu",
+    "nh-gsriteil-nhnonghyeopkadeu",
+    "nh-gsriteil-nhnonghyeopchekeukadeu",
+    "nh-olbareunjigukadeu",
+    "nh-byeoldajulkadeu",
+    "nh-olbareunnew-have-woni-chekeukadeu",
+    "nh-soho-dasaroioilkadeu",
+    "nh-nh1961kadeu",
+    "nh-nh1961chekeukadeu",
+    "nh-soho-dasaroikadeu",
+    "nh-soho-dasaroi-plus-kadeu",
+    "nh-soho-dasaroichekeukadeu",
+    "nh-on-platinumkadeu-pointeu",
+    "nh-on-platinumkadeu-seukaipaeseu",
+    "nh-on-platinumkadeu-asianakeulreop",
+    "nh-olbareunflexkadeu",
+    "nh-olri-point-chekeukadeu",
+    "nh-olbareunnew-have-plus-kadeu",
+    "nh-olbareunnew-havekadeu",
+    "nh-olbareunnew-havechekeukadeu",
+    "nh-olbareunoil-passkadeu",
+    "nh-eopichi-seuwit-chekeukadeu",
+    "nh-olbareunmypick-kadeu",
+    "nh-wi-terakadeu-seukaipaeseu",
+    "nh-wi-terakadeu-asianakeulreop",
+    "nh-wi-terakadeu-pointeu",
+    "nh-wi-reakadeu-pointeu",
+    "nh-wi-reakadeu-seukaipaeseu",
+    "nh-wi-reakadeu-asianakeulreop",
+    "nh-olbareunsafe-platinumkadeu",
+    "nh-olbareunsafekadeu",
+    "nh-olbareungive-kadeu",
+    "nh-raieon-chijeu-chekeukadeu",
+    "nh-nhnonghyeop-olbareunhanaro-hanaro-chekeukadeu",
+    "nh-nhnonghyeop-olbareunhanaro-hanaro-kadeu",
+    "nh-nhnonghyeop-olbareunlifekadeu-jeokriphyeong",
+    "nh-nhnonghyeop-olbareunlifekadeu-halinhyeong",
+    "nh-nh1934-chekeukadeu",
+    "nh-jeokripjoakadeu",
+    "nh-halinjoakadeu",
+    "nh-syopingjoakadeu",
+    "nh-olbareunbazic-kadeu",
+    "nh-olbareunbazic-plus-kadeu",
+    "nh-olbareunpoint-up-kadeu",
+    "nh-olbareunpoint-up-plus-kadeu",
+    "nh-olbareunedu-kadeu",
+    "nh-petbeulri-petvely-kadeu",
+    "nh-traiteukadeu",
+    "nh-olbareunoilkadeu",
+    "nh-ktsupeohalbukadeu-bissi",
+    "nh-olbareunglobalchekeukadeu",
+    "nh-olbareuntravelkadeu-ilbonteukhwa",
+    "nh-olbareuntravelkadeu-junggukteukhwa",
+    "nh-nholwon-lgjeonjabestkadeu",
+    "nh-nholwon-shopping-tlckadeu",
+    "nh-nholwon-lgu-plus-kadeu",
+    "nh-kokkadeu",
+    "nh-kokchekeukadeu",
+    "nh-nh20haebomkadeu",
+    "nh-bujadoeseyo-apateukadeu-bissi",
+    "nh-nh20haebomchekeukadeu",
+    "nh-solsol-ssolssol-kadeu",
+    "nh-solsol-plus-plus-ssolssoltupeulreoseu-kadeu",
+    "nh-nholwon-paikadeu",
+    "nh-wikadeu",
+    "nh-gwangjugyoyuk-kkumdeurimikadeu-chekeu",
+    "nh-nh-fit-gibongyotong-chekeukadeu",
+    "nh-nhdaehanmingukhieorokadeu-chekeu",
+    "nh-seoulgyoyuksarangkadeu-gaeinchekeu",
+    "nh-seoulgyoyuksarangkadeu-gaeinsinyong",
+    "nh-gyeongsangnamdogyoyukcheong-kkumdidimkadeu-chekeu",
+    "nh-gyeongsangnamdogyoyukcheong-dajanyeokadeu-chekeu",
+    "nh-chungbuk-dajanyeo-haengbokkadeu-chekeu",
+    "nh-ing-plus-syappingpeulreoseu-kadeu",
+    "nh-me-plus-mipeulreoseu-kadeu",
+    "nh-free-peuriaen-kadeu",
+    "nh-ing-syapping-kadeu",
+    "nh-nholwon-plus-peulreoseu-kadeu",
+    "nh-nholwon-all100kadeu",
+    "nh-jeonbuk-new-aijoakadeu-sinyong",
+    "nh-jeonbuk-new-aijoakadeu-chekeu",
+    "nh-jejugyotongbokjikadeu-sinyong",
+    "nh-jejugyotongbokjikadeu-chekeu",
+    "nh-nh-fit-sinyonghalinhyeong-daehangungdohyeophoe",
+    "nh-nh-fit-chekeuhalinhyeong-daehangungdohyeophoe",
+    "nh-nh-fit-sinyonghalinhyeong-gyeongnamfc",
+    "nh-nh-fit-chekeuhalinhyeong-gyeongnamfc",
+    "nh-nhdaehanmingukhieorokadeu-sinyong",
+    "nh-new-jejuaisaranghaengbokkadeu-sinyong",
+    "nh-new-jejuaisaranghaengbokkadeu-chekeu",
+    "nh-incheon-newaimoakadeu-sinyong",
+    "nh-incheon-newaimoakadeu-chekeu",
+    "nh-chungnam-dajanyeohaengbokkiumkadeu-sinyong",
+    "nh-chungnam-dajanyeohaengbokkiumkadeu-chekeu",
+    "nh-new-gyeonggi-i-pluskadeu-sinyong",
+    "nh-gyeongnam-aidanurikadeu-sinyong",
+    "nh-gyeongnam-aidanurikadeu-chekeu",
+    "nh-naeilbaeumkadeu-sinyong",
+    "nh-nholwon-rental-badipeuraendeukadeu",
+    "nh-nholwon-direct-dbsonhaeboheomkadeu",
+    "nh-nholwon-rental-koweikadeu",
+    "nh-nholwon-shopping-amorepacifickadeu",
+    "nh-nholwon-rental-neksentaieokadeu",
+    "nh-enaradoumchekeukadeu",
+    "nh-newhubulhaipaeseukadeu",
+    "nh-gukminhaengbokkadeu-sinyong",
+    "nh-gukminhaengbokkadeu-chekeu",
+    "nh-gukminyeongeumjeungchekeukadeu",
+    "nh-naeilbaeumchekeukadeu",
+    "nh-gongmuwonyeongeumchekeukadeu-jaejik-bissi",
+    "nh-gongmuwonyeongeumchekeukadeu-toejik-bissi",
+    "nh-chaeum-asianakeulreop-asiana-club-kadeu",
+    "nh-chaeum-seukaipaeseu-skypass-kadeu",
+    "kakao-friends-check",
+    "kakao-moim-check",
+    "kakao-soho-check",
+    "toss-check-card",
+    "ibk-i-pokemon-check"
+  ],
+  "updated_ids": [
+    "samsung-samseong-id-auto-kadeu",
+    "shinhan-k-paeseu-sinhankadeu",
+    "shinhan-cheoeum",
+    "shinhan-the-classic-v",
+    "shinhan-the-boon-svip-sinhankadeu",
+    "samsung-samseongkadeu-biz-leaders",
+    "shinhan-everywhere",
+    "shinhan-sol-meiteu-sinhankadeu-sol-plan-chekeu",
+    "shinhan-solteuripaenj-chekeu",
+    "shinhan-solteuripaensyap-chekeu",
+    "shinhan-narasarangkadeu-chekeu",
+    "shinhan-cheoeum-chekeu",
+    "shinhan-solteuraebeulj-chekeu",
+    "shinhan-solteuraebeul-chekeu",
+    "nh-nholwondeopulkadeu",
+    "nh-k-paeseukadeu-chekeu"
+  ],
+  "retained": [
+    {
+      "id": "shinhan-deep-oil",
+      "incoming_id": "shinhan-deep-oil",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-discount-plan",
+      "incoming_id": "shinhan-discount-plan-1232390-2207",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-merieoteu-bonboi-deo-beseuteu-sinhankadeu",
+      "incoming_id": "shinhan-merieoteu-bonboi-deo-beseuteu-sinhankadeu",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-point-plan",
+      "incoming_id": "shinhan-point-plan-1228407-2207",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-rpm-platinum",
+      "incoming_id": "shinhan-rpm-platinum",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-the-classic-s",
+      "incoming_id": "shinhan-the-classic-s",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-the-best-xo",
+      "incoming_id": "shinhan-the-best-xo",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-singgaporeuhanggong-keuriseupeulraieo-deo-beseuteu-sinhankadeu",
+      "incoming_id": "shinhan-singgaporeuhanggong-keuriseupeulraieo-deo-beseuteu-sinhankadeu",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-the-premier-gold-edition",
+      "incoming_id": "shinhan-the-premier-gold-edition",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-the-ace-blue-label",
+      "incoming_id": "shinhan-the-ace-blue-label",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-the-classic",
+      "incoming_id": "shinhan-the-classic",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-the-best",
+      "incoming_id": "shinhan-the-best",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-the-classic-y",
+      "incoming_id": "shinhan-the-classic-y",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-the-premium-pet",
+      "incoming_id": "shinhan-the-premium-pet",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-the-classic-neo",
+      "incoming_id": "shinhan-the-classic-neo",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    },
+    {
+      "id": "shinhan-simple-plan",
+      "incoming_id": "shinhan-simple-plan-1237253-2207",
+      "reasons": [
+        "lost_annual_fee_krw"
+      ]
+    }
+  ],
+  "rejected": [],
+  "matches": [
+    {
+      "archive_id": "archive-2885",
+      "official_id": "samsung-samseong-id-select-all-kadeu"
+    },
+    {
+      "archive_id": "archive-49",
+      "official_id": "samsung-samseongkadeu-mileage-platinum-seukaipaeseu"
+    },
+    {
+      "archive_id": "archive-2886",
+      "official_id": "samsung-samseong-id-select-on-kadeu"
+    },
+    {
+      "archive_id": "archive-2915",
+      "official_id": "samsung-the-id-1st"
+    },
+    {
+      "archive_id": "archive-2988",
+      "official_id": "samsung-teuraipeulreoseu-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2676",
+      "official_id": "samsung-samseong-id-global-kadeu"
+    },
+    {
+      "archive_id": "archive-2376",
+      "official_id": "samsung-samseong-id-simple-kadeu"
+    },
+    {
+      "archive_id": "archive-51",
+      "official_id": "samsung-samseongkadeu-taptap-o"
+    },
+    {
+      "archive_id": "archive-2235",
+      "official_id": "samsung-samseong-id-on-kadeu"
+    },
+    {
+      "archive_id": "archive-1909",
+      "official_id": "samsung-the-1-seukaipaeseu"
+    },
+    {
+      "archive_id": "archive-2661",
+      "official_id": "samsung-samseong-id-plug-in-kadeu"
+    },
+    {
+      "archive_id": "archive-458",
+      "official_id": "samsung-neibeopei-taptap"
+    },
+    {
+      "archive_id": "archive-2234",
+      "official_id": "samsung-samseong-id-all-kadeu"
+    },
+    {
+      "archive_id": "archive-657",
+      "official_id": "samsung-taptap-digital"
+    },
+    {
+      "archive_id": "archive-2631",
+      "official_id": "samsung-monimoa-kadeu"
+    },
+    {
+      "archive_id": "archive-658",
+      "official_id": "samsung-taptap-drive"
+    },
+    {
+      "archive_id": "archive-2460",
+      "official_id": "samsung-the-id-platinum-pointeu"
+    },
+    {
+      "archive_id": "archive-52",
+      "official_id": "samsung-samseongkadeu-taptap-s"
+    },
+    {
+      "archive_id": "archive-72",
+      "official_id": "samsung-teureideoseusinsegye-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2952",
+      "official_id": "samsung-samseong-id-station-kadeu-hdhyeondaeoilbaengkeu"
+    },
+    {
+      "archive_id": "archive-2324",
+      "official_id": "samsung-samseong-biz-id-benefit-kadeu"
+    },
+    {
+      "archive_id": "archive-718",
+      "official_id": "samsung-gukminhaengbok-samseongkadeu-v2"
+    },
+    {
+      "archive_id": "archive-2290",
+      "official_id": "samsung-samseong-id-energy-kadeu"
+    },
+    {
+      "archive_id": "archive-54",
+      "official_id": "samsung-samseongkadeu-seupesyeolmailriji-seukaipaeseu"
+    },
+    {
+      "archive_id": "archive-2894",
+      "official_id": "samsung-toseu-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2853",
+      "official_id": "samsung-ktx-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-45",
+      "official_id": "samsung-american-express-blue"
+    },
+    {
+      "archive_id": "archive-2349",
+      "official_id": "samsung-monimokadeu"
+    },
+    {
+      "archive_id": "archive-2407",
+      "official_id": "samsung-samseong-id-pet-kadeu"
+    },
+    {
+      "archive_id": "archive-2828",
+      "official_id": "samsung-samseong-id-station-kadeu-skeneoji"
+    },
+    {
+      "archive_id": "archive-2477",
+      "official_id": "samsung-tnaneunhyetaek-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-780",
+      "official_id": "samsung-samseongkadeu-biz-leaders"
+    },
+    {
+      "archive_id": "archive-2618",
+      "official_id": "samsung-samseong-id-auto-kadeu"
+    },
+    {
+      "archive_id": "archive-2534",
+      "official_id": "samsung-samseong-id-vita-kadeu"
+    },
+    {
+      "archive_id": "archive-2558",
+      "official_id": "samsung-k-paeseu-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-659",
+      "official_id": "samsung-taptap-shopping"
+    },
+    {
+      "archive_id": "archive-729",
+      "official_id": "samsung-samseongseutoeo-benefit-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-59",
+      "official_id": "samsung-samseongkadeu-taptap-i"
+    },
+    {
+      "archive_id": "archive-2897",
+      "official_id": "samsung-seutabeokseu-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-55",
+      "official_id": "samsung-cu-baedaluiminjok-samseongkadeu-taptap"
+    },
+    {
+      "archive_id": "archive-2971",
+      "official_id": "samsung-musinsa-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2257",
+      "official_id": "samsung-samseong-mobailpeulreoseukadeu"
+    },
+    {
+      "archive_id": "archive-2539",
+      "official_id": "samsung-my-s-oil-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-681",
+      "official_id": "samsung-ssg-com-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2746",
+      "official_id": "samsung-samseong-id-one-kadeu"
+    },
+    {
+      "archive_id": "archive-736",
+      "official_id": "samsung-american-express-reserve"
+    },
+    {
+      "archive_id": "archive-616",
+      "official_id": "samsung-daiso-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2771",
+      "official_id": "samsung-gihudonghaeng-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2392",
+      "official_id": "samsung-cj-samseong-id-kadeu"
+    },
+    {
+      "archive_id": "archive-2943",
+      "official_id": "samsung-gmaket-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-784",
+      "official_id": "samsung-lg-u-plus-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-785",
+      "official_id": "samsung-kt-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2461",
+      "official_id": "samsung-the-id-titanium-pointeu"
+    },
+    {
+      "archive_id": "archive-2702",
+      "official_id": "samsung-samseong-id-classy-kadeu"
+    },
+    {
+      "archive_id": "archive-2419",
+      "official_id": "samsung-samseong-id-pocket-kadeu"
+    },
+    {
+      "archive_id": "archive-2955",
+      "official_id": "samsung-samseongraionjeukadeu"
+    },
+    {
+      "archive_id": "archive-2470",
+      "official_id": "samsung-traders-club-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2827",
+      "official_id": "samsung-samseong-id-station-kadeu-gskaltekseu"
+    },
+    {
+      "archive_id": "archive-63",
+      "official_id": "samsung-samseong-pei-samseongkadeu-taptap"
+    },
+    {
+      "archive_id": "archive-2517",
+      "official_id": "samsung-neibeoweptun-samseong-id-kadeu"
+    },
+    {
+      "archive_id": "archive-46",
+      "official_id": "samsung-samseongkaaenmoakadeu"
+    },
+    {
+      "archive_id": "archive-2279",
+      "official_id": "samsung-sinsegye-aulret-benefit-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2238",
+      "official_id": "samsung-rotdewoldeukadeu"
+    },
+    {
+      "archive_id": "archive-2914",
+      "official_id": "samsung-sinsegye-sinbaekriwodeu-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2701",
+      "official_id": "samsung-hanatueo-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-1673",
+      "official_id": "samsung-s-oil-samseongkadeu-point"
+    },
+    {
+      "archive_id": "archive-2651",
+      "official_id": "samsung-wkeonsep-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-1884",
+      "official_id": "samsung-raipeupateuneo-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2571",
+      "official_id": "samsung-embeseuteu-elrihai-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-62",
+      "official_id": "samsung-geulrobeolsyoping-samseongkadeu-5-v2"
+    },
+    {
+      "archive_id": "archive-2908",
+      "official_id": "samsung-beongaejangteo-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2567",
+      "official_id": "samsung-uridongnegs-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2652",
+      "official_id": "samsung-ebeoraendeu-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2459",
+      "official_id": "samsung-samseong-id-nomad-kadeu"
+    },
+    {
+      "archive_id": "archive-2278",
+      "official_id": "samsung-nshomsyoping-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-691",
+      "official_id": "samsung-yogiyo-samseongkadeu"
+    },
+    {
+      "archive_id": "archive-2762",
+      "official_id": "samsung-the-id-titanium-asiana"
+    },
+    {
+      "archive_id": "archive-13",
+      "official_id": "shinhan-mr-life"
+    },
+    {
+      "archive_id": "archive-39",
+      "official_id": "shinhan-deep-oil"
+    },
+    {
+      "archive_id": "archive-466",
+      "official_id": "shinhan-air-one"
+    },
+    {
+      "archive_id": "archive-2532",
+      "official_id": "shinhan-globus"
+    },
+    {
+      "archive_id": "archive-716",
+      "official_id": "shinhan-merieoteu-bonboi-deo-beseuteu-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-15",
+      "official_id": "shinhan-the-classic"
+    },
+    {
+      "archive_id": "archive-2735",
+      "official_id": "shinhan-edu-plan"
+    },
+    {
+      "archive_id": "archive-2690",
+      "official_id": "shinhan-k-paeseu-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-2386",
+      "official_id": "shinhan-timeoni-pay-go-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-2831",
+      "official_id": "shinhan-alriikseupeureseu-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-2855",
+      "official_id": "shinhan-haru-hoshino-resorts"
+    },
+    {
+      "archive_id": "archive-16",
+      "official_id": "shinhan-rpm-platinum"
+    },
+    {
+      "archive_id": "archive-945",
+      "official_id": "shinhan-the-classic-s"
+    },
+    {
+      "archive_id": "archive-993",
+      "official_id": "shinhan-the-best"
+    },
+    {
+      "archive_id": "archive-2722",
+      "official_id": "shinhan-solteuraebeul"
+    },
+    {
+      "archive_id": "archive-41",
+      "official_id": "shinhan-deep-on-platinum"
+    },
+    {
+      "archive_id": "archive-2979",
+      "official_id": "shinhan-eco-plan"
+    },
+    {
+      "archive_id": "archive-12",
+      "official_id": "shinhan-air-platinum"
+    },
+    {
+      "archive_id": "archive-2916",
+      "official_id": "shinhan-the-classic-neo"
+    },
+    {
+      "archive_id": "archive-2435",
+      "official_id": "shinhan-everywhere"
+    },
+    {
+      "archive_id": "archive-2807",
+      "official_id": "shinhan-the-best-xo"
+    },
+    {
+      "archive_id": "archive-2258",
+      "official_id": "shinhan-pay-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-2592",
+      "official_id": "shinhan-singgaporeuhanggong-keuriseupeulraieo-deo-beseuteu-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-8",
+      "official_id": "shinhan-the-classic-y"
+    },
+    {
+      "archive_id": "archive-2304",
+      "official_id": "shinhan-eats-more-icheumoa"
+    },
+    {
+      "archive_id": "archive-2899",
+      "official_id": "shinhan-sol-plan"
+    },
+    {
+      "archive_id": "archive-712",
+      "official_id": "shinhan-gukminhaengbok"
+    },
+    {
+      "archive_id": "archive-26",
+      "official_id": "shinhan-edu"
+    },
+    {
+      "archive_id": "archive-2788",
+      "official_id": "shinhan-the-ace-blue-label"
+    },
+    {
+      "archive_id": "archive-10",
+      "official_id": "shinhan-b-big-ppik"
+    },
+    {
+      "archive_id": "archive-18",
+      "official_id": "shinhan-shopping"
+    },
+    {
+      "archive_id": "archive-1390",
+      "official_id": "shinhan-lg-u-bora-sinhankadeu-big-plus"
+    },
+    {
+      "archive_id": "archive-2884",
+      "official_id": "shinhan-baemin-sinhankadeu-bapchingu"
+    },
+    {
+      "archive_id": "archive-2872",
+      "official_id": "shinhan-gs-all-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-2912",
+      "official_id": "shinhan-lgjeonja-the-gudokkeeo-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-2491",
+      "official_id": "shinhan-peulri-sanriokaerikteojeu"
+    },
+    {
+      "archive_id": "archive-28",
+      "official_id": "shinhan-sinsegye-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-2763",
+      "official_id": "shinhan-cu-npay-kadeu"
+    },
+    {
+      "archive_id": "archive-43",
+      "official_id": "shinhan-deep-store"
+    },
+    {
+      "archive_id": "archive-2371",
+      "official_id": "shinhan-peulri"
+    },
+    {
+      "archive_id": "archive-536",
+      "official_id": "shinhan-deep-once"
+    },
+    {
+      "archive_id": "archive-14",
+      "official_id": "shinhan-yolo"
+    },
+    {
+      "archive_id": "archive-2480",
+      "official_id": "shinhan-susocha-chungjeonhalin-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-2748",
+      "official_id": "shinhan-the-premium-pet"
+    },
+    {
+      "archive_id": "archive-2787",
+      "official_id": "shinhan-lge-com-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-477",
+      "official_id": "shinhan-deep-taking"
+    },
+    {
+      "archive_id": "archive-613",
+      "official_id": "shinhan-yay"
+    },
+    {
+      "archive_id": "archive-490",
+      "official_id": "shinhan-11beonga-sinhankadeu"
+    },
+    {
+      "archive_id": "archive-537",
+      "official_id": "shinhan-deep-once-plus"
+    },
+    {
+      "archive_id": "archive-1006",
+      "official_id": "shinhan-labe"
+    },
+    {
+      "archive_id": "archive-37",
+      "official_id": "shinhan-the-best-f"
+    },
+    {
+      "archive_id": "archive-687",
+      "official_id": "shinhan-unboxing"
+    },
+    {
+      "archive_id": "archive-2667",
+      "official_id": "shinhan-solteuraebeul-chekeu"
+    },
+    {
+      "archive_id": "archive-2492",
+      "official_id": "shinhan-peulri-chekeu-sanriokaerikteojeu"
+    },
+    {
+      "archive_id": "archive-286",
+      "official_id": "shinhan-kakaopei-sinhan-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2977",
+      "official_id": "shinhan-solteuripaenj-chekeu"
+    },
+    {
+      "archive_id": "archive-618",
+      "official_id": "shinhan-hey-young-chekeu"
+    },
+    {
+      "archive_id": "archive-2893",
+      "official_id": "shinhan-pick-i-chekeu-kaerikteohyeong-hangyodong"
+    },
+    {
+      "archive_id": "archive-2890",
+      "official_id": "shinhan-point-plan-chekeu-kaerikteohyeong-jjanggu"
+    },
+    {
+      "archive_id": "archive-2847",
+      "official_id": "shinhan-solteuraebeulj-chekeu"
+    },
+    {
+      "archive_id": "archive-646",
+      "official_id": "shinhan-deep-dream-chekeu-minieonjeu"
+    },
+    {
+      "archive_id": "archive-391",
+      "official_id": "shinhan-haipaeseu-jeonyong-chekeu"
+    },
+    {
+      "archive_id": "archive-2374",
+      "official_id": "shinhan-way-chekeu-jyuragi"
+    },
+    {
+      "archive_id": "archive-2887",
+      "official_id": "shinhan-cheoeum-chekeu"
+    },
+    {
+      "archive_id": "archive-284",
+      "official_id": "shinhan-jugeorae-chekeu"
+    },
+    {
+      "archive_id": "archive-2922",
+      "official_id": "shinhan-solgeulrobeol-chekeu"
+    },
+    {
+      "archive_id": "archive-2673",
+      "official_id": "shinhan-point-plan-chekeu"
+    },
+    {
+      "archive_id": "archive-2527",
+      "official_id": "shinhan-pick-i-chekeu"
+    },
+    {
+      "archive_id": "archive-2935",
+      "official_id": "shinhan-solteuripaensyap-chekeu"
+    },
+    {
+      "archive_id": "archive-2528",
+      "official_id": "shinhan-pick-e-chekeu"
+    },
+    {
+      "archive_id": "archive-2343",
+      "official_id": "shinhan-on-chekeu"
+    },
+    {
+      "archive_id": "archive-2372",
+      "official_id": "shinhan-peulri-chekeu"
+    },
+    {
+      "archive_id": "archive-2338",
+      "official_id": "shinhan-way-chekeu"
+    },
+    {
+      "archive_id": "archive-2892",
+      "official_id": "shinhan-pick-e-chekeu-kaerikteohyeong-sinuitap"
+    },
+    {
+      "archive_id": "archive-2373",
+      "official_id": "shinhan-on-chekeu-jyuragi"
+    },
+    {
+      "archive_id": "archive-2663",
+      "official_id": "hyundai-american-express-gold-card-edition2"
+    },
+    {
+      "archive_id": "archive-2669",
+      "official_id": "hyundai-hyeondaekadeum"
+    },
+    {
+      "archive_id": "archive-2692",
+      "official_id": "hyundai-hyeondaekadeu-summit"
+    },
+    {
+      "archive_id": "archive-2711",
+      "official_id": "hyundai-daehanhanggongkadeu-300"
+    },
+    {
+      "archive_id": "archive-2712",
+      "official_id": "hyundai-daehanhanggongkadeu-the-first-edition2"
+    },
+    {
+      "archive_id": "archive-2646",
+      "official_id": "hyundai-hyeondaekadeuzero-edition3-halinhyeong"
+    },
+    {
+      "archive_id": "archive-2944",
+      "official_id": "hyundai-the-orange"
+    },
+    {
+      "archive_id": "archive-2710",
+      "official_id": "hyundai-daehanhanggongkadeu-120"
+    },
+    {
+      "archive_id": "archive-2662",
+      "official_id": "hyundai-american-express-green-card-edition2"
+    },
+    {
+      "archive_id": "archive-2709",
+      "official_id": "hyundai-daehanhanggongkadeu-060"
+    },
+    {
+      "archive_id": "archive-2942",
+      "official_id": "hyundai-eneojipeulreoseu-hyeondaekadeu"
+    },
+    {
+      "archive_id": "archive-2938",
+      "official_id": "hyundai-hyeondaekadeumy-business-m-f-b"
+    },
+    {
+      "archive_id": "archive-2794",
+      "official_id": "hyundai-neibeo-hyeondaekadeu-edition2"
+    },
+    {
+      "archive_id": "archive-2844",
+      "official_id": "hyundai-hyeondaekadeu-zero-up-halinhyeong"
+    },
+    {
+      "archive_id": "archive-2985",
+      "official_id": "hyundai-hyeondaekadeu-zero-up-pointeuhyeong"
+    },
+    {
+      "archive_id": "archive-2753",
+      "official_id": "hyundai-the-green-edition3"
+    },
+    {
+      "archive_id": "archive-2939",
+      "official_id": "hyundai-hyeondaekadeumy-business-m-retail"
+    },
+    {
+      "archive_id": "archive-2647",
+      "official_id": "hyundai-hyeondaekadeuzero-edition3-pointeuhyeong"
+    },
+    {
+      "archive_id": "archive-2940",
+      "official_id": "hyundai-hyeondaekadeumy-business-m-e-seller"
+    },
+    {
+      "archive_id": "archive-2683",
+      "official_id": "hyundai-hyeondaekadeuz-family-edition2"
+    },
+    {
+      "archive_id": "archive-2697",
+      "official_id": "hyundai-hyeondaekadeu-mx-black-edition2"
+    },
+    {
+      "archive_id": "archive-2680",
+      "official_id": "hyundai-hyeondaekadeuz-work-edition2"
+    },
+    {
+      "archive_id": "archive-2883",
+      "official_id": "hyundai-hyeondaekadeuz-everyday"
+    },
+    {
+      "archive_id": "archive-2752",
+      "official_id": "hyundai-the-pink-edition2"
+    },
+    {
+      "archive_id": "archive-2670",
+      "official_id": "hyundai-hyeondaekadeumm"
+    },
+    {
+      "archive_id": "archive-2393",
+      "official_id": "hyundai-ssg-comkadeu-edition2"
+    },
+    {
+      "archive_id": "archive-2640",
+      "official_id": "hyundai-koseuteuko-riwodeu-hyeondaekadeu-edition2"
+    },
+    {
+      "archive_id": "archive-2842",
+      "official_id": "hyundai-hyeondaekadeu-x-cut"
+    },
+    {
+      "archive_id": "archive-2521",
+      "official_id": "hyundai-nol-kadeu"
+    },
+    {
+      "archive_id": "archive-2756",
+      "official_id": "hyundai-the-purple"
+    },
+    {
+      "archive_id": "archive-2755",
+      "official_id": "hyundai-the-red-stripe-edition2"
+    },
+    {
+      "archive_id": "archive-2472",
+      "official_id": "hyundai-skt-hyeondaekadeum-edition3-raiteuhalbuhyeong2-0"
+    },
+    {
+      "archive_id": "archive-2791",
+      "official_id": "hyundai-hyeondaekadeu-boutique-velvet"
+    },
+    {
+      "archive_id": "archive-2679",
+      "official_id": "hyundai-hyeondaekadeux"
+    },
+    {
+      "archive_id": "archive-2843",
+      "official_id": "hyundai-hyeondaekadeu-x-save"
+    },
+    {
+      "archive_id": "archive-2792",
+      "official_id": "hyundai-hyeondaekadeu-boutique-satin"
+    },
+    {
+      "archive_id": "archive-2790",
+      "official_id": "hyundai-hyeondaekadeu-summit-ce"
+    },
+    {
+      "archive_id": "archive-2195",
+      "official_id": "hyundai-kia-members-sinyongkadeu-edition2"
+    },
+    {
+      "archive_id": "archive-2764",
+      "official_id": "hyundai-olribeuyeong-hyeondaekadeu"
+    },
+    {
+      "archive_id": "archive-2757",
+      "official_id": "hyundai-the-black"
+    },
+    {
+      "archive_id": "archive-2684",
+      "official_id": "hyundai-hyeondaekadeuz-play"
+    },
+    {
+      "archive_id": "archive-2776",
+      "official_id": "hyundai-imateu-ekadeu-plus"
+    },
+    {
+      "archive_id": "archive-2739",
+      "official_id": "hyundai-gold-for-lotte-department-store"
+    },
+    {
+      "archive_id": "archive-2793",
+      "official_id": "hyundai-hyeondaekadeu-boutique-copper"
+    },
+    {
+      "archive_id": "archive-2516",
+      "official_id": "hyundai-miraeeset-hyeondaekadeu-diamond"
+    },
+    {
+      "archive_id": "archive-708",
+      "official_id": "hyundai-ssokakadeu"
+    },
+    {
+      "archive_id": "archive-2974",
+      "official_id": "hyundai-hyeondaekadeu-haibeurideu-apple-pay-rewards"
+    },
+    {
+      "archive_id": "archive-2973",
+      "official_id": "hyundai-hyeondaekadeu-haibeurideu-kaesibaekhyeong"
+    },
+    {
+      "archive_id": "archive-2982",
+      "official_id": "hyundai-hyeondaekadeu-chekeu-pointeuhyeong"
+    },
+    {
+      "archive_id": "archive-2984",
+      "official_id": "hyundai-hyeondaekadeu-chekeu-apple-pay-rewards"
+    },
+    {
+      "archive_id": "archive-2972",
+      "official_id": "hyundai-hyeondaekadeu-haibeurideu-pointeuhyeong"
+    },
+    {
+      "archive_id": "archive-2983",
+      "official_id": "hyundai-hyeondaekadeu-chekeu-kaesibaekhyeong"
+    },
+    {
+      "archive_id": "archive-106",
+      "official_id": "kb-gutdeikadeu"
+    },
+    {
+      "archive_id": "archive-2441",
+      "official_id": "kb-my-we-sh-kadeu"
+    },
+    {
+      "archive_id": "archive-2685",
+      "official_id": "kb-we-sh-travel"
+    },
+    {
+      "archive_id": "archive-131",
+      "official_id": "kb-bev-kadeu-seukaipaeseuhyeong"
+    },
+    {
+      "archive_id": "archive-115",
+      "official_id": "kb-gutdeiolrimkadeu"
+    },
+    {
+      "archive_id": "archive-133",
+      "official_id": "kb-bev-kadeu"
+    },
+    {
+      "archive_id": "archive-634",
+      "official_id": "kb-easy-all-titanyumkadeu"
+    },
+    {
+      "archive_id": "archive-129",
+      "official_id": "kb-cheongchundaero-toktokkadeu"
+    },
+    {
+      "archive_id": "archive-2769",
+      "official_id": "kb-gihudonghaengkadeu"
+    },
+    {
+      "archive_id": "archive-130",
+      "official_id": "kb-bev-kadeu-pointeuhyeong"
+    },
+    {
+      "archive_id": "archive-699",
+      "official_id": "kb-toktok-withkadeu"
+    },
+    {
+      "archive_id": "archive-1309",
+      "official_id": "kb-gaongeulrobeolkadeu"
+    },
+    {
+      "archive_id": "archive-615",
+      "official_id": "kb-easy-ring-titanyumkadeu"
+    },
+    {
+      "archive_id": "archive-146",
+      "official_id": "kb-the-easykadeu"
+    },
+    {
+      "archive_id": "archive-469",
+      "official_id": "kb-easy-pickkadeu"
+    },
+    {
+      "archive_id": "archive-1286",
+      "official_id": "kb-the-cj-kbgukminkadeu"
+    },
+    {
+      "archive_id": "archive-2780",
+      "official_id": "kb-heritage-classic-halinhyeong"
+    },
+    {
+      "archive_id": "archive-142",
+      "official_id": "kb-toktok-paykadeu"
+    },
+    {
+      "archive_id": "archive-1379",
+      "official_id": "kb-gutdei-peulraetinyumkadeu"
+    },
+    {
+      "archive_id": "archive-108",
+      "official_id": "kb-waijeukadeu"
+    },
+    {
+      "archive_id": "archive-630",
+      "official_id": "kb-easy-allkadeu"
+    },
+    {
+      "archive_id": "archive-470",
+      "official_id": "kb-easy-onkadeu"
+    },
+    {
+      "archive_id": "archive-141",
+      "official_id": "kb-kbgukmin-petkonomi-kadeu"
+    },
+    {
+      "archive_id": "archive-1315",
+      "official_id": "kb-goldeunraipeuolrimkadeu"
+    },
+    {
+      "archive_id": "archive-2708",
+      "official_id": "kb-we-sh-daily-kadeu"
+    },
+    {
+      "archive_id": "archive-1383",
+      "official_id": "kb-banryeo-kadeu-gangaji"
+    },
+    {
+      "archive_id": "archive-1339",
+      "official_id": "kb-golpeujon-kbgukminkadeu"
+    },
+    {
+      "archive_id": "archive-134",
+      "official_id": "kb-tantandaero-onriyukadeu"
+    },
+    {
+      "archive_id": "archive-1549",
+      "official_id": "kb-hanatueo-kbgukminkadeu"
+    },
+    {
+      "archive_id": "archive-1544",
+      "official_id": "kb-haepipointeu-kbgukminkadeu"
+    },
+    {
+      "archive_id": "archive-2691",
+      "official_id": "kb-teuraebeulreoseu-chekeukadeu-tosimi"
+    },
+    {
+      "archive_id": "archive-2422",
+      "official_id": "kb-nori2-chekeukadeu-kb-pay"
+    },
+    {
+      "archive_id": "archive-2604",
+      "official_id": "kb-tosimi-chekchek-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2423",
+      "official_id": "kb-nori2-chekeukadeu-global"
+    },
+    {
+      "archive_id": "archive-348",
+      "official_id": "kb-nori-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-350",
+      "official_id": "kb-jikjanginboneoseuchekeukadeu"
+    },
+    {
+      "archive_id": "archive-1572",
+      "official_id": "kb-tamnaneunjeon-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-336",
+      "official_id": "kb-gaonchekeukadeu"
+    },
+    {
+      "archive_id": "archive-335",
+      "official_id": "kb-cheongchundaero-singgeul-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-454",
+      "official_id": "kb-gaon-olpointeu-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-614",
+      "official_id": "kb-wigeulwigeul-chekchek-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-725",
+      "official_id": "kb-saeroi-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-351",
+      "official_id": "kb-seutachekeukadeu"
+    },
+    {
+      "archive_id": "archive-770",
+      "official_id": "kb-geurinjaekit-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2987",
+      "official_id": "lotte-loca-likit-2-0"
+    },
+    {
+      "archive_id": "archive-2975",
+      "official_id": "lotte-loca-likit-1-5"
+    },
+    {
+      "archive_id": "archive-2330",
+      "official_id": "lotte-loca-365-kadeu"
+    },
+    {
+      "archive_id": "archive-2632",
+      "official_id": "lotte-dijiroka-london"
+    },
+    {
+      "archive_id": "archive-2707",
+      "official_id": "lotte-dijiroka-las-vegas"
+    },
+    {
+      "archive_id": "archive-2823",
+      "official_id": "lotte-rotdemembeoseu-kadeu"
+    },
+    {
+      "archive_id": "archive-2636",
+      "official_id": "lotte-loca-professional"
+    },
+    {
+      "archive_id": "archive-2786",
+      "official_id": "lotte-hilteun-aneoseu-amekseu-peurimieom"
+    },
+    {
+      "archive_id": "archive-2262",
+      "official_id": "lotte-loca-likit-eat"
+    },
+    {
+      "archive_id": "archive-2263",
+      "official_id": "lotte-loca-likit-play"
+    },
+    {
+      "archive_id": "archive-2633",
+      "official_id": "lotte-dijiroka-paris"
+    },
+    {
+      "archive_id": "archive-455",
+      "official_id": "lotte-rotde-gukminhaengbokkadeu"
+    },
+    {
+      "archive_id": "archive-2228",
+      "official_id": "lotte-loca-likit"
+    },
+    {
+      "archive_id": "archive-2824",
+      "official_id": "lotte-rotdemembeoseu-kadeu-peurimieom"
+    },
+    {
+      "archive_id": "archive-2395",
+      "official_id": "lotte-loca-nanugi-kadeu"
+    },
+    {
+      "archive_id": "archive-2888",
+      "official_id": "lotte-digiloca-skypass"
+    },
+    {
+      "archive_id": "archive-201",
+      "official_id": "lotte-rotdebaekhwajeom-rotdekadeu"
+    },
+    {
+      "archive_id": "archive-2264",
+      "official_id": "lotte-loca-likit-shop"
+    },
+    {
+      "archive_id": "archive-2641",
+      "official_id": "lotte-eodirodeun-geurinkadeu-x-loca"
+    },
+    {
+      "archive_id": "archive-2799",
+      "official_id": "lotte-k-paeseuenroka"
+    },
+    {
+      "archive_id": "archive-2717",
+      "official_id": "lotte-dijiroka-auto"
+    },
+    {
+      "archive_id": "archive-2937",
+      "official_id": "lotte-dijiroka-link"
+    },
+    {
+      "archive_id": "archive-2713",
+      "official_id": "lotte-dijiroka-pet"
+    },
+    {
+      "archive_id": "archive-2566",
+      "official_id": "lotte-trip-to-roka"
+    },
+    {
+      "archive_id": "archive-194",
+      "official_id": "lotte-rotdepointeu-peulreoseu-kadeu"
+    },
+    {
+      "archive_id": "archive-2634",
+      "official_id": "lotte-dijiroka-monaco"
+    },
+    {
+      "archive_id": "archive-2714",
+      "official_id": "lotte-dijiroka-edu"
+    },
+    {
+      "archive_id": "archive-2785",
+      "official_id": "lotte-hilteun-aneoseu-amekseu"
+    },
+    {
+      "archive_id": "archive-2765",
+      "official_id": "lotte-loca-x-gihudonghaengkadeu"
+    },
+    {
+      "archive_id": "archive-2715",
+      "official_id": "lotte-dijiroka-wellness"
+    },
+    {
+      "archive_id": "archive-663",
+      "official_id": "lotte-rolrakadeu"
+    },
+    {
+      "archive_id": "archive-2716",
+      "official_id": "lotte-dijiroka-golf"
+    },
+    {
+      "archive_id": "archive-2848",
+      "official_id": "woori-kadeuuijeongseok2"
+    },
+    {
+      "archive_id": "archive-2898",
+      "official_id": "woori-urikadeu-mile-point"
+    },
+    {
+      "archive_id": "archive-2851",
+      "official_id": "woori-urikadeu-7core"
+    },
+    {
+      "archive_id": "archive-2719",
+      "official_id": "woori-kadeuuijeongseok2-every-discount"
+    },
+    {
+      "archive_id": "archive-2553",
+      "official_id": "woori-kadeuuijeongseok-every-mile-skypass"
+    },
+    {
+      "archive_id": "archive-2902",
+      "official_id": "woori-the-opus-silver"
+    },
+    {
+      "archive_id": "archive-2980",
+      "official_id": "woori-kadeuuijeongseok2-super"
+    },
+    {
+      "archive_id": "archive-2699",
+      "official_id": "woori-kadeuuijeongseok-ten"
+    },
+    {
+      "archive_id": "archive-2689",
+      "official_id": "woori-kadeuuijeongseok2-every-point"
+    },
+    {
+      "archive_id": "archive-2688",
+      "official_id": "woori-kadeuuijeongseok-i-u"
+    },
+    {
+      "archive_id": "archive-2655",
+      "official_id": "woori-dakadeuuijeongseok"
+    },
+    {
+      "archive_id": "archive-2569",
+      "official_id": "woori-teuraebeulwolret-urikadeu"
+    },
+    {
+      "archive_id": "archive-2613",
+      "official_id": "woori-all-urikadeu-infinite"
+    },
+    {
+      "archive_id": "archive-1731",
+      "official_id": "woori-royalbeulru1000kadeu-skypass"
+    },
+    {
+      "archive_id": "archive-2953",
+      "official_id": "woori-seutateuraebeul-urikadeu"
+    },
+    {
+      "archive_id": "archive-2993",
+      "official_id": "woori-kadeuuijeongseok2-routine"
+    },
+    {
+      "archive_id": "archive-1741",
+      "official_id": "woori-royal-blue-point"
+    },
+    {
+      "archive_id": "archive-2686",
+      "official_id": "woori-d4kadeuuijeongseok"
+    },
+    {
+      "archive_id": "archive-1768",
+      "official_id": "woori-royal-blue-mileage-skypass"
+    },
+    {
+      "archive_id": "archive-2784",
+      "official_id": "woori-k-paeseu-urikadeu"
+    },
+    {
+      "archive_id": "archive-2612",
+      "official_id": "woori-all-urikadeu-premium"
+    },
+    {
+      "archive_id": "archive-2924",
+      "official_id": "woori-urikadeu-unimile"
+    },
+    {
+      "archive_id": "archive-2867",
+      "official_id": "woori-gaelreoria-platinum-urikadeu"
+    },
+    {
+      "archive_id": "archive-2978",
+      "official_id": "woori-kadeuuijeongseok2-shopper"
+    },
+    {
+      "archive_id": "archive-721",
+      "official_id": "woori-gukminhaengbokkadeus2"
+    },
+    {
+      "archive_id": "archive-2994",
+      "official_id": "woori-kadeuuijeongseok2-wondeoraipeu"
+    },
+    {
+      "archive_id": "archive-2825",
+      "official_id": "woori-uri-gihudonghaengkadeu-sinyong"
+    },
+    {
+      "archive_id": "archive-2869",
+      "official_id": "woori-e1-urikadeu"
+    },
+    {
+      "archive_id": "archive-2700",
+      "official_id": "woori-wibiteuraebeul-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-325",
+      "official_id": "woori-geurangbeulru-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-722",
+      "official_id": "woori-gukminhaengbok-chekeukadeus2"
+    },
+    {
+      "archive_id": "archive-2826",
+      "official_id": "woori-uri-gihudonghaengkadeu-chekeu"
+    },
+    {
+      "archive_id": "archive-2907",
+      "official_id": "woori-wibiteuraebeul-j-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-1702",
+      "official_id": "woori-fc-express-chekeu"
+    },
+    {
+      "archive_id": "archive-2657",
+      "official_id": "hana-jade-classic"
+    },
+    {
+      "archive_id": "archive-2529",
+      "official_id": "hana-teuraebeulrogeu-sinyongkadeu"
+    },
+    {
+      "archive_id": "archive-2811",
+      "official_id": "hana-deo-simpeul-hanakadeu"
+    },
+    {
+      "archive_id": "archive-2730",
+      "official_id": "hana-teuraebeulrogeu-prestige-sinyongkadeu"
+    },
+    {
+      "archive_id": "archive-2681",
+      "official_id": "hana-k-paeseu-hana-sinyongkadeu"
+    },
+    {
+      "archive_id": "archive-2729",
+      "official_id": "hana-teuraebeulrogeu-skypass-sinyongkadeu"
+    },
+    {
+      "archive_id": "archive-2865",
+      "official_id": "hana-sinsegye-teuraebeulgo-hanakadeu"
+    },
+    {
+      "archive_id": "archive-2671",
+      "official_id": "hana-wondeo-krigeu-chukdeokkadeu"
+    },
+    {
+      "archive_id": "archive-2288",
+      "official_id": "hana-moduui-sinsegye-hanakadeu"
+    },
+    {
+      "archive_id": "archive-2732",
+      "official_id": "hana-toseubaengkeu-hanakadeu-wide"
+    },
+    {
+      "archive_id": "archive-2394",
+      "official_id": "hana-teuraebeulrogeu-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2750",
+      "official_id": "hana-daldal-hana-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2775",
+      "official_id": "hana-kakaopei-teuraebeulrogeu-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2682",
+      "official_id": "hana-k-paeseu-hana-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-382",
+      "official_id": "hana-kakaopei-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-749",
+      "official_id": "hana-viva-x-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-378",
+      "official_id": "hana-viva-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2740",
+      "official_id": "hana-teuraebeulgo-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-390",
+      "official_id": "hana-sinsegye-hana-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2810",
+      "official_id": "hana-deo-simpeul-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-666",
+      "official_id": "nh-olbareunflexkadeu"
+    },
+    {
+      "archive_id": "archive-2846",
+      "official_id": "nh-keulraesi-teuraebeulkadeu"
+    },
+    {
+      "archive_id": "archive-2706",
+      "official_id": "nh-zgm-halinkadeu"
+    },
+    {
+      "archive_id": "archive-2428",
+      "official_id": "nh-zgm-streamingkadeu"
+    },
+    {
+      "archive_id": "archive-2593",
+      "official_id": "nh-zgm-ilbonyeohaengjung-kadeu"
+    },
+    {
+      "archive_id": "archive-2427",
+      "official_id": "nh-zgm-the-paykadeu"
+    },
+    {
+      "archive_id": "archive-2560",
+      "official_id": "nh-k-paeseukadeu-sinyong"
+    },
+    {
+      "archive_id": "archive-2464",
+      "official_id": "nh-zgm-hyugajungkadeu"
+    },
+    {
+      "archive_id": "archive-174",
+      "official_id": "nh-gukminhaengbokkadeu-sinyong"
+    },
+    {
+      "archive_id": "archive-184",
+      "official_id": "nh-nh20haebomkadeu"
+    },
+    {
+      "archive_id": "archive-190",
+      "official_id": "nh-olbareuntravelkadeu-junggukteukhwa"
+    },
+    {
+      "archive_id": "archive-2648",
+      "official_id": "nh-zgm-shoppingkadeu"
+    },
+    {
+      "archive_id": "archive-181",
+      "official_id": "nh-nholwon-paikadeu"
+    },
+    {
+      "archive_id": "archive-2698",
+      "official_id": "nh-zgm-pointkadeu"
+    },
+    {
+      "archive_id": "archive-193",
+      "official_id": "nh-nholwon-lgu-plus-kadeu"
+    },
+    {
+      "archive_id": "archive-2649",
+      "official_id": "nh-zgm-livingkadeu"
+    },
+    {
+      "archive_id": "archive-1577",
+      "official_id": "nh-newhubulhaipaeseukadeu"
+    },
+    {
+      "archive_id": "archive-2513",
+      "official_id": "nh-zgm-gohyangeurokadeu"
+    },
+    {
+      "archive_id": "archive-2305",
+      "official_id": "nh-byeoldajulkadeu"
+    },
+    {
+      "archive_id": "archive-2490",
+      "official_id": "nh-namu-nhnonghyeopkadeu"
+    },
+    {
+      "archive_id": "archive-654",
+      "official_id": "nh-olbareunmypick-kadeu"
+    },
+    {
+      "archive_id": "archive-2617",
+      "official_id": "nh-eodirodeun-geurinkadeu"
+    },
+    {
+      "archive_id": "archive-180",
+      "official_id": "nh-wikadeu"
+    },
+    {
+      "archive_id": "archive-564",
+      "official_id": "nh-wi-reakadeu-pointeu"
+    },
+    {
+      "archive_id": "archive-2366",
+      "official_id": "nh-soho-dasaroioilkadeu"
+    },
+    {
+      "archive_id": "archive-183",
+      "official_id": "nh-solsol-ssolssol-kadeu"
+    },
+    {
+      "archive_id": "archive-567",
+      "official_id": "nh-wi-terakadeu-pointeu"
+    },
+    {
+      "archive_id": "archive-182",
+      "official_id": "nh-solsol-plus-plus-ssolssoltupeulreoseu-kadeu"
+    },
+    {
+      "archive_id": "archive-2493",
+      "official_id": "nh-zgm-roundingkadeu"
+    },
+    {
+      "archive_id": "archive-565",
+      "official_id": "nh-wi-terakadeu-seukaipaeseu"
+    },
+    {
+      "archive_id": "archive-189",
+      "official_id": "nh-olbareuntravelkadeu-ilbonteukhwa"
+    },
+    {
+      "archive_id": "archive-563",
+      "official_id": "nh-wi-reakadeu-seukaipaeseu"
+    },
+    {
+      "archive_id": "archive-2131",
+      "official_id": "nh-on-platinumkadeu-pointeu"
+    },
+    {
+      "archive_id": "archive-2336",
+      "official_id": "nh-olbareunjigukadeu"
+    },
+    {
+      "archive_id": "archive-191",
+      "official_id": "nh-traiteukadeu"
+    },
+    {
+      "archive_id": "archive-2772",
+      "official_id": "nh-gihudonghaengkadeu-sinyong"
+    },
+    {
+      "archive_id": "archive-2023",
+      "official_id": "nh-nholwon-rental-koweikadeu"
+    },
+    {
+      "archive_id": "archive-188",
+      "official_id": "nh-olbareunoilkadeu"
+    },
+    {
+      "archive_id": "archive-505",
+      "official_id": "nh-jeokripjoakadeu"
+    },
+    {
+      "archive_id": "archive-2252",
+      "official_id": "nh-nh1961kadeu"
+    },
+    {
+      "archive_id": "archive-527",
+      "official_id": "nh-nhnonghyeop-olbareunlifekadeu-jeokriphyeong"
+    },
+    {
+      "archive_id": "archive-1996",
+      "official_id": "nh-nholwon-lgjeonjabestkadeu"
+    },
+    {
+      "archive_id": "archive-2128",
+      "official_id": "nh-on-platinumkadeu-seukaipaeseu"
+    },
+    {
+      "archive_id": "archive-2019",
+      "official_id": "nh-nholwon-rental-neksentaieokadeu"
+    },
+    {
+      "archive_id": "archive-2408",
+      "official_id": "nh-olbareunhometownkadeu"
+    },
+    {
+      "archive_id": "archive-164",
+      "official_id": "nh-me-plus-mipeulreoseu-kadeu"
+    },
+    {
+      "archive_id": "archive-531",
+      "official_id": "nh-nhnonghyeop-olbareunhanaro-hanaro-kadeu"
+    },
+    {
+      "archive_id": "archive-1648",
+      "official_id": "nh-nholwon-direct-dbsonhaeboheomkadeu"
+    },
+    {
+      "archive_id": "archive-507",
+      "official_id": "nh-syopingjoakadeu"
+    },
+    {
+      "archive_id": "archive-508",
+      "official_id": "nh-olbareunedu-kadeu"
+    },
+    {
+      "archive_id": "archive-562",
+      "official_id": "nh-olbareungive-kadeu"
+    },
+    {
+      "archive_id": "archive-506",
+      "official_id": "nh-halinjoakadeu"
+    },
+    {
+      "archive_id": "archive-2402",
+      "official_id": "nh-gsriteil-nhnonghyeopkadeu"
+    },
+    {
+      "archive_id": "archive-192",
+      "official_id": "nh-ktsupeohalbukadeu-bissi"
+    },
+    {
+      "archive_id": "archive-526",
+      "official_id": "nh-nhnonghyeop-olbareunlifekadeu-halinhyeong"
+    },
+    {
+      "archive_id": "archive-1758",
+      "official_id": "nh-olbareunsafekadeu"
+    },
+    {
+      "archive_id": "archive-2021",
+      "official_id": "nh-nholwon-rental-badipeuraendeukadeu"
+    },
+    {
+      "archive_id": "archive-2036",
+      "official_id": "nh-nholwon-shopping-amorepacifickadeu"
+    },
+    {
+      "archive_id": "archive-612",
+      "official_id": "nh-petbeulri-petvely-kadeu"
+    },
+    {
+      "archive_id": "archive-162",
+      "official_id": "nh-ing-syapping-kadeu"
+    },
+    {
+      "archive_id": "archive-173",
+      "official_id": "nh-nholwon-plus-peulreoseu-kadeu"
+    },
+    {
+      "archive_id": "archive-1763",
+      "official_id": "nh-olbareunsafe-platinumkadeu"
+    },
+    {
+      "archive_id": "archive-163",
+      "official_id": "nh-ing-plus-syappingpeulreoseu-kadeu"
+    },
+    {
+      "archive_id": "archive-2130",
+      "official_id": "nh-on-platinumkadeu-asianakeulreop"
+    },
+    {
+      "archive_id": "archive-560",
+      "official_id": "nh-wi-reakadeu-asianakeulreop"
+    },
+    {
+      "archive_id": "archive-566",
+      "official_id": "nh-wi-terakadeu-asianakeulreop"
+    },
+    {
+      "archive_id": "archive-2561",
+      "official_id": "nh-k-paeseukadeu-chekeu"
+    },
+    {
+      "archive_id": "archive-362",
+      "official_id": "nh-nh20haebomchekeukadeu"
+    },
+    {
+      "archive_id": "archive-2758",
+      "official_id": "nh-chunsikidaldalchekeukadeu"
+    },
+    {
+      "archive_id": "archive-528",
+      "official_id": "nh-raieon-chijeu-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2727",
+      "official_id": "nh-nhteuraebeulrichekeukadeu"
+    },
+    {
+      "archive_id": "archive-1765",
+      "official_id": "nh-olbareunnew-havechekeukadeu"
+    },
+    {
+      "archive_id": "archive-2620",
+      "official_id": "nh-nh-mureoki-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2874",
+      "official_id": "nh-kungyasingsingchekeukadeu"
+    },
+    {
+      "archive_id": "archive-2773",
+      "official_id": "nh-gihudonghaengkadeu-chekeu"
+    },
+    {
+      "archive_id": "archive-586",
+      "official_id": "nh-eopichi-seuwit-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-367",
+      "official_id": "nh-naeilbaeumchekeukadeu"
+    },
+    {
+      "archive_id": "archive-532",
+      "official_id": "nh-nhnonghyeop-olbareunhanaro-hanaro-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-375",
+      "official_id": "nh-olbareunglobalchekeukadeu"
+    },
+    {
+      "archive_id": "archive-517",
+      "official_id": "nh-nh1934-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2443",
+      "official_id": "nh-goodgame-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2437",
+      "official_id": "nh-gsriteil-nhnonghyeopchekeukadeu"
+    },
+    {
+      "archive_id": "archive-2665",
+      "official_id": "nh-pom-chekeukadeu"
+    },
+    {
+      "archive_id": "archive-2813",
+      "official_id": "nh-nh1961chekeukadeu"
+    },
+    {
+      "archive_id": "archive-361",
+      "official_id": "nh-kokchekeukadeu"
+    },
+    {
+      "archive_id": "archive-2346",
+      "official_id": "bc-bc-baro-keulrieo-peulreoseu"
+    },
+    {
+      "archive_id": "archive-2728",
+      "official_id": "bc-bcbaro-macao-kadeu"
+    },
+    {
+      "archive_id": "archive-2591",
+      "official_id": "bc-bc-baro-on-off-kadeu"
+    },
+    {
+      "archive_id": "archive-2928",
+      "official_id": "bc-bc-baro-zone-kadeu"
+    },
+    {
+      "archive_id": "archive-2557",
+      "official_id": "bc-k-paeseu-kadeu"
+    },
+    {
+      "archive_id": "archive-2607",
+      "official_id": "bc-kt-dc-plus"
+    },
+    {
+      "archive_id": "archive-2380",
+      "official_id": "bc-sinsegye-bc-baro-kwateuro-peulreoseu"
+    },
+    {
+      "archive_id": "archive-2383",
+      "official_id": "bc-sinsegye-bc-baro-seven-flex"
+    },
+    {
+      "archive_id": "archive-2724",
+      "official_id": "bc-bc-baro-kapick"
+    },
+    {
+      "archive_id": "archive-2382",
+      "official_id": "bc-sinsegye-bc-baro-riwodeu-peulreoseu"
+    },
+    {
+      "archive_id": "archive-2308",
+      "official_id": "bc-roseuteuakeu-kadeu"
+    },
+    {
+      "archive_id": "archive-2462",
+      "official_id": "bc-sinsegye-pubilra-bc-barokadeu"
+    },
+    {
+      "archive_id": "archive-2384",
+      "official_id": "bc-sinsegye-bc-baro-keulrieo-peulreoseu"
+    },
+    {
+      "archive_id": "archive-435",
+      "official_id": "kakao-friends-check"
+    },
+    {
+      "archive_id": "archive-2421",
+      "official_id": "kakao-soho-check"
+    },
+    {
+      "archive_id": "archive-2814",
+      "official_id": "kakao-moim-check"
+    },
+    {
+      "archive_id": "archive-2269",
+      "official_id": "toss-check-card"
+    }
+  ],
+  "id_map": {
+    "hyundai-daehanhanggongkadeu-120": "hyundai-daehanhanggongkadeu-120",
+    "hyundai-daehanhanggongkadeu-300": "hyundai-daehanhanggongkadeu-300",
+    "hyundai-american-express-gold-card-edition2": "hyundai-american-express-gold-card-edition2",
+    "hyundai-daehanhanggongkadeu-the-first-edition2": "hyundai-daehanhanggongkadeu-the-first-edition2",
+    "hyundai-american-express-green-card-edition2": "hyundai-american-express-green-card-edition2",
+    "kb-you-wish-kadeu": "kb-you-wish-kadeu",
+    "kb-we-sh-travel": "kb-we-sh-travel",
+    "kb-need-pay-kadeu": "kb-need-pay-kadeu",
+    "kb-bev-kadeu": "kb-bev-kadeu",
+    "kb-bev-kadeu-seukaipaeseuhyeong": "kb-bev-kadeu-seukaipaeseuhyeong",
+    "kb-easy-all-titanyumkadeu": "kb-easy-all-titanyumkadeu",
+    "kb-cheongchundaero-toktokkadeu": "kb-cheongchundaero-toktokkadeu",
+    "kb-need-global-kadeu": "kb-need-global-kadeu",
+    "kb-gihudonghaengkadeu": "kb-gihudonghaengkadeu",
+    "kb-bev-kadeu-pointeuhyeong": "kb-bev-kadeu-pointeuhyeong",
+    "kb-all-point-kadeu": "kb-all-point-kadeu",
+    "kb-toktok-withkadeu": "kb-toktok-withkadeu",
+    "kb-american-express-blue-card": "kb-american-express-blue-card",
+    "kb-gaongeulrobeolkadeu": "kb-gaongeulrobeolkadeu",
+    "kb-toktok-paykadeu": "kb-toktok-paykadeu",
+    "kb-easy-ring-titanyumkadeu": "kb-easy-ring-titanyumkadeu",
+    "kb-american-express-rose-gold-card": "kb-american-express-rose-gold-card",
+    "kb-easy-pickkadeu": "kb-easy-pickkadeu",
+    "kb-need-edukadeu": "kb-need-edukadeu",
+    "kb-heritage-classic-halinhyeong": "kb-heritage-classic-halinhyeong",
+    "kb-easy-allkadeu": "kb-easy-allkadeu",
+    "kb-easy-onkadeu": "kb-easy-onkadeu",
+    "kb-teuraebeulreoseu-chekeukadeu-tosimi": "kb-teuraebeulreoseu-chekeukadeu-tosimi",
+    "kb-tosimi-chekchek-chekeukadeu": "kb-tosimi-chekchek-chekeukadeu",
+    "kb-youth-club-chekeukadeu": "kb-youth-club-chekeukadeu",
+    "kb-nori2-chekeukadeu-global": "kb-nori2-chekeukadeu-global",
+    "kb-teuraebeulreoseu-chekeukadeu-seupesyeol": "kb-teuraebeulreoseu-chekeukadeu-seupesyeol",
+    "kb-nori2-chekeukadeu-kb-pay": "kb-nori2-chekeukadeu-kb-pay",
+    "kb-tineop-chekeukadeu": "kb-tineop-chekeukadeu",
+    "kb-jikjanginboneoseuchekeukadeu": "kb-jikjanginboneoseuchekeukadeu",
+    "kb-tamnaneunjeon-chekeukadeu": "kb-tamnaneunjeon-chekeukadeu",
+    "kb-cheongchundaero-singgeul-chekeukadeu": "kb-cheongchundaero-singgeul-chekeukadeu",
+    "kb-gaonchekeukadeu": "kb-gaonchekeukadeu",
+    "kb-wigeulwigeul-chekchek-chekeukadeu": "kb-wigeulwigeul-chekchek-chekeukadeu",
+    "kb-saeroi-chekeukadeu": "kb-saeroi-chekeukadeu",
+    "kb-gaon-olpointeu-chekeukadeu": "kb-gaon-olpointeu-chekeukadeu",
+    "kb-seutachekeukadeu": "kb-seutachekeukadeu",
+    "kb-uridongne-chekeukadeu-kimyu": "kb-uridongne-chekeukadeu-kimyu",
+    "lotte-hilteun-aneoseu-amekseu-peurimieom": "lotte-hilteun-aneoseu-amekseu-peurimieom",
+    "lotte-loca-likit-2-0": "lotte-loca-likit-2-0",
+    "lotte-loca-likit-1-5": "lotte-loca-likit-1-5",
+    "kb-geurinjaekit-chekeukadeu": "kb-geurinjaekit-chekeukadeu",
+    "lotte-rotde-gukminhaengbokkadeu": "lotte-rotde-gukminhaengbokkadeu",
+    "lotte-dijiroka-link": "lotte-dijiroka-link",
+    "lotte-rotdemembeoseu-kadeu-peurimieom": "lotte-rotdemembeoseu-kadeu-peurimieom",
+    "lotte-loca-money-kadeu": "lotte-loca-money-kadeu",
+    "lotte-dijiroka-wellness": "lotte-dijiroka-wellness",
+    "lotte-loca-x-gihudonghaengkadeu": "lotte-loca-x-gihudonghaengkadeu",
+    "lotte-dijiroka-pet": "lotte-dijiroka-pet",
+    "lotte-loca-100-kadeu": "lotte-loca-100-kadeu",
+    "lotte-dijiroka-golf": "lotte-dijiroka-golf",
+    "lotte-dijiroka-edu": "lotte-dijiroka-edu",
+    "lotte-hilteun-aneoseu-amekseu": "lotte-hilteun-aneoseu-amekseu",
+    "kb-alpawonkadeu-bi-otp": "kb-alpawonkadeu-bi-otp",
+    "hana-hana-seukaipaeseu-amekseu-peulraetinyum-kadeu": "hana-hana-seukaipaeseu-amekseu-peulraetinyum-kadeu-e43a6200",
+    "hana-club-sk-keulreop-sk-kadeu": "hana-club-sk-keulreop-sk-kadeu-873543c2",
+    "hana-wondeokadeu-2-0-free-plus": "hana-wondeokadeu-2-0-free-plus-15b6e991",
+    "hana-wondeokadeu-2-0-living": "hana-wondeokadeu-2-0-living-2a3284c6",
+    "hana-hana-club-h-amerikan-ikseupeureseu-rijeobeu": "hana-hana-club-h-amerikan-ikseupeureseu-rijeobeu-d3788fc0",
+    "hana-wondeokadeu-2-0-t": "hana-wondeokadeu-2-0-t-7ec9da3f",
+    "hana-jade-prime": "hana-jade-prime-5f610718",
+    "hana-wondeokadeu-2-0-daily": "hana-wondeokadeu-2-0-daily-5d2a5aea",
+    "hana-jade-first-centum": "hana-jade-first-centum-5c4f78af",
+    "hana-jade-first": "hana-jade-first-4dc02006",
+    "hana-wondeokadeu-2-0-happy-plus": "hana-wondeokadeu-2-0-happy-plus",
+    "hyundai-the-green-edition4": "hyundai-the-green-edition4",
+    "hyundai-the-pink-edition3": "hyundai-the-pink-edition3",
+    "hyundai-neibeo-hyeondaekadeu-edition3": "hyundai-neibeo-hyeondaekadeu-edition3",
+    "hyundai-olribeuyeong-hyeondaekadeu-plus": "hyundai-olribeuyeong-hyeondaekadeu-plus",
+    "hyundai-gyowonwelseu-hyeondaekadeu": "hyundai-gyowonwelseu-hyeondaekadeu",
+    "hyundai-badipeuraendeu-hyeondaekadeu": "hyundai-badipeuraendeu-hyeondaekadeu",
+    "hyundai-hyeondaekyuming-hyeondaekadeu": "hyundai-hyeondaekyuming-hyeondaekadeu",
+    "hyundai-neksentaieo-hyeondaekadeu": "hyundai-neksentaieo-hyeondaekadeu",
+    "hyundai-serajem-hyeondaekadeu": "hyundai-serajem-hyeondaekadeu",
+    "kb-k-paeseukadeu": "kb-k-paeseukadeu",
+    "samsung-samseongkadeu-mileage-platinum-seukaipaeseu": "samsung-samseongkadeu-mileage-platinum-seukaipaeseu",
+    "samsung-samseong-id-select-on-kadeu": "samsung-samseong-id-select-on-kadeu",
+    "samsung-samseong-id-select-all-kadeu": "samsung-samseong-id-select-all-kadeu",
+    "samsung-the-id-1st": "samsung-the-id-1st",
+    "samsung-teuraipeulreoseu-samseongkadeu": "samsung-teuraipeulreoseu-samseongkadeu",
+    "samsung-samseong-id-global-kadeu": "samsung-samseong-id-global-kadeu",
+    "samsung-samseong-id-simple-kadeu": "samsung-samseong-id-simple-kadeu",
+    "samsung-samseong-id-on-kadeu": "samsung-samseong-id-on-kadeu",
+    "samsung-samseongkadeu-taptap-o": "samsung-samseongkadeu-taptap-o",
+    "samsung-samseong-id-plug-in-kadeu": "samsung-samseong-id-plug-in-kadeu",
+    "samsung-the-1-seukaipaeseu": "samsung-the-1-seukaipaeseu",
+    "samsung-samseong-id-all-kadeu": "samsung-samseong-id-all-kadeu",
+    "samsung-taptap-digital": "samsung-taptap-digital",
+    "samsung-monimoa-kadeu": "samsung-monimoa-kadeu",
+    "samsung-taptap-drive": "samsung-taptap-drive",
+    "samsung-the-id-platinum-pointeu": "samsung-the-id-platinum-pointeu",
+    "samsung-samseongkadeu-taptap-s": "samsung-samseongkadeu-taptap-s",
+    "samsung-teureideoseusinsegye-samseongkadeu": "samsung-teureideoseusinsegye-samseongkadeu",
+    "samsung-samseong-id-station-kadeu-hdhyeondaeoilbaengkeu": "samsung-samseong-id-station-kadeu-hdhyeondaeoilbaengkeu",
+    "samsung-samseong-id-energy-kadeu": "samsung-samseong-id-energy-kadeu",
+    "samsung-ktx-samseongkadeu": "samsung-ktx-samseongkadeu",
+    "samsung-american-express-blue": "samsung-american-express-blue",
+    "samsung-samseongkadeu-seupesyeolmailriji-seukaipaeseu": "samsung-samseongkadeu-seupesyeolmailriji-seukaipaeseu",
+    "samsung-samseong-id-pet-kadeu": "samsung-samseong-id-pet-kadeu",
+    "samsung-samseong-id-vita-kadeu": "samsung-samseong-id-vita-kadeu",
+    "samsung-samseong-id-station-kadeu-skeneoji": "samsung-samseong-id-station-kadeu-skeneoji",
+    "samsung-samseong-id-auto-kadeu": "samsung-samseong-id-auto-kadeu",
+    "samsung-taptap-shopping": "samsung-taptap-shopping",
+    "samsung-samseongkadeu-taptap-i": "samsung-samseongkadeu-taptap-i",
+    "samsung-american-express-reserve": "samsung-american-express-reserve",
+    "samsung-the-id-titanium-pointeu": "samsung-the-id-titanium-pointeu",
+    "samsung-seutabeokseu-samseongkadeu": "samsung-seutabeokseu-samseongkadeu",
+    "samsung-samseong-id-classy-kadeu": "samsung-samseong-id-classy-kadeu",
+    "samsung-cu-baedaluiminjok-samseongkadeu-taptap": "samsung-cu-baedaluiminjok-samseongkadeu-taptap",
+    "samsung-samseong-id-station-kadeu-gskaltekseu": "samsung-samseong-id-station-kadeu-gskaltekseu",
+    "samsung-samseongkaaenmoakadeu": "samsung-samseongkaaenmoakadeu",
+    "samsung-samseong-id-nomad-kadeu": "samsung-samseong-id-nomad-kadeu",
+    "shinhan-mr-life": "shinhan-mr-life",
+    "shinhan-deep-oil": "shinhan-deep-oil",
+    "shinhan-discount-plan-1232390_2207": "shinhan-discount-plan",
+    "shinhan-simple-plan-1237252_2207": "shinhan-simple-plan-1237252-2207",
+    "shinhan-air-one": "shinhan-air-one",
+    "shinhan-point-plan-1226113_2207": "shinhan-point-plan-1226113-2207",
+    "shinhan-globus": "shinhan-globus",
+    "shinhan-edu-plan": "shinhan-edu-plan",
+    "shinhan-k-paeseu-sinhankadeu": "shinhan-k-paeseu-sinhankadeu",
+    "shinhan-timeoni-pay-go-sinhankadeu": "shinhan-timeoni-pay-go-sinhankadeu",
+    "shinhan-merieoteu-bonboi-deo-beseuteu-sinhankadeu": "shinhan-merieoteu-bonboi-deo-beseuteu-sinhankadeu",
+    "shinhan-point-plan-1228407_2207": "shinhan-point-plan",
+    "shinhan-alriikseupeureseu-sinhankadeu": "shinhan-alriikseupeureseu-sinhankadeu",
+    "shinhan-haru-hoshino-resorts": "shinhan-haru-hoshino-resorts",
+    "shinhan-rpm-platinum": "shinhan-rpm-platinum",
+    "shinhan-the-classic-s": "shinhan-the-classic-s",
+    "shinhan-deep-on-platinum": "shinhan-deep-on-platinum",
+    "shinhan-eco-plan": "shinhan-eco-plan",
+    "shinhan-air-platinum": "shinhan-air-platinum",
+    "shinhan-the-best-xo": "shinhan-the-best-xo",
+    "shinhan-cheoeum-1227020_2207": "shinhan-cheoeum",
+    "shinhan-pay-sinhankadeu": "shinhan-pay-sinhankadeu",
+    "shinhan-singgaporeuhanggong-keuriseupeulraieo-deo-beseuteu-sinhankadeu": "shinhan-singgaporeuhanggong-keuriseupeulraieo-deo-beseuteu-sinhankadeu",
+    "shinhan-eats-more-icheumoa": "shinhan-eats-more-icheumoa",
+    "shinhan-gukminhaengbok": "shinhan-gukminhaengbok",
+    "shinhan-edu": "shinhan-edu",
+    "shinhan-b-big-ppik": "shinhan-b-big-ppik",
+    "shinhan-shopping": "shinhan-shopping",
+    "shinhan-deep-store": "shinhan-deep-store",
+    "shinhan-peulri": "shinhan-peulri",
+    "shinhan-deep-once": "shinhan-deep-once",
+    "shinhan-yolo": "shinhan-yolo",
+    "shinhan-deep-taking": "shinhan-deep-taking",
+    "shinhan-yay": "shinhan-yay",
+    "shinhan-11beonga-sinhankadeu": "shinhan-11beonga-sinhankadeu",
+    "shinhan-deep-once-plus": "shinhan-deep-once-plus",
+    "shinhan-labe": "shinhan-labe",
+    "shinhan-the-best-f": "shinhan-the-best-f",
+    "shinhan-unboxing": "shinhan-unboxing",
+    "shinhan-peulri-chekeu-sanriokaerikteojeu": "shinhan-peulri-chekeu-sanriokaerikteojeu",
+    "shinhan-kakaopei-sinhan-chekeukadeu": "shinhan-kakaopei-sinhan-chekeukadeu",
+    "shinhan-pick-i-chekeu-kaerikteohyeong-hangyodong": "shinhan-pick-i-chekeu-kaerikteohyeong-hangyodong",
+    "shinhan-hey-young-chekeu": "shinhan-hey-young-chekeu",
+    "shinhan-point-plan-chekeu-kaerikteohyeong-jjanggu": "shinhan-point-plan-chekeu-kaerikteohyeong-jjanggu",
+    "shinhan-way-chekeu-jyuragi": "shinhan-way-chekeu-jyuragi",
+    "shinhan-on-chekeu": "shinhan-on-chekeu",
+    "shinhan-peulri-chekeu": "shinhan-peulri-chekeu",
+    "shinhan-way-chekeu": "shinhan-way-chekeu",
+    "shinhan-pick-e-chekeu-kaerikteohyeong-sinuitap": "shinhan-pick-e-chekeu-kaerikteohyeong-sinuitap",
+    "shinhan-on-chekeu-jyuragi": "shinhan-on-chekeu-jyuragi",
+    "shinhan-the-premier-gold-edition": "shinhan-the-premier-gold-edition",
+    "shinhan-the-ace-blue-label": "shinhan-the-ace-blue-label",
+    "shinhan-the-classic": "shinhan-the-classic",
+    "shinhan-the-best": "shinhan-the-best",
+    "shinhan-the-classic-v": "shinhan-the-classic-v",
+    "shinhan-the-classic-y": "shinhan-the-classic-y",
+    "shinhan-the-premium-pet": "shinhan-the-premium-pet",
+    "shinhan-the-boon-svip-sinhankadeu": "shinhan-the-boon-svip-sinhankadeu",
+    "shinhan-cheoeum-1229296_2207": "shinhan-cheoeum-1229296-2207",
+    "shinhan-the-classic-neo": "shinhan-the-classic-neo",
+    "samsung-monimopeikadeu": "samsung-monimopeikadeu",
+    "samsung-samseong-id-select-up-kadeu": "samsung-samseong-id-select-up-kadeu",
+    "samsung-samseong-biz-id-select-kadeu": "samsung-samseong-biz-id-select-kadeu",
+    "samsung-my-s-oil-samseongkadeu": "samsung-my-s-oil-samseongkadeu",
+    "samsung-musinsa-samseongkadeu": "samsung-musinsa-samseongkadeu",
+    "samsung-samseong-id-one-kadeu": "samsung-samseong-id-one-kadeu",
+    "samsung-hanhwaigeulseu-samseongkadeu": "samsung-hanhwaigeulseu-samseongkadeu",
+    "samsung-porsche-samseongkadeu": "samsung-porsche-samseongkadeu",
+    "samsung-rotdehomsyoping-samseongkadeu": "samsung-rotdehomsyoping-samseongkadeu",
+    "samsung-monimokadeu": "samsung-monimokadeu",
+    "samsung-samseong-id-haeoe-3-5-kadeu": "samsung-samseong-id-haeoe-3-5-kadeu",
+    "samsung-rotdemateu-samseongkadeu": "samsung-rotdemateu-samseongkadeu",
+    "samsung-u-plus-raiteu-samseongkadeu": "samsung-u-plus-raiteu-samseongkadeu",
+    "samsung-neksentaieo-samseongkadeu": "samsung-neksentaieo-samseongkadeu",
+    "samsung-samseongsaengmyeong-samseongkadeu": "samsung-samseongsaengmyeong-samseongkadeu",
+    "samsung-beongaejangteo-samseongkadeu": "samsung-beongaejangteo-samseongkadeu",
+    "samsung-oasiseu-samseongkadeu": "samsung-oasiseu-samseongkadeu",
+    "samsung-samseonghwajae-samseongkadeu": "samsung-samseonghwajae-samseongkadeu",
+    "samsung-gmaket-samseongkadeu": "samsung-gmaket-samseongkadeu",
+    "samsung-toseu-samseongkadeu": "samsung-toseu-samseongkadeu",
+    "samsung-haimateu-samseongkadeu": "samsung-haimateu-samseongkadeu",
+    "samsung-alradin-mangwondang-samseongkadeu": "samsung-alradin-mangwondang-samseongkadeu",
+    "samsung-ai-gudok-keulreop-samseongkadeu": "samsung-ai-gudok-keulreop-samseongkadeu",
+    "samsung-shilla-rewards-samseongkadeu": "samsung-shilla-rewards-samseongkadeu",
+    "samsung-samseongraionjeukadeu": "samsung-samseongraionjeukadeu",
+    "samsung-gihudonghaeng-samseongkadeu": "samsung-gihudonghaeng-samseongkadeu",
+    "samsung-danbigyoyuk-samseongkadeu": "samsung-danbigyoyuk-samseongkadeu",
+    "samsung-sinsegye-sinbaekriwodeu-samseongkadeu": "samsung-sinsegye-sinbaekriwodeu-samseongkadeu",
+    "samsung-imateusinsegye-samseongkadeu": "samsung-imateusinsegye-samseongkadeu",
+    "samsung-hanatueo-samseongkadeu": "samsung-hanatueo-samseongkadeu",
+    "samsung-wkeonsep-samseongkadeu": "samsung-wkeonsep-samseongkadeu",
+    "samsung-embeseuteu-elrihai-samseongkadeu": "samsung-embeseuteu-elrihai-samseongkadeu",
+    "samsung-k-paeseu-samseongkadeu": "samsung-k-paeseu-samseongkadeu",
+    "samsung-ebeoraendeu-samseongkadeu": "samsung-ebeoraendeu-samseongkadeu",
+    "samsung-uridongnegs-samseongkadeu": "samsung-uridongnegs-samseongkadeu",
+    "samsung-neibeopei-taptap": "samsung-neibeopei-taptap",
+    "samsung-daiso-samseongkadeu": "samsung-daiso-samseongkadeu",
+    "samsung-neibeoweptun-samseong-id-kadeu": "samsung-neibeoweptun-samseong-id-kadeu",
+    "samsung-t-premium-samseongkadeu": "samsung-t-premium-samseongkadeu",
+    "samsung-samseong-pei-samseongkadeu-taptap": "samsung-samseong-pei-samseongkadeu-taptap",
+    "samsung-biz-the-id-platinum-pointeu": "samsung-biz-the-id-platinum-pointeu",
+    "samsung-samseongjeonja-ai-gudok-samseongkadeu": "samsung-samseongjeonja-ai-gudok-samseongkadeu",
+    "samsung-rotdewoldeukadeu": "samsung-rotdewoldeukadeu",
+    "samsung-kt-halbu-s-samseongkadeu": "samsung-kt-halbu-s-samseongkadeu",
+    "samsung-kowei-samseongkadeu": "samsung-kowei-samseongkadeu",
+    "samsung-seseuko-samseongkadeu": "samsung-seseuko-samseongkadeu",
+    "samsung-samseongseutoeo-benefit-samseongkadeu": "samsung-samseongseutoeo-benefit-samseongkadeu",
+    "samsung-cj-samseong-id-kadeu": "samsung-cj-samseong-id-kadeu",
+    "samsung-kuku-samseongkadeu": "samsung-kuku-samseongkadeu",
+    "samsung-kt-samseongkadeu": "samsung-kt-samseongkadeu",
+    "samsung-lg-u-plus-samseongkadeu": "samsung-lg-u-plus-samseongkadeu",
+    "samsung-t-raiteu-samseongkadeu": "samsung-t-raiteu-samseongkadeu",
+    "samsung-traders-club-samseongkadeu": "samsung-traders-club-samseongkadeu",
+    "samsung-tnaneunhyetaek-samseongkadeu": "samsung-tnaneunhyetaek-samseongkadeu",
+    "samsung-nshomsyoping-samseongkadeu": "samsung-nshomsyoping-samseongkadeu",
+    "samsung-cheonghonaiseu-samseongkadeu": "samsung-cheonghonaiseu-samseongkadeu",
+    "samsung-sinsegye-art-science-samseongkadeu": "samsung-sinsegye-art-science-samseongkadeu",
+    "samsung-u-plus-altteulpon-pateuneoseu-samseongkadeu": "samsung-u-plus-altteulpon-pateuneoseu-samseongkadeu",
+    "samsung-sinsegye-aulret-benefit-samseongkadeu": "samsung-sinsegye-aulret-benefit-samseongkadeu",
+    "samsung-skrenteoka-samseongkadeu": "samsung-skrenteoka-samseongkadeu",
+    "samsung-samseong-mobailpeulreoseukadeu": "samsung-samseong-mobailpeulreoseukadeu",
+    "samsung-skintelrikseu-samseongkadeu": "samsung-skintelrikseu-samseongkadeu",
+    "samsung-ssg-com-samseongkadeu": "samsung-ssg-com-samseongkadeu",
+    "samsung-samseong-biz-id-benefit-kadeu": "samsung-samseong-biz-id-benefit-kadeu",
+    "samsung-scjeileunhaeng-deuraibeu-samseongkadeu": "samsung-scjeileunhaeng-deuraibeu-samseongkadeu",
+    "samsung-samseong-id-move-kadeu": "samsung-samseong-id-move-kadeu",
+    "samsung-samseongkadeu-deobeulpointeu": "samsung-samseongkadeu-deobeulpointeu",
+    "samsung-welseu-samseongkadeu": "samsung-welseu-samseongkadeu",
+    "samsung-skintelrikseu-samseongkadeu-halbu": "samsung-skintelrikseu-samseongkadeu-halbu",
+    "samsung-raipeupateuneo-samseongkadeu": "samsung-raipeupateuneo-samseongkadeu",
+    "samsung-yogiyo-samseongkadeu": "samsung-yogiyo-samseongkadeu",
+    "samsung-samseong-id-all-kadeu-pointeu": "samsung-samseong-id-all-kadeu-pointeu",
+    "samsung-s-oil-samseongkadeu-point": "samsung-s-oil-samseongkadeu-point",
+    "samsung-samseong-id-pocket-kadeu": "samsung-samseong-id-pocket-kadeu",
+    "samsung-gukminhaengbok-samseongkadeu-v2": "samsung-gukminhaengbok-samseongkadeu-v2",
+    "samsung-geulrobeolsyoping-samseongkadeu-5-v2": "samsung-geulrobeolsyoping-samseongkadeu-5-v2",
+    "samsung-jeonusarang-paemilri-samseongkadeu": "samsung-jeonusarang-paemilri-samseongkadeu",
+    "samsung-gongmuwonyeongeum-samseongkadeu": "samsung-gongmuwonyeongeum-samseongkadeu",
+    "samsung-teureideoseu-samseongkadeu-biz": "samsung-teureideoseu-samseongkadeu-biz",
+    "samsung-samseongkadeu-biz-leaders": "samsung-samseongkadeu-biz-leaders",
+    "samsung-samseongkadeu-biz-4-v2": "samsung-samseongkadeu-biz-4-v2",
+    "samsung-samseongkadeu-biz-6-v2": "samsung-samseongkadeu-biz-6-v2",
+    "samsung-samseong-haetsalronkadeu": "samsung-samseong-haetsalronkadeu",
+    "samsung-lh-peulreoseu-samseongkadeu": "samsung-lh-peulreoseu-samseongkadeu",
+    "samsung-keunsure-samseongkadeu-biz-6-v2": "samsung-keunsure-samseongkadeu-biz-6-v2",
+    "samsung-deo-roieoseu-keulraesik-samseongkadeu": "samsung-deo-roieoseu-keulraesik-samseongkadeu",
+    "samsung-kaemko-peulreoseu-samseongkadeu": "samsung-kaemko-peulreoseu-samseongkadeu",
+    "samsung-samseong-id-road-kadeu-hdhyeondaeoilbaengkeu": "samsung-samseong-id-road-kadeu-hdhyeondaeoilbaengkeu",
+    "samsung-urieunhaeng-drive-samseongkadeu": "samsung-urieunhaeng-drive-samseongkadeu",
+    "samsung-urieunhaeng-save-samseongkadeu": "samsung-urieunhaeng-save-samseongkadeu",
+    "samsung-peulreoseu-samseongkadeu": "samsung-peulreoseu-samseongkadeu",
+    "samsung-samseong-sosanggongin-teukrye-haetsalronkadeu": "samsung-samseong-sosanggongin-teukrye-haetsalronkadeu",
+    "samsung-urieunhaeng-wide-samseongkadeu": "samsung-urieunhaeng-wide-samseongkadeu",
+    "samsung-urieunhaeng-wave-samseongkadeu": "samsung-urieunhaeng-wave-samseongkadeu",
+    "samsung-urieunhaeng-live-samseongkadeu": "samsung-urieunhaeng-live-samseongkadeu",
+    "samsung-jeongrim-paemilri-samseongkadeu-pointeuhyeong": "samsung-jeongrim-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-ktx-samseongbeopinkadeu": "samsung-ktx-samseongbeopinkadeu",
+    "samsung-samseong-id-select-plus-kadeu": "samsung-samseong-id-select-plus-kadeu",
+    "samsung-samseongbeopinkadeu-with-tisang": "samsung-samseongbeopinkadeu-with-tisang",
+    "samsung-samseong-id-road-kadeu-skeneoji": "samsung-samseong-id-road-kadeu-skeneoji",
+    "samsung-miraeesetjeunggwon-paemilri-samseongkadeu-pointeuhyeong": "samsung-miraeesetjeunggwon-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-samseong-id-road-kadeu-gskaltekseu": "samsung-samseong-id-road-kadeu-gskaltekseu",
+    "samsung-biz-the-id-gold": "samsung-biz-the-id-gold",
+    "samsung-hanmi-paemilri-samseongkadeu-pointeuhyeong": "samsung-hanmi-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-bohungongdan-paemilri-samseongkadeu-pointeuhyeong": "samsung-bohungongdan-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-namsan-club-samseongkadeu": "samsung-namsan-club-samseongkadeu",
+    "samsung-jeonjaraendeu-raiteu-samseongkadeu": "samsung-jeonjaraendeu-raiteu-samseongkadeu",
+    "samsung-hangukjeonryeokgongsa-paemilri-samseongkadeu-pointeuhyeong": "samsung-hangukjeonryeokgongsa-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-otobil-samseongbeopinkadeu": "samsung-otobil-samseongbeopinkadeu",
+    "samsung-samseongbeopinkadeu-plus": "samsung-samseongbeopinkadeu-plus",
+    "samsung-the-id-titanium-asiana": "samsung-the-id-titanium-asiana",
+    "samsung-sfc-the-id-titanium-asiana": "samsung-sfc-the-id-titanium-asiana",
+    "samsung-welseu-samseongkadeu-halbu": "samsung-welseu-samseongkadeu-halbu",
+    "samsung-cfa-paemilri-samseongkadeu-pointeuhyeong": "samsung-cfa-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-jonggeundang-paemilri-samseongkadeu-pointeuhyeong": "samsung-jonggeundang-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-koelsa-paemilri-samseongkadeu-pointeuhyeong": "samsung-koelsa-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-anjeonbogeongongdan-paemilri-samseongkadeu-pointeuhyeong": "samsung-anjeonbogeongongdan-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-samseongkadeu-corporate-mailriji-seukaipaeseu": "samsung-samseongkadeu-corporate-mailriji-seukaipaeseu",
+    "samsung-byeonhosahoe-roieoseu-samseongkadeu": "samsung-byeonhosahoe-roieoseu-samseongkadeu",
+    "samsung-wonbeilri-homnik-samseongkadeu": "samsung-wonbeilri-homnik-samseongkadeu",
+    "samsung-yeongeumnuri-paemilri-samseongkadeu-pointeuhyeong": "samsung-yeongeumnuri-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-altteulgyotongpeulreoseu-samseongkadeu": "samsung-altteulgyotongpeulreoseu-samseongkadeu",
+    "samsung-gyeonggidocheong-paemilri-samseongkadeu-pointeuhyeong": "samsung-gyeonggidocheong-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-wonbeilri-sinsegye-homnik-samseongkadeu": "samsung-wonbeilri-sinsegye-homnik-samseongkadeu",
+    "samsung-ablsaengmyeongboheom-paemilri-samseongkadeu-pointeuhyeong": "samsung-ablsaengmyeongboheom-paemilri-samseongkadeu-pointeuhyeong",
+    "samsung-samseong-id-e-hi-pass-kadeu": "samsung-samseong-id-e-hi-pass-kadeu",
+    "shinhan-simple-plan-1237253_2207": "shinhan-simple-plan",
+    "shinhan-discount-plan-1232369_2207": "shinhan-discount-plan-1232369-2207",
+    "shinhan-everywhere": "shinhan-everywhere",
+    "shinhan-kowei-sinhankadeu": "shinhan-kowei-sinhankadeu",
+    "shinhan-lgjeonja-the-gudokkeeo-sinhankadeu": "shinhan-lgjeonja-the-gudokkeeo-sinhankadeu",
+    "shinhan-hi-point-plan-2013775_2207": "shinhan-hi-point-plan-2013775-2207",
+    "shinhan-hi-point-plan-2013774_2207": "shinhan-hi-point-plan-2013774-2207",
+    "shinhan-jigeujaegeu-sinhankadeu": "shinhan-jigeujaegeu-sinhankadeu",
+    "shinhan-toss-one-sinhankadeu": "shinhan-toss-one-sinhankadeu",
+    "shinhan-skt-t-life-sinhankadeu": "shinhan-skt-t-life-sinhankadeu",
+    "shinhan-sol-plan": "shinhan-sol-plan",
+    "shinhan-kakaobaengkeu-chakbut-sinhankadeu": "shinhan-kakaobaengkeu-chakbut-sinhankadeu",
+    "shinhan-baemin-sinhankadeu-bapchingu": "shinhan-baemin-sinhankadeu-bapchingu",
+    "shinhan-gs-all-sinhankadeu": "shinhan-gs-all-sinhankadeu",
+    "shinhan-point-plan-sanriokaerikteojeu": "shinhan-point-plan-sanriokaerikteojeu",
+    "shinhan-biz-plan": "shinhan-biz-plan",
+    "shinhan-lge-com-sinhankadeu": "shinhan-lge-com-sinhankadeu",
+    "shinhan-cu-npay-kadeu": "shinhan-cu-npay-kadeu",
+    "shinhan-solteuraebeul": "shinhan-solteuraebeul",
+    "shinhan-susocha-chungjeonhalin-sinhankadeu": "shinhan-susocha-chungjeonhalin-sinhankadeu",
+    "shinhan-lg-u-bora-sinhankadeu-big-plus": "shinhan-lg-u-bora-sinhankadeu-big-plus",
+    "shinhan-lg-u-seumateupeulraen-plus-sinhankadeu": "shinhan-lg-u-seumateupeulraen-plus-sinhankadeu",
+    "shinhan-gyeongchasarang-life": "shinhan-gyeongchasarang-life",
+    "shinhan-gukminnaeilbaeum-sinhankadeu-simple": "shinhan-gukminnaeilbaeum-sinhankadeu-simple",
+    "shinhan-sinsegye-sinhankadeu": "shinhan-sinsegye-sinhankadeu",
+    "shinhan-sol-meiteu-sinhankadeu-sol-plan-chekeu": "shinhan-sol-meiteu-sinhankadeu-sol-plan-chekeu",
+    "shinhan-solteuripaenj-chekeu": "shinhan-solteuripaenj-chekeu",
+    "shinhan-solteuripaensyap-chekeu": "shinhan-solteuripaensyap-chekeu",
+    "shinhan-narasarangkadeu-chekeu-1236922_2206": "shinhan-narasarangkadeu-chekeu",
+    "shinhan-cheoeum-chekeu": "shinhan-cheoeum-chekeu",
+    "shinhan-solgeulrobeol-chekeu": "shinhan-solgeulrobeol-chekeu",
+    "shinhan-solteuraebeulj-chekeu": "shinhan-solteuraebeulj-chekeu",
+    "shinhan-pick-e-chekeu": "shinhan-pick-e-chekeu",
+    "shinhan-solteuraebeul-chekeu": "shinhan-solteuraebeul-chekeu",
+    "shinhan-pick-i-chekeu": "shinhan-pick-i-chekeu",
+    "shinhan-point-plan-chekeu": "shinhan-point-plan-chekeu",
+    "shinhan-jugeorae-chekeu": "shinhan-jugeorae-chekeu",
+    "shinhan-haipaeseu-jeonyong-chekeu": "shinhan-haipaeseu-jeonyong-chekeu",
+    "shinhan-peulri-sanriokaerikteojeu": "shinhan-peulri-sanriokaerikteojeu",
+    "shinhan-narasarangkadeu-chekeu-2014054_2206": "shinhan-narasarangkadeu-chekeu-2014054-2206",
+    "shinhan-narasarangkadeu-chekeu-2013660_2206": "shinhan-narasarangkadeu-chekeu-2013660-2206",
+    "shinhan-jeontongsijangsarang-chekeukadeu": "shinhan-jeontongsijangsarang-chekeukadeu",
+    "shinhan-sinhan-syupeosol-chekeukadeu": "shinhan-sinhan-syupeosol-chekeukadeu",
+    "nh-the-originskadeu": "nh-the-originskadeu",
+    "nh-zgm-reoning": "nh-zgm-reoning",
+    "nh-zgm-jeojangchekeukadeu": "nh-zgm-jeojangchekeukadeu",
+    "nh-olbareunieumchekeukadeu": "nh-olbareunieumchekeukadeu",
+    "nh-olbareunieumkadeu": "nh-olbareunieumkadeu",
+    "nh-nholwondeopulkadeu": "nh-nholwondeopulkadeu",
+    "nh-zgm-seuseurokadeu": "nh-zgm-seuseurokadeu",
+    "nh-nhgeulrobeolwideuchekeukadeu-nh-globalwith-checkcard": "nh-nhgeulrobeolwideuchekeukadeu-nh-globalwith-checkcard",
+    "nh-ieungpaeseu-yeominjeon-chekeukadeu": "nh-ieungpaeseu-yeominjeon-chekeukadeu",
+    "nh-kungyasingsingchekeukadeu": "nh-kungyasingsingchekeukadeu",
+    "nh-keulraesi-teuraebeulkadeu": "nh-keulraesi-teuraebeulkadeu",
+    "nh-mimikadeu": "nh-mimikadeu",
+    "nh-gihudonghaengkadeu-sinyong": "nh-gihudonghaengkadeu-sinyong",
+    "nh-gihudonghaengkadeu-chekeu": "nh-gihudonghaengkadeu-chekeu",
+    "nh-chunsikidaldalchekeukadeu": "nh-chunsikidaldalchekeukadeu",
+    "nh-nhteuraebeulrichekeukadeu": "nh-nhteuraebeulrichekeukadeu",
+    "nh-hieorojeu-chekeukadeu": "nh-hieorojeu-chekeukadeu",
+    "nh-nanakadeu": "nh-nanakadeu",
+    "nh-zgm-halinkadeu": "nh-zgm-halinkadeu",
+    "nh-zgm-pointkadeu": "nh-zgm-pointkadeu",
+    "nh-k-paeseukadeu-chekeu": "nh-k-paeseukadeu-chekeu",
+    "nh-k-paeseukadeu-sinyong": "nh-k-paeseukadeu-sinyong",
+    "nh-jeonnam-kkum-silhyeon-gongsaengkadeu-chekeu": "nh-jeonnam-kkum-silhyeon-gongsaengkadeu-chekeu",
+    "nh-pom-chekeukadeu": "nh-pom-chekeukadeu",
+    "nh-kthalbu-plus-nhnonghyeopkadeu": "nh-kthalbu-plus-nhnonghyeopkadeu",
+    "nh-zgm-livingkadeu": "nh-zgm-livingkadeu",
+    "nh-zgm-shoppingkadeu": "nh-zgm-shoppingkadeu",
+    "nh-nh-mureoki-chekeukadeu": "nh-nh-mureoki-chekeukadeu",
+    "nh-eodirodeun-geurinkadeu": "nh-eodirodeun-geurinkadeu",
+    "nh-zgm-ilbonyeohaengjung-kadeu": "nh-zgm-ilbonyeohaengjung-kadeu",
+    "nh-zgm-playkadeu": "nh-zgm-playkadeu",
+    "nh-zgm-play-plus-plus-kadeu": "nh-zgm-play-plus-plus-kadeu",
+    "nh-zgm-gohyangeurochekeukadeu": "nh-zgm-gohyangeurochekeukadeu",
+    "nh-zgm-gohyangeurokadeu": "nh-zgm-gohyangeurokadeu",
+    "nh-zgm-roundingkadeu": "nh-zgm-roundingkadeu",
+    "nh-zgm-hyugajungkadeu": "nh-zgm-hyugajungkadeu",
+    "nh-namu-nhnonghyeopkadeu": "nh-namu-nhnonghyeopkadeu",
+    "nh-goodgame-chekeukadeu": "nh-goodgame-chekeukadeu",
+    "nh-zgm-the-paykadeu": "nh-zgm-the-paykadeu",
+    "nh-zgm-streamingkadeu": "nh-zgm-streamingkadeu",
+    "nh-olbareunhometownkadeu": "nh-olbareunhometownkadeu",
+    "nh-gsriteil-nhnonghyeopkadeu": "nh-gsriteil-nhnonghyeopkadeu",
+    "nh-gsriteil-nhnonghyeopchekeukadeu": "nh-gsriteil-nhnonghyeopchekeukadeu",
+    "nh-olbareunjigukadeu": "nh-olbareunjigukadeu",
+    "nh-byeoldajulkadeu": "nh-byeoldajulkadeu",
+    "nh-olbareunnew-have-woni-chekeukadeu": "nh-olbareunnew-have-woni-chekeukadeu",
+    "nh-soho-dasaroioilkadeu": "nh-soho-dasaroioilkadeu",
+    "nh-nh1961kadeu": "nh-nh1961kadeu",
+    "nh-nh1961chekeukadeu": "nh-nh1961chekeukadeu",
+    "nh-soho-dasaroikadeu": "nh-soho-dasaroikadeu",
+    "nh-soho-dasaroi-plus-kadeu": "nh-soho-dasaroi-plus-kadeu",
+    "nh-soho-dasaroichekeukadeu": "nh-soho-dasaroichekeukadeu",
+    "nh-on-platinumkadeu-pointeu": "nh-on-platinumkadeu-pointeu",
+    "nh-on-platinumkadeu-seukaipaeseu": "nh-on-platinumkadeu-seukaipaeseu",
+    "nh-on-platinumkadeu-asianakeulreop": "nh-on-platinumkadeu-asianakeulreop",
+    "nh-olbareunflexkadeu": "nh-olbareunflexkadeu",
+    "nh-olri-point-chekeukadeu": "nh-olri-point-chekeukadeu",
+    "nh-olbareunnew-have-plus-kadeu": "nh-olbareunnew-have-plus-kadeu",
+    "nh-olbareunnew-havekadeu": "nh-olbareunnew-havekadeu",
+    "nh-olbareunnew-havechekeukadeu": "nh-olbareunnew-havechekeukadeu",
+    "nh-olbareunoil-passkadeu": "nh-olbareunoil-passkadeu",
+    "nh-eopichi-seuwit-chekeukadeu": "nh-eopichi-seuwit-chekeukadeu",
+    "nh-olbareunmypick-kadeu": "nh-olbareunmypick-kadeu",
+    "nh-wi-terakadeu-seukaipaeseu": "nh-wi-terakadeu-seukaipaeseu",
+    "nh-wi-terakadeu-asianakeulreop": "nh-wi-terakadeu-asianakeulreop",
+    "nh-wi-terakadeu-pointeu": "nh-wi-terakadeu-pointeu",
+    "nh-wi-reakadeu-pointeu": "nh-wi-reakadeu-pointeu",
+    "nh-wi-reakadeu-seukaipaeseu": "nh-wi-reakadeu-seukaipaeseu",
+    "nh-wi-reakadeu-asianakeulreop": "nh-wi-reakadeu-asianakeulreop",
+    "nh-olbareunsafe-platinumkadeu": "nh-olbareunsafe-platinumkadeu",
+    "nh-olbareunsafekadeu": "nh-olbareunsafekadeu",
+    "nh-olbareungive-kadeu": "nh-olbareungive-kadeu",
+    "nh-raieon-chijeu-chekeukadeu": "nh-raieon-chijeu-chekeukadeu",
+    "nh-nhnonghyeop-olbareunhanaro-hanaro-chekeukadeu": "nh-nhnonghyeop-olbareunhanaro-hanaro-chekeukadeu",
+    "nh-nhnonghyeop-olbareunhanaro-hanaro-kadeu": "nh-nhnonghyeop-olbareunhanaro-hanaro-kadeu",
+    "nh-nhnonghyeop-olbareunlifekadeu-jeokriphyeong": "nh-nhnonghyeop-olbareunlifekadeu-jeokriphyeong",
+    "nh-nhnonghyeop-olbareunlifekadeu-halinhyeong": "nh-nhnonghyeop-olbareunlifekadeu-halinhyeong",
+    "nh-nh1934-chekeukadeu": "nh-nh1934-chekeukadeu",
+    "nh-jeokripjoakadeu": "nh-jeokripjoakadeu",
+    "nh-halinjoakadeu": "nh-halinjoakadeu",
+    "nh-syopingjoakadeu": "nh-syopingjoakadeu",
+    "nh-olbareunbazic-kadeu": "nh-olbareunbazic-kadeu",
+    "nh-olbareunbazic-plus-kadeu": "nh-olbareunbazic-plus-kadeu",
+    "nh-olbareunpoint-up-kadeu": "nh-olbareunpoint-up-kadeu",
+    "nh-olbareunpoint-up-plus-kadeu": "nh-olbareunpoint-up-plus-kadeu",
+    "nh-olbareunedu-kadeu": "nh-olbareunedu-kadeu",
+    "nh-petbeulri-petvely-kadeu": "nh-petbeulri-petvely-kadeu",
+    "nh-traiteukadeu": "nh-traiteukadeu",
+    "nh-olbareunoilkadeu": "nh-olbareunoilkadeu",
+    "nh-ktsupeohalbukadeu-bissi": "nh-ktsupeohalbukadeu-bissi",
+    "nh-olbareunglobalchekeukadeu": "nh-olbareunglobalchekeukadeu",
+    "nh-olbareuntravelkadeu-ilbonteukhwa": "nh-olbareuntravelkadeu-ilbonteukhwa",
+    "nh-olbareuntravelkadeu-junggukteukhwa": "nh-olbareuntravelkadeu-junggukteukhwa",
+    "nh-nholwon-lgjeonjabestkadeu": "nh-nholwon-lgjeonjabestkadeu",
+    "nh-nholwon-shopping-tlckadeu": "nh-nholwon-shopping-tlckadeu",
+    "nh-nholwon-lgu-plus-kadeu": "nh-nholwon-lgu-plus-kadeu",
+    "nh-kokkadeu": "nh-kokkadeu",
+    "nh-kokchekeukadeu": "nh-kokchekeukadeu",
+    "nh-nh20haebomkadeu": "nh-nh20haebomkadeu",
+    "nh-bujadoeseyo-apateukadeu-bissi": "nh-bujadoeseyo-apateukadeu-bissi",
+    "nh-nh20haebomchekeukadeu": "nh-nh20haebomchekeukadeu",
+    "nh-solsol-ssolssol-kadeu": "nh-solsol-ssolssol-kadeu",
+    "nh-solsol-plus-plus-ssolssoltupeulreoseu-kadeu": "nh-solsol-plus-plus-ssolssoltupeulreoseu-kadeu",
+    "nh-nholwon-paikadeu": "nh-nholwon-paikadeu",
+    "nh-wikadeu": "nh-wikadeu",
+    "nh-gwangjugyoyuk-kkumdeurimikadeu-chekeu": "nh-gwangjugyoyuk-kkumdeurimikadeu-chekeu",
+    "nh-nh-fit-gibongyotong-chekeukadeu": "nh-nh-fit-gibongyotong-chekeukadeu",
+    "nh-nhdaehanmingukhieorokadeu-chekeu": "nh-nhdaehanmingukhieorokadeu-chekeu",
+    "nh-seoulgyoyuksarangkadeu-gaeinchekeu": "nh-seoulgyoyuksarangkadeu-gaeinchekeu",
+    "nh-seoulgyoyuksarangkadeu-gaeinsinyong": "nh-seoulgyoyuksarangkadeu-gaeinsinyong",
+    "nh-gyeongsangnamdogyoyukcheong-kkumdidimkadeu-chekeu": "nh-gyeongsangnamdogyoyukcheong-kkumdidimkadeu-chekeu",
+    "nh-gyeongsangnamdogyoyukcheong-dajanyeokadeu-chekeu": "nh-gyeongsangnamdogyoyukcheong-dajanyeokadeu-chekeu",
+    "nh-chungbuk-dajanyeo-haengbokkadeu-chekeu": "nh-chungbuk-dajanyeo-haengbokkadeu-chekeu",
+    "nh-ing-plus-syappingpeulreoseu-kadeu": "nh-ing-plus-syappingpeulreoseu-kadeu",
+    "nh-me-plus-mipeulreoseu-kadeu": "nh-me-plus-mipeulreoseu-kadeu",
+    "nh-free-peuriaen-kadeu": "nh-free-peuriaen-kadeu",
+    "nh-ing-syapping-kadeu": "nh-ing-syapping-kadeu",
+    "nh-nholwon-plus-peulreoseu-kadeu": "nh-nholwon-plus-peulreoseu-kadeu",
+    "nh-nholwon-all100kadeu": "nh-nholwon-all100kadeu",
+    "nh-jeonbuk-new-aijoakadeu-sinyong": "nh-jeonbuk-new-aijoakadeu-sinyong",
+    "nh-jeonbuk-new-aijoakadeu-chekeu": "nh-jeonbuk-new-aijoakadeu-chekeu",
+    "nh-jejugyotongbokjikadeu-sinyong": "nh-jejugyotongbokjikadeu-sinyong",
+    "nh-jejugyotongbokjikadeu-chekeu": "nh-jejugyotongbokjikadeu-chekeu",
+    "nh-nh-fit-sinyonghalinhyeong-daehangungdohyeophoe": "nh-nh-fit-sinyonghalinhyeong-daehangungdohyeophoe",
+    "nh-nh-fit-chekeuhalinhyeong-daehangungdohyeophoe": "nh-nh-fit-chekeuhalinhyeong-daehangungdohyeophoe",
+    "nh-nh-fit-sinyonghalinhyeong-gyeongnamfc": "nh-nh-fit-sinyonghalinhyeong-gyeongnamfc",
+    "nh-nh-fit-chekeuhalinhyeong-gyeongnamfc": "nh-nh-fit-chekeuhalinhyeong-gyeongnamfc",
+    "nh-nhdaehanmingukhieorokadeu-sinyong": "nh-nhdaehanmingukhieorokadeu-sinyong",
+    "nh-new-jejuaisaranghaengbokkadeu-sinyong": "nh-new-jejuaisaranghaengbokkadeu-sinyong",
+    "nh-new-jejuaisaranghaengbokkadeu-chekeu": "nh-new-jejuaisaranghaengbokkadeu-chekeu",
+    "nh-incheon-newaimoakadeu-sinyong": "nh-incheon-newaimoakadeu-sinyong",
+    "nh-incheon-newaimoakadeu-chekeu": "nh-incheon-newaimoakadeu-chekeu",
+    "nh-chungnam-dajanyeohaengbokkiumkadeu-sinyong": "nh-chungnam-dajanyeohaengbokkiumkadeu-sinyong",
+    "nh-chungnam-dajanyeohaengbokkiumkadeu-chekeu": "nh-chungnam-dajanyeohaengbokkiumkadeu-chekeu",
+    "nh-new-gyeonggi-i-pluskadeu-sinyong": "nh-new-gyeonggi-i-pluskadeu-sinyong",
+    "nh-gyeongnam-aidanurikadeu-sinyong": "nh-gyeongnam-aidanurikadeu-sinyong",
+    "nh-gyeongnam-aidanurikadeu-chekeu": "nh-gyeongnam-aidanurikadeu-chekeu",
+    "nh-naeilbaeumkadeu-sinyong": "nh-naeilbaeumkadeu-sinyong",
+    "nh-nholwon-rental-badipeuraendeukadeu": "nh-nholwon-rental-badipeuraendeukadeu",
+    "nh-nholwon-direct-dbsonhaeboheomkadeu": "nh-nholwon-direct-dbsonhaeboheomkadeu",
+    "nh-nholwon-rental-koweikadeu": "nh-nholwon-rental-koweikadeu",
+    "nh-nholwon-shopping-amorepacifickadeu": "nh-nholwon-shopping-amorepacifickadeu",
+    "nh-nholwon-rental-neksentaieokadeu": "nh-nholwon-rental-neksentaieokadeu",
+    "nh-enaradoumchekeukadeu": "nh-enaradoumchekeukadeu",
+    "nh-newhubulhaipaeseukadeu": "nh-newhubulhaipaeseukadeu",
+    "nh-gukminhaengbokkadeu-sinyong": "nh-gukminhaengbokkadeu-sinyong",
+    "nh-gukminhaengbokkadeu-chekeu": "nh-gukminhaengbokkadeu-chekeu",
+    "nh-gukminyeongeumjeungchekeukadeu": "nh-gukminyeongeumjeungchekeukadeu",
+    "nh-naeilbaeumchekeukadeu": "nh-naeilbaeumchekeukadeu",
+    "nh-gongmuwonyeongeumchekeukadeu-jaejik-bissi": "nh-gongmuwonyeongeumchekeukadeu-jaejik-bissi",
+    "nh-gongmuwonyeongeumchekeukadeu-toejik-bissi": "nh-gongmuwonyeongeumchekeukadeu-toejik-bissi",
+    "nh-chaeum-asianakeulreop-asiana-club-kadeu": "nh-chaeum-asianakeulreop-asiana-club-kadeu",
+    "nh-chaeum-seukaipaeseu-skypass-kadeu": "nh-chaeum-seukaipaeseu-skypass-kadeu",
+    "kakao-friends-check": "kakao-friends-check",
+    "kakao-moim-check": "kakao-moim-check",
+    "kakao-soho-check": "kakao-soho-check",
+    "toss-check-card": "toss-check-card",
+    "ibk-i-pokemon-check": "ibk-i-pokemon-check"
+  },
+  "official_by_issuer": {
+    "woori": 87,
+    "shinhan": 104,
+    "samsung": 163,
+    "hyundai": 112,
+    "kb": 81,
+    "hana": 56,
+    "lotte": 34,
+    "nh": 153,
+    "bc": 21,
+    "kakao": 3,
+    "toss": 1,
+    "ibk": 1
+  }
+}

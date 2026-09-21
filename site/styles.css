@@ -500,3 +500,19 @@ summary { cursor: pointer; }
 .coverage-gaps ul { padding-left: 20px; margin: 8px 0; }
 .coverage-gaps a { color: var(--accent); }
 .card > .badge-picking { align-self: flex-start; margin: -4px 0 10px; }
+
+/* Rotate only portrait source artwork in the presentation; original bytes stay intact. */
+.card-artwork { height: 164px; }
+.card-artwork img { width: 200px; height: 130px; }
+.card-artwork img.portrait-to-landscape { width: 130px; height: 200px; transform: rotate(-90deg); }
+.artwork-button:hover img.portrait-to-landscape { transform: translateY(-4px) rotate(-90deg); }
+.card-artwork-detail { height: 230px; }
+.card-artwork-detail img { width: 300px; height: 194px; }
+.card-artwork-detail img.portrait-to-landscape { width: 194px; height: 300px; }
+.archive-note { font-size: .75rem; color: #785012; }
+.archive-open { margin-top: auto; }
+.archive-benefit { white-space: pre-line; font-size: .9rem; }
+.load-more { display: block; width: min(100%, 320px); margin: 0 auto 32px; }
+.load-more[hidden] { display: none; }
+.controls .catalog-control { grid-column: 1 / -1; flex-direction: row; align-items: center; gap: 12px; }
+.catalog-control select { max-width: 260px; }

@@ -1,5 +1,6 @@
+import { mergeCatalog } from './catalog.js';
 import { computePickingRate, pickingCaveat, formatKrw, PICKING_STATUS } from './picking.js';
-import { emptyFilters, matches, sortCards, minTier } from './filters.js';
+import { emptyFilters, matches, sortCards, minTier } from './filters.js?v=full-catalog-3';
 import { freshness, taxLabel, reviewLabel, coverageRows, eventPeriod, koreanToday } from './evidence.js';
 
 const CATEGORY_LABELS = {
@@ -25,6 +26,8 @@ const CONFIDENCE_LABELS = { high: '높음', medium: '보통', low: '낮음' };
 
 const state = {
   cards: [],
+  catalog: null,
+  visibleLimit: 60,
   images: {},
   issuers: new Map(),
   generatedAt: '',
@@ -52,7 +55,7 @@ function create(tag, className, textContent) {
 
 async function fetchDocument(url, optional = false) {
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, {cache: 'no-cache'});
     if (!response.ok) throw new Error(`${url} (HTTP ${response.status})`);
     return await response.json();
   } catch (error) {
@@ -62,13 +65,19 @@ async function fetchDocument(url, optional = false) {
 }
 
 async function load() {
-  const [cardsDoc, issuersDoc, imagesDoc] = await Promise.all([
+  const [cardsDoc, issuersDoc, imagesDoc, archiveDoc] = await Promise.all([
     fetchDocument('cards.json'),
     fetchDocument('issuers.json'),
     fetchDocument('card-images.json', true),
+    fetchDocument('archive-catalog.json'),
   ]);
-  state.cards = cardsDoc.cards;
-  state.images = imagesDoc?.images ?? {};
+  state.catalog = mergeCatalog(cardsDoc.cards, archiveDoc.cards);
+  state.cards = state.catalog.cards;
+  state.images = {...archiveDoc.images, ...(imagesDoc?.images ?? {})};
+  for (const match of state.catalog.matched) {
+    if (!state.images[match.official_id] && archiveDoc.images[match.archive_id]) state.images[match.official_id] = archiveDoc.images[match.archive_id];
+  }
+  for (const i of archiveDoc.issuers) state.issuers.set(i.key, i);
   state.generatedAt = cardsDoc.generated_at;
   for (const i of issuersDoc.issuers) state.issuers.set(i.key, i);
 
@@ -78,7 +87,7 @@ async function load() {
   render();
 
   renderOverview();
-  text(el('meta-line'), `데이터 파일 생성일 ${state.generatedAt} · 각 카드의 확인일은 실제 원문 수집일 기준입니다.`);
+  text(el('meta-line'), `공식 데이터 생성일 ${state.generatedAt} · 이전 파일 기준일 2026-07-01 · 공식 수록과 현재 발급 가능 여부는 다릅니다.`);
   [state.collectionReport, state.eventsDoc] = await Promise.all([
     fetchDocument('collection-report.json', true), fetchDocument('card-events.json', true),
   ]);
@@ -139,14 +148,14 @@ function renderOverview() {
   const stale = cards.filter((c) => freshness(c).key === 'stale').length;
   const stats = el('data-stats');
   stats.replaceChildren();
-  for (const [label, value] of [['저장 카드', `${cards.length}장`], ['수록 카드사', `${collected.size}곳`], ['30일 이내 확인', `${recent}장`], ['재확인 필요', `${stale}장`]]) {
+  for (const [label, value] of [['통합 목록', `${cards.length}개`], ['이전 목록 복구', `${state.catalog.archive_total}개`], ['공식 원문 수록', `${state.catalog.official_total}개`], ['공식 재확인 전', `${state.catalog.archive_unmatched}개`]]) {
     const item = create('div', 'stat');
     item.append(create('span', 'stat-label', label), create('strong', null, value));
     stats.append(item);
   }
-  const rows = coverageRows(cards, [...state.issuers.values()], state.collectionReport);
-  text(el('coverage-summary'), `수록 ${collected.size} / 조사 대상 ${rows.length}곳`);
-  const missingDate = cards.length - recent - stale;
+  const rows = coverageRows(cards.filter(c => c.catalog_origin === 'official'), [...state.issuers.values()], state.collectionReport);
+  text(el('coverage-summary'), `발행사·서비스 ${collected.size}곳 · 이전 자료와 공식 원문 구분`);
+  const missingDate = cards.filter(c => c.catalog_origin === 'official').length - recent - stale;
   const report = state.collectionReport;
   const transportName = report?.transport === 'brightdata_web_unlocker' ? 'Bright Data' : report?.transport === 'direct_official_http' ? '공식 사이트 직접 수집' : '수집 방식 미기재';
   text(el('collection-note'), (report
@@ -163,7 +172,8 @@ function renderOverview() {
       ? [['시도', row.run.attempted], ['성공', row.run.succeeded], ['실패', row.run.failed], ['갱신', row.run.updated_cards], ['이전 유지', row.run.retained_cards]]
         .filter(([, value]) => Number.isFinite(value)).map(([key, value]) => `${key} ${value}`).join(' · ') || '건수 미기재'
       : '미확인';
-    tr.append(label, create('td', null, `${row.count}장`), create('td', null, row.label), create('td', null, result),
+    const archivedCount = cards.filter(c => c.issuer === row.key && c.catalog_origin === 'archive').length;
+    tr.append(label, create('td', null, `공식 ${row.count} · 이전 ${archivedCount}`), create('td', null, row.label), create('td', null, result),
       create('td', 'coverage-note', [row.run?.checked_at, row.note].filter(Boolean).join(' · ') || '—'));
     body.append(tr);
   }
@@ -211,7 +221,7 @@ function bindControls() {
     state.filters.q = e.target.value.trim();
     render();
   });
-  for (const key of ['issuer', 'cardType', 'maxFee', 'maxSpend', 'taxSpend', 'taxRewards', 'freshness', 'reviewStatus']) {
+  for (const key of ['catalogOrigin', 'issuer', 'cardType', 'maxFee', 'maxSpend', 'taxSpend', 'taxRewards', 'freshness', 'reviewStatus']) {
     el(key).addEventListener('change', (e) => {
       state.filters[key] = e.target.value;
       render();
@@ -221,6 +231,7 @@ function bindControls() {
     state.sort = e.target.value;
     render();
   });
+  el('load-more').addEventListener('click', () => { state.visibleLimit += 60; render(true); });
   el('detail-close').addEventListener('click', () => el('detail').close());
   el('reset-filters').addEventListener('click', () => {
     state.filters = emptyFilters();
@@ -268,12 +279,15 @@ function taxSummary(card) {
 function cardArtwork(card, detail = false) {
   const image = state.images[card.id];
   const box = create('div', `card-artwork${detail ? ' card-artwork-detail' : ''}`);
-  if (!image?.src || !/^images\/cards\/[a-f0-9]+\.(png|jpg|gif|webp)$/.test(image.src)) {
+  if (!image?.src || !/^images\/(cards|archive)\/[a-f0-9]+\.(png|jpg|gif|webp)$/.test(image.src)) {
     box.append(create('span', 'artwork-placeholder', '이미지 준비 중'));
     return box;
   }
   const img = create('img');
+  const orient = () => { if (img.naturalHeight > img.naturalWidth) img.classList.add('portrait-to-landscape'); };
+  img.addEventListener('load', orient, {once: true});
   img.src = image.src;
+  if (img.complete) orient();
   img.alt = `${card.name} 카드 디자인`;
   img.loading = detail ? 'eager' : 'lazy';
   img.decoding = 'async';
@@ -298,8 +312,17 @@ function cardRow(card) {
   const tags = create('div', 'tags');
   tags.append(create('span', 'badge', state.issuers.get(card.issuer)?.name ?? card.issuer));
   tags.append(create('span', 'badge', `${CARD_TYPE_LABELS[card.card_type] ?? card.card_type}카드`));
+  tags.append(create('span', `badge ${card.catalog_origin === 'archive' ? 'status-stale' : 'status-fresh'}`, card.catalog_origin === 'archive' ? '이전 자료 · 미확인' : '공식 원문 수록'));
   header.append(tags, create('h2', null, card.name));
   article.append(header);
+  if (card.catalog_origin === 'archive') {
+    article.append(create('p', 'archive-note', `이전 저장 ${card.archive.snapshot_date} · ${card.archive.discontinued_in_snapshot ? '당시 단종 표시' : '현재 발급 상태 미확인'}`));
+    const list = create('ul', 'benefit-list');
+    for (const b of card.benefits.slice(0, 3)) { const li=create('li'); li.append(create('span','cat',CATEGORY_LABELS[b.category] ?? b.category),create('span','btitle',b.title)); list.append(li); }
+    article.append(list, create('p','card-detail-hint','이전 소개 내용입니다. 현재 적용 여부는 공식 재확인 전입니다.'));
+    const btn=create('button','link-btn archive-open','이전 저장 내용 보기');btn.addEventListener('click',()=>openDetail(card));article.append(btn);
+    return article;
+  }
 
   const tier = minTier(card);
   const facts = create('dl', 'card-facts');
@@ -341,7 +364,28 @@ function cardRow(card) {
   return article;
 }
 
+async function openArchiveDetail(card) {
+  const body=el('detail-body');body.replaceChildren();
+  const title=create('h2',null,card.name);title.id='detail-title';
+  body.append(title,cardArtwork(card,true));
+  body.append(create('p','notice notice-warn',`이전 저장 자료 (${card.archive.snapshot_date}). 카드사 공식 원문을 재확인하지 않았습니다. 아래 혜택·연회비·실적은 과거 기록이며 현재 조건으로 사용하지 마세요.`));
+  body.append(create('p',null,card.archive.discontinued_in_snapshot?'이전 파일에서 단종으로 표시된 상품입니다. 현재 상태는 미확인입니다.':'이전 파일에 단종 표시가 없었습니다. 현재 발급 가능 여부는 미확인입니다.'));
+  const dl=create('dl','detail-meta');
+  for(const [k,v] of [['발행사·서비스',card.issuer_name],['이전 연회비',card.archive.annual_fee_text||'미기재'],['이전 전월실적',card.archive.previous_spend_text]])dl.append(create('dt',null,k),create('dd',null,v));
+  body.append(dl,create('h3',null,'이전 저장 혜택'));
+  const content=create('div');content.append(create('p','caveat','저장 내용을 불러오고 있습니다.'));body.append(content);
+  body.append(create('p','source-line',card.source.note));el('detail').showModal();
+  try {
+    if (!/^archive-details\/archive-\d+\.json$/.test(card.archive.detail_src)) throw new Error('Invalid archive path');
+    const doc=await fetchDocument(card.archive.detail_src);
+    if (doc.id !== card.id || !Array.isArray(doc.benefits)) throw new Error('Invalid archive detail');
+    content.replaceChildren();
+    for(const b of doc.benefits)content.append(create('h4',null,b.title),create('p','archive-benefit',b.text));
+  } catch { content.replaceChildren(create('p','caveat','저장 내용을 불러오지 못했습니다. 잠시 후 다시 열어주세요.')); }
+}
+
 function openDetail(card) {
+  if (card.catalog_origin === 'archive') { openArchiveDetail(card); return; }
   const picking = computePickingRate(card);
   const body = el('detail-body');
   body.replaceChildren();
@@ -373,6 +417,7 @@ function openDetail(card) {
     ['원문 검수', reviewLabel(card)],
     ['원문 확인일', `${card.source.retrieved_at || '미확인'} · ${freshness(card).label}`],
     ['레코드 갱신일', card.updated_at],
+    ['현재 발급 상태', '미확인 · 공식 페이지 수록이 발급 가능을 보장하지 않습니다.'],
   ];
   for (const [k, v] of rows) {
     dl.append(create('dt', null, k), create('dd', null, v));
@@ -463,7 +508,8 @@ function openDetail(card) {
   el('detail').showModal();
 }
 
-function render() {
+function render(keepLimit = false) {
+  if (!keepLimit) state.visibleLimit = 60;
   const filtered = sortCards(state.cards.filter((c) => matches(c, state.filters)), state.sort);
   const host = el('results');
   host.replaceChildren();
@@ -471,13 +517,15 @@ function render() {
   if (!filtered.length) {
     host.append(create('p', 'empty', '저장된 자료에서 조건이 확인된 카드가 없습니다. 미확인 값이나 미수집 카드사가 있을 수 있습니다. 필터를 넓혀 다시 살펴보세요.'));
   } else {
-    for (const card of filtered) host.append(cardRow(card));
+    for (const card of filtered.slice(0, state.visibleLimit)) host.append(cardRow(card));
+    el('load-more').textContent = `60개 더 보기 · 남은 ${Math.max(0, filtered.length - state.visibleLimit)}개`;
   }
 
+  el('load-more').hidden = filtered.length <= state.visibleLimit;
   const withPicking = filtered.filter((c) => computePickingRate(c).status === PICKING_STATUS.OK).length;
   text(
     el('summary'),
-    `${filtered.length}장 표시 (전체 ${state.cards.length}장) · 피킹률 산출 가능 ${withPicking}장`,
+    `${filtered.length}개 검색 · ${Math.min(filtered.length, state.visibleLimit)}개 표시 / 통합 ${state.cards.length}개 · 피킹률 산출 가능 ${withPicking}개`,
   );
 }
 

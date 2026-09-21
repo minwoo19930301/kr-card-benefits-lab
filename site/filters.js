@@ -9,7 +9,7 @@ import { freshness, taxState } from './evidence.js';
 const ISSUER_NAMES = { woori: '우리카드', shinhan: '신한카드', samsung: '삼성카드', hyundai: '현대카드', kb: 'KB국민카드', hana: '하나카드', lotte: '롯데카드', nh: 'NH농협카드', bc: 'BC카드' };
 
 export function emptyFilters() {
-  return { q: '', issuer: '', cardType: '', maxFee: '', maxSpend: '', taxSpend: '', taxRewards: '', freshness: '', reviewStatus: '', categories: new Set() };
+  return { q: '', catalogOrigin: '', issuer: '', cardType: '', maxFee: '', maxSpend: '', taxSpend: '', taxRewards: '', freshness: '', reviewStatus: '', categories: new Set() };
 }
 
 /** 카드의 최저 전월실적 구간. 없으면 null. */
@@ -19,6 +19,7 @@ export function minTier(card) {
 }
 
 export function matches(card, filters) {
+  if (filters.catalogOrigin && card.catalog_origin !== filters.catalogOrigin) return false;
   if (filters.issuer && card.issuer !== filters.issuer) return false;
   if (filters.cardType && card.card_type !== filters.cardType) return false;
   if (filters.taxSpend && taxState(card, 'counts_as_spend') !== filters.taxSpend) return false;
@@ -49,7 +50,7 @@ export function matches(card, filters) {
     const needles = filters.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const haystack = [
       card.name,
-      card.issuer, ISSUER_NAMES[card.issuer] || '', card.card_type === 'check' ? '체크카드' : '신용카드',
+      card.issuer_name || '', card.issuer, ISSUER_NAMES[card.issuer] || '', card.card_type === 'check' ? '체크카드' : '신용카드',
       card.tagline ?? '',
       ...(card.benefits ?? []).map((b) => `${b.title} ${b.summary ?? ''}`),
     ]
