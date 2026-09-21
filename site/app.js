@@ -285,81 +285,59 @@ function cardArtwork(card, detail = false) {
 }
 
 function cardRow(card) {
-  const picking = computePickingRate(card);
   const article = create('article', 'card');
   article.dataset.cardId = card.id;
   const checked = freshness(card);
-
   const header = create('header', 'card-head');
-  const h2 = create('h2', null, card.name);
-  header.append(cardArtwork(card), h2);
-
+  const detailBtn = create('button', 'artwork-button');
+  detailBtn.type = 'button';
+  detailBtn.setAttribute('aria-label', `${card.name} 상세 보기`);
+  detailBtn.append(cardArtwork(card));
+  detailBtn.addEventListener('click', () => openDetail(card));
+  header.append(detailBtn);
   const tags = create('div', 'tags');
   tags.append(create('span', 'badge', state.issuers.get(card.issuer)?.name ?? card.issuer));
   tags.append(create('span', 'badge', `${CARD_TYPE_LABELS[card.card_type] ?? card.card_type}카드`));
-  tags.append(
-    create(
-      'span',
-      'badge',
-      `연회비 ${Number.isFinite(card.annual_fee_krw) ? `${card.annual_fee_krw > 0 ? '최저 ' : ''}${formatKrw(card.annual_fee_krw)}` : '미확인'}`,
-    ),
-  );
-  const tier = minTier(card);
-  tags.append(
-    create(
-      'span',
-      'badge',
-      card.no_prev_month_spend_condition
-        ? '전월실적 조건 없음'
-        : tier !== null
-          ? `전월실적 ${formatKrw(tier)}부터`
-          : '전월실적 미확인',
-    ),
-  );
-  tags.append(pickingBadge(picking));
-  tags.append(create('span', `badge status-${checked.key}`, checked.label));
-  header.append(tags);
+  header.append(tags, create('h2', null, card.name));
   article.append(header);
 
-  const evidence = create('p', 'evidence-line');
-  evidence.append(sourceLink(card, card.source.kind === 'issuer_machine_readable_feed' ? '공식 공개 피드' : '공식 상품 원문'),
-    document.createTextNode(` · 확인 ${checked.date || '미확인'} · ${reviewLabel(card)}`));
-  article.append(evidence);
-
-  if (card.tagline) article.append(create('p', 'tagline', card.tagline));
+  const tier = minTier(card);
+  const facts = create('dl', 'card-facts');
+  facts.append(create('dt', null, '연회비'), create('dd', null,
+    Number.isFinite(card.annual_fee_krw) ? `${card.annual_fee_krw > 0 ? '최저 ' : ''}${formatKrw(card.annual_fee_krw)}` : '미확인'));
+  facts.append(create('dt', null, '전월실적'), create('dd', null,
+    card.no_prev_month_spend_condition ? '조건 없음' : tier !== null ? `${formatKrw(tier)}부터` : '미확인'));
+  article.append(facts);
+  const picking = computePickingRate(card);
+  if (picking.status === PICKING_STATUS.OK) article.append(pickingBadge(picking));
 
   const list = create('ul', 'benefit-list');
-  for (const b of card.benefits.slice(0, 4)) {
+  for (const b of card.benefits.slice(0, 3)) {
     const li = create('li');
     li.append(create('span', 'cat', CATEGORY_LABELS[b.category] ?? b.category));
-    li.append(create('span', 'btitle', b.title));
-    const numbers = [];
-    if (Number.isFinite(b.rate_pct)) numbers.push(`최대 ${b.rate_pct}%`);
-    if (Number.isFinite(b.monthly_cap_krw)) numbers.push(`월 한도 ${formatKrw(b.monthly_cap_krw)}`);
-    else if (Number.isFinite(b.monthly_cap_points)) {
-      numbers.push(`월 한도 ${b.monthly_cap_points.toLocaleString('ko-KR')}P`);
-    }
-    if (Number.isFinite(b.per_txn_eligible_spend_cap_krw)) numbers.push(`건당 ${formatKrw(b.per_txn_eligible_spend_cap_krw)}`);
-    if (numbers.length) li.append(create('span', 'nums', numbers.join(' · ')));
+    const title = create('span', 'btitle', b.title);
+    title.title = b.title;
+    li.append(title);
     list.append(li);
   }
-  if (card.benefits.length > 4) {
-    list.append(create('li', 'more', `외 ${card.benefits.length - 4}건`));
-  }
   article.append(list);
-  if (card.confidence === 'low') article.append(create('p', 'caveat', '소개 혜택만 수집한 자료입니다. 적용 가맹점·횟수·실적·제외 조건은 상세와 원문을 확인하세요.'));
+  const more = card.benefits.length > 3 ? `외 ${card.benefits.length - 3}개 혜택 · ` : '';
+  article.append(create('p', 'card-detail-hint', `${more}한도·제외 조건은 상세에서 확인`));
   article.append(taxSummary(card));
 
+  const evidence = create('p', 'evidence-line');
+  evidence.append(create('span', `badge status-${checked.key}`, checked.label),
+    document.createTextNode(` 확인 ${checked.date || '미확인'}`));
+  article.append(evidence);
   const actions = create('div', 'actions');
-  const detailBtn = create('button', 'link-btn', '자세히');
-  detailBtn.addEventListener('click', () => openDetail(card));
-  const official = create('a', 'link-btn', '공식 상품 페이지');
+  const open = create('button', 'link-btn primary-btn', '혜택 자세히');
+  open.addEventListener('click', () => openDetail(card));
+  const official = create('a', 'link-btn', '공식 원문');
   official.href = card.product_url;
   official.rel = 'noopener noreferrer nofollow';
   official.target = '_blank';
-  actions.append(detailBtn, official);
+  actions.append(open, official);
   article.append(actions);
-
   return article;
 }
 
@@ -371,6 +349,7 @@ function openDetail(card) {
   const title = create('h2', null, card.name);
   title.id = 'detail-title';
   body.append(title, cardArtwork(card, true));
+  if (card.tagline) body.append(create('p', 'tagline', card.tagline));
 
   const dl = create('dl', 'detail-meta');
   const rows = [
