@@ -1,0 +1,3031 @@
+{
+  "generated_at": "2026-09-21T14:42:29.065249+00:00",
+  "images": {
+    "bc-bc-baro-eeo-maekseu": {
+      "src": "images/cards/c6751102452af531d8da.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_104453_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104453&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:52.228Z",
+      "retrieved_at": "2026-09-21T14:37:26.764557+00:00",
+      "sha256": "c6751102452af531d8daff03e0280d5f67d82f64231cca882d666c59e05d911e",
+      "bytes": 62945
+    },
+    "bc-bc-baro-eeo-maseuteo": {
+      "src": "images/cards/37f67164e2cc429b2285.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_104452_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104452&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:46:57.583Z",
+      "retrieved_at": "2026-09-21T14:37:28.078670+00:00",
+      "sha256": "37f67164e2cc429b228580ab3b1394ab21f21960bcd20f0669fd8ee0de94217c",
+      "bytes": 1033832
+    },
+    "bc-bc-baro-kapick": {
+      "src": "images/cards/812210181fb8f9b4028f.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/share_103862.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103862&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:48:07.557Z",
+      "retrieved_at": "2026-09-21T14:39:18.039707+00:00",
+      "sha256": "812210181fb8f9b4028fd8d6eeb458855c3090748b2c3cb1589604e49c741bfa",
+      "bytes": 87769
+    },
+    "bc-bc-baro-keulrieo-peulreoseu": {
+      "src": "images/cards/4bab011a0471fea516b2.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_101922_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101922&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:48:08.123Z",
+      "retrieved_at": "2026-09-21T14:37:27.757823+00:00",
+      "sha256": "4bab011a0471fea516b2bf6928310ea6bb89b7972a9bda895e08cb8c549f292f",
+      "bytes": 649385
+    },
+    "bc-bc-baro-on-off-kadeu": {
+      "src": "images/cards/c65e8171b3d256cb6d00.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/share_102040.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=102040&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:56.000Z",
+      "retrieved_at": "2026-09-21T14:39:19.680477+00:00",
+      "sha256": "c65e8171b3d256cb6d00d8bd9dc2ea0e927a83ca9227dbee4d6bdf33b2b84cde",
+      "bytes": 449151
+    },
+    "bc-bc-baro-zone-kadeu": {
+      "src": "images/cards/ca0c812ce2d02c160522.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_104520_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104520&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:50:09.650Z",
+      "retrieved_at": "2026-09-21T14:37:26.927994+00:00",
+      "sha256": "ca0c812ce2d02c160522d60159d5484e0b045cf2a385c066badd9746b7221f8a",
+      "bytes": 98399
+    },
+    "bc-bc-hubulhaipaeseukadeu-kadeuhyeong": {
+      "src": "images/cards/4f22cf14177de1ba4e5e.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_103183_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103183&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:55.448Z",
+      "retrieved_at": "2026-09-21T14:37:26.679193+00:00",
+      "sha256": "4f22cf14177de1ba4e5eabfcc829ca1563dfc6aed338325289172c40554b5486",
+      "bytes": 21645
+    },
+    "bc-bc-hubulhaipaeseukadeu-simtaip": {
+      "src": "images/cards/d037e819de34443cb4d9.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_103132.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103132&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:55.025Z",
+      "retrieved_at": "2026-09-21T14:37:26.988726+00:00",
+      "sha256": "d037e819de34443cb4d9348f79788702f9529209e516c72692516059fa0e30ae",
+      "bytes": 108157
+    },
+    "bc-bcbaro-macao-kadeu": {
+      "src": "images/cards/9f5130da63f1426e2aa4.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/share_101010.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101010&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:53.330Z",
+      "retrieved_at": "2026-09-21T14:39:18.310539+00:00",
+      "sha256": "9f5130da63f1426e2aa4b3d60a9f60fbe921d7b0f7301a7c57b3c409ba2572a8",
+      "bytes": 186050
+    },
+    "bc-geurinkadeu": {
+      "src": "images/cards/717ed5e030c772bd59c1.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_100980.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=100980&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:59.989Z",
+      "retrieved_at": "2026-09-21T14:37:26.753847+00:00",
+      "sha256": "717ed5e030c772bd59c13831693db54242a8260757a119055683ca07a86fb586",
+      "bytes": 71882
+    },
+    "bc-k-paeseu-kadeu": {
+      "src": "images/cards/945b7a72db99daec8665.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/share_103112.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103112&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:56.485Z",
+      "retrieved_at": "2026-09-21T14:39:18.120828+00:00",
+      "sha256": "945b7a72db99daec8665d20d6acc14c275aeb691b3bb50e23dda784c5f3792fc",
+      "bytes": 178884
+    },
+    "bc-keibaengkeu-hideunkadeu": {
+      "src": "images/cards/f230730b5fc3f8471472.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_105000_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=105000&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:53:42.942Z",
+      "retrieved_at": "2026-09-21T14:37:26.896208+00:00",
+      "sha256": "f230730b5fc3f8471472a946645297126c4ec64684ffb46fade07057dbcff539",
+      "bytes": 87815
+    },
+    "bc-kt-dc-plus": {
+      "src": "images/cards/92f82b258ac85426e70a.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/share_103125.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=103125&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:54:28.044Z",
+      "retrieved_at": "2026-09-21T14:39:18.045203+00:00",
+      "sha256": "92f82b258ac85426e70a141cea5499b47dcba493d72807df830cfe6502ef651e",
+      "bytes": 167877
+    },
+    "bc-kt-super-dc-bc-barokadeu": {
+      "src": "images/cards/ba24b21b6c67a32090a2.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_104063_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=104063&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:52.608Z",
+      "retrieved_at": "2026-09-21T14:37:27.872530+00:00",
+      "sha256": "ba24b21b6c67a32090a22c42cd76e258b27ad95137e8a1c3a961d4922de87460",
+      "bytes": 495437
+    },
+    "bc-peibukkadeu": {
+      "src": "images/cards/acaeb3d13ddb9a24ac62.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_105052_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=105052&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:50.059Z",
+      "retrieved_at": "2026-09-21T14:37:27.645784+00:00",
+      "sha256": "acaeb3d13ddb9a24ac620b5fccdab799b3ae3675c9204a9edde977b6db06e84a",
+      "bytes": 556723
+    },
+    "bc-roseuteuakeu-kadeu": {
+      "src": "images/cards/9361d5e5b17f66c27511.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_101686.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101686&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:59.582Z",
+      "retrieved_at": "2026-09-21T14:37:27.050045+00:00",
+      "sha256": "9361d5e5b17f66c275112049eb45e702805eb2b20a3ac30744ed0bc2756f526c",
+      "bytes": 131667
+    },
+    "bc-sinsegye-bc-baro-keulrieo-peulreoseu": {
+      "src": "images/cards/4cf3166778708140ee69.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_101881_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101881&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:56:51.466Z",
+      "retrieved_at": "2026-09-21T14:37:26.994959+00:00",
+      "sha256": "4cf3166778708140ee69ed73d7377cc8425e2057f93c14caa0e907b25c7da288",
+      "bytes": 92798
+    },
+    "bc-sinsegye-bc-baro-kwateuro-peulreoseu": {
+      "src": "images/cards/99245a629006d42f9de0.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_101874_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101874&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:57.507Z",
+      "retrieved_at": "2026-09-21T14:37:27.446019+00:00",
+      "sha256": "99245a629006d42f9de05a25850a68d032a70e01cb26cfd28c5b03f8d09a684f",
+      "bytes": 91187
+    },
+    "bc-sinsegye-bc-baro-riwodeu-peulreoseu": {
+      "src": "images/cards/3e7a855fa26cc8a9f1ae.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_101877_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101877&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:58.928Z",
+      "retrieved_at": "2026-09-21T14:37:27.913913+00:00",
+      "sha256": "3e7a855fa26cc8a9f1ae94c5d35df07804991fc2e67f3af5af9f3e10e7006d81",
+      "bytes": 257960
+    },
+    "bc-sinsegye-bc-baro-seven-flex": {
+      "src": "images/cards/52b2011628acd6a3d265.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_101883_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101883&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:58.028Z",
+      "retrieved_at": "2026-09-21T14:37:27.599203+00:00",
+      "sha256": "52b2011628acd6a3d2650a6dd35b45ee3b79ab75e5faf5c17da42111787df633",
+      "bytes": 89256
+    },
+    "bc-sinsegye-pubilra-bc-barokadeu": {
+      "src": "images/cards/f6c21c465cedefdf6d53.png",
+      "image_url": "https://www.bccard.com/images/individual/card/renew/list/card_102603_a.png",
+      "source_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=102603&mbkNo=050",
+      "source_retrieved_at": "2026-09-20T16:05:57.012Z",
+      "retrieved_at": "2026-09-21T14:37:28.538571+00:00",
+      "sha256": "f6c21c465cedefdf6d539301d135a10e6dd1974d3a52aff5e6520578e26bcdd3",
+      "bytes": 760264
+    },
+    "hana-aeteomi-any-plus-kadeu": {
+      "src": "images/cards/057eb3a4b8e4b10fb039.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/12660.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=11584&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:48:10.344Z",
+      "retrieved_at": "2026-09-21T14:37:27.990513+00:00",
+      "sha256": "057eb3a4b8e4b10fb0390b2d4980b4a48eaef0e7c20331c461c724b8c100c62d",
+      "bytes": 37599
+    },
+    "hana-ajeongdang-hanakadeu": {
+      "src": "images/cards/414d874f55df83bb8741.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15549.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18835&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:48:09.712Z",
+      "retrieved_at": "2026-09-21T14:37:28.400073+00:00",
+      "sha256": "414d874f55df83bb874151746c7f40da592532641b9dff19d95a31a0966e5daf",
+      "bytes": 339444
+    },
+    "hana-biba-g-peulraetinyum-chekeukadeu": {
+      "src": "images/cards/087cb1d7179a89194391.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/04257.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=2338&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:48:09.857Z",
+      "retrieved_at": "2026-09-21T14:37:28.782823+00:00",
+      "sha256": "087cb1d7179a891943910acd79fd56d7e200b33be56ec4e610e20e63d72d27bb",
+      "bytes": 652585
+    },
+    "hana-club-sk-keulreop-sk-kadeu": {
+      "src": "images/cards/51392f73ad283ac25ac4.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/03496.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=1544&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:48:10.558Z",
+      "retrieved_at": "2026-09-21T14:37:28.125155+00:00",
+      "sha256": "51392f73ad283ac25ac40ba7416f7d777cbb1e272bafa948c4d3b5152e4a25b3",
+      "bytes": 90529
+    },
+    "hana-daldal-hana-chekeukadeu": {
+      "src": "images/cards/c2f28551a7913b71efc8.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15114.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18058&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:04.137Z",
+      "retrieved_at": "2026-09-21T14:37:28.207761+00:00",
+      "sha256": "c2f28551a7913b71efc847e5aea3afa107087727fb3bd1e1d0f796823c728da8",
+      "bytes": 169288
+    },
+    "hana-deo-simpeul-chekeukadeu": {
+      "src": "images/cards/38df703cfb7778e5c76f.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15245.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18271&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:03.589Z",
+      "retrieved_at": "2026-09-21T14:37:28.999905+00:00",
+      "sha256": "38df703cfb7778e5c76f8c7434033dbb2bb61d0aab585378ea03a28d55b69125",
+      "bytes": 1029382
+    },
+    "hana-deo-simpeul-hanakadeu": {
+      "src": "images/cards/a1f4038507f249003ecb.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14527.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=16952&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:59.481Z",
+      "retrieved_at": "2026-09-21T14:37:28.681633+00:00",
+      "sha256": "a1f4038507f249003ecbc667676fb4632fba37244e4ff65a3cec4e0c128ebe31",
+      "bytes": 685055
+    },
+    "hana-haimateu-hanakadeu": {
+      "src": "images/cards/bdd47128e267c7242fe4.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15342.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18463",
+      "source_retrieved_at": "2026-09-20T16:06:07.143Z",
+      "retrieved_at": "2026-09-21T14:37:28.168271+00:00",
+      "sha256": "bdd47128e267c7242fe4eb8acdadf98f8e7cf0f8662d3ccbe3ce7befddf984b1",
+      "bytes": 47807
+    },
+    "hana-hana-club-h-amerikan-ikseupeureseu-rijeobeu": {
+      "src": "images/cards/904c7084d5f039bbe0ea.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/13898.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15124&mID=PI41015124P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:53.826Z",
+      "retrieved_at": "2026-09-21T14:37:28.636841+00:00",
+      "sha256": "904c7084d5f039bbe0eaf4c634f069db5cc72db3a66d9f7fe6140a19c9c79605",
+      "bytes": 139011
+    },
+    "hana-hana-deo-nekseuteu-membeoseu": {
+      "src": "images/cards/fc80216701fa44a1b1e9.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15299.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18394&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:52.439Z",
+      "retrieved_at": "2026-09-21T14:37:28.931484+00:00",
+      "sha256": "fc80216701fa44a1b1e9d933dcad78456ac4eb85b5c4e0cdacdbde6c2f8cf0ef",
+      "bytes": 447753
+    },
+    "hana-hana-deo-soho-kadeu": {
+      "src": "images/cards/cb010619f1d648f2c98b.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15280.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18409&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:59.835Z",
+      "retrieved_at": "2026-09-21T14:37:29.138319+00:00",
+      "sha256": "cb010619f1d648f2c98b204386fd3e4801e23e51940c9625905d35c000ca09b3",
+      "bytes": 327725
+    },
+    "hana-hana-narasarangkadeu-chekeu": {
+      "src": "images/cards/ac6d1718b806d01648c4.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15475.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18813&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:03.230Z",
+      "retrieved_at": "2026-09-21T14:37:29.611285+00:00",
+      "sha256": "ac6d1718b806d01648c4753c58494e8dee070b087b35e7a577ca1d86a5e89988",
+      "bytes": 580070
+    },
+    "hana-hana-seukaipaeseu-amekseu-peulraetinyum-kadeu": {
+      "src": "images/cards/fa6f187843f1970aa7b6.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/13351.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=13912&mID=PI41013912P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:53.628Z",
+      "retrieved_at": "2026-09-21T14:37:28.823525+00:00",
+      "sha256": "fa6f187843f1970aa7b662f1b5146f6f9637d94a8e366511edc8b9061a2c0b07",
+      "bytes": 130034
+    },
+    "hana-hero-chekeukadeu": {
+      "src": "images/cards/233149c70c88589ef163.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15449.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18643&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:54:57.434Z",
+      "retrieved_at": "2026-09-21T14:37:29.115794+00:00",
+      "sha256": "233149c70c88589ef1638e6d5a81b0c4cf074654ec7df4e6111058b175129af7",
+      "bytes": 380009
+    },
+    "hana-jade-classic": {
+      "src": "images/cards/ea1ba1c312d974fad38c.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14955.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17504&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:00.273Z",
+      "retrieved_at": "2026-09-21T14:37:29.712717+00:00",
+      "sha256": "ea1ba1c312d974fad38c69114981c9bde004f10b4a6950f022f150067cf7a184",
+      "bytes": 762519
+    },
+    "hana-jade-first": {
+      "src": "images/cards/21ce8815fe4654109987.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14998.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17770&mID=PI41017770P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:51.169Z",
+      "retrieved_at": "2026-09-21T14:37:29.706417+00:00",
+      "sha256": "21ce8815fe465410998792f74d81d51f3989ec58698010cedaf7109ee3e59855",
+      "bytes": 445632
+    },
+    "hana-jade-first-centum": {
+      "src": "images/cards/c12b16594cf28a7fbaf5.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14999.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17771&mID=PI41017771P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:56:57.115Z",
+      "retrieved_at": "2026-09-21T14:37:29.685016+00:00",
+      "sha256": "c12b16594cf28a7fbaf5b3f63515d6e3fcebe5fa51d2912fa0b97ac429b7918f",
+      "bytes": 284215
+    },
+    "hana-jade-prime": {
+      "src": "images/cards/f7b702bff9d76e83fa84.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14997.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17769&mID=PI41017769P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:50.498Z",
+      "retrieved_at": "2026-09-21T14:37:29.836003+00:00",
+      "sha256": "f7b702bff9d76e83fa84c7b9d5c147308f490574e4c83a33045004dae874cdd8",
+      "bytes": 683558
+    },
+    "hana-k-paeseu-hana-chekeukadeu": {
+      "src": "images/cards/3f8b49951d5ec80bcaa8.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14474.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17033&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:03.017Z",
+      "retrieved_at": "2026-09-21T14:37:29.636160+00:00",
+      "sha256": "3f8b49951d5ec80bcaa8764cdd0586b80d8d4744c4805a3eeaf7fd43404b7c7f",
+      "bytes": 216840
+    },
+    "hana-k-paeseu-hana-sinyongkadeu": {
+      "src": "images/cards/838a9b6887b3d3823a79.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14472.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17016&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:59:06.378Z",
+      "retrieved_at": "2026-09-21T14:37:29.813235+00:00",
+      "sha256": "838a9b6887b3d3823a79fa914e501163a60af88ea1eb2e48aa6334a9c29d8686",
+      "bytes": 229094
+    },
+    "hana-kakaopei-chekeukadeu": {
+      "src": "images/cards/f2b8ef9cb16867daced8.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/04652.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=2931&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:02.352Z",
+      "retrieved_at": "2026-09-21T14:37:29.438446+00:00",
+      "sha256": "f2b8ef9cb16867daced8f0b318a86a48f5cf5ed3c1c1135466d9c32f170f5679",
+      "bytes": 28227
+    },
+    "hana-kakaopei-teuraebeulrogeu-chekeukadeu": {
+      "src": "images/cards/974b910d7030b1373c62.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15172.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18243&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:00.554Z",
+      "retrieved_at": "2026-09-21T14:37:30.027423+00:00",
+      "sha256": "974b910d7030b1373c62bca35140a620f665898d3ffa0b726f297b8e2695a887",
+      "bytes": 482688
+    },
+    "hana-moduui-sinsegye-hanakadeu": {
+      "src": "images/cards/7192f8ba10fa383f4015.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/13367.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=13836&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:05.382Z",
+      "retrieved_at": "2026-09-21T14:37:29.642453+00:00",
+      "sha256": "7192f8ba10fa383f40152ba4b17545a996d87e345eb6dd88e5b33f0b651be7d5",
+      "bytes": 59596
+    },
+    "hana-movingkadeu-alldaymodeu": {
+      "src": "images/cards/47b295aacd3ace369c47.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15725.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19149",
+      "source_retrieved_at": "2026-09-20T16:06:06.257Z",
+      "retrieved_at": "2026-09-21T14:37:29.909303+00:00",
+      "sha256": "47b295aacd3ace369c478bc6e858ff580e1bdb8a59ccf1cc24a2d352ab9ffe2d",
+      "bytes": 110750
+    },
+    "hana-movingkadeu-globalmodeu": {
+      "src": "images/cards/b6a9fb6db36647e8de43.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15729.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19153",
+      "source_retrieved_at": "2026-09-20T16:06:06.879Z",
+      "retrieved_at": "2026-09-21T14:37:29.887382+00:00",
+      "sha256": "b6a9fb6db36647e8de43eb832ac9cff3bf66b844f372db53e8ce4859e7afc395",
+      "bytes": 155542
+    },
+    "hana-movingkadeu-lifemodeu": {
+      "src": "images/cards/773af808196a9048d9b4.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15728.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19152",
+      "source_retrieved_at": "2026-09-20T16:06:06.914Z",
+      "retrieved_at": "2026-09-21T14:37:30.071195+00:00",
+      "sha256": "773af808196a9048d9b472fbc243d604f15487a23454681b0dfe6e9c185efc1e",
+      "bytes": 156655
+    },
+    "hana-movingkadeu-onlinemodeu": {
+      "src": "images/cards/daa2e1d2501f2d9ac09d.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15726.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19150",
+      "source_retrieved_at": "2026-09-20T16:06:06.615Z",
+      "retrieved_at": "2026-09-21T14:37:30.259942+00:00",
+      "sha256": "daa2e1d2501f2d9ac09df68f7d889764dc62276b493d8778fc1b16c832686ced",
+      "bytes": 294983
+    },
+    "hana-movingkadeu-playmodeu": {
+      "src": "images/cards/2df2dbb49b537d36d501.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15727.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=19151",
+      "source_retrieved_at": "2026-09-20T16:06:06.549Z",
+      "retrieved_at": "2026-09-21T14:37:30.216895+00:00",
+      "sha256": "2df2dbb49b537d36d5019f46dec044cdeea4876ee1eb4733435da015cf0238ea",
+      "bytes": 163175
+    },
+    "hana-sinsegye-hana-chekeukadeu": {
+      "src": "images/cards/f3b67ae0a50d3d83839a.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/11990.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=9656&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:04.416Z",
+      "retrieved_at": "2026-09-21T14:37:30.049751+00:00",
+      "sha256": "f3b67ae0a50d3d83839abcf38962df3f1dbfa844af7da85f698ed756c055cfe1",
+      "bytes": 17355
+    },
+    "hana-sinsegye-teuraebeulgo-hanakadeu": {
+      "src": "images/cards/b07004507d0cb961571a.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15282.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18398&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:05.147Z",
+      "retrieved_at": "2026-09-21T14:37:30.576249+00:00",
+      "sha256": "b07004507d0cb961571af0a4b00200f12604772fa22fd09018740e0e94bd8460",
+      "bytes": 489388
+    },
+    "hana-teuraebeulgo-chekeukadeu": {
+      "src": "images/cards/0ce3a9cf7f438aabaf05.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15105.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18064&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:52.181Z",
+      "retrieved_at": "2026-09-21T14:37:30.320000+00:00",
+      "sha256": "0ce3a9cf7f438aabaf055002d000667bc7a465b33944a11d0056f2a0fa6d0c8a",
+      "bytes": 353971
+    },
+    "hana-teuraebeulrogeu-chekeukadeu": {
+      "src": "images/cards/680a60de020770c0a6ba.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/13889.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15414&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:00.852Z",
+      "retrieved_at": "2026-09-21T14:37:31.023437+00:00",
+      "sha256": "680a60de020770c0a6ba21c05646cd20844661be83bef5f38f81f46763fcd67d",
+      "bytes": 979021
+    },
+    "hana-teuraebeulrogeu-prestige-sinyongkadeu": {
+      "src": "images/cards/f9c9ed708794c0d687f9.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15045.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17886&mID=PI41017886P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:54.325Z",
+      "retrieved_at": "2026-09-21T14:37:30.600019+00:00",
+      "sha256": "f9c9ed708794c0d687f930f0036486dc13e3b74c03f2ad6108274efe93dfbf8e",
+      "bytes": 352568
+    },
+    "hana-teuraebeulrogeu-sinyongkadeu": {
+      "src": "images/cards/bf16e5a66b41d40348f4.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14404.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=16787&mID=PI41016787P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:54.837Z",
+      "retrieved_at": "2026-09-21T14:37:33.496626+00:00",
+      "sha256": "bf16e5a66b41d40348f4d49d8a641234c497b92b4ee0548c1cbdb6ee4fc7228b",
+      "bytes": 1751203
+    },
+    "hana-teuraebeulrogeu-skypass-sinyongkadeu": {
+      "src": "images/cards/8e27f7fe9b00ebbe8516.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15041.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17945&mID=PI41017945P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:52.931Z",
+      "retrieved_at": "2026-09-21T14:37:30.774035+00:00",
+      "sha256": "8e27f7fe9b00ebbe8516c4e46690af4ef3e98e447368e4c697d74813fdc50c32",
+      "bytes": 332870
+    },
+    "hana-toseubaengkeu-hanakadeu-wide": {
+      "src": "images/cards/82eccb7f652d96e1b780.gif",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/15024.gif",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=18023&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:04.625Z",
+      "retrieved_at": "2026-09-21T14:37:31.453833+00:00",
+      "sha256": "82eccb7f652d96e1b780ec6f16c9da8d2d6c576637eee2176b7a3df2c5648112",
+      "bytes": 940300
+    },
+    "hana-viva-chekeukadeu": {
+      "src": "images/cards/d336a8eecec181aa6d0d.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/11832.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=9047&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:02.103Z",
+      "retrieved_at": "2026-09-21T14:37:30.283093+00:00",
+      "sha256": "d336a8eecec181aa6d0d73e5a9074023e0fa5ed974c1ae57c132e78e6dadb019",
+      "bytes": 18784
+    },
+    "hana-viva-x-chekeukadeu": {
+      "src": "images/cards/3e79de3429f69947b5fb.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/12882.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=12519&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:06:01.413Z",
+      "retrieved_at": "2026-09-21T14:37:30.622982+00:00",
+      "sha256": "3e79de3429f69947b5fba43e991d8be128f76fc8f9070c9e1c5ec0436dd3302e",
+      "bytes": 170918
+    },
+    "hana-wondeo-krigeu-chukdeokkadeu": {
+      "src": "images/cards/4dcfc7c54be4f4e40ed7.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14956.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17582&mID=PI41006884P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:57.814Z",
+      "retrieved_at": "2026-09-21T14:37:30.992348+00:00",
+      "sha256": "4dcfc7c54be4f4e40ed752faf30014b1aee58b49952a576f5ab31521ba5a54e5",
+      "bytes": 363142
+    },
+    "hana-wondeokadeu-2-0-daily": {
+      "src": "images/cards/7a115089c6ee8b5d2aa6.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14127.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15857&mID=PI41015857P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:56.824Z",
+      "retrieved_at": "2026-09-21T14:37:31.380061+00:00",
+      "sha256": "7a115089c6ee8b5d2aa623f5097e5fb5136e33f973158f96c612bdbed5d6b691",
+      "bytes": 387701
+    },
+    "hana-wondeokadeu-2-0-free": {
+      "src": "images/cards/1ccd748547774c2d13b2.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14126.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15859&mID=PI41015859P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:56.312Z",
+      "retrieved_at": "2026-09-21T14:37:31.270986+00:00",
+      "sha256": "1ccd748547774c2d13b2151a59f4efde0452545f3adc9d2da9cffa4e01e3923d",
+      "bytes": 348420
+    },
+    "hana-wondeokadeu-2-0-free-plus": {
+      "src": "images/cards/47b291ed1e81ba3bf748.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14534.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=16947&mID=PI41016947P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:49.731Z",
+      "retrieved_at": "2026-09-21T14:37:31.276532+00:00",
+      "sha256": "47b291ed1e81ba3bf7485bb1c534c7c680ee46db42efae55e0efbd64cb5bae00",
+      "bytes": 392928
+    },
+    "hana-wondeokadeu-2-0-happy": {
+      "src": "images/cards/cf745571b10c7228390c.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14133.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15861&mID=PI41015861P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:57.330Z",
+      "retrieved_at": "2026-09-21T14:37:31.495938+00:00",
+      "sha256": "cf745571b10c7228390cd996074748fbf4f744e3fd5b90add7c03d8eb888fe22",
+      "bytes": 418477
+    },
+    "hana-wondeokadeu-2-0-living": {
+      "src": "images/cards/450b029e2d86a5997e2a.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14134.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15863&mID=PI41015863P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:55.820Z",
+      "retrieved_at": "2026-09-21T14:37:32.138232+00:00",
+      "sha256": "450b029e2d86a5997e2aacaaaad3a4a83d1628a1f55466a83c97ab171dadd6cf",
+      "bytes": 398511
+    },
+    "hana-wondeokadeu-2-0-t": {
+      "src": "images/cards/ae00e1dd5c98e3282c37.png",
+      "image_url": "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/14135.png",
+      "source_url": "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=15865&mID=PI41015865P&schID=pcd",
+      "source_retrieved_at": "2026-09-20T16:05:55.315Z",
+      "retrieved_at": "2026-09-21T14:37:32.091692+00:00",
+      "sha256": "ae00e1dd5c98e3282c37658dcf067782814918ff9aa4cb7fdf52e180e17cba8b",
+      "bytes": 273504
+    },
+    "hyundai-alpabetkadeub": {
+      "src": "images/cards/93af38423a606c7d334d.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ALB_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALB",
+      "source_retrieved_at": "2026-09-20T16:46:04.678Z",
+      "retrieved_at": "2026-09-21T14:39:17.820834+00:00",
+      "sha256": "93af38423a606c7d334d6db6c0861035441f71cbe321134e3db704dd17a3abfc",
+      "bytes": 438742
+    },
+    "hyundai-alpabetkadeud": {
+      "src": "images/cards/e9fa44dd7b215a0738cf.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_HCD_MM_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCD",
+      "source_retrieved_at": "2026-09-20T16:47:33.212Z",
+      "retrieved_at": "2026-09-21T14:39:18.384873+00:00",
+      "sha256": "e9fa44dd7b215a0738cfb5342796ea475bcb04e1d879fe504be8ef2789498754",
+      "bytes": 438381
+    },
+    "hyundai-alpabetkadeud-bold": {
+      "src": "images/cards/3eaa529638b647bcf891.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ALD_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALD",
+      "source_retrieved_at": "2026-09-20T16:48:31.956Z",
+      "retrieved_at": "2026-09-21T14:39:18.181495+00:00",
+      "sha256": "3eaa529638b647bcf891d9661e965aab6b0524129e5feaec6bbbacb124e6457f",
+      "bytes": 424284
+    },
+    "hyundai-alpabetkadeuh": {
+      "src": "images/cards/878a0952b432ff684375.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_HCH_MM_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCH",
+      "source_retrieved_at": "2026-09-20T16:48:29.921Z",
+      "retrieved_at": "2026-09-21T14:39:18.185948+00:00",
+      "sha256": "878a0952b432ff68437592b722ef233af46574a2c51de622cd71b5f0f2a0ddcf",
+      "bytes": 476674
+    },
+    "hyundai-alpabetkadeuo": {
+      "src": "images/cards/f3b61d70b5460ea6605e.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_HCO_MM_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCO",
+      "source_retrieved_at": "2026-09-20T16:48:57.906Z",
+      "retrieved_at": "2026-09-21T14:39:18.409439+00:00",
+      "sha256": "f3b61d70b5460ea6605e3c3e5563223569ef3e50b17a79cc25d6f4d53ca1005c",
+      "bytes": 492747
+    },
+    "hyundai-alpabetkadeup": {
+      "src": "images/cards/9120ad9a98845b116a16.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ALP_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALP",
+      "source_retrieved_at": "2026-09-20T17:00:55.005Z",
+      "retrieved_at": "2026-09-21T14:39:18.006958+00:00",
+      "sha256": "9120ad9a98845b116a163cd3e4be06e154f0b31675cfcd77b079e6397cf495a0",
+      "bytes": 366777
+    },
+    "hyundai-alpabetkadeur": {
+      "src": "images/cards/52d9dc7cce9fed16ab3e.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ALR_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALR",
+      "source_retrieved_at": "2026-09-20T17:00:55.002Z",
+      "retrieved_at": "2026-09-21T14:39:18.409474+00:00",
+      "sha256": "52d9dc7cce9fed16ab3eeb5a8b9e876e8d9b089f148e983f0504830a3bf60c7b",
+      "bytes": 455488
+    },
+    "hyundai-alpabetkadeus": {
+      "src": "images/cards/6a44ce30bb08ae42ceb7.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_HCS_MM_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCS",
+      "source_retrieved_at": "2026-09-20T17:00:55.221Z",
+      "retrieved_at": "2026-09-21T14:39:21.519978+00:00",
+      "sha256": "6a44ce30bb08ae42ceb77584248fe1da025ddf871014678861caed519eac577c",
+      "bytes": 447227
+    },
+    "hyundai-alpabetkadeus-bold": {
+      "src": "images/cards/8d1d537a6115157ce8b5.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ALS_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALS",
+      "source_retrieved_at": "2026-09-20T17:00:55.213Z",
+      "retrieved_at": "2026-09-21T14:39:19.527459+00:00",
+      "sha256": "8d1d537a6115157ce8b56137062fa294121cf9a3f29c563bd20c301d65f5886b",
+      "bytes": 422395
+    },
+    "hyundai-alpabetkadeut": {
+      "src": "images/cards/6ea4be9f21bf3fb6b217.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_HCT_MM_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HCT",
+      "source_retrieved_at": "2026-09-20T17:00:55.245Z",
+      "retrieved_at": "2026-09-21T14:39:19.874150+00:00",
+      "sha256": "6ea4be9f21bf3fb6b217932c10c7d9f8bb48d8a9ca07194a8fb08df539408551",
+      "bytes": 469427
+    },
+    "hyundai-alpabetkadeut-bold": {
+      "src": "images/cards/5b4490693f3e43c55e6a.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ALT_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ALT",
+      "source_retrieved_at": "2026-09-20T17:00:55.451Z",
+      "retrieved_at": "2026-09-21T14:39:19.591991+00:00",
+      "sha256": "5b4490693f3e43c55e6a86b72b1694228a81802fd9399bc66c407db5673a0c04",
+      "bytes": 317946
+    },
+    "hyundai-cheonghonaiseu-hyeondaekadeu": {
+      "src": "images/cards/4e5b56a97e7dd93457a3.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_CHHHC_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CHHHC",
+      "source_retrieved_at": "2026-09-20T16:58:39.418Z",
+      "retrieved_at": "2026-09-21T14:40:04.969358+00:00",
+      "sha256": "4e5b56a97e7dd93457a32b22b08c23d4a85f3b8238220350b20885681a316119",
+      "bytes": 972761
+    },
+    "hyundai-coway-hyeondaekadeum-edition3": {
+      "src": "images/cards/40f722c0b2cd0a3da673.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MCWYE3_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MCWYE3",
+      "source_retrieved_at": "2026-09-20T16:58:39.532Z",
+      "retrieved_at": "2026-09-21T14:40:04.543693+00:00",
+      "sha256": "40f722c0b2cd0a3da673dfd2383e2ace857ca51e5f275945137320429c962cd7",
+      "bytes": 26833
+    },
+    "hyundai-daehanhanggongkadeu-060": {
+      "src": "images/cards/bfd8114ca853987cb24c.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/img_card_KALE2T1_DS_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=KALE2T1",
+      "source_retrieved_at": "2026-09-20T17:00:55.970Z",
+      "retrieved_at": "2026-09-21T14:37:35.289114+00:00",
+      "sha256": "bfd8114ca853987cb24cbd1fbe9314b20e839e1e64e7d0c0a38e652ac4660a87",
+      "bytes": 1011539
+    },
+    "hyundai-dbsonhaeboheom-hyeondaekadeu": {
+      "src": "images/cards/746642154f86b60c7084.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MDBI_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MDBI",
+      "source_retrieved_at": "2026-09-20T16:58:40.190Z",
+      "retrieved_at": "2026-09-21T14:40:04.883032+00:00",
+      "sha256": "746642154f86b60c7084ba67624dd53df8afca9480ba5c3f4e47fe09ab0126b4",
+      "bytes": 331004
+    },
+    "hyundai-eneojipeulreoseu-hyeondaekadeu": {
+      "src": "images/cards/80230dd7bed65a3522af.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/card_GEPHC_LBY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=GEPHC",
+      "source_retrieved_at": "2026-09-20T17:00:56.161Z",
+      "retrieved_at": "2026-09-21T14:37:33.784656+00:00",
+      "sha256": "80230dd7bed65a3522aff8c38cc1e4e0c302ba4ece95ed85cde10ab6848b4637",
+      "bytes": 346518
+    },
+    "hyundai-gold-for-lotte-department-store": {
+      "src": "images/cards/08741600a22252d4e0da.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_LTTDSHCP_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=LTTDSHCP",
+      "source_retrieved_at": "2026-09-20T17:00:56.407Z",
+      "retrieved_at": "2026-09-21T14:39:20.040378+00:00",
+      "sha256": "08741600a22252d4e0da812acc2ecd6cc1b2e4d62b3e0d24f2ca09fb473a10e7",
+      "bytes": 454977
+    },
+    "hyundai-gukminhaengbok-hyeondaekadeu": {
+      "src": "images/cards/32bbde37ea57b3848cee.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_PHHC_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=PHHC",
+      "source_retrieved_at": "2026-09-20T16:58:39.387Z",
+      "retrieved_at": "2026-09-21T14:40:04.796649+00:00",
+      "sha256": "32bbde37ea57b3848cee03e3778452308d8d8557535082aae93f60f0c4727328",
+      "bytes": 116773
+    },
+    "hyundai-hyeondae-haetsalronkadeu": {
+      "src": "images/cards/1a9308a177d067f69a11.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_SLHC_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SLHC",
+      "source_retrieved_at": "2026-09-20T16:58:39.544Z",
+      "retrieved_at": "2026-09-21T14:40:05.190612+00:00",
+      "sha256": "1a9308a177d067f69a116c26382cf60d549ab45ce5339aa4bb5f3dbece92d82f",
+      "bytes": 541190
+    },
+    "hyundai-hyeondae-sosanggongin-teukrye-haetsalronkadeu": {
+      "src": "images/cards/0ec18b08723af68f2bb9.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03334_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SLMB",
+      "source_retrieved_at": "2026-09-20T17:00:56.782Z",
+      "retrieved_at": "2026-09-21T14:39:19.924041+00:00",
+      "sha256": "0ec18b08723af68f2bb989c609966de7955cdbda3162370001426e6ed297cac9",
+      "bytes": 333314
+    },
+    "hyundai-hyeondaehaesang-hyeondaekadeu": {
+      "src": "images/cards/4afd575229ca95c7c0e3.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MHMFI_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MHMFI",
+      "source_retrieved_at": "2026-09-20T17:00:56.767Z",
+      "retrieved_at": "2026-09-21T14:40:04.543518+00:00",
+      "sha256": "4afd575229ca95c7c0e3f9b840c0d859d9a49c04307d5af078f4cea6fb1934e5",
+      "bytes": 22252
+    },
+    "hyundai-hyeondaehomsyoping-hyeondaekadeu-edition2": {
+      "src": "images/cards/30196b8cae8f3a9f8292.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/card_HDSHE2_DS_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HDSHE2",
+      "source_retrieved_at": "2026-09-20T17:00:56.972Z",
+      "retrieved_at": "2026-09-21T14:37:34.727029+00:00",
+      "sha256": "30196b8cae8f3a9f8292851b742c109c716c0fc80bcd60c4b729623e13162fa7",
+      "bytes": 877785
+    },
+    "hyundai-hyeondaekadeu-boutique-copper": {
+      "src": "images/cards/818aecf877e76596e98a.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03316_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTCP",
+      "source_retrieved_at": "2026-09-20T17:00:57.017Z",
+      "retrieved_at": "2026-09-21T14:39:22.486760+00:00",
+      "sha256": "818aecf877e76596e98a2ffe61972419dbed56fdb7a1c091bd136c009a709502",
+      "bytes": 1211374
+    },
+    "hyundai-hyeondaekadeu-boutique-satin": {
+      "src": "images/cards/1cba2962ffb80f484c0a.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03318_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTST",
+      "source_retrieved_at": "2026-09-20T17:00:57.240Z",
+      "retrieved_at": "2026-09-21T14:39:21.233195+00:00",
+      "sha256": "1cba2962ffb80f484c0a7c52b055d7596f234f783f80f2e8ff07e3f2ae58260f",
+      "bytes": 1332274
+    },
+    "hyundai-hyeondaekadeu-boutique-velvet": {
+      "src": "images/cards/397eb8e0f9fff9727dfc.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03320_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTVV",
+      "source_retrieved_at": "2026-09-20T17:00:57.344Z",
+      "retrieved_at": "2026-09-21T14:39:21.029555+00:00",
+      "sha256": "397eb8e0f9fff9727dfcd25938110444dba64fc8096b9f462c759dff9fb765a0",
+      "bytes": 1399562
+    },
+    "hyundai-hyeondaekadeu-chekeu-apple-pay-rewards": {
+      "src": "images/cards/4d22ae29c9b6988e62f7.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_CCA_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCA",
+      "source_retrieved_at": "2026-09-21",
+      "retrieved_at": "2026-09-21T14:42:28.978327+00:00",
+      "sha256": "4d22ae29c9b6988e62f7bafa5bd65761b9685ee0bca15b6d3814aa4709c53819",
+      "bytes": 1405420
+    },
+    "hyundai-hyeondaekadeu-chekeu-kaesibaekhyeong": {
+      "src": "images/cards/bcccfd7e1ecfee511edb.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_CCD_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCD",
+      "source_retrieved_at": "2026-09-20T17:00:57.641Z",
+      "retrieved_at": "2026-09-21T14:39:22.554875+00:00",
+      "sha256": "bcccfd7e1ecfee511edbf67c8a134d725ab3d16b3c7311545f25ca7fb7cab2be",
+      "bytes": 1269767
+    },
+    "hyundai-hyeondaekadeu-chekeu-pointeuhyeong": {
+      "src": "images/cards/c27a96a9216ed52de0fd.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_CCM_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCM",
+      "source_retrieved_at": "2026-09-20T17:00:57.811Z",
+      "retrieved_at": "2026-09-21T14:39:20.998402+00:00",
+      "sha256": "c27a96a9216ed52de0fd6a7e2692a9ca03ebfc4003aff92d9b89e5bfc8f9f93f",
+      "bytes": 1236588
+    },
+    "hyundai-hyeondaekadeu-haibeurideu-apple-pay-rewards": {
+      "src": "images/cards/4d22ae29c9b6988e62f7.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_CCAH_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCAH",
+      "source_retrieved_at": "2026-09-21",
+      "retrieved_at": "2026-09-21T14:42:28.903777+00:00",
+      "sha256": "4d22ae29c9b6988e62f7bafa5bd65761b9685ee0bca15b6d3814aa4709c53819",
+      "bytes": 1405420
+    },
+    "hyundai-hyeondaekadeu-haibeurideu-kaesibaekhyeong": {
+      "src": "images/cards/bcccfd7e1ecfee511edb.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_CCDH_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCDH",
+      "source_retrieved_at": "2026-09-20T17:00:57.875Z",
+      "retrieved_at": "2026-09-21T14:39:23.023956+00:00",
+      "sha256": "bcccfd7e1ecfee511edbf67c8a134d725ab3d16b3c7311545f25ca7fb7cab2be",
+      "bytes": 1269767
+    },
+    "hyundai-hyeondaekadeu-haibeurideu-pointeuhyeong": {
+      "src": "images/cards/8d2f4e0336f6c27737b6.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_CCMH_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCMH",
+      "source_retrieved_at": "2026-09-20T17:00:57.906Z",
+      "retrieved_at": "2026-09-21T14:39:21.468086+00:00",
+      "sha256": "8d2f4e0336f6c27737b62ceffa11961de507dc2539afcbc9c8ae1b362743e66e",
+      "bytes": 1236871
+    },
+    "hyundai-hyeondaekadeu-mx-black-edition2": {
+      "src": "images/cards/88a1c993ac28d35fc776.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_MXBE2_GX_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MXBE2",
+      "source_retrieved_at": "2026-09-20T17:00:58.212Z",
+      "retrieved_at": "2026-09-21T14:39:21.462283+00:00",
+      "sha256": "88a1c993ac28d35fc776c09808821607f85c9f26dd277a605147ee25ff1c0b68",
+      "bytes": 419897
+    },
+    "hyundai-hyeondaekadeu-summit": {
+      "src": "images/cards/795de80e2c0113e61869.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_SPM_GT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SPM",
+      "source_retrieved_at": "2026-09-20T17:00:58.108Z",
+      "retrieved_at": "2026-09-21T14:39:22.523586+00:00",
+      "sha256": "795de80e2c0113e61869ea7023aaa2d4a1ecc36365fe5ded88a27b7e474d727e",
+      "bytes": 405181
+    },
+    "hyundai-hyeondaekadeu-summit-ce": {
+      "src": "images/cards/43bf68b9835723cd1ef4.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03322_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=BTMCE",
+      "source_retrieved_at": "2026-09-20T17:00:58.065Z",
+      "retrieved_at": "2026-09-21T14:39:23.807377+00:00",
+      "sha256": "43bf68b9835723cd1ef4ef7deed634690d05d6d8a2f682428b6d29a3be7b65d3",
+      "bytes": 1052642
+    },
+    "hyundai-hyeondaekadeu-teens": {
+      "src": "images/cards/e74d5a8e2845b911f295.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_FCDY_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=FCDY",
+      "source_retrieved_at": "2026-09-20T17:00:58.106Z",
+      "retrieved_at": "2026-09-21T14:39:26.401032+00:00",
+      "sha256": "e74d5a8e2845b911f29549666fd278752274ca7355f7082e85014fb699d88455",
+      "bytes": 395373
+    },
+    "hyundai-hyeondaekadeu-x-cut": {
+      "src": "images/cards/ac57fb5421bccea27c6f.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03333_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XCUT",
+      "source_retrieved_at": "2026-09-20T17:00:58.200Z",
+      "retrieved_at": "2026-09-21T14:39:22.274234+00:00",
+      "sha256": "ac57fb5421bccea27c6fce4212f819b5d362ec67fc08260b6a2a9c1febc4e2e2",
+      "bytes": 424539
+    },
+    "hyundai-hyeondaekadeu-x-save": {
+      "src": "images/cards/0d32c96495d41a30ca58.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03332_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XSAV",
+      "source_retrieved_at": "2026-09-20T17:00:58.722Z",
+      "retrieved_at": "2026-09-21T14:39:22.177994+00:00",
+      "sha256": "0d32c96495d41a30ca58d5e78619b6d5b72a6098483e1a45008fd07ebdc4466f",
+      "bytes": 303018
+    },
+    "hyundai-hyeondaekadeu-zero-up-halinhyeong": {
+      "src": "images/cards/0ec18b08723af68f2bb9.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03334_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZRUP",
+      "source_retrieved_at": "2026-09-20T17:00:58.673Z",
+      "retrieved_at": "2026-09-21T14:39:24.523130+00:00",
+      "sha256": "0ec18b08723af68f2bb989c609966de7955cdbda3162370001426e6ed297cac9",
+      "bytes": 333314
+    },
+    "hyundai-hyeondaekadeu-zero-up-pointeuhyeong": {
+      "src": "images/cards/3e40048354777bbea155.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_MZRUP_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MZRUP",
+      "source_retrieved_at": "2026-09-20T17:00:58.719Z",
+      "retrieved_at": "2026-09-21T14:39:23.779307+00:00",
+      "sha256": "3e40048354777bbea155ee6765a32518add9c19c898efaef27b0e328fc8f2cff",
+      "bytes": 141182
+    },
+    "hyundai-hyeondaekadeum": {
+      "src": "images/cards/3866e986349de0745efc.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_MPE4_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ME4",
+      "source_retrieved_at": "2026-09-20T17:00:58.733Z",
+      "retrieved_at": "2026-09-21T14:39:24.685819+00:00",
+      "sha256": "3866e986349de0745efcb10caa764aa24632d064bcb77474a816d9a924d97f1c",
+      "bytes": 429176
+    },
+    "hyundai-hyeondaekadeum-gyeongchajeonyongkadeu-edition2": {
+      "src": "images/cards/d238a5b898a19cc993dc.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MSCE2_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MSCE2",
+      "source_retrieved_at": "2026-09-20T16:58:40.830Z",
+      "retrieved_at": "2026-09-21T14:40:04.720674+00:00",
+      "sha256": "d238a5b898a19cc993dc3775068420df0b4ef82ce4599037bd7a1cdbbaecff68",
+      "bytes": 27064
+    },
+    "hyundai-hyeondaekadeum-hwamulchayugabojogeumkadeu": {
+      "src": "images/cards/58903226ba796b649f24.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MLSB_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MLSB",
+      "source_retrieved_at": "2026-09-20T16:58:40.845Z",
+      "retrieved_at": "2026-09-21T14:40:04.770008+00:00",
+      "sha256": "58903226ba796b649f24426d6e2deae2d633fe2e98a5be253daba0960171469f",
+      "bytes": 89662
+    },
+    "hyundai-hyeondaekadeumm": {
+      "src": "images/cards/3866e986349de0745efc.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_MPE4_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MPE4",
+      "source_retrieved_at": "2026-09-20T17:00:58.964Z",
+      "retrieved_at": "2026-09-21T14:39:24.831840+00:00",
+      "sha256": "3866e986349de0745efcb10caa764aa24632d064bcb77474a816d9a924d97f1c",
+      "bytes": 429176
+    },
+    "hyundai-hyeondaekadeumy-business-m-e-seller": {
+      "src": "images/cards/d223780615046f612b69.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/MMBES_PVC_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MMBES",
+      "source_retrieved_at": "2026-09-20T17:00:59.187Z",
+      "retrieved_at": "2026-09-21T14:39:22.696322+00:00",
+      "sha256": "d223780615046f612b696ea7b77c47a6c0df7ce7dc337c09fff17cab41b6b568",
+      "bytes": 407553
+    },
+    "hyundai-hyeondaekadeumy-business-m-f-b": {
+      "src": "images/cards/002fd743baf6c9b5adb6.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/MMBFB_PVC_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MMBFB",
+      "source_retrieved_at": "2026-09-20T17:00:59.244Z",
+      "retrieved_at": "2026-09-21T14:39:22.741963+00:00",
+      "sha256": "002fd743baf6c9b5adb65aa4ae64e7de3437e24382cc02035d1dacf883e95794",
+      "bytes": 407099
+    },
+    "hyundai-hyeondaekadeumy-business-m-retail": {
+      "src": "images/cards/d223780615046f612b69.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/MMBRT_PVC_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MMBRT",
+      "source_retrieved_at": "2026-09-20T17:00:59.253Z",
+      "retrieved_at": "2026-09-21T14:39:22.881869+00:00",
+      "sha256": "d223780615046f612b696ea7b77c47a6c0df7ce7dc337c09fff17cab41b6b568",
+      "bytes": 407553
+    },
+    "hyundai-hyeondaekadeumy-business-summit": {
+      "src": "images/cards/51b518696bc73034c4fe.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03329_GT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SPMMB",
+      "source_retrieved_at": "2026-09-20T17:00:59.416Z",
+      "retrieved_at": "2026-09-21T14:39:22.993614+00:00",
+      "sha256": "51b518696bc73034c4fe65a5f9cffffad2cfecc0a6dd8591264d319c7932745c",
+      "bytes": 391814
+    },
+    "hyundai-hyeondaekadeumy-business-the-orange": {
+      "src": "images/cards/32b9c1591122edaf9b2b.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_MBTO_GT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBTO",
+      "source_retrieved_at": "2026-09-20T17:00:59.405Z",
+      "retrieved_at": "2026-09-21T14:39:23.129439+00:00",
+      "sha256": "32b9c1591122edaf9b2b720294a4bf24aeb99a89bc4660875348b935fffecd4f",
+      "bytes": 1041294
+    },
+    "hyundai-hyeondaekadeumy-business-zero-up-halinhyeong": {
+      "src": "images/cards/86b805707e6bbe94fefc.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_MBZRUP_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBZRUP",
+      "source_retrieved_at": "2026-09-20T17:00:59.746Z",
+      "retrieved_at": "2026-09-21T14:39:23.218956+00:00",
+      "sha256": "86b805707e6bbe94fefc588d9703cd58d924be3d092d334dfdc2bad63ff65b07",
+      "bytes": 378885
+    },
+    "hyundai-hyeondaekadeumy-business-zero-up-pointeuhyeong": {
+      "src": "images/cards/86b805707e6bbe94fefc.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_MBMZRUP_BA_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MBMZRUP",
+      "source_retrieved_at": "2026-09-20T17:00:59.944Z",
+      "retrieved_at": "2026-09-21T14:39:23.333105+00:00",
+      "sha256": "86b805707e6bbe94fefc588d9703cd58d924be3d092d334dfdc2bad63ff65b07",
+      "bytes": 378885
+    },
+    "hyundai-hyeondaekadeux": {
+      "src": "images/cards/f2132264473f65820474.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_XPE4_BA_F.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=XPE4",
+      "source_retrieved_at": "2026-09-20T17:00:59.991Z",
+      "retrieved_at": "2026-09-21T14:39:23.620401+00:00",
+      "sha256": "f2132264473f65820474a0fcbbc12d2508864e1f85a8ec8f00283e19680a9bf1",
+      "bytes": 421276
+    },
+    "hyundai-hyeondaekadeuz-everyday": {
+      "src": "images/cards/05e2100d23e69ab8dcb3.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ZWK_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZWK",
+      "source_retrieved_at": "2026-09-20T17:00:59.980Z",
+      "retrieved_at": "2026-09-21T14:39:23.644309+00:00",
+      "sha256": "05e2100d23e69ab8dcb380755443e82c7ce411336febaafd803d358c21eb62f7",
+      "bytes": 406923
+    },
+    "hyundai-hyeondaekadeuz-family-edition2": {
+      "src": "images/cards/898c6a18d87e1aa48ecd.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ZFE2_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZFE2",
+      "source_retrieved_at": "2026-09-20T17:00:59.979Z",
+      "retrieved_at": "2026-09-21T14:39:23.534791+00:00",
+      "sha256": "898c6a18d87e1aa48ecdad04cefcebcee4c97f08318cc4da6800c1854bbc59c9",
+      "bytes": 336442
+    },
+    "hyundai-hyeondaekadeuz-play": {
+      "src": "images/cards/3962c63ca038cc5aff8b.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ZOE2_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZOE2",
+      "source_retrieved_at": "2026-09-20T17:01:00.198Z",
+      "retrieved_at": "2026-09-21T14:39:23.700626+00:00",
+      "sha256": "3962c63ca038cc5aff8bef5941cb24968acc9531b67e7b509915131301e5773a",
+      "bytes": 336106
+    },
+    "hyundai-hyeondaekadeuz-work-edition2": {
+      "src": "images/cards/67be6d30455f71f836a8.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ZWE2_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZWE2",
+      "source_retrieved_at": "2026-09-20T17:01:00.184Z",
+      "retrieved_at": "2026-09-21T14:39:23.862979+00:00",
+      "sha256": "67be6d30455f71f836a8bdb034bc96884b8e662b0250db7a63eeca26fb24cbe9",
+      "bytes": 336226
+    },
+    "hyundai-hyeondaekadeuzero-edition3-halinhyeong": {
+      "src": "images/cards/ab229c3ee2f577952884.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ZROE3_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZROE3",
+      "source_retrieved_at": "2026-09-20T17:01:00.186Z",
+      "retrieved_at": "2026-09-21T14:39:24.430378+00:00",
+      "sha256": "ab229c3ee2f577952884fd726a374aebba2a7559a4975fdf4966c688188f32fd",
+      "bytes": 161897
+    },
+    "hyundai-hyeondaekadeuzero-edition3-pointeuhyeong": {
+      "src": "images/cards/ab229c3ee2f577952884.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_ZROE3_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MZROE3",
+      "source_retrieved_at": "2026-09-20T17:01:00.210Z",
+      "retrieved_at": "2026-09-21T14:39:24.216462+00:00",
+      "sha256": "ab229c3ee2f577952884fd726a374aebba2a7559a4975fdf4966c688188f32fd",
+      "bytes": 161897
+    },
+    "hyundai-hyundai-mobilitykadeu": {
+      "src": "images/cards/d0cd2bedbfceed12e57e.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_HMHC_DT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=HMHC",
+      "source_retrieved_at": "2026-09-20T17:01:00.289Z",
+      "retrieved_at": "2026-09-21T14:39:24.443170+00:00",
+      "sha256": "d0cd2bedbfceed12e57e04e0abe00e69f71acf255583d1b1b0dedf3882ec80c1",
+      "bytes": 101709
+    },
+    "hyundai-imateu-ekadeu-plus": {
+      "src": "images/cards/b0def96c053ff99af0d6.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_EMTE3S_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=EMTE3S",
+      "source_retrieved_at": "2026-09-20T17:01:00.392Z",
+      "retrieved_at": "2026-09-21T14:39:24.181327+00:00",
+      "sha256": "b0def96c053ff99af0d684fa94a251f004a5d3a79456ec05f19dc070f36f32e3",
+      "bytes": 444918
+    },
+    "hyundai-imbaengkeu-hyeondaekadeum": {
+      "src": "images/cards/9ea1469fbffcfcdb1cbb.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MIMB_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MIMB",
+      "source_retrieved_at": "2026-09-20T17:01:00.372Z",
+      "retrieved_at": "2026-09-21T14:40:05.597563+00:00",
+      "sha256": "9ea1469fbffcfcdb1cbb1cc1d37edfc95aed72d8cebbf1c3df24acec604147d0",
+      "bytes": 1022386
+    },
+    "hyundai-jimaket-kkok-hyeondaekadeu": {
+      "src": "images/cards/6f314e9313c77c431026.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_GMSE4_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=GMSE4",
+      "source_retrieved_at": "2026-09-20T17:01:00.459Z",
+      "retrieved_at": "2026-09-21T14:39:24.443671+00:00",
+      "sha256": "6f314e9313c77c431026e62bbe7e09f8f498ddb9f588dc6c3fba2d2c72a9d6c3",
+      "bytes": 647899
+    },
+    "hyundai-kaesinoteu-business-hyeondaekadeu": {
+      "src": "images/cards/11ab1fae4d120f5b5dc5.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_03343_GX_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMECN",
+      "source_retrieved_at": "2026-09-20T17:01:00.625Z",
+      "retrieved_at": "2026-09-21T14:39:24.524310+00:00",
+      "sha256": "11ab1fae4d120f5b5dc52a7eb3178b87853c31e283a0a61ba3697aa325ae2fe3",
+      "bytes": 386272
+    },
+    "hyundai-kakaobaengkeu-business-hyeondaekadeu": {
+      "src": "images/cards/b69884038c9e760070a6.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_SMEKKOB_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMEKKOB",
+      "source_retrieved_at": "2026-09-20T16:58:41.969Z",
+      "retrieved_at": "2026-09-21T14:40:05.327404+00:00",
+      "sha256": "b69884038c9e760070a61de592276e206cf68637a627f2856412aee651aaf162",
+      "bytes": 183617
+    },
+    "hyundai-kakaobaengkeu-business-hyeondaekadeu-prime": {
+      "src": "images/cards/3f0aea9d5f58c0706af5.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_SMEKKOBP_BA_F.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMEKKOBP",
+      "source_retrieved_at": "2026-09-20T17:01:00.652Z",
+      "retrieved_at": "2026-09-21T14:39:24.555055+00:00",
+      "sha256": "3f0aea9d5f58c0706af51ff340727179ba3464712eab4b17f84b88a58ae8aa29",
+      "bytes": 304832
+    },
+    "hyundai-keibaengkeu-business-hyeondaekadeu": {
+      "src": "images/cards/c09d82b6da55053e520a.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_SMEKBNK_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SMEKBNK",
+      "source_retrieved_at": "2026-09-20T17:01:00.620Z",
+      "retrieved_at": "2026-09-21T14:40:06.544656+00:00",
+      "sha256": "c09d82b6da55053e520af55f81b8e16009bd2ddadd0ec52e98faa5f1991bb39f",
+      "bytes": 1628727
+    },
+    "hyundai-keibaengkeu-hyeondaekadeuz-family-edition2": {
+      "src": "images/cards/0c68694245ea2ea4a646.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_ZKFE2_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ZKFE2",
+      "source_retrieved_at": "2026-09-20T17:01:00.693Z",
+      "retrieved_at": "2026-09-21T14:40:06.812412+00:00",
+      "sha256": "0c68694245ea2ea4a646120b2c9a86357aca6b1e5dafceffd5c6bfc27aea6456",
+      "bytes": 1189314
+    },
+    "hyundai-kia-members-sinyongkadeu-edition2": {
+      "src": "images/cards/bbfbfbd5e4105452791c.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_MRDED2_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MRDED2",
+      "source_retrieved_at": "2026-09-20T17:01:00.866Z",
+      "retrieved_at": "2026-09-21T14:39:24.351698+00:00",
+      "sha256": "bbfbfbd5e4105452791cd225561dee09ae5ed1a8ce2ba97940b83754ddfaa8a2",
+      "bytes": 52754
+    },
+    "hyundai-koseuteuko-riwodeu-hyeondaekadeu-edition2": {
+      "src": "images/cards/85cb195b06e14e86f379.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_CSTCE2_goldenline_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CSTCE2",
+      "source_retrieved_at": "2026-09-20T17:01:00.968Z",
+      "retrieved_at": "2026-09-21T14:39:24.723332+00:00",
+      "sha256": "85cb195b06e14e86f379f5ae995ca788527d836d4132c3513cf613b8e47f31dc",
+      "bytes": 452907
+    },
+    "hyundai-kowei-hyeondaekadeu": {
+      "src": "images/cards/40f50ec67ffc6e8be709.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_CWYHC_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CWYHC",
+      "source_retrieved_at": "2026-09-20T17:01:00.964Z",
+      "retrieved_at": "2026-09-21T14:40:06.063325+00:00",
+      "sha256": "40f50ec67ffc6e8be709bcbb7cdf0e74247c42169366b712b07a668c6f4e9ec2",
+      "bytes": 974320
+    },
+    "hyundai-kt-hyeondaekadeum-edition3-tongsinhalinhyeong-2-0": {
+      "src": "images/cards/13fb28b041f50731a445.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MKTE3TP_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MKTE3TP",
+      "source_retrieved_at": "2026-09-20T17:01:01.034Z",
+      "retrieved_at": "2026-09-21T14:40:05.384858+00:00",
+      "sha256": "13fb28b041f50731a4453f018f6a2ea56072d346529eb862336be0772bf9382d",
+      "bytes": 224464
+    },
+    "hyundai-kuku-hyeondaekadeu": {
+      "src": "images/cards/168c6cdba1eca7d5dbdf.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_CCKHC_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=CCKHC",
+      "source_retrieved_at": "2026-09-20T16:58:42.725Z",
+      "retrieved_at": "2026-09-21T14:40:05.539688+00:00",
+      "sha256": "168c6cdba1eca7d5dbdf00c92490d9aa0bb92e98254bf50fa22bd52be6ab8905",
+      "bytes": 340100
+    },
+    "hyundai-lg-u-hyeondaekadeum-edition3-tongsinhalinhyeong2-0": {
+      "src": "images/cards/47679bbba69f11950cf2.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MLGTE3_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MLGTE3",
+      "source_retrieved_at": "2026-09-20T17:01:01.141Z",
+      "retrieved_at": "2026-09-21T14:40:05.535525+00:00",
+      "sha256": "47679bbba69f11950cf2202bcf4553ad1daf5e4d3c8aee95b03b48219065dfce",
+      "bytes": 13713
+    },
+    "hyundai-lgjeonja-hyeondaekadeu": {
+      "src": "images/cards/1d99acc70977ac8a83b9.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_LGEHC_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=LGEHC",
+      "source_retrieved_at": "2026-09-20T17:01:01.232Z",
+      "retrieved_at": "2026-09-21T14:40:06.052203+00:00",
+      "sha256": "1d99acc70977ac8a83b92fe92d3a346987c64f5f0499f67db82fd7027913de13",
+      "bytes": 974988
+    },
+    "hyundai-miraeeset-hyeondaekadeu-diamond": {
+      "src": "images/cards/a7160922bf89bd77dc3c.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/img_card_MRASSTDM_DS.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MRASSTDM",
+      "source_retrieved_at": "2026-09-20T17:01:01.419Z",
+      "retrieved_at": "2026-09-21T14:37:34.337896+00:00",
+      "sha256": "a7160922bf89bd77dc3c3e90e6e2e32cad2357249d363c2abfca25748166600a",
+      "bytes": 90462
+    },
+    "hyundai-neibeo-hyeondaekadeu-edition2": {
+      "src": "images/cards/b7dc427e9f4e53d97fae.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/card_NVE2_DT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=NVE2",
+      "source_retrieved_at": "2026-09-20T17:01:01.534Z",
+      "retrieved_at": "2026-09-21T14:37:34.950846+00:00",
+      "sha256": "b7dc427e9f4e53d97faed5261c63d8fda94e58a822d4ef8f1c3f3d14c3850750",
+      "bytes": 645169
+    },
+    "hyundai-nekseun-hyeondaekadeu-edition2": {
+      "src": "images/cards/9620f8d86b9333effb23.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_NXNX_DT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=NXNX",
+      "source_retrieved_at": "2026-09-20T17:01:01.557Z",
+      "retrieved_at": "2026-09-21T14:39:25.200963+00:00",
+      "sha256": "9620f8d86b9333effb23e8c199260a686e7585c7fab9ab5d1e93f7cb1443629e",
+      "bytes": 1497451
+    },
+    "hyundai-nol-kadeu": {
+      "src": "images/cards/7a6aafee143dd131308a.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/card_NOLHC_DS_F.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=NOLHC",
+      "source_retrieved_at": "2026-09-20T17:01:01.846Z",
+      "retrieved_at": "2026-09-21T14:37:34.078289+00:00",
+      "sha256": "7a6aafee143dd131308a17ebdee80de1d590cfbd3483b38d3956d7b8193e4078",
+      "bytes": 310394
+    },
+    "hyundai-olribeuyeong-hyeondaekadeu": {
+      "src": "images/cards/0d2f7ded0941421f03c6.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/033291_BY_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=OLVYHC",
+      "source_retrieved_at": "2026-09-20T17:01:01.837Z",
+      "retrieved_at": "2026-09-21T14:37:34.420670+00:00",
+      "sha256": "0d2f7ded0941421f03c639dcaa59760d3613934adc31f5b27f320239c238a6d5",
+      "bytes": 489383
+    },
+    "hyundai-scjeileunhaeng-the-red-stripe-edition2": {
+      "src": "images/cards/208041c0f6dd37bfe82c.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_TRSCSTE2_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TRSCSTE2",
+      "source_retrieved_at": "2026-09-20T17:01:01.771Z",
+      "retrieved_at": "2026-09-21T14:40:06.893645+00:00",
+      "sha256": "208041c0f6dd37bfe82c5206d708234caeac0797e39e86dbda2069d4c1cd7f0c",
+      "bytes": 388916
+    },
+    "hyundai-skintelrikseu-hyeondaekadeu": {
+      "src": "images/cards/223ad9adbe18ced9a608.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_SKIHC_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SKIHC",
+      "source_retrieved_at": "2026-09-20T17:01:01.763Z",
+      "retrieved_at": "2026-09-21T14:40:06.650835+00:00",
+      "sha256": "223ad9adbe18ced9a6088b4ec2dfb260241ec7686a50e65b9969559024fee961",
+      "bytes": 977047
+    },
+    "hyundai-skt-hyeondaekadeum-edition3-raiteuhalbuhyeong2-0": {
+      "src": "images/cards/bc04495f6fc12d65c99b.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MSKTE3_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MSKTE3",
+      "source_retrieved_at": "2026-09-20T16:58:43.292Z",
+      "retrieved_at": "2026-09-21T14:40:05.662232+00:00",
+      "sha256": "bc04495f6fc12d65c99ba3e04a6984f64e46f9a5d11d704282b33c11c22e568e",
+      "bytes": 14400
+    },
+    "hyundai-ssg-comkadeu-edition2": {
+      "src": "images/cards/0ab4240ff4e1856b0259.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_SGE2_01_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SGE2",
+      "source_retrieved_at": "2026-09-20T17:01:02.035Z",
+      "retrieved_at": "2026-09-21T14:39:24.787108+00:00",
+      "sha256": "0ab4240ff4e1856b0259be1a383500db4173a1b6af182ef8e14cd012b82edab6",
+      "bytes": 20078
+    },
+    "hyundai-ssokakadeu": {
+      "src": "images/cards/efbf71ca901e1c92b10b.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/card_SCHC_DS_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=SCHC",
+      "source_retrieved_at": "2026-09-20T17:01:02.044Z",
+      "retrieved_at": "2026-09-21T14:37:34.643574+00:00",
+      "sha256": "efbf71ca901e1c92b10beda73b63f335fedbed78d41c7c90910016d4717d9441",
+      "bytes": 366475
+    },
+    "hyundai-the-black": {
+      "src": "images/cards/59ba5d6c0854d1d4197d.png",
+      "image_url": "https://www.hyundaicard.com/docfiles/resources/pc/images/detail/bg_top_card_tbe4.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TBE4",
+      "source_retrieved_at": "2026-09-21",
+      "retrieved_at": "2026-09-21T14:42:28.613384+00:00",
+      "sha256": "59ba5d6c0854d1d4197df6e21e4c07b24c6164970d1a7bc0d1e314d27a1e3490",
+      "bytes": 338772
+    },
+    "hyundai-the-cj-hyeondaekadeum-edition2": {
+      "src": "images/cards/46980dc986ce2707a85b.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card_big_h/card_MCJE2_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MCJE2",
+      "source_retrieved_at": "2026-09-20T16:58:43.349Z",
+      "retrieved_at": "2026-09-21T14:40:05.860242+00:00",
+      "sha256": "46980dc986ce2707a85b4a7a501d638cb54890146cd8f9a701cea6bf81a0f38b",
+      "bytes": 24999
+    },
+    "hyundai-the-green-edition3": {
+      "src": "images/cards/5681ddb0acf9e3123cf6.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/card_TGE3_GT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TGE3",
+      "source_retrieved_at": "2026-09-20T17:01:02.096Z",
+      "retrieved_at": "2026-09-21T14:37:35.735856+00:00",
+      "sha256": "5681ddb0acf9e3123cf61bb1079701cab3f6c1e73ea209f90463ed7432fc9b9e",
+      "bytes": 389041
+    },
+    "hyundai-the-orange": {
+      "src": "images/cards/ee62d6fbcfa4e6001e4c.png",
+      "image_url": "https://www.hyundaicard.com/img/com/card/card_TO_GT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TO",
+      "source_retrieved_at": "2026-09-20T17:01:02.255Z",
+      "retrieved_at": "2026-09-21T14:39:25.256247+00:00",
+      "sha256": "ee62d6fbcfa4e6001e4cae688ac2eccaa5dcd7289b849cf5019d290dd8cdff34",
+      "bytes": 835828
+    },
+    "hyundai-the-pink-edition2": {
+      "src": "images/cards/5a5d01adeb001acb324a.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/card_TPIE2_GT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TPIE2",
+      "source_retrieved_at": "2026-09-20T17:01:02.269Z",
+      "retrieved_at": "2026-09-21T14:37:34.499236+00:00",
+      "sha256": "5a5d01adeb001acb324aab1b3fd44a238ddbda5298fa53bd83353176a346323a",
+      "bytes": 342437
+    },
+    "hyundai-the-purple": {
+      "src": "images/cards/0107fca1b34c43fa7e35.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/img_card_TPME4_fluid_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TPE4",
+      "source_retrieved_at": "2026-09-20T17:01:02.262Z",
+      "retrieved_at": "2026-09-21T14:37:34.414514+00:00",
+      "sha256": "0107fca1b34c43fa7e35cceb94ab55788b9e0bf738544728ed33b5fef37d44d3",
+      "bytes": 371790
+    },
+    "hyundai-the-red": {
+      "src": "images/cards/b39d47141e02b2e5c961.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/card_TRE6_GT_f.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TRE6",
+      "source_retrieved_at": "2026-09-20T17:01:02.316Z",
+      "retrieved_at": "2026-09-21T14:37:35.969134+00:00",
+      "sha256": "b39d47141e02b2e5c96137ee3eeac75cd8867f48d93ccf81e71d3d6889c79d2e",
+      "bytes": 332683
+    },
+    "hyundai-the-red-stripe-edition2": {
+      "src": "images/cards/7ccf5197d8727809fc59.png",
+      "image_url": "https://www.hyundaicard.com/gpcc/pc/images/img_card_TRSTE2_h.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TRSTE2",
+      "source_retrieved_at": "2026-09-20T16:58:43.417Z",
+      "retrieved_at": "2026-09-21T14:42:28.438130+00:00",
+      "sha256": "7ccf5197d8727809fc59c3bf17aa88780c64399b3df62fefde264f3bd2e56e4a",
+      "bytes": 77669
+    },
+    "hyundai-yeseu24-hyeondaekadeu": {
+      "src": "images/cards/0b902b4b04435358ea7b.png",
+      "image_url": "https://www.hyundaicard.com/images/cardscommon/img_card_YSHC_0.png",
+      "source_url": "https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=YSHC",
+      "source_retrieved_at": "2026-09-20T17:01:02.457Z",
+      "retrieved_at": "2026-09-21T14:37:34.677161+00:00",
+      "sha256": "0b902b4b04435358ea7bc5053646d4f436eac6308ad197b39bede428b320d6dd",
+      "bytes": 33200
+    },
+    "kb-banryeo-kadeu-gangaji": {
+      "src": "images/cards/2541a37bf17ef21d792b.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04260_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04260&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:56.790Z",
+      "retrieved_at": "2026-09-21T14:37:34.962711+00:00",
+      "sha256": "2541a37bf17ef21d792b756af093bf98ece16e712584fb0747efd93c3cbdef33",
+      "bytes": 36944
+    },
+    "kb-banryeo-kadeu-goyangi": {
+      "src": "images/cards/b1dde454777450cc9eb5.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04261_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04261&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:47:40.320Z",
+      "retrieved_at": "2026-09-21T14:37:34.855565+00:00",
+      "sha256": "b1dde454777450cc9eb538ec93e7a3a19b57d80ea7bc3c62bff4f31de56e3abe",
+      "bytes": 37722
+    },
+    "kb-dadamkadeu-bi-otp": {
+      "src": "images/cards/f6e21fd5c19a50604ed9.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09169_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09169&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:48:11.455Z",
+      "retrieved_at": "2026-09-21T14:37:34.831553+00:00",
+      "sha256": "f6e21fd5c19a50604ed97e2de2266dbcd9c83fe576d615edbd2cd7f8979f34a4",
+      "bytes": 18006
+    },
+    "kb-finetechkadeu": {
+      "src": "images/cards/7f49ba19e6a910f52d09.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04580_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04580&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:00.604Z",
+      "retrieved_at": "2026-09-21T14:37:34.909172+00:00",
+      "sha256": "7f49ba19e6a910f52d09b306240a79cae54dfee9672b4a3ead99d8017962ee7f",
+      "bytes": 47732
+    },
+    "kb-finetechkadeu-asiana": {
+      "src": "images/cards/b26a8bc0f49181aad9ba.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04582_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04582&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:01.394Z",
+      "retrieved_at": "2026-09-21T14:37:34.956463+00:00",
+      "sha256": "b26a8bc0f49181aad9bad3e95442f385058540b36a640828278ee1beb744fbec",
+      "bytes": 52691
+    },
+    "kb-finetechkadeu-daehanhanggong": {
+      "src": "images/cards/4bb8d6e67ad670832346.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04581_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04581&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:01.117Z",
+      "retrieved_at": "2026-09-21T14:37:35.170967+00:00",
+      "sha256": "4bb8d6e67ad670832346e52137f05a15987fd147aae5df23d45fd0931edf763d",
+      "bytes": 235184
+    },
+    "kb-get100kadeu": {
+      "src": "images/cards/b482b6c3df39adaa2cf6.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09269_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09269&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:06.211Z",
+      "retrieved_at": "2026-09-21T14:37:34.987757+00:00",
+      "sha256": "b482b6c3df39adaa2cf66ce516151c097ec741acef5f869019190cbca3216d0f",
+      "bytes": 32812
+    },
+    "kb-geurinkadeu-jeongukhyeong-seouljeoe": {
+      "src": "images/cards/a707051dca077c8feba8.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/02087_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02087&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:54.742Z",
+      "retrieved_at": "2026-09-21T14:37:35.108625+00:00",
+      "sha256": "a707051dca077c8feba84a331bc56bf56f752fd4dd5c6b5ef5f9b043ed660aeb",
+      "bytes": 64462
+    },
+    "kb-gmaketpeulreoseukadeu": {
+      "src": "images/cards/094b215ec587d394c02f.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/02044_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02042&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:53.055Z",
+      "retrieved_at": "2026-09-21T14:37:35.239823+00:00",
+      "sha256": "094b215ec587d394c02f768ea5568a57f7607886f8f966f09075db7886134291",
+      "bytes": 199908
+    },
+    "kb-goldeunraipeu-titanyumkadeu": {
+      "src": "images/cards/fe0fd0d42378b3ae237a.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04453_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04453&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:59.144Z",
+      "retrieved_at": "2026-09-21T14:37:35.152232+00:00",
+      "sha256": "fe0fd0d42378b3ae237af26be3381bf7e1eb917744c57cfbfe4124bcdcf600a8",
+      "bytes": 30296
+    },
+    "kb-goldeunraipeu-titanyumkadeu-seumateu-otp": {
+      "src": "images/cards/fe0fd0d42378b3ae237a.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04452_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04452&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:58.740Z",
+      "retrieved_at": "2026-09-21T14:37:35.362097+00:00",
+      "sha256": "fe0fd0d42378b3ae237af26be3381bf7e1eb917744c57cfbfe4124bcdcf600a8",
+      "bytes": 30296
+    },
+    "kb-goldeunraipeuolrimkadeu": {
+      "src": "images/cards/c9d7b08fef26b93f79a8.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04451_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04451&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:58.631Z",
+      "retrieved_at": "2026-09-21T14:37:35.402294+00:00",
+      "sha256": "c9d7b08fef26b93f79a866661dc77c591a29f84c46a87ce31a8b358993416de1",
+      "bytes": 28972
+    },
+    "kb-goldeunraipeuolrimkadeu-seumateu-otp": {
+      "src": "images/cards/c9d7b08fef26b93f79a8.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04450_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04450&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:57.893Z",
+      "retrieved_at": "2026-09-21T14:37:35.432385+00:00",
+      "sha256": "c9d7b08fef26b93f79a866661dc77c591a29f84c46a87ce31a8b358993416de1",
+      "bytes": 28972
+    },
+    "kb-golpeujon-kbgukminkadeu": {
+      "src": "images/cards/568fd8d78cfbd9ebaf85.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04583_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04583&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:01.617Z",
+      "retrieved_at": "2026-09-21T14:37:35.506412+00:00",
+      "sha256": "568fd8d78cfbd9ebaf8542e232c838850da63e2188c2c3495dc088732ee4960f",
+      "bytes": 95240
+    },
+    "kb-golpeujon-kbgukminkadeu-asiana": {
+      "src": "images/cards/f95b6ce62db00ac12077.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04584_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04584&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:01.825Z",
+      "retrieved_at": "2026-09-21T14:37:35.560391+00:00",
+      "sha256": "f95b6ce62db00ac120775cc5d004e4c0e0900e2d17fa02d0f1a90d64aa3ecf64",
+      "bytes": 96640
+    },
+    "kb-gutdei-peulraetinyumkadeu": {
+      "src": "images/cards/d1f6fb779ee4d540f0b2.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09063_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09062&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:03.696Z",
+      "retrieved_at": "2026-09-21T14:37:35.476077+00:00",
+      "sha256": "d1f6fb779ee4d540f0b23840550e79bbdcb450a5a3a643a04435d7077906e53c",
+      "bytes": 33142
+    },
+    "kb-gutdeikadeu": {
+      "src": "images/cards/d1f6fb779ee4d540f0b2.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09063_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09061&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:03.595Z",
+      "retrieved_at": "2026-09-21T14:37:35.524174+00:00",
+      "sha256": "d1f6fb779ee4d540f0b23840550e79bbdcb450a5a3a643a04435d7077906e53c",
+      "bytes": 33142
+    },
+    "kb-gutdeiolrimkadeu": {
+      "src": "images/cards/ad29075b81381044a1c1.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09061_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09063&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:04.150Z",
+      "retrieved_at": "2026-09-21T14:37:35.659236+00:00",
+      "sha256": "ad29075b81381044a1c1c9177cd07daf776a118c96dcedc33833e6207b0e9893",
+      "bytes": 31398
+    },
+    "kb-gutsyopingpeulraetinyumkadeu": {
+      "src": "images/cards/44eaff12439f6ccc9866.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09056_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09057&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:03.392Z",
+      "retrieved_at": "2026-09-21T14:37:35.621203+00:00",
+      "sha256": "44eaff12439f6ccc98665c8e96198e7efbfc89da53ea71519cf0deb1f11b9563",
+      "bytes": 32081
+    },
+    "kb-haepipointeu-kbgukminkadeu": {
+      "src": "images/cards/d132fec15e13b5e50497.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/02236_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02233&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:55.747Z",
+      "retrieved_at": "2026-09-21T14:37:35.695367+00:00",
+      "sha256": "d132fec15e13b5e5049712c7ce7413608ea4dd0cff7aa5a52e9efb0e2e70cc6f",
+      "bytes": 99651
+    },
+    "kb-hanatueo-kbgukminkadeu": {
+      "src": "images/cards/ca708559d043f50ed927.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/01234_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=01234&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:50.507Z",
+      "retrieved_at": "2026-09-21T14:37:35.858640+00:00",
+      "sha256": "ca708559d043f50ed927e2d0e3b72f552ba11c4ea69d2a1b9768f0dc46298c0e",
+      "bytes": 230861
+    },
+    "kb-hompeulreoseu-kbgukminkadeu": {
+      "src": "images/cards/13f2c36301901bec1b90.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/02050_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02050&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:53.385Z",
+      "retrieved_at": "2026-09-21T14:37:35.806020+00:00",
+      "sha256": "13f2c36301901bec1b902efb0fbdc2d38002dcb46a3c475cde36584967f7186f",
+      "bytes": 103566
+    },
+    "kb-iraendeuriteil-kbgukminkadeu": {
+      "src": "images/cards/bd7a67cceaa43876fc8b.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/02054_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02054&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:54.270Z",
+      "retrieved_at": "2026-09-21T14:37:35.987940+00:00",
+      "sha256": "bd7a67cceaa43876fc8b332f67c10ced386116b1594134d85b40a885c6bbe19e",
+      "bytes": 197064
+    },
+    "kb-kbgukmin-naegojangsarangkadeu-gurosarang": {
+      "src": "images/cards/143b7b237316c7a7e7cb.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/03973_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?categoryCode=L0112&cooperationcode=03973&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:56.094Z",
+      "retrieved_at": "2026-09-21T14:37:36.036988+00:00",
+      "sha256": "143b7b237316c7a7e7cbd76a238615090956d5bba0f0a95c07ed9418817a09e2",
+      "bytes": 322456
+    },
+    "kb-kbgukmin-petkonomi-kadeu": {
+      "src": "images/cards/65830258708a9d43e30a.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04404_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04404&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:57.864Z",
+      "retrieved_at": "2026-09-21T14:37:35.773433+00:00",
+      "sha256": "65830258708a9d43e30aced8e6792cac23ccdb12bc8de9085aa5b66ddffd41c1",
+      "bytes": 31328
+    },
+    "kb-kowei-kbgukminkadeu": {
+      "src": "images/cards/874de574bd639e6ec97d.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04586_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04586&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:02.007Z",
+      "retrieved_at": "2026-09-21T14:37:35.920596+00:00",
+      "sha256": "874de574bd639e6ec97de83fc26a779b2b20b1cb83adbcb0e731904a7b6bc422",
+      "bytes": 34718
+    },
+    "kb-lg-u-halinpokeoseu-kbgukminkadeu": {
+      "src": "images/cards/c04da171331945164474.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04561_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04561&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:59.798Z",
+      "retrieved_at": "2026-09-21T14:37:35.889319+00:00",
+      "sha256": "c04da171331945164474bcbea5dc7399fb6355ee1d88a7d063c0cc2af05d4ff6",
+      "bytes": 32904
+    },
+    "kb-my-we-sh-kadeu": {
+      "src": "images/cards/e290a885699356483c59.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09123_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09923",
+      "source_retrieved_at": "2026-09-20T16:06:06.212Z",
+      "retrieved_at": "2026-09-21T14:37:36.073241+00:00",
+      "sha256": "e290a885699356483c595353f6ee9aa7866a1e9c46a42350346d95df45ae185c",
+      "bytes": 26573
+    },
+    "kb-myone-kbgukminkadeu": {
+      "src": "images/cards/3df45fa1692e095bf9c7.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/02000_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02000&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:52.101Z",
+      "retrieved_at": "2026-09-21T14:37:37.473580+00:00",
+      "sha256": "3df45fa1692e095bf9c70fe301eb7199ef6bcc4a4cc8cc80ddf155429a81b4d3",
+      "bytes": 258550
+    },
+    "kb-nori-chekeukadeu": {
+      "src": "images/cards/6baf2e193460584c5e29.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/01664_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=01664&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:51.657Z",
+      "retrieved_at": "2026-09-21T14:37:37.240878+00:00",
+      "sha256": "6baf2e193460584c5e29b0aaba1069c4f4720da46246e121e24eccc142b28597",
+      "bytes": 34073
+    },
+    "kb-oksyeon-kbgukminkadeu": {
+      "src": "images/cards/37d8e73b83de52e139a3.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/02047_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02046&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:52.983Z",
+      "retrieved_at": "2026-09-21T14:37:37.479330+00:00",
+      "sha256": "37d8e73b83de52e139a362f70a38bd2e23aec472724616c6fe35621b7a778d19",
+      "bytes": 141663
+    },
+    "kb-seukaipaeseu-kbgukmin-peulraetinyumkadeu": {
+      "src": "images/cards/bfa6ed83dc2fbf17aa72.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/01513_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=01515&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:51.226Z",
+      "retrieved_at": "2026-09-21T14:37:37.637427+00:00",
+      "sha256": "bfa6ed83dc2fbf17aa7203f6cb087d55015469f8fcd265b5e7999f1b2cc0d74d",
+      "bytes": 319086
+    },
+    "kb-skt-halinpokeoseu-kbgukminkadeu": {
+      "src": "images/cards/c16096db8e6ccfd3b8c0.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/04560_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=04560&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:59.415Z",
+      "retrieved_at": "2026-09-21T14:37:37.359954+00:00",
+      "sha256": "c16096db8e6ccfd3b8c04ac3e12e63fa9e5c52a0e3d3a79db2a42a60f4ee7f88",
+      "bytes": 22587
+    },
+    "kb-tantandaero-onriyukadeu": {
+      "src": "images/cards/74503ec62468052aa945.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09217_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09217&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:04.870Z",
+      "retrieved_at": "2026-09-21T14:37:37.444222+00:00",
+      "sha256": "74503ec62468052aa945c627922503b1e2ac56aa4293603ec50411a59b09f63f",
+      "bytes": 32801
+    },
+    "kb-tantandaero-otokadeu": {
+      "src": "images/cards/bac3ac60c48c484c4e7f.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09237_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09237&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:05.679Z",
+      "retrieved_at": "2026-09-21T14:37:37.406966+00:00",
+      "sha256": "bac3ac60c48c484c4e7f209e0fabf382cfa3dfad4146a68adb545625249aeed1",
+      "bytes": 19689
+    },
+    "kb-the-cj-kbgukminkadeu": {
+      "src": "images/cards/3984808b1b5d9ab46a4c.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/01142_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=01142&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:50.119Z",
+      "retrieved_at": "2026-09-21T14:37:37.418686+00:00",
+      "sha256": "3984808b1b5d9ab46a4c49a1fbd7c3a0eff47c7941e773b5e2fea753257b165c",
+      "bytes": 41228
+    },
+    "kb-the-easykadeu": {
+      "src": "images/cards/135c9186d3d5c7c51f4b.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09250_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09250&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:05.774Z",
+      "retrieved_at": "2026-09-21T14:37:37.431916+00:00",
+      "sha256": "135c9186d3d5c7c51f4b21c8be330ffe182f18ff9a0f9eb91bda896916610401",
+      "bytes": 22426
+    },
+    "kb-waijeuhomkadeu": {
+      "src": "images/cards/ab2e6b03eb89359f8b15.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/02090_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02090&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:05:54.914Z",
+      "retrieved_at": "2026-09-21T14:37:37.569572+00:00",
+      "sha256": "ab2e6b03eb89359f8b15fd2a812c3773ac9b6bd2bed43cb4449d9de4c4e126a4",
+      "bytes": 117817
+    },
+    "kb-waijeukadeu": {
+      "src": "images/cards/731e5ace0d035a7fdcc9.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09092_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09091&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:04.115Z",
+      "retrieved_at": "2026-09-21T14:37:37.394455+00:00",
+      "sha256": "731e5ace0d035a7fdcc92cec6e3a96f89bc72f9b76881fd5882bface8e1735f8",
+      "bytes": 33421
+    },
+    "kb-we-sh-daily-kadeu": {
+      "src": "images/cards/fff9462aab7e148c0dd5.png",
+      "image_url": "https://img1.kbcard.com/ST/img/cxc/kbcard/upload/img/product/09570_img.png",
+      "source_url": "https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=09570&mainCC=a",
+      "source_retrieved_at": "2026-09-20T16:06:06.961Z",
+      "retrieved_at": "2026-09-21T14:37:37.461004+00:00",
+      "sha256": "fff9462aab7e148c0dd507f0c29d9287fb6c4fa532f22deb03a8d6256dfc6d73",
+      "bytes": 44317
+    },
+    "lotte-digiloca-skypass": {
+      "src": "images/cards/3c913c06d7dec70ea54c.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP15673-A15673_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15673-A15673",
+      "source_retrieved_at": "2026-09-20T16:05:56.433Z",
+      "retrieved_at": "2026-09-21T14:37:37.862802+00:00",
+      "sha256": "3c913c06d7dec70ea54c46c688c61cf79cd19f8c2113732005ae867fad7a334a",
+      "bytes": 65929
+    },
+    "lotte-dijiroka-auto": {
+      "src": "images/cards/e3d27c480c24db848ffd.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP15590-A15590_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15590-A15590",
+      "source_retrieved_at": "2026-09-20T16:05:57.474Z",
+      "retrieved_at": "2026-09-21T14:37:39.325455+00:00",
+      "sha256": "e3d27c480c24db848ffdd7a549fdf1bc1caf5e035c0ac5e732a31c6ef4884e2c",
+      "bytes": 318201
+    },
+    "lotte-dijiroka-las-vegas": {
+      "src": "images/cards/848c31e65a9723e921c9.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP15584-A15584_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15584-A15584",
+      "source_retrieved_at": "2026-09-20T16:05:51.664Z",
+      "retrieved_at": "2026-09-21T14:37:39.443588+00:00",
+      "sha256": "848c31e65a9723e921c978d9d7f0378bc52aff21f5d5e70c3e1d63715963425d",
+      "bytes": 303715
+    },
+    "lotte-dijiroka-london": {
+      "src": "images/cards/2769f6fd089a8d7accf0.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP14718-A14718_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14718-A14718",
+      "source_retrieved_at": "2026-09-20T16:05:50.812Z",
+      "retrieved_at": "2026-09-21T14:37:39.340653+00:00",
+      "sha256": "2769f6fd089a8d7accf0a5372b07845604d29320190122a5c2b25714739c1037",
+      "bytes": 352507
+    },
+    "lotte-dijiroka-monaco": {
+      "src": "images/cards/96615b8e3fd8756c0c7e.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP14724-A14724_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14724-A14724",
+      "source_retrieved_at": "2026-09-20T16:05:59.942Z",
+      "retrieved_at": "2026-09-21T14:37:39.512097+00:00",
+      "sha256": "96615b8e3fd8756c0c7e2e926b621410f1526e0c5abd794fdb03a35a0b6721a9",
+      "bytes": 328962
+    },
+    "lotte-dijiroka-paris": {
+      "src": "images/cards/d098279f593e16d9d08f.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP14728-A14728_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14728-A14728",
+      "source_retrieved_at": "2026-09-20T16:05:52.003Z",
+      "retrieved_at": "2026-09-21T14:37:38.659360+00:00",
+      "sha256": "d098279f593e16d9d08f26b3168466ec786c78e1541548cd6f8cff34a8082d8e",
+      "bytes": 362182
+    },
+    "lotte-eodirodeun-geurinkadeu-x-loca": {
+      "src": "images/cards/a5682e62c89b86690a1e.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP14744-A14744_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14744-A14744",
+      "source_retrieved_at": "2026-09-20T16:05:58.416Z",
+      "retrieved_at": "2026-09-21T14:37:39.313429+00:00",
+      "sha256": "a5682e62c89b86690a1e6daa05a9fba72324ba98caf2c90d1652e0278d106856",
+      "bytes": 286076
+    },
+    "lotte-k-paeseuenroka": {
+      "src": "images/cards/ca6f860f9d7ff58fee49.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP15644-A15644_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15644-A15644",
+      "source_retrieved_at": "2026-09-20T16:05:58.131Z",
+      "retrieved_at": "2026-09-21T14:37:39.286426+00:00",
+      "sha256": "ca6f860f9d7ff58fee49753936994ca4866f7625b2e03b91fd8768213062e78f",
+      "bytes": 262311
+    },
+    "lotte-loca-365-kadeu": {
+      "src": "images/cards/54a80df4bb4135246ce8.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP14028-A14028_nm1.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14028-A14028",
+      "source_retrieved_at": "2026-09-20T16:05:58.912Z",
+      "retrieved_at": "2026-09-21T14:37:38.593286+00:00",
+      "sha256": "54a80df4bb4135246ce8d6f1f243ecc88f6fde96b7b993e8a25e23477c51be75",
+      "bytes": 346718
+    },
+    "lotte-loca-likit": {
+      "src": "images/cards/81da7d147b176dc43216.gif",
+      "image_url": "https://image.lottecard.co.kr/webapp/pc/images/card/localikit_2.gif",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13746-A13746",
+      "source_retrieved_at": "2026-09-20T16:05:54.566Z",
+      "retrieved_at": "2026-09-21T14:40:06.588012+00:00",
+      "sha256": "81da7d147b176dc43216bdd4960769261d3f5fbbdb4be0465946e32e5906dc5f",
+      "bytes": 405389
+    },
+    "lotte-loca-likit-eat": {
+      "src": "images/cards/40e9ba924aebdbdc55c2.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP13943-A13943_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13943-A13943",
+      "source_retrieved_at": "2026-09-20T16:05:55.022Z",
+      "retrieved_at": "2026-09-21T14:37:39.367476+00:00",
+      "sha256": "40e9ba924aebdbdc55c2d2336cec1e2e64b3c8e40ab2e9aa0283fff394b0f76c",
+      "bytes": 249976
+    },
+    "lotte-loca-likit-play": {
+      "src": "images/cards/14a4efece625ec61463d.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP13949-A13949_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13949-A13949",
+      "source_retrieved_at": "2026-09-20T16:05:55.301Z",
+      "retrieved_at": "2026-09-21T14:37:38.694038+00:00",
+      "sha256": "14a4efece625ec61463d95a746966bde83bf237a6d3dddc34dac0923046a88a9",
+      "bytes": 216562
+    },
+    "lotte-loca-likit-shop": {
+      "src": "images/cards/593185b09372ccfce8b1.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP13955-A13955_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13955-A13955",
+      "source_retrieved_at": "2026-09-20T16:05:52.623Z",
+      "retrieved_at": "2026-09-21T14:37:39.334091+00:00",
+      "sha256": "593185b09372ccfce8b1e257b47a202887960f03f5d33e76fca38efe2d685cc8",
+      "bytes": 247837
+    },
+    "lotte-loca-nanugi-kadeu": {
+      "src": "images/cards/449e67c32ac8b77dfe3e.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP14123-A14123_nm1.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14123-A14123",
+      "source_retrieved_at": "2026-09-20T16:05:59.599Z",
+      "retrieved_at": "2026-09-21T14:37:38.976563+00:00",
+      "sha256": "449e67c32ac8b77dfe3e7ec1caed44fccd45c96401afa4356eaef237f38673be",
+      "bytes": 995718
+    },
+    "lotte-loca-professional": {
+      "src": "images/cards/29d1f16618ec74788ecd.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP14715-A14715_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14715-A14715",
+      "source_retrieved_at": "2026-09-20T16:06:00.305Z",
+      "retrieved_at": "2026-09-21T14:37:38.961759+00:00",
+      "sha256": "29d1f16618ec74788ecd863a6acaebb2416fd00a943d7354948931c09b8898c6",
+      "bytes": 325594
+    },
+    "lotte-rolrakadeu": {
+      "src": "images/cards/0333d575d1679d37143b.gif",
+      "image_url": "https://image.lottecard.co.kr/webapp/mobile/images/card/lola_3.gif",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13473-A13473",
+      "source_retrieved_at": "2026-09-20T16:05:53.667Z",
+      "retrieved_at": "2026-09-21T14:40:06.583533+00:00",
+      "sha256": "0333d575d1679d37143bf1a340d3a8619ad6ba42c9e873eab3e0d8761b244522",
+      "bytes": 331443
+    },
+    "lotte-rotdebaekhwajeom-rotdekadeu": {
+      "src": "images/cards/993940ab7c9d4a21dce8.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP11714-A11714_nm1.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P11714-A11714",
+      "source_retrieved_at": "2026-09-20T16:05:52.300Z",
+      "retrieved_at": "2026-09-21T14:37:39.119442+00:00",
+      "sha256": "993940ab7c9d4a21dce80061e073ed377ec48ed46fbc86d82e5e1c8b544b84af",
+      "bytes": 331814
+    },
+    "lotte-rotdemembeoseu-kadeu": {
+      "src": "images/cards/26c507fc15528477f603.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP15648-A15648_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15648-A15648",
+      "source_retrieved_at": "2026-09-20T16:05:54.014Z",
+      "retrieved_at": "2026-09-21T14:37:39.161609+00:00",
+      "sha256": "26c507fc15528477f6032b621892c715e615d50ed08846ac29bedf3cdd69b89b",
+      "bytes": 191685
+    },
+    "lotte-rotdepointeu-peulreoseu-kadeu": {
+      "src": "images/cards/c684d5d9e0d5a993c5f3.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP00276-A00276_nm1.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P00276-A00276",
+      "source_retrieved_at": "2026-09-20T16:05:53.387Z",
+      "retrieved_at": "2026-09-21T14:37:39.257476+00:00",
+      "sha256": "c684d5d9e0d5a993c5f3dd753341e8bf96013aa82c8b978971622d0ca6a6ab9f",
+      "bytes": 132222
+    },
+    "lotte-trip-to-roka": {
+      "src": "images/cards/77889b12c450d870720d.png",
+      "image_url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP14430-A14430_nm1_v.png",
+      "source_url": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14430-A14430",
+      "source_retrieved_at": "2026-09-20T16:05:56.048Z",
+      "retrieved_at": "2026-09-21T14:37:39.234897+00:00",
+      "sha256": "77889b12c450d870720d6d50677d9e4d8cb0a0ac4218c2e07ce58745ce2a9704",
+      "bytes": 65418
+    },
+    "nh-k-paeseukadeu-chekeu": {
+      "src": "images/cards/ce91e1024f998d1aaf0b.png",
+      "image_url": "https://card.nonghyup.com/content/imgs/shopmall/pro_img/card/F20517.png",
+      "source_url": "https://card.nonghyup.com/servlet/IpCc2021R.act?CD_WRS_SQNO=90010470",
+      "source_retrieved_at": "2026-09-20T16:45:46.991Z",
+      "retrieved_at": "2026-09-21T14:37:39.582370+00:00",
+      "sha256": "ce91e1024f998d1aaf0b5b8b6ab1e8db6436254b813c35ab85e2f15a62091e8e",
+      "bytes": 57903
+    },
+    "nh-nholwondeopulkadeu": {
+      "src": "images/cards/9ab7789d806570b87c40.png",
+      "image_url": "https://card.nonghyup.com/content/imgs/shopmall/pro_img/card/F10807.png",
+      "source_url": "https://card.nonghyup.com/servlet/IpCc2021R.act?CD_WRS_SQNO=90010604",
+      "source_retrieved_at": "2026-09-20T16:05:50.830Z",
+      "retrieved_at": "2026-09-21T14:37:39.801044+00:00",
+      "sha256": "9ab7789d806570b87c404ceb0e78a7e1eb7b4cfdf7a49155ebe4fef95ae70113",
+      "bytes": 131904
+    },
+    "samsung-samseong-id-auto-kadeu": {
+      "src": "images/cards/a181049d92cc5283004d.gif",
+      "image_url": "https://static11.samsungcard.com/wcms/home/scard/image/personal/DN_AAP1766.gif",
+      "source_url": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1766",
+      "source_retrieved_at": "2026-09-20T16:05:51.245Z",
+      "retrieved_at": "2026-09-21T14:39:27.288668+00:00",
+      "sha256": "a181049d92cc5283004d0032b6eefb5d19fd63a14351e52fd708d5c1cc54d1b7",
+      "bytes": 5160315
+    },
+    "samsung-samseongkadeu-biz-leaders": {
+      "src": "images/cards/0f1b82ed0721019fb331.png",
+      "image_url": "https://static11.samsungcard.com/wcms/home/scard/image/personal/b_AAP1716.png",
+      "source_url": "https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1716",
+      "source_retrieved_at": "2026-09-20T16:47:55.088Z",
+      "retrieved_at": "2026-09-21T14:40:07.078275+00:00",
+      "sha256": "0f1b82ed0721019fb331d634e9a1f88175229c895f2cf533d3fc0f51881aa53f",
+      "bytes": 179000
+    },
+    "shinhan-cheoeum": {
+      "src": "images/cards/a1cff4616ee790e0c8d4.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BSCDJK_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1227020_2207.html",
+      "source_retrieved_at": "2026-09-20T16:52:58.993Z",
+      "retrieved_at": "2026-09-21T14:39:26.198468+00:00",
+      "sha256": "a1cff4616ee790e0c8d4584bd3cf08d174146ba2c6e3bc3a786b21bfd4cdd0d6",
+      "bytes": 969880
+    },
+    "shinhan-cheoeum-chekeu": {
+      "src": "images/cards/2fe1bf1310c6ec07e3dc.gif",
+      "image_url": "https://cdn.www.shinhancard.com/pconts/static/images/card/plate/BGSDU9_E5_v_f_d.gif",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/check/1234710_2206.html",
+      "source_retrieved_at": "2026-09-20T16:48:24.213Z",
+      "retrieved_at": "2026-09-21T14:37:40.983327+00:00",
+      "sha256": "2fe1bf1310c6ec07e3dc0d96a50da4a1d0f4a61b67a93619cda16c844d0f471d",
+      "bytes": 1215817
+    },
+    "shinhan-deep-dream-chekeu-minieonjeu": {
+      "src": "images/cards/70a7728bb737532583ee.png",
+      "image_url": "https://cdn.www.shinhancard.com/pconts/static/images/card/plate/BJBBSO_00_h_f_d.png",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/check/1187959_2206.html",
+      "source_retrieved_at": "2026-09-20T16:48:30.147Z",
+      "retrieved_at": "2026-09-21T14:37:40.591088+00:00",
+      "sha256": "70a7728bb737532583ee7a90ae5a42285223d32ba13a0493fc70978e2bece034",
+      "bytes": 122228
+    },
+    "shinhan-deep-oil": {
+      "src": "images/cards/d02f0c7cd516edd0a44e.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BIABE0_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1188274_2207.html",
+      "source_retrieved_at": "2026-09-20T16:52:58.800Z",
+      "retrieved_at": "2026-09-21T14:39:25.850379+00:00",
+      "sha256": "d02f0c7cd516edd0a44e06ad00dc78e58ca5b84d41c155d2b44878ae22d526de",
+      "bytes": 615048
+    },
+    "shinhan-discount-plan": {
+      "src": "images/cards/c7916302a165418b57da.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/POEDR2_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1232390_2207.html",
+      "source_retrieved_at": "2026-09-20T17:00:54.652Z",
+      "retrieved_at": "2026-09-21T14:39:25.061835+00:00",
+      "sha256": "c7916302a165418b57daaabfa1f75168afc4bf5cc8265d3ab5d4e1129089e014",
+      "bytes": 27490
+    },
+    "shinhan-everywhere": {
+      "src": "images/cards/9a5d35c7b8085f640a00.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BTDD41_00_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1219683_2207.html",
+      "source_retrieved_at": "2026-09-20T17:00:54.650Z",
+      "retrieved_at": "2026-09-21T14:39:24.997702+00:00",
+      "sha256": "9a5d35c7b8085f640a00d02c18bfb4d70a28206ff8a7e9b117e419a53773a759",
+      "bytes": 40192
+    },
+    "shinhan-k-paeseu-sinhankadeu": {
+      "src": "images/cards/1e1869fed2666fa1e208.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BOADG4_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1225543_2207.html",
+      "source_retrieved_at": "2026-09-20T17:00:54.940Z",
+      "retrieved_at": "2026-09-21T14:39:24.943343+00:00",
+      "sha256": "1e1869fed2666fa1e2085862bc9b50d3edad43c98607516baf5778576e206b86",
+      "bytes": 29540
+    },
+    "shinhan-merieoteu-bonboi-deo-beseuteu-sinhankadeu": {
+      "src": "images/cards/859af7ed998e75553f37.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/ALZCCX_M1_h_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1200288_2205.html",
+      "source_retrieved_at": "2026-09-20T16:52:59.083Z",
+      "retrieved_at": "2026-09-21T14:39:24.967521+00:00",
+      "sha256": "859af7ed998e75553f3784c5149a2f1e4add316b4f0bd105313da447f71d3189",
+      "bytes": 18222
+    },
+    "shinhan-narasarangkadeu-chekeu": {
+      "src": "images/cards/4dea00b15e9d46bf0a97.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/CAADV9_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/check/1236922_2206.html",
+      "source_retrieved_at": "2026-09-20T17:00:55.238Z",
+      "retrieved_at": "2026-09-21T14:39:25.054739+00:00",
+      "sha256": "4dea00b15e9d46bf0a974bcb0063dda1dc3f8514429ea8505a523c3f115ed39f",
+      "bytes": 34498
+    },
+    "shinhan-point-plan": {
+      "src": "images/cards/8b1c9e71607acbccb857.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/POCDMG_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1228407_2207.html",
+      "source_retrieved_at": "2026-09-20T17:00:55.375Z",
+      "retrieved_at": "2026-09-21T14:39:27.563124+00:00",
+      "sha256": "8b1c9e71607acbccb857ab1f7ed11b33919160fcc08eb977840cb0a69d855ac1",
+      "bytes": 1099752
+    },
+    "shinhan-rpm-platinum": {
+      "src": "images/cards/a21cbca6f8336eafab70.png",
+      "image_url": "https://cdn.www.shinhancard.com/pconts/static/images/card/plate/AFLAWV_00_v_f_d.png",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1187945_2207.html",
+      "source_retrieved_at": "2026-09-20T16:53:27.613Z",
+      "retrieved_at": "2026-09-21T14:37:41.312759+00:00",
+      "sha256": "a21cbca6f8336eafab70dc0d77307cfc66e3bb796e8b0cc93b14abaf38872a1e",
+      "bytes": 311892
+    },
+    "shinhan-simple-plan": {
+      "src": "images/cards/3ea4f275725ffba8e0b5.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/POGDXC_G7_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1237253_2207.html",
+      "source_retrieved_at": "2026-09-20T17:00:55.480Z",
+      "retrieved_at": "2026-09-21T14:39:25.193207+00:00",
+      "sha256": "3ea4f275725ffba8e0b562261331e34c101356a0e6ccf3c07b2b6c9f443406d2",
+      "bytes": 19060
+    },
+    "shinhan-singgaporeuhanggong-keuriseupeulraieo-deo-beseuteu-sinhankadeu": {
+      "src": "images/cards/82dc12084e0b6aaacc5b.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BFCD61_S5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1221024_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:55.837Z",
+      "retrieved_at": "2026-09-21T14:39:25.220575+00:00",
+      "sha256": "82dc12084e0b6aaacc5b1079f9287e872621b1983e12c48540c1555a7a2609a8",
+      "bytes": 38274
+    },
+    "shinhan-sol-meiteu-sinhankadeu-sol-plan-chekeu": {
+      "src": "images/cards/e82c92e6918f80adf4d3.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/POIDZR_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/check/1239102_2206.html",
+      "source_retrieved_at": "2026-09-20T17:00:55.828Z",
+      "retrieved_at": "2026-09-21T14:39:25.256065+00:00",
+      "sha256": "e82c92e6918f80adf4d3b13de7bfce4babd8e20fc93098e477f9bebe61a2e97c",
+      "bytes": 11302
+    },
+    "shinhan-solteuraebeul-chekeu": {
+      "src": "images/cards/44eb231d84f3201ba9bf.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BUBDGO_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/check/1225714_2206.html",
+      "source_retrieved_at": "2026-09-20T17:00:56.054Z",
+      "retrieved_at": "2026-09-21T14:39:28.030131+00:00",
+      "sha256": "44eb231d84f3201ba9bf11024949720264a4042d1d02a32b7808ec91d87f5881",
+      "bytes": 3033854
+    },
+    "shinhan-solteuraebeulj-chekeu": {
+      "src": "images/cards/d8d7927f0a95032a52dd.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BUBDRG_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/check/1232877_2206.html",
+      "source_retrieved_at": "2026-09-20T17:00:56.103Z",
+      "retrieved_at": "2026-09-21T14:39:27.361312+00:00",
+      "sha256": "d8d7927f0a95032a52dd9c66741f95ffb8d952c7353d09c1471571f75a03f9d5",
+      "bytes": 1867020
+    },
+    "shinhan-solteuripaenj-chekeu": {
+      "src": "images/cards/75ca638b65da1098cc71.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BUBDWW_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/check/1237542_2206.html",
+      "source_retrieved_at": "2026-09-20T17:00:56.216Z",
+      "retrieved_at": "2026-09-21T14:39:25.480218+00:00",
+      "sha256": "75ca638b65da1098cc71bdd90e92ae361125d56b5825923ca0666c5f24f197ab",
+      "bytes": 25834
+    },
+    "shinhan-solteuripaensyap-chekeu": {
+      "src": "images/cards/9cb3e11e919928459a53.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BUBDWL_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/check/1236362_2206.html",
+      "source_retrieved_at": "2026-09-20T17:00:56.372Z",
+      "retrieved_at": "2026-09-21T14:39:26.939512+00:00",
+      "sha256": "9cb3e11e919928459a5337fa3f53c3c18130ad04763c972324c32729f69f6b58",
+      "bytes": 1365018
+    },
+    "shinhan-the-ace-blue-label": {
+      "src": "images/cards/a9967488996bfcb02474.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/ALSB7E_00_h_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1188283_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:56.468Z",
+      "retrieved_at": "2026-09-21T14:39:26.693946+00:00",
+      "sha256": "a9967488996bfcb0247413fb86d47d70d3768da9359f7177ed501069818ff4be",
+      "bytes": 16266
+    },
+    "shinhan-the-best": {
+      "src": "images/cards/06d8a8a2ffb23c1503df.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/ALWBPA_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1188285_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:56.602Z",
+      "retrieved_at": "2026-09-21T14:39:26.459970+00:00",
+      "sha256": "06d8a8a2ffb23c1503dff89c259bfbac9a6568ac1a02de36ed16a6bddf9b7ced",
+      "bytes": 164262
+    },
+    "shinhan-the-best-xo": {
+      "src": "images/cards/f6094cb6c537c204ac4b.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/AL3DN3_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1231479_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:56.678Z",
+      "retrieved_at": "2026-09-21T14:39:27.917388+00:00",
+      "sha256": "f6094cb6c537c204ac4b86d5befa995a84046817a5a490c8750e89419ff7cf7b",
+      "bytes": 200386
+    },
+    "shinhan-the-boon-svip-sinhankadeu": {
+      "src": "images/cards/63d98454211bf32616c3.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BEABS1_00_h_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/credit/1188441_2207.html",
+      "source_retrieved_at": "2026-09-20T17:00:56.781Z",
+      "retrieved_at": "2026-09-21T14:39:25.892286+00:00",
+      "sha256": "63d98454211bf32616c3bfec72933d11a34e3c81f4a43ed364bebe0a0241ad07",
+      "bytes": 38082
+    },
+    "shinhan-the-classic": {
+      "src": "images/cards/2f4295f93a98f6042cab.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/ALPAPE_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1187949_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:56.948Z",
+      "retrieved_at": "2026-09-21T14:39:26.161357+00:00",
+      "sha256": "2f4295f93a98f6042cab86be0ae156d8a5b799c9da29f80b181bd9093326a6d2",
+      "bytes": 110392
+    },
+    "shinhan-the-classic-neo": {
+      "src": "images/cards/92b31371c0c593a34428.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/AL4DV4_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1236160_2205.html",
+      "source_retrieved_at": "2026-09-21",
+      "retrieved_at": "2026-09-21T14:42:28.403828+00:00",
+      "sha256": "92b31371c0c593a344287b2e9b97bc360759a15af4064219b2d61723b8925e26",
+      "bytes": 81756
+    },
+    "shinhan-the-classic-s": {
+      "src": "images/cards/e25b3e470c9c35799955.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/ALXC6E_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1196402_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:57.250Z",
+      "retrieved_at": "2026-09-21T14:39:26.432430+00:00",
+      "sha256": "e25b3e470c9c3579995574d5cb6dbc2476dbf58b889fa947cb393e1d25c824a3",
+      "bytes": 110796
+    },
+    "shinhan-the-classic-v": {
+      "src": "images/cards/c5dfa5b1917956133857.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/AL2CWP_00_h_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1216601_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:57.295Z",
+      "retrieved_at": "2026-09-21T14:39:26.484714+00:00",
+      "sha256": "c5dfa5b19179561338579e7da5b7c092bf5b476db001d9a6eed7116e59d20830",
+      "bytes": 7892
+    },
+    "shinhan-the-classic-y": {
+      "src": "images/cards/0cd83d986807f119a281.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/ALOAL9_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1187940_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:57.563Z",
+      "retrieved_at": "2026-09-21T14:39:26.686969+00:00",
+      "sha256": "0cd83d986807f119a28190d2774ac16cb87e55a193f379c01e40b3b292e9458e",
+      "bytes": 101412
+    },
+    "shinhan-the-premier-gold-edition": {
+      "src": "images/cards/ce34b68c9debe04cb001.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/ALTBFG_E5_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1188306_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:57.564Z",
+      "retrieved_at": "2026-09-21T14:39:26.852528+00:00",
+      "sha256": "ce34b68c9debe04cb001586d58d0070149d4b61d1cbfdf82fdf3ba8ff88b3ee2",
+      "bytes": 282658
+    },
+    "shinhan-the-premium-pet": {
+      "src": "images/cards/40c15a261b1a4693ce2b.webp",
+      "image_url": "https://www.shinhancard.com/pconts/static/images/card/plate/BLDDMI_P3_v_f_d.webp",
+      "source_url": "https://www.shinhancard.com/pconts/html/card/apply/premium/1228947_2205.html",
+      "source_retrieved_at": "2026-09-20T17:00:57.734Z",
+      "retrieved_at": "2026-09-21T14:39:26.768178+00:00",
+      "sha256": "40c15a261b1a4693ce2b406e6179022241efdab9b4d97261a80fceb44502fe8e",
+      "bytes": 77536
+    },
+    "woori-all-urikadeu-infinite": {
+      "src": "images/cards/cb7a5e195714f9606c66.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2023/11/10/423788fc-69d4-49e4-8985-01aa061574a3.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103187",
+      "source_retrieved_at": "2026-09-20T16:52:10.842Z",
+      "retrieved_at": "2026-09-21T14:37:41.745592+00:00",
+      "sha256": "cb7a5e195714f9606c66a7c63fb3f3603ebb6b42e3dd5be3902cf64fecf4f3ba",
+      "bytes": 435433
+    },
+    "woori-all-urikadeu-premium": {
+      "src": "images/cards/4e4508995f38295900de.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2023/10/25/39540e77-3984-4959-bc43-45ce84cb501f.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103188",
+      "source_retrieved_at": "2026-09-20T16:52:10.845Z",
+      "retrieved_at": "2026-09-21T14:37:41.562009+00:00",
+      "sha256": "4e4508995f38295900de7cf0f298a2473d295f290699913c45c627736c659de8",
+      "bytes": 97690
+    },
+    "woori-apateuai-urikadeu": {
+      "src": "images/cards/fa9e0c44eef422630308.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/1/23/a85b884f-15b7-461a-b589-509ab26acf25.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104172",
+      "source_retrieved_at": "2026-09-20T16:52:10.808Z",
+      "retrieved_at": "2026-09-21T14:37:42.364457+00:00",
+      "sha256": "fa9e0c44eef422630308150c27524ee9b11a81c998cf7c8d1da7304d4eedee02",
+      "bytes": 9349
+    },
+    "woori-badipeuraendeu-urikadeu": {
+      "src": "images/cards/c5ec2ba09503542dd872.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2023/12/15/fd808b9b-3886-4739-8d2c-208cfcdf4d05.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102858",
+      "source_retrieved_at": "2026-09-21T14:37:41.522381+00:00",
+      "retrieved_at": "2026-09-21T14:37:41.889531+00:00",
+      "sha256": "c5ec2ba09503542dd872561dffbda51815feaef916f88a75dc539d08160eef28",
+      "bytes": 43234
+    },
+    "woori-cheonghonaiseu-urikadeu": {
+      "src": "images/cards/b21e9a1fac4cbeeb3e92.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/7/19/e3fb28ab-93a8-4cb3-a3ad-8870e7ff9e76.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103725",
+      "source_retrieved_at": "2026-09-21T14:37:41.522763+00:00",
+      "retrieved_at": "2026-09-21T14:37:41.768063+00:00",
+      "sha256": "b21e9a1fac4cbeeb3e92b319658df7b53bef272c8a508262987300dfd88f7141",
+      "bytes": 17193
+    },
+    "woori-d4kadeuuijeongseok": {
+      "src": "images/cards/2d3f2028640bd2187c5d.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/2/21/93f66875-8894-4dc6-abc4-223110e92691.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103305",
+      "source_retrieved_at": "2026-09-20T16:52:10.942Z",
+      "retrieved_at": "2026-09-21T14:37:41.375833+00:00",
+      "sha256": "2d3f2028640bd2187c5da249b55bea26bf428bded714e0d7c31791410178a6db",
+      "bytes": 24618
+    },
+    "woori-dakadeuuijeongseok": {
+      "src": "images/cards/8a2aeaffcf472704bf32.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/1/10/0a772d84-e46a-4bcd-9d7e-cad2200145f0.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102534",
+      "source_retrieved_at": "2026-09-20T16:52:11.011Z",
+      "retrieved_at": "2026-09-21T14:37:41.442060+00:00",
+      "sha256": "8a2aeaffcf472704bf32b25b9c12359166cfbc5455fd87aa3ca138343ae66b58",
+      "bytes": 26331
+    },
+    "woori-e1-urikadeu": {
+      "src": "images/cards/355383c881d1da71e512.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/6/30/fcb5c339-e64a-4380-a2be-40c7fa769808.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103564",
+      "source_retrieved_at": "2026-09-21T14:37:41.607500+00:00",
+      "retrieved_at": "2026-09-21T14:37:41.889393+00:00",
+      "sha256": "355383c881d1da71e512ee055ccd661297a2a9a4a692c70274ebb14853f5c75a",
+      "bytes": 13312
+    },
+    "woori-fc-express-chekeu": {
+      "src": "images/cards/c7f9eb43105ac40f1b6e.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/resizeImg/835453_Large.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=835453",
+      "source_retrieved_at": "2026-09-20T16:52:10.977Z",
+      "retrieved_at": "2026-09-21T14:37:41.679422+00:00",
+      "sha256": "c7f9eb43105ac40f1b6ecb883f9a2a94bfb4bfe463f3a1a31c62d4458beb72a3",
+      "bytes": 127086
+    },
+    "woori-gaelreoria-platinum-urikadeu": {
+      "src": "images/cards/00a34509ad1626f6b987.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/7/1/8c7b8c97-da72-4fff-a8c2-f31910e6c793.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103483",
+      "source_retrieved_at": "2026-09-20T16:52:11.030Z",
+      "retrieved_at": "2026-09-21T14:37:41.664424+00:00",
+      "sha256": "00a34509ad1626f6b987c1d2bb978dd5e85d47eb3715e9248bdbbbb0eec3ee23",
+      "bytes": 88837
+    },
+    "woori-geurangbeulru-chekeukadeu": {
+      "src": "images/cards/2c83d83deebfbce24089.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/resizeImg/227977_Large.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=227977",
+      "source_retrieved_at": "2026-09-20T16:52:11.142Z",
+      "retrieved_at": "2026-09-21T14:37:41.745128+00:00",
+      "sha256": "2c83d83deebfbce24089de7d0cf8c57dd8286369bdbc2e0c91bcc9fa002358c5",
+      "bytes": 82575
+    },
+    "woori-gskaltekseu-hwamulbokjikadeu": {
+      "src": "images/cards/e8de68b95e0644a72b78.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2021/4/9/15633d44-4c2e-4135-aedf-d7cb101d9c53.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=100930",
+      "source_retrieved_at": "2026-09-20T16:52:11.126Z",
+      "retrieved_at": "2026-09-21T14:37:41.683633+00:00",
+      "sha256": "e8de68b95e0644a72b78770f467ce55eadc17d280987c50ca04b9474ddef62ee",
+      "bytes": 19903
+    },
+    "woori-gukminhaengbok-chekeukadeus2": {
+      "src": "images/cards/9121676160c913395536.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2021/4/1/395e15fa-f200-482c-b791-2dc277b87688.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=100861",
+      "source_retrieved_at": "2026-09-20T16:52:11.148Z",
+      "retrieved_at": "2026-09-21T14:37:42.361465+00:00",
+      "sha256": "9121676160c91339553663638345cb57522b51631265fc212a878519d57d59d7",
+      "bytes": 433361
+    },
+    "woori-gukminhaengbokkadeus2": {
+      "src": "images/cards/a1525ea6f13d9ece3251.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2021/4/1/7c85fc81-a050-4e33-a3ff-dd5155e3bc29.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=100860",
+      "source_retrieved_at": "2026-09-20T16:52:11.224Z",
+      "retrieved_at": "2026-09-21T14:37:42.235992+00:00",
+      "sha256": "a1525ea6f13d9ece3251ed2cee254ff4e41837d0ab045f552a8d1947bdd8b891",
+      "bytes": 201302
+    },
+    "woori-gukminyeongeumjeung-urikadeu": {
+      "src": "images/cards/647671be8e0f22382a27.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/7/17/f9dc3330-bad8-4815-a0e6-f98e295f4f55.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104140",
+      "source_retrieved_at": "2026-09-21T14:37:42.198417+00:00",
+      "retrieved_at": "2026-09-21T14:37:42.635109+00:00",
+      "sha256": "647671be8e0f22382a272c109649a660e84877ac339ee81727edb15cf161a451",
+      "bytes": 16580
+    },
+    "woori-gyowonwelseu-urikadeu": {
+      "src": "images/cards/5759af3ee3f3d5a3a0b0.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/9/10/d20d2681-f040-4b7f-b050-7e4a7a6ccdd4.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103737",
+      "source_retrieved_at": "2026-09-21T14:37:42.063489+00:00",
+      "retrieved_at": "2026-09-21T14:37:42.668152+00:00",
+      "sha256": "5759af3ee3f3d5a3a0b08f4707009e042459e8ff853d7f4c82501de2cf44159f",
+      "bytes": 36392
+    },
+    "woori-haimateu-urikadeu": {
+      "src": "images/cards/644552ca5447534e2725.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/3/25/2b37ff18-b688-4fdf-9022-805cce06c139.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102734",
+      "source_retrieved_at": "2026-09-21T14:37:42.203736+00:00",
+      "retrieved_at": "2026-09-21T14:37:42.667121+00:00",
+      "sha256": "644552ca5447534e2725908a1a05b2ace7efc441f8a08bd1e729b748d8056785",
+      "bytes": 28252
+    },
+    "woori-hyeondaerentalkeeo-urikadeu": {
+      "src": "images/cards/68510c8c19e6eb801558.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/9/10/38e1a179-7726-4ef3-bda1-13f267cdd437.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103738",
+      "source_retrieved_at": "2026-09-21T14:37:42.262788+00:00",
+      "retrieved_at": "2026-09-21T14:37:42.672609+00:00",
+      "sha256": "68510c8c19e6eb801558904d8bd614c4a87adb082f087a9de187a3fd0c939f7b",
+      "bytes": 30722
+    },
+    "woori-hyeondaerentalseobiseu-urikadeu": {
+      "src": "images/cards/02eaf236688c365447b3.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/1/9/2839ca7e-608a-4151-a28e-e925d5a43dc6.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103263",
+      "source_retrieved_at": "2026-09-21T14:37:42.255580+00:00",
+      "retrieved_at": "2026-09-21T14:37:42.721692+00:00",
+      "sha256": "02eaf236688c365447b33b866576110dc98a1ef34af1d29b0c49df8209b4d74b",
+      "bytes": 48583
+    },
+    "woori-k-paeseu-urikadeu": {
+      "src": "images/cards/ff9c9b035f645d0e0d00.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/12/17/b83f392f-4739-4bb8-bdd8-35a3ba36cc7e.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102864",
+      "source_retrieved_at": "2026-09-20T16:52:11.388Z",
+      "retrieved_at": "2026-09-21T14:37:42.448773+00:00",
+      "sha256": "ff9c9b035f645d0e0d00b2a0b03acb5431a8f444daf7ea140fe004fd73b30089",
+      "bytes": 64299
+    },
+    "woori-k-paeseu-urikadeu-chekeu": {
+      "src": "images/cards/b2b7b8dda5a8f2ff5786.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/12/17/01690ccd-4fa9-4e07-b1b9-203a1822d771.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102865",
+      "source_retrieved_at": "2026-09-20T16:52:11.408Z",
+      "retrieved_at": "2026-09-21T14:37:42.604975+00:00",
+      "sha256": "b2b7b8dda5a8f2ff5786e462de913b7c95b5ef8d9d71f09601520a674c98402c",
+      "bytes": 59662
+    },
+    "woori-kadeuuijeongseok-every-mile-skypass": {
+      "src": "images/cards/9a0fe28471ca68d1eb58.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/8/18/82421e2c-4447-42b4-88bc-2cf410cf511c.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102488",
+      "source_retrieved_at": "2026-09-20T16:52:11.542Z",
+      "retrieved_at": "2026-09-21T14:37:42.599753+00:00",
+      "sha256": "9a0fe28471ca68d1eb58c7a7868cf3fcebf78f6f2e23bb7a31048be8c17ea081",
+      "bytes": 63513
+    },
+    "woori-kadeuuijeongseok-everyday-check": {
+      "src": "images/cards/d499b48ba87968852c3d.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/7/17/33b78efe-6211-4f78-8b77-7efef35067de.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103734",
+      "source_retrieved_at": "2026-09-21T14:37:42.826706+00:00",
+      "retrieved_at": "2026-09-21T14:37:43.322534+00:00",
+      "sha256": "d499b48ba87968852c3dfc1e266a674ed204c4738c5e87f71b46f3b8ad2775c2",
+      "bytes": 108537
+    },
+    "woori-kadeuuijeongseok-hwamulbokjikadeu": {
+      "src": "images/cards/2f48b172ceb3e2d1a0e5.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/1/12/c3d5ba2d-0759-436b-bce9-15ac8ff2efe0.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102862",
+      "source_retrieved_at": "2026-09-21T14:37:42.848119+00:00",
+      "retrieved_at": "2026-09-21T14:37:43.161969+00:00",
+      "sha256": "2f48b172ceb3e2d1a0e5c3580076da8fcf392feda228182a6209919f7c827a0a",
+      "bytes": 35042
+    },
+    "woori-kadeuuijeongseok-hwamulbokjikadeu-chekeu": {
+      "src": "images/cards/267485f61493ed0c7744.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/1/15/4df7dea1-3da6-4404-a622-6a6eeb5ca2ed.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102863",
+      "source_retrieved_at": "2026-09-21T14:37:42.854490+00:00",
+      "retrieved_at": "2026-09-21T14:37:43.159588+00:00",
+      "sha256": "267485f61493ed0c77444c869c357ef74c3be2721422c742bcd22b9a6fbd5692",
+      "bytes": 34831
+    },
+    "woori-kadeuuijeongseok-i-u": {
+      "src": "images/cards/fab8fe9ac3b22256e0df.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/2/13/5821f274-3022-4802-af9a-679e54570789.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102717",
+      "source_retrieved_at": "2026-09-20T16:52:11.535Z",
+      "retrieved_at": "2026-09-21T14:42:28.574968+00:00",
+      "sha256": "fab8fe9ac3b22256e0df1060fb32b0f87f36991140111fdbf12adc501358dee6",
+      "bytes": 19747
+    },
+    "woori-kadeuuijeongseok-lck-urichekeu": {
+      "src": "images/cards/5dcc52925d485d926b09.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/6/20/22593be6-6873-4dfc-a851-fcfc85f320bc.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103116",
+      "source_retrieved_at": "2026-09-20T16:52:11.656Z",
+      "retrieved_at": "2026-09-21T14:37:42.898300+00:00",
+      "sha256": "5dcc52925d485d926b0964a0390c01d155a684a019d95f483de5d476c2d68370",
+      "bytes": 78245
+    },
+    "woori-kadeuuijeongseok-ohacheck": {
+      "src": "images/cards/94d5c3bdc8d1d2cb7e92.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/12/16/a5fc67a5-916a-45de-94ee-cdadef81524a.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102716",
+      "source_retrieved_at": "2026-09-21T14:37:43.041789+00:00",
+      "retrieved_at": "2026-09-21T14:37:43.383989+00:00",
+      "sha256": "94d5c3bdc8d1d2cb7e92e0550928d9199f12967956fea7588a4060d2b9193b69",
+      "bytes": 31578
+    },
+    "woori-kadeuuijeongseok-ten": {
+      "src": "images/cards/85619e2c9fb2c6ac0362.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/5/16/70133584-31f5-40f5-9fe9-b9d6feebed08.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103686",
+      "source_retrieved_at": "2026-09-20T16:52:11.685Z",
+      "retrieved_at": "2026-09-21T14:37:42.875228+00:00",
+      "sha256": "85619e2c9fb2c6ac036203fcaebefa96a3935468507f3ab4610144d06bd458b5",
+      "bytes": 16397
+    },
+    "woori-kadeuuijeongseok2": {
+      "src": "images/cards/f2fb021ba5e83d4f094f.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/10/30/567e2abd-b06f-4a0a-a665-7a0ce3d08723.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102997",
+      "source_retrieved_at": "2026-09-20T16:52:11.719Z",
+      "retrieved_at": "2026-09-21T14:37:43.248367+00:00",
+      "sha256": "f2fb021ba5e83d4f094fc74cb7e62d2ae7c5c4846dcd41b8c1e4bb92cb1b6ce2",
+      "bytes": 240994
+    },
+    "woori-kadeuuijeongseok2-auto": {
+      "src": "images/cards/ba0201be8582f9605c8c.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/3/10/c47d4941-e8e1-40a1-8567-67f2ecc417ad.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500010",
+      "source_retrieved_at": "2026-09-20T16:52:11.842Z",
+      "retrieved_at": "2026-09-21T14:37:43.348700+00:00",
+      "sha256": "ba0201be8582f9605c8c1da75d07a989ec7e381e7fe2d4eee54a3c64c7a7987e",
+      "bytes": 267550
+    },
+    "woori-kadeuuijeongseok2-every-discount": {
+      "src": "images/cards/a83c863562b95906617c.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/5/29/9ec91693-5697-4a12-9b31-c2ed98e80268.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103729",
+      "source_retrieved_at": "2026-09-20T16:52:11.824Z",
+      "retrieved_at": "2026-09-21T14:37:42.945000+00:00",
+      "sha256": "a83c863562b95906617cd701a31168dbd5fb9328cb2bf401365d6150b583db4a",
+      "bytes": 14910
+    },
+    "woori-kadeuuijeongseok2-every-point": {
+      "src": "images/cards/79904a5cfff422f3169a.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/5/29/e0284781-23df-460c-ad0a-205860f3fe5a.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102718",
+      "source_retrieved_at": "2026-09-20T16:52:11.846Z",
+      "retrieved_at": "2026-09-21T14:37:42.971555+00:00",
+      "sha256": "79904a5cfff422f3169a5f11f1d23aa1e2ea9edae1ea2c71d68ad199e479f845",
+      "bytes": 27853
+    },
+    "woori-kadeuuijeongseok2-exk-chekeu": {
+      "src": "images/cards/2bd4acfeb0acc1a137d2.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/1/20/87b12bb2-07c2-4a3f-bd8c-671764ef6caa.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103496",
+      "source_retrieved_at": "2026-09-20T16:52:11.864Z",
+      "retrieved_at": "2026-09-21T14:37:43.315980+00:00",
+      "sha256": "2bd4acfeb0acc1a137d2c359473267824009381b839587db1de780366697592d",
+      "bytes": 79017
+    },
+    "woori-kadeuuijeongseok2-hubulhaipaeseu": {
+      "src": "images/cards/612f7380bd47624c7a65.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/5/29/21ade54a-c37d-4402-95aa-b116587b3232.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103416",
+      "source_retrieved_at": "2026-09-20T16:52:11.831Z",
+      "retrieved_at": "2026-09-21T14:37:43.181277+00:00",
+      "sha256": "612f7380bd47624c7a65516b44cfaae86fc1f1fad8d98c280278340bc1f24a1e",
+      "bytes": 7234
+    },
+    "woori-kadeuuijeongseok2-kaltoe-check": {
+      "src": "images/cards/55262b2aebaed3977c8c.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/4/30/a7aca1a0-9d02-426c-b362-5b201a331ae2.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102482",
+      "source_retrieved_at": "2026-09-21T14:37:43.404864+00:00",
+      "retrieved_at": "2026-09-21T14:37:43.640600+00:00",
+      "sha256": "55262b2aebaed3977c8c69a00d9f40ba056594a67ff3fa43943907a526cba845",
+      "bytes": 88624
+    },
+    "woori-kadeuuijeongseok2-routine": {
+      "src": "images/cards/bfa623f88b651b4c1a0b.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/5/12/79981654-d995-4eae-a414-509e82f664b8.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500045",
+      "source_retrieved_at": "2026-09-20T16:52:12.017Z",
+      "retrieved_at": "2026-09-21T14:37:43.474137+00:00",
+      "sha256": "bfa623f88b651b4c1a0b7ec3db5a73a581478eed1ac8cc237f132c5f79241f2f",
+      "bytes": 207347
+    },
+    "woori-kadeuuijeongseok2-shopper": {
+      "src": "images/cards/7749b57ae2d163c20244.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/3/30/2a71941c-0bce-4dfa-9993-e84a24cde97b.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104151",
+      "source_retrieved_at": "2026-09-20T16:52:12.022Z",
+      "retrieved_at": "2026-09-21T14:37:43.431404+00:00",
+      "sha256": "7749b57ae2d163c202445da1e728a4ba7ba1a57232343aae80e80ae5466aab40",
+      "bytes": 103371
+    },
+    "woori-kadeuuijeongseok2-super": {
+      "src": "images/cards/81b45ea86476351944c5.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/4/23/acb000c7-0c63-43c5-b5a9-4bee67cb2f4b.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500044",
+      "source_retrieved_at": "2026-09-20T16:52:12.037Z",
+      "retrieved_at": "2026-09-21T14:37:43.576337+00:00",
+      "sha256": "81b45ea86476351944c571e84907598d0dc5f782d2509f3928baf05949402ef5",
+      "bytes": 308196
+    },
+    "woori-kadeuuijeongseok2-wondeoraipeu": {
+      "src": "images/cards/47be7b61cc67ff6fd028.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/3/12/f7f80217-f5c9-4989-9aa2-da5cf31862ec.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500001",
+      "source_retrieved_at": "2026-09-20T16:52:12.044Z",
+      "retrieved_at": "2026-09-21T14:37:43.476057+00:00",
+      "sha256": "47be7b61cc67ff6fd0283dbec33000d813fbcf0bdfad59bc354b70f6c899673d",
+      "bytes": 82887
+    },
+    "woori-kadeuuijeongseok2-wondeoraipeu-check": {
+      "src": "images/cards/6cb19a203f6284935297.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/3/12/66e1b125-7599-496c-98b1-84e886d748e0.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500002",
+      "source_retrieved_at": "2026-09-21T14:37:43.570685+00:00",
+      "retrieved_at": "2026-09-21T14:37:43.742962+00:00",
+      "sha256": "6cb19a203f6284935297c4618d48fbd0952a9f31906c7253f7aa6c8b10095588",
+      "bytes": 14506
+    },
+    "woori-kowei-icon-urikadeu": {
+      "src": "images/cards/8c3a7aca4d71718701f1.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/1/23/83284600-f866-47ac-b284-0228c2ca8f46.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500004",
+      "source_retrieved_at": "2026-09-20T16:52:12.156Z",
+      "retrieved_at": "2026-09-21T14:37:43.424467+00:00",
+      "sha256": "8c3a7aca4d71718701f1cae02ea57fb5b4f96fd94b96306403a4d2344f928b36",
+      "bytes": 10854
+    },
+    "woori-kream-chekeukadeu": {
+      "src": "images/cards/99c670e80ffd0a689f21.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/11/6/c7c17b8a-3f88-4bc4-b14b-3e622edbadc7.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103117",
+      "source_retrieved_at": "2026-09-21T14:37:43.570085+00:00",
+      "retrieved_at": "2026-09-21T14:37:43.745461+00:00",
+      "sha256": "99c670e80ffd0a689f21e4071d2d52b4312163bfcea4163af9d8bdda640b3a4b",
+      "bytes": 7830
+    },
+    "woori-kream-platinum-urikadeu": {
+      "src": "images/cards/00ff2f6aca14f3017434.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/1/7/91d523c7-715a-45a8-8b83-39f1048ed388.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104156",
+      "source_retrieved_at": "2026-09-20T16:52:12.178Z",
+      "retrieved_at": "2026-09-21T14:37:43.462783+00:00",
+      "sha256": "00ff2f6aca14f3017434471126d24f327d42883dcbaf4de05cb2cbbf6f2a268d",
+      "bytes": 4491
+    },
+    "woori-kream-urikadeu": {
+      "src": "images/cards/739871068be524b8ed46.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/11/11/320f245a-fc8f-4955-9076-c6acaa199824.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102098",
+      "source_retrieved_at": "2026-09-21T14:37:43.619905+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.358104+00:00",
+      "sha256": "739871068be524b8ed46a5c3deec3ef2a086ad8e69f653ea976cf1e9ebb34c27",
+      "bytes": 469476
+    },
+    "woori-kt-36-plus-urikadeu": {
+      "src": "images/cards/7aca43819dd67269ab28.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/2/27/c39d75c0-85dc-47a1-b79a-7360927a4cbe.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104168",
+      "source_retrieved_at": "2026-09-20T16:52:12.313Z",
+      "retrieved_at": "2026-09-21T14:37:43.529557+00:00",
+      "sha256": "7aca43819dd67269ab2882e97b8a1b51344f57504aed5274dc440c206a8283f2",
+      "bytes": 8899
+    },
+    "woori-kt-plus-urikadeu": {
+      "src": "images/cards/5d6d0b1406faf5fb9dc3.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/8/27/87647f87-f888-4036-98f4-3dc8c65becc9.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103750",
+      "source_retrieved_at": "2026-09-21T14:37:43.652675+00:00",
+      "retrieved_at": "2026-09-21T14:37:43.796930+00:00",
+      "sha256": "5d6d0b1406faf5fb9dc3dd5342ecc37a51a90fc0ded4bcfc7d1d15b2244f82cf",
+      "bytes": 9772
+    },
+    "woori-kuku-urikadeu": {
+      "src": "images/cards/817debfb02889b99b4f4.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2023/12/15/9163a2bb-9ef8-46a7-a42b-ba77d663c0d2.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102857",
+      "source_retrieved_at": "2026-09-21T14:37:43.655603+00:00",
+      "retrieved_at": "2026-09-21T14:37:43.861786+00:00",
+      "sha256": "817debfb02889b99b4f4d13aa8b3d9f82c981e92b2d9f4622c6ced8842417a89",
+      "bytes": 21562
+    },
+    "woori-lghelrobijeon-urijipen-urikadeu": {
+      "src": "images/cards/45b54ec7e0f241beff27.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/1/30/a215342c-c3df-4266-8fef-ad6529b1eccd.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104173",
+      "source_retrieved_at": "2026-09-20T16:52:12.309Z",
+      "retrieved_at": "2026-09-21T14:37:43.538396+00:00",
+      "sha256": "45b54ec7e0f241beff27e36a0abd582cbd6553486680b9945a49bf0de49915b2",
+      "bytes": 8815
+    },
+    "woori-lgjeonja-platinum-urikadeu": {
+      "src": "images/cards/1c7c17f1d03d5958194e.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/2/2/8d8d4eea-a43c-4973-a543-c2e902237abd.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104169",
+      "source_retrieved_at": "2026-09-20T16:52:12.330Z",
+      "retrieved_at": "2026-09-21T14:37:43.586937+00:00",
+      "sha256": "1c7c17f1d03d5958194e82e5dcc68bc8f310eda4a6e1b48c47d1ee1b7ab96409",
+      "bytes": 7867
+    },
+    "woori-lgjeonja-urikadeu": {
+      "src": "images/cards/99cc5fc34cc81ce880bb.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2023/12/14/41a2e4bc-de43-4f62-a41a-b9dcca5653d5.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102535",
+      "source_retrieved_at": "2026-09-20T16:52:12.432Z",
+      "retrieved_at": "2026-09-21T14:37:43.655936+00:00",
+      "sha256": "99cc5fc34cc81ce880bb79c0b187fa3ce87638120e18c9167bb967b4e975c183",
+      "bytes": 24975
+    },
+    "woori-nabien-gudok-urikadeu": {
+      "src": "images/cards/22a35347d5513acb6f29.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/1/23/936c1b65-17aa-4356-8988-d5c99cd8b0da.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104176",
+      "source_retrieved_at": "2026-09-20T16:52:12.434Z",
+      "retrieved_at": "2026-09-21T14:37:43.638078+00:00",
+      "sha256": "22a35347d5513acb6f2922bd4854ff301b90ab446620f9718a580dbcb9020095",
+      "bytes": 8330
+    },
+    "woori-neksentaieo-urikadeu": {
+      "src": "images/cards/703473f5e243a0c8ba81.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2023/12/15/1994cce3-0b0a-42a3-a8ec-295e255d5605.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102724",
+      "source_retrieved_at": "2026-09-21T14:37:43.782677+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.291736+00:00",
+      "sha256": "703473f5e243a0c8ba812a2578b42a5c37ae555020dcc3843119a645c0a9207d",
+      "bytes": 122663
+    },
+    "woori-nu-biz": {
+      "src": "images/cards/e49f99236052210600c7.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2022/6/29/0d6e448c-e77a-40d3-b27a-5c44285c270b.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=101655",
+      "source_retrieved_at": "2026-09-20T16:52:12.439Z",
+      "retrieved_at": "2026-09-21T14:37:43.862077+00:00",
+      "sha256": "e49f99236052210600c7642cef9bee9a384d0ae63b7f7855f4677cbee8599616",
+      "bytes": 115555
+    },
+    "woori-royal-blue-mileage-skypass": {
+      "src": "images/cards/03aee29aa60b7cae8c94.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/resizeImg/833841_Large.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=833841",
+      "source_retrieved_at": "2026-09-20T16:52:12.453Z",
+      "retrieved_at": "2026-09-21T14:37:43.773515+00:00",
+      "sha256": "03aee29aa60b7cae8c946efe519481968f287d06759a7be522457bb7bdb2753c",
+      "bytes": 19988
+    },
+    "woori-royal-blue-point": {
+      "src": "images/cards/e1326a795aa845cb6e16.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2020/6/30/fc9e3c54-23c4-4341-aa66-59a0ffcecc44.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=833837",
+      "source_retrieved_at": "2026-09-20T16:52:12.619Z",
+      "retrieved_at": "2026-09-21T14:37:43.772743+00:00",
+      "sha256": "e1326a795aa845cb6e165490f839a09cab04389e4f528a11e8984d0a05952e84",
+      "bytes": 26045
+    },
+    "woori-royalbeulru1000kadeu-skypass": {
+      "src": "images/cards/dbaa72e2f91191b690b8.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/resizeImg/225501_Large.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=225501",
+      "source_retrieved_at": "2026-09-20T16:52:12.648Z",
+      "retrieved_at": "2026-09-21T14:37:43.985634+00:00",
+      "sha256": "dbaa72e2f91191b690b87f18510d0258fee3883f164575e0fd4bba3c0b8145db",
+      "bytes": 76369
+    },
+    "woori-samseongaigudok-urikadeu": {
+      "src": "images/cards/c9fba4561c62a4403878.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/9/2/08234fb4-e95b-433d-be39-f654e74c51a4.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104123",
+      "source_retrieved_at": "2026-09-21T14:37:43.930555+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.345407+00:00",
+      "sha256": "c9fba4561c62a44038780419d0d16dff74e23806be619851743f4e06ffbabef3",
+      "bytes": 83109
+    },
+    "woori-serajem-gudok-urikadeu": {
+      "src": "images/cards/2142ac33e696a3504c2b.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/11/3/ad34c931-6109-474b-b63e-10939e6df8d1.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104147",
+      "source_retrieved_at": "2026-09-20T16:52:12.624Z",
+      "retrieved_at": "2026-09-21T14:37:43.811864+00:00",
+      "sha256": "2142ac33e696a3504c2baa3dbef1791049d5b13e1e069257fddb206978751f42",
+      "bytes": 8671
+    },
+    "woori-seutateuraebeul-urikadeu": {
+      "src": "images/cards/ac37c4fe99ddf25f40b3.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/3/19/826ab18e-3b0f-4e44-bdc5-13a27a85a8e7.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104171",
+      "source_retrieved_at": "2026-09-20T16:52:12.635Z",
+      "retrieved_at": "2026-09-21T14:37:44.463801+00:00",
+      "sha256": "ac37c4fe99ddf25f40b3d2fd6f57bd182ab3b5352b05ff4a7412f744ebc4f94c",
+      "bytes": 351461
+    },
+    "woori-sk-juyu-400-urikadeu": {
+      "src": "images/cards/1303abc6a6f690cea0d1.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/11/19/959fb474-327d-48d3-a1e8-54910259c4e5.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104167",
+      "source_retrieved_at": "2026-09-20T16:52:12.844Z",
+      "retrieved_at": "2026-09-21T14:37:43.947042+00:00",
+      "sha256": "1303abc6a6f690cea0d1248b3cb62a1979a77cbd898be46eaa196237bfbef82e",
+      "bytes": 10492
+    },
+    "woori-sk-lpg-hwamulbokjikadeu": {
+      "src": "images/cards/b8e52c63d46fe7149eed.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/12/17/68604e02-dcef-483a-967d-b32c051037d3.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103757",
+      "source_retrieved_at": "2026-09-21T14:37:44.148290+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.481667+00:00",
+      "sha256": "b8e52c63d46fe7149eedb746f75ba39e11aa1689e8ab39c126198b64123a33c8",
+      "bytes": 27450
+    },
+    "woori-skintelrikseu-urikadeu": {
+      "src": "images/cards/2cea88cf93bf13a353aa.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/10/31/1292cc20-1a01-4c2f-9926-d2bd791483c5.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102859",
+      "source_retrieved_at": "2026-09-21T14:37:44.165761+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.473701+00:00",
+      "sha256": "2cea88cf93bf13a353aad9a4da4412ec12518cefab3de8a8735acae611de1cb1",
+      "bytes": 25198
+    },
+    "woori-suhocheonsa-dongyangsaengmyeong-urikadeu": {
+      "src": "images/cards/237be5938e3191d9c778.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/3/12/cab38ba7-99e1-4387-b606-1d9985b54865.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104137",
+      "source_retrieved_at": "2026-09-20T16:52:12.776Z",
+      "retrieved_at": "2026-09-21T14:37:44.023463+00:00",
+      "sha256": "237be5938e3191d9c778554780a018f162c71f50076d1a1f579262edf2b86613",
+      "bytes": 4966
+    },
+    "woori-teuraebeulwolret-urikadeu": {
+      "src": "images/cards/945e4d64f11584c6ed73.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/11/6/50eabcba-2d40-4c72-b3e2-2ad611e84e9c.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102722",
+      "source_retrieved_at": "2026-09-20T16:52:12.858Z",
+      "retrieved_at": "2026-09-21T14:37:44.134181+00:00",
+      "sha256": "945e4d64f11584c6ed734233ca08697a8236a0386a32b10c9e3fda8640a10ec7",
+      "bytes": 43082
+    },
+    "woori-the-opus-silver": {
+      "src": "images/cards/607e314c6a7ba73db712.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/9/8/a2d8dc20-1660-4bc1-a3b1-8477bc2fb7fe.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103500",
+      "source_retrieved_at": "2026-09-20T16:52:12.942Z",
+      "retrieved_at": "2026-09-21T14:37:44.610855+00:00",
+      "sha256": "607e314c6a7ba73db712ac956fc030a5187126b2e9baeffefe7b464ed97129ae",
+      "bytes": 555704
+    },
+    "woori-the-opus-silver-biz": {
+      "src": "images/cards/b9e3ce74bcbfd70f9433.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2026/2/2/0cfd3526-e4bc-4f76-8310-965cc28c1aa8.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500007",
+      "source_retrieved_at": "2026-09-20T16:52:12.932Z",
+      "retrieved_at": "2026-09-21T14:37:44.312280+00:00",
+      "sha256": "b9e3ce74bcbfd70f9433650f554b009b356edbf09cae65ec871891529d82a925",
+      "bytes": 117609
+    },
+    "woori-traiteu-urikadeu": {
+      "src": "images/cards/d7826f8723d65e0db592.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/8/27/cb24ba0a-c232-49f8-abf1-16ca2f40c78a.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103749",
+      "source_retrieved_at": "2026-09-21T14:37:44.370732+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.538943+00:00",
+      "sha256": "d7826f8723d65e0db5922a3e39464ec161032c86896002737701291f126cb71a",
+      "bytes": 8829
+    },
+    "woori-two-chairs-w": {
+      "src": "images/cards/26fc76c44f8943665c7b.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/6/27/a62e9376-9740-4cab-8bad-4d52a53c43a5.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103726",
+      "source_retrieved_at": "2026-09-20T16:52:13.093Z",
+      "retrieved_at": "2026-09-21T14:37:44.479937+00:00",
+      "sha256": "26fc76c44f8943665c7bddecb923ded68bec7fb5d79ebbc4f3b61efc5db21040",
+      "bytes": 72108
+    },
+    "woori-u-iurikadeu-chekeu": {
+      "src": "images/cards/59373207aa09404f7eac.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2023/12/18/fc26b113-d737-487c-bb1f-34b8f9db2f6c.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102861",
+      "source_retrieved_at": "2026-09-21T14:42:28.676574+00:00",
+      "retrieved_at": "2026-09-21T14:42:29.064378+00:00",
+      "sha256": "59373207aa09404f7eac2b8a8635adc9a499845ce1e19f427ac1b011e610fcbe",
+      "bytes": 50420
+    },
+    "woori-u-x-urikadeu": {
+      "src": "images/cards/3850c1876e37081ff5ce.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/8/27/40e299a9-1a19-45e0-a631-7565c753655e.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103751",
+      "source_retrieved_at": "2026-09-21T14:37:44.558379+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.666286+00:00",
+      "sha256": "3850c1876e37081ff5cecdeac7d8168f5906eb1ac1f6817c9803e9afb5d41220",
+      "bytes": 9316
+    },
+    "woori-ungjinpeurideuraipeu-urikadeu": {
+      "src": "images/cards/a4db55f61338fe1f8445.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/9/26/7507751c-7607-4a6b-bcb3-d6e358031af5.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103458",
+      "source_retrieved_at": "2026-09-21T14:37:44.665857+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.818065+00:00",
+      "sha256": "a4db55f61338fe1f844522bd3e4ef6772c7684b64965d2c7c5f79fbe85a58cb1",
+      "bytes": 12533
+    },
+    "woori-uri-gihudonghaengkadeu-chekeu": {
+      "src": "images/cards/817a710a89a739d6de73.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/1/23/3b07701d-05d5-4190-86dd-94d87e3aab1c.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104023",
+      "source_retrieved_at": "2026-09-21T14:37:44.716562+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.946030+00:00",
+      "sha256": "817a710a89a739d6de738a221e8858f731c46af59aa7fb91e0e4045d63982c37",
+      "bytes": 48129
+    },
+    "woori-uri-gihudonghaengkadeu-sinyong": {
+      "src": "images/cards/94a52bbd93f92d3e97ab.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/1/23/92cfb383-11d1-41ce-ba6e-4b37226e4493.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104022",
+      "source_retrieved_at": "2026-09-21T14:37:44.655457+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.818115+00:00",
+      "sha256": "94a52bbd93f92d3e97ab9e3eee82d8593ff6a4701dd2edd86070cc8badcd9513",
+      "bytes": 22808
+    },
+    "woori-uri-gskaltekseu-55-hwamulbokjikadeu": {
+      "src": "images/cards/9c921ea283cb686a921e.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/9/30/a0016b15-123d-48c2-9531-de8f870ce327.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104146",
+      "source_retrieved_at": "2026-09-20T16:52:13.386Z",
+      "retrieved_at": "2026-09-21T14:37:44.577127+00:00",
+      "sha256": "9c921ea283cb686a921e022d9b38fcf3289927f6e083808accf71f67865892f3",
+      "bytes": 8630
+    },
+    "woori-uri-gukminyeongeumjeungchekeukadeu": {
+      "src": "images/cards/f908896187cd529d2cd2.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/resizeImg/221287_Large.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=221287",
+      "source_retrieved_at": "2026-09-20T16:52:13.430Z",
+      "retrieved_at": "2026-09-21T14:37:44.624532+00:00",
+      "sha256": "f908896187cd529d2cd296ee176ff8b491121cb8eead96b9396f16f2771d27d7",
+      "bytes": 36927
+    },
+    "woori-uri-hwamulchayuryugumaekadeu-gaeinchekeu": {
+      "src": "images/cards/8e2a952f52413853721a.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/8/12/13d43042-d398-4690-8796-5d1c47d5b545.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103444",
+      "source_retrieved_at": "2026-09-21T14:37:44.767146+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.986526+00:00",
+      "sha256": "8e2a952f52413853721a9faf0ca23fa08081226dd2660f998848fe78c6b4ff61",
+      "bytes": 14777
+    },
+    "woori-uri-hwamulchayuryugumaekadeu-gaeinsinyong": {
+      "src": "images/cards/6d08053e14b8331ba152.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/7/26/adac2ce8-2450-4ca4-8deb-6f8d415842f8.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103443",
+      "source_retrieved_at": "2026-09-21T14:37:44.762820+00:00",
+      "retrieved_at": "2026-09-21T14:37:44.993445+00:00",
+      "sha256": "6d08053e14b8331ba1523380f6e59abc1334a70f3773d484707bf52d49fd9ef4",
+      "bytes": 18787
+    },
+    "woori-urikadeu-unimile": {
+      "src": "images/cards/33fc6591cbf4eabbf11f.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/11/17/38269167-f03a-4771-8a92-1d88a2b21019.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104153",
+      "source_retrieved_at": "2026-09-20T16:52:13.453Z",
+      "retrieved_at": "2026-09-21T14:37:44.727400+00:00",
+      "sha256": "33fc6591cbf4eabbf11f5a90352267a3a153eefc940f5223deb279192a9c1138",
+      "bytes": 99199
+    },
+    "woori-uriwonmobail-chekeukadeu": {
+      "src": "images/cards/060305564a818d768474.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/11/8/c785beff-0977-431d-b039-0536d17522b5.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103687",
+      "source_retrieved_at": "2026-09-20T16:52:13.578Z",
+      "retrieved_at": "2026-09-21T14:37:44.683779+00:00",
+      "sha256": "060305564a818d7684744152c0456b5ca9e3ec40e9dcee4c9bbaddbe059cf6d6",
+      "bytes": 12172
+    },
+    "woori-uriwonmobail-kadeu": {
+      "src": "images/cards/4ae2c5a2f2f058d8eca8.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/11/8/5bb5097e-4371-42ac-b6ac-8a8f007e5534.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103457",
+      "source_retrieved_at": "2026-09-20T16:52:13.556Z",
+      "retrieved_at": "2026-09-21T14:37:44.703269+00:00",
+      "sha256": "4ae2c5a2f2f058d8eca85ed6ea55847f3562cd4c45e766772b68de0fffa6ba9e",
+      "bytes": 11370
+    },
+    "woori-wibiteuraebeul-chekeukadeu": {
+      "src": "images/cards/24ff408703a9437fff12.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/6/7/6be0c887-7ff7-49bb-80a9-711e66879de6.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103489",
+      "source_retrieved_at": "2026-09-20T16:52:13.570Z",
+      "retrieved_at": "2026-09-21T14:37:44.972267+00:00",
+      "sha256": "24ff408703a9437fff12cf351a93270ddbeb0cbf64d1326f1714945550498713",
+      "bytes": 265635
+    },
+    "woori-wibiteuraebeul-j-chekeukadeu": {
+      "src": "images/cards/6968b5597c12a30b40fd.gif",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2025/10/10/fd7313dd-4a07-4b86-93b2-7f45fe88f8e0.gif",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103490",
+      "source_retrieved_at": "2026-09-20T16:52:13.563Z",
+      "retrieved_at": "2026-09-21T14:37:45.000887+00:00",
+      "sha256": "6968b5597c12a30b40fd1fa44424799499ed745a6984c22669cd38eab45aaae6",
+      "bytes": 205081
+    },
+    "woori-yedaham-urikadeu": {
+      "src": "images/cards/6767b7520f0e79929983.png",
+      "image_url": "https://pc.wooricard.com/webcontent/cdPrdImgFileList/2024/6/24/b0e26097-0085-4aa5-8ad5-222e1f49d36e.png",
+      "source_url": "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103728",
+      "source_retrieved_at": "2026-09-21T14:37:44.966549+00:00",
+      "retrieved_at": "2026-09-21T14:37:45.054053+00:00",
+      "sha256": "6767b7520f0e79929983de2bc403f1ae78a9cd6849c4b1e705da448b3aba914e",
+      "bytes": 10288
+    }
+  },
+  "missing": {
+    "hyundai-genesis-card": "no_verified_product_image",
+    "hyundai-hyeondaekadeumy-business-x-e-seller": "no_verified_product_image",
+    "hyundai-hyeondaekadeumy-business-x-f-b": "no_verified_product_image",
+    "hyundai-hyeondaekadeumy-business-x-retail": "no_verified_product_image",
+    "hyundai-hyeondaekadeumy-business-zero-edition3-halinhyeong": "no_verified_product_image",
+    "hyundai-hyeondaekadeumy-business-zero-edition3-pointeuhyeong": "no_verified_product_image",
+    "woori-kadeuuijeongseok-shopping": "ValueError",
+    "woori-urikadeu-7core": "ValueError",
+    "woori-urikadeu-mile-point": "ValueError"
+  }
+}

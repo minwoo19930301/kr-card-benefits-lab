@@ -25,6 +25,7 @@ const CONFIDENCE_LABELS = { high: '높음', medium: '보통', low: '낮음' };
 
 const state = {
   cards: [],
+  images: {},
   issuers: new Map(),
   generatedAt: '',
   filters: emptyFilters(),
@@ -61,11 +62,13 @@ async function fetchDocument(url, optional = false) {
 }
 
 async function load() {
-  const [cardsDoc, issuersDoc] = await Promise.all([
+  const [cardsDoc, issuersDoc, imagesDoc] = await Promise.all([
     fetchDocument('cards.json'),
     fetchDocument('issuers.json'),
+    fetchDocument('card-images.json', true),
   ]);
   state.cards = cardsDoc.cards;
+  state.images = imagesDoc?.images ?? {};
   state.generatedAt = cardsDoc.generated_at;
   for (const i of issuersDoc.issuers) state.issuers.set(i.key, i);
 
@@ -262,6 +265,25 @@ function taxSummary(card) {
   return box;
 }
 
+function cardArtwork(card, detail = false) {
+  const image = state.images[card.id];
+  const box = create('div', `card-artwork${detail ? ' card-artwork-detail' : ''}`);
+  if (!image?.src || !/^images\/cards\/[a-f0-9]+\.(png|jpg|gif|webp)$/.test(image.src)) {
+    box.append(create('span', 'artwork-placeholder', '이미지 준비 중'));
+    return box;
+  }
+  const img = create('img');
+  img.src = image.src;
+  img.alt = `${card.name} 카드 디자인`;
+  img.loading = detail ? 'eager' : 'lazy';
+  img.decoding = 'async';
+  img.width = 180;
+  img.height = 114;
+  img.addEventListener('error', () => box.replaceChildren(create('span', 'artwork-placeholder', '이미지를 불러오지 못했어요')), { once: true });
+  box.append(img);
+  return box;
+}
+
 function cardRow(card) {
   const picking = computePickingRate(card);
   const article = create('article', 'card');
@@ -270,7 +292,7 @@ function cardRow(card) {
 
   const header = create('header', 'card-head');
   const h2 = create('h2', null, card.name);
-  header.append(h2);
+  header.append(cardArtwork(card), h2);
 
   const tags = create('div', 'tags');
   tags.append(create('span', 'badge', state.issuers.get(card.issuer)?.name ?? card.issuer));
@@ -348,7 +370,7 @@ function openDetail(card) {
 
   const title = create('h2', null, card.name);
   title.id = 'detail-title';
-  body.append(title);
+  body.append(title, cardArtwork(card, true));
 
   const dl = create('dl', 'detail-meta');
   const rows = [
