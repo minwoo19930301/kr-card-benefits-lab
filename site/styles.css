@@ -452,8 +452,8 @@ summary { cursor: pointer; }
 .card-head h2 { margin: 10px 0 14px; min-height: 2.9em; line-height: 1.45; font-size: 1.05rem; word-break: keep-all; }
 .artwork-button { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: pointer; border-radius: 12px; }
 .card-artwork { height: 194px; margin-bottom: 16px; border-radius: 12px; background: linear-gradient(145deg, #f5f7f6, #edf2f0); }
-.card-artwork img { width: 180px; height: 164px; transition: transform .18s ease; }
-.artwork-button:hover img { transform: translateY(-4px); }
+.card-artwork img { width: 180px; height: 164px; visibility: hidden; }
+.card-artwork img.artwork-ready { visibility: visible; }
 .card-facts { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0 0 14px; font-size: .8rem; }
 .card-facts dt { color: var(--muted); }
 .card-facts dd { margin: 0; text-align: right; font-weight: 600; }
@@ -505,7 +505,7 @@ summary { cursor: pointer; }
 .card-artwork { height: 164px; }
 .card-artwork img { width: 200px; height: 130px; }
 .card-artwork img.portrait-to-landscape { width: 130px; height: 200px; transform: rotate(-90deg); }
-.artwork-button:hover img.portrait-to-landscape { transform: translateY(-4px) rotate(-90deg); }
+
 .card-artwork-detail { height: 230px; }
 .card-artwork-detail img { width: 300px; height: 194px; }
 .card-artwork-detail img.portrait-to-landscape { width: 194px; height: 300px; }
