@@ -1,5 +1,11 @@
 # kr-card-benefits-lab
 
+<!-- LIVE-LINK:START -->
+<p align="center">
+  <a href="https://minwoo19930301.github.io/kr-card-benefits-lab/"><img alt="바로 가기: minwoo19930301.github.io/kr-card-benefits-lab" src="https://img.shields.io/badge/%E2%96%B6%20%EB%B0%94%EB%A1%9C%20%EA%B0%80%EA%B8%B0-minwoo19930301.github.io%2Fkr--card--benefits--lab-ff5a5f?style=for-the-badge"></a>
+</p>
+<!-- LIVE-LINK:END -->
+
 [대시보드](https://minwoo19930301.github.io/kr-card-benefits-lab/) · [저장소](https://github.com/minwoo19930301/kr-card-benefits-lab)
 
 카드사 **공식 상품 페이지와 공개 피드**에서 읽은 한국 신용·체크카드 정보를 정리하는 리서치 저장소입니다.
